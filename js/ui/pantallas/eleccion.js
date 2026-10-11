@@ -151,7 +151,7 @@ export const dificultad = {
     };
 
     el.innerHTML = cabeza(3, 'Dificultad', club)
-      + `<p class="meta">Cargá el presupuesto y la masa salarial que te muestra el juego. Después elegí la dificultad: los límites, las restricciones y los castigos salen de esos números + la dificultad + la salud económica.</p>
+      + `<p class="meta">Cargá el presupuesto y la masa salarial que te muestra el juego. Después elegí la dificultad. Al empezar vas a la plantilla: ahí podés sacar jugadores, sumar otros y corregir OVR, contrato y sueldo antes del primer partido.</p>
          <details class="tarjeta fin-juego" open style="margin-bottom:var(--e5)"><summary><span class="h3">Finanzas de tu modo carrera</span><span class="badge neutro">Se aplica a la dificultad que elijas</span></summary>
            <p class="meta" style="margin:var(--e2) 0 var(--e3)">Los números que pongas acá son la base. Al elegir una dificultad se multiplican por sus factores (y por la salud económica) para dar el presupuesto y el tope finales. Si los dejás vacíos, usamos el estimado del Motor.</p>
            <div class="grilla g2">
@@ -180,7 +180,7 @@ export const dificultad = {
       Promise.all([datos.plantilla(club.id).catch(() => ({jugadores: []})), params.dt ? datos.dts().catch(() => []) : []]).then(([pl, lista]) => {
         empezar({club, dt: lista.find?.(d => d.id === params.dt) || null, dificultad: b.dataset.dif, plantilla: pl.jugadores});
         if (fin) actualizar(c => motor.configurarFinanzas(c, club, fin));
-        ir('panel');
+        ir('plantilla');
       });
     });
   }

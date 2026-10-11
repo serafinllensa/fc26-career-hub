@@ -7,7 +7,7 @@ import {href, ir} from '../router.js';
 import {escudo, estiloClub} from '../club.js';
 import {ovr, chipOvr, lineasEA, estrellitas, onceEA} from '../ea.js';
 import {partidos, guardarPartido, conCarrera, onceCarrera} from '../carrera.js';
-import {fixture} from './calendario.js';
+import {nombreComp} from './calendario.js';
 import * as motor from '../../motor/index.js';
 import {cierreCarrera} from '../cierre.js';
 
@@ -18,14 +18,17 @@ export default {
     const ctx = await contextoClub(params); if (viejo()) return;
     if (!ctx) { el.innerHTML = estado('Sin carrera activa', 'Empezá una carrera para cargar resultados.', '', `<a class="btn primario" href="${href('nueva')}">Nueva carrera</a>`); return; }
     if (ctx.carrera?.estado?.finalizada) { el.innerHTML = cierreCarrera(ctx.carrera); return; }
-    const club = ctx.club, todos = await datos.clubes(), fx = await fixture(club, todos);
-    if (!fx.length) { el.innerHTML = estado('Sin rivales', 'No hay otros clubes cargados en esta liga.', 'error'); return; }
-    const f = fx.find(x => String(x.jornada) === String(params.jornada ?? ''));
-    if (!f) { el.innerHTML = estado('Esa jornada no existe', `${esc(club.liga)} tiene jornadas de la 1 a la ${fx.length}. Elegí el partido desde el calendario.`, 'error', `<a class="btn primario" href="${href('calendario', params.club ? {club: params.club} : undefined)}">Ir al calendario</a>`); return; }
-    let [pl, pr] = await Promise.all([datos.plantilla(club.id), datos.plantilla(f.rival.id).catch(() => ({jugadores: []}))]);
+    const club = ctx.club, todos = await datos.clubes();
+    const item = (ctx.carrera?.fixture || []).find(x => x.id === params.partido)
+      || (ctx.carrera?.partidos || []).find(x => x.id === params.partido);
+    if (!item) { el.innerHTML = estado('Elegí un partido del calendario', 'Agregalo primero: fecha, competición, rival y si jugás de local o de visitante.', '', `<a class="btn primario" href="${href('calendario', params.club ? {club: params.club} : undefined)}">Ir al calendario</a>`); return; }
+    const rival = todos.find(c => c.id === item.rivalId) || {id: item.rivalId, nombre: item.rivalId || 'Rival', liga: '', pais: ''};
+    const f = {id: item.id, fecha: item.fecha || null, comp: item.comp || 'liga', local: !!item.local, rival};
+    const compNom = nombreComp(f.comp, club.liga);
+    let [pl, pr] = await Promise.all([datos.plantilla(club.id), rival.id ? datos.plantilla(rival.id).catch(() => ({jugadores: []})) : {jugadores: []}]);
     if (viejo()) return;
     pl = conCarrera(pl, ctx.carrera);
-    const previo = ctx.carrera ? partidos().find(p => p.comp === 'liga' && p.jornada === f.jornada) : null;
+    const previo = ctx.carrera ? partidos().find(p => p.id === f.id || p.fixtureId === f.id) : null;
     const s = {gf: previo?.gf ?? 0, gc: previo?.gc ?? 0, gol: [...(previo?.goleadores || [])],
       tit: new Set(previo?.titulares || onceCarrera(pl.jugadores, ctx.carrera, onceEA).filter(o => o.j).map(o => o.j.id))};
     const nuestro = {c: club, J: pl.jugadores}, suyo = {c: f.rival, J: pr.jugadores};
@@ -48,10 +51,10 @@ export default {
         || '<p class="meta" style="margin:6px 0 0">Sin goleadores cargados.</p>';
       el.querySelector('[data-agregar]').disabled = s.gol.length >= s.gf;
     };
-    el.innerHTML = `<div class="entre"><div><div class="etiqueta">Calendario · Jornada ${f.jornada}</div><h1 class="h1">Cargar resultado</h1></div>${f.provisorio ? '<span class="badge ejemplo" title="El rival es real; el orden del fixture es provisorio">Fixture provisorio</span>' : ''}</div>
+    el.innerHTML = `<div class="entre"><div><div class="etiqueta">Calendario · ${esc(compNom)}</div><h1 class="h1">Cargar resultado</h1></div></div>
       <div class="versus">${lado(loc, 'local')}
         <section class="centro">
-          <div class="opcion"><div class="etiqueta">${esc(club.liga)} · Jornada ${f.jornada}</div><b>${f.fecha ? fmtFecha(f.fecha) : 'Fecha a confirmar'}</b>${f.realLV ? `<div class="meta" style="margin-top:4px">En la vida real: ${esc(f.local ? club.corto || club.nombre : f.rival.corto || f.rival.nombre)} ${f.realLV.local}–${f.realLV.visitante} ${esc(f.local ? f.rival.corto || f.rival.nombre : club.corto || club.nombre)}</div>` : ''}</div>
+          <div class="opcion"><div class="etiqueta">${esc(compNom)}</div><b>${f.fecha ? fmtFecha(f.fecha) : 'Sin fecha'}</b><div class="meta" style="margin-top:4px">${f.local ? 'Local' : 'Visitante'} ante ${esc(f.rival.nombre)}</div></div>
           <div class="opcion solo-escritorio"><div class="etiqueta">Estadio</div><b>${esc(loc.c.estadio || 'Sin dato')}</b></div>
           <div class="opcion"><div class="etiqueta">Goles de ${esc(club.nombre)}</div><div data-goleadores></div>
             <label class="campo" style="margin-top:8px;height:40px"><select data-sel aria-label="Elegir goleador">${candidatos.map(j => `<option value="${esc(j.id)}">${esc(j.nombre)}${ovr(j) != null ? ' · ' + ovr(j) : ''}</option>`).join('')}</select></label>
@@ -73,8 +76,8 @@ export default {
       else if (b.dataset.agregar !== undefined) { if (s.gol.length < s.gf) s.gol.push(el.querySelector('[data-sel]').value); pintarGol(); }
       else if (b.dataset.guardar !== undefined && ctx.carrera) {
         try {
-          const r = guardarPartido({id: `liga-${f.jornada}`, comp: 'liga', jornada: f.jornada, rivalId: f.rival.id, local: f.local, gf: s.gf, gc: s.gc, goleadores: s.gol, ...(s.tit.size ? {titulares: [...s.tit]} : {}), fecha: f.fecha || new Date().toISOString().slice(0, 10)}, {nivelRival: f.rival.nivel, perfil: club.presidente?.perfil, plantilla: pl.jugadores});
-          const p = partidos().find(x => x.id === `liga-${f.jornada}`);
+          const r = guardarPartido({id: f.id, fixtureId: f.id, comp: f.comp, rivalId: f.rival.id, local: f.local, gf: s.gf, gc: s.gc, goleadores: s.gol, ...(s.tit.size ? {titulares: [...s.tit]} : {}), fecha: f.fecha || new Date().toISOString().slice(0, 10)}, {nivelRival: f.rival.nivel, perfil: club.presidente?.perfil, plantilla: pl.jugadores});
+          const p = partidos().find(x => x.id === f.id);
           const an = motor.analizarPartido({...p, resultadoReal: f.real}, {nivelPropio: club.nivel, nivelRival: f.rival.nivel, partidosPrevios: partidos().filter(x => x.id !== p.id), plantilla: pl.jugadores});
           analisis(an, r);
         } catch (err) { aviso(`No se pudo guardar: ${err.message}`, {tipo: 'peligro'}); }
@@ -91,14 +94,13 @@ export default {
       document.querySelector('.hoja-fondo')?.remove();
       document.body.insertAdjacentHTML('beforeend', `<div class="hoja-fondo" data-cerrar><div class="hoja" role="dialog" aria-modal="true" aria-labelledby="an-tit">
         <div class="tirador" aria-hidden="true"></div>
-        <div class="etiqueta" style="text-align:center">${esc(club.liga)} · Jornada ${f.jornada}</div>
+        <div class="etiqueta" style="text-align:center">${esc(compNom)}${f.fecha ? ' · ' + esc(fmtFecha(f.fecha)) : ''}</div>
         <div class="an-marcador">${escudo(loc.c)}<b class="num">${s[golesDe(loc)]}–${s[golesDe(vis)]}</b>${escudo(vis.c)}</div>
         <div class="entre" style="margin:var(--e4) 0 var(--e2)"><h2 id="an-tit" class="h2" style="margin:0;text-transform:uppercase">${esc(an.titular)}</h2><span class="chip-sens ${cl}">${tx}</span></div>
         <ul class="an-lineas">${lineas.map(l => `<li><span aria-hidden="true">${icono(l)}</span>${esc(l)}</li>`).join('')}</ul>
         ${r.corregido ? `<p class="badge neutro" style="margin:var(--e3) 0 0">${esc(r.etiqueta || 'Resultado corregido')} · se aplica solo la diferencia</p>` : ''}
         <div class="an-pie"><span style="display:flex;gap:var(--e3);flex-wrap:wrap">${(r.corregido && r.deltas ? ['presidente', 'vestuario', 'hinchas'] : r.tension ? ['presidente'] : []).map(k => { const v = Math.round(((r.corregido && r.deltas ? r.deltas[k] : d) || 0) * 10) / 10;
-            return `<span class="conf ${v > 0 ? 'sube' : v < 0 ? 'baja' : ''}">${v > 0 ? '▲' : v < 0 ? '▼' : '='} ${k[0].toUpperCase() + k.slice(1)} ${v > 0 ? '+' : ''}${String(v).replace('.', ',')}</span>`; }).join('')}</span>
-          ${f.realLV ? `<span class="res real num" title="Resultado real, local–visitante">${f.realLV.local}–${f.realLV.visitante}<small>Real</small></span>` : ''}</div>
+            return `<span class="conf ${v > 0 ? 'sube' : v < 0 ? 'baja' : ''}">${v > 0 ? '▲' : v < 0 ? '▼' : '='} ${k[0].toUpperCase() + k.slice(1)} ${v > 0 ? '+' : ''}${String(v).replace('.', ',')}</span>`; }).join('')}</span></div>
         ${evDT ? `<p class="meta" style="margin:var(--e3) 0 0">En el vestuario: ${esc(evDT.titulo)}. <a href="${href('dt')}">Ver en la oficina del DT</a></p>` : ''}
         <div class="an-acciones">${ev ? `<a class="btn menta" href="${href('presidente')}">Ir a la reunión</a>` : ''}<button class="btn ${ev ? 'secundario' : 'primario'}" data-volver>Volver al calendario</button></div>
       </div></div>`);

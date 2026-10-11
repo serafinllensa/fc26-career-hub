@@ -790,6 +790,66 @@ async function t(nombre, fn) { try { await fn(); ok++; console.log('  ✔', nomb
     assert.ok(M.calcularNiveles(cl).every(x => /\.$/.test(x.motivo)));
   });
 
+  console.log('Plantel, fixture propio y renovación');
+  await t('no se puede vaciar el plantel; una alta queda guardada en la carrera', () => {
+    let c = M.crearCarrera({club: RM, dificultad: 'medio', plantilla: ['a', 'b']});
+    c = M.sacarDelPlantel(c, 'a');
+    assert.deepEqual(c.plantilla, ['b']);
+    assert.throws(() => M.sacarDelPlantel(c, 'b'), /al menos un jugador/);
+    c = M.sumarAlPlantel(c, {id: 'nuevo', nombre: 'Nuevo Delantero', pos: 'DC', ovr: 80, sueldoM: 4.5, contratoHasta: '2029-06', manual: true});
+    assert.ok(c.plantilla.includes('nuevo'));
+    assert.equal(c.incorporados.find(j => j.id === 'nuevo').ea.ovr, 80);
+  });
+  await t('la ficha guarda OVR, contrato y sueldo, y un OVR vacío lo borra', () => {
+    let c = M.crearCarrera({club: RM, dificultad: 'medio', plantilla: ['a']});
+    c = M.editarFicha(c, 'a', {ovr: '88', contratoHasta: '2028-06', sueldoM: '3,5'});
+    assert.equal(c.ajustes.a.ovr, 88);
+    assert.equal(c.ajustes.a.contratoHasta, '2028-06');
+    assert.equal(c.ajustes.a.sueldoM, 3.5);
+    c = M.editarFicha(c, 'a', {ovr: ''});
+    assert.equal(c.ajustes.a.ovr, undefined);
+    assert.equal(c.ajustes.a.sueldoM, 3.5);
+  });
+  await t('el fixture de la carrera nace vacío y se arma partido por partido', () => {
+    let c = M.crearCarrera({club: RM, dificultad: 'medio', plantilla: ['a']});
+    assert.equal(c.fixture, undefined);
+    c = M.agregarAlFixture(c, {fecha: '2026-08-22', comp: 'liga', rivalId: 'fc-barcelona', local: false});
+    assert.equal(c.fixture.length, 1);
+    assert.equal(c.fixture[0].comp, 'liga');
+    assert.equal(c.fixture[0].local, false);
+    assert.throws(() => M.agregarAlFixture(c, {fecha: '22-08-2026', comp: 'liga', rivalId: 'x', local: true}), /fecha/);
+    c = M.quitarDelFixture(c, c.fixture[0].id);
+    assert.equal(c.fixture.length, 0);
+  });
+  await t('un OVR altísimo no obliga a renovar si las dos temporadas fueron flojas', () => {
+    const op = M.opinionRenovacion({
+      dt: {id: 'dt-test', formaciones: ['4-3-3']},
+      jugador: {id: 'crack', nombre: 'Crack', pos: 'DC', ea: {ovr: 93}, sueldoM: 20},
+      actual: {goles: 1, asistencias: 0, vallas: 0, nota: 5.2},
+      anterior: {goles: 2, asistencias: 1, vallas: 0, nota: 5.5},
+      sueldoM: 20,
+    });
+    assert.equal(op.dt.decision, 'no');
+    assert.match(op.dt.texto, /media/);
+    assert.notEqual(op.presidente.decision, 'renovar');
+    const bien = M.opinionRenovacion({
+      dt: {id: 'dt-test', formaciones: ['4-3-3']},
+      jugador: {id: 'util', nombre: 'Útil', pos: 'MC', ea: {ovr: 74}, sueldoM: 2},
+      actual: {goles: 8, asistencias: 14, vallas: 0, nota: 7.8},
+      sueldoM: 2,
+    });
+    assert.ok(bien.dt.texto.length > 40);
+    assert.ok(['renovar', 'dudar', 'no'].includes(bien.dt.decision));
+  });
+  await t('el rendimiento de la temporada se guarda y la anterior se deduce', () => {
+    let c = M.crearCarrera({club: RM, dificultad: 'medio', plantilla: ['a']});
+    c = M.cargarRendimiento(c, '2026/27', {a: {goles: '12', asistencias: 4, vallas: '', nota: '7,6'}, b: {goles: '', asistencias: '', vallas: '', nota: ''}});
+    assert.equal(c.rendimiento['2026/27'].a.goles, 12);
+    assert.equal(c.rendimiento['2026/27'].a.nota, 7.6);
+    assert.equal(c.rendimiento['2026/27'].b, undefined);
+    assert.equal(M.temporadaPrevia('2026/27'), '2025/26');
+  });
+
   console.log(`\n${ok} ok, ${fallos} fallidos`);
   process.exit(fallos ? 1 : 0);
 })();

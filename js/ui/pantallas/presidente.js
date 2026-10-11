@@ -62,7 +62,7 @@ export default {
           <div class="tarjeta" style="margin-top:var(--e5)">
             <div class="entre" style="margin:0"><span class="etiqueta">Confianza del presidente</span><b class="num" style="font:800 var(--t-2xl)/1 var(--f-display);color:${color(conf)}">${Math.round(conf)}</b></div>
             <div class="medidor ${conf >= 65 ? '' : conf >= 45 ? 'medio' : 'bajo'}" style="margin-top:var(--e3)"><span style="width:${Math.max(2, conf)}%"></span></div>
-            <p class="meta" style="margin:var(--e3) 0 0">${pac.ultimatumTrasSinGanar ? `Ultimátum a los ${pac.ultimatumTrasSinGanar} partidos sin ganar.` : 'Sin ultimátums en esta dificultad.'}${pac.techo < 100 ? ` La confianza no pasa de ${pac.techo}.` : ''}${c ? ` Vestuario ${Math.round(c.confianza.vestuario)} · Hinchas ${Math.round(c.confianza.hinchas)}.` : ''}</p>
+            <p class="meta" style="margin:var(--e3) 0 0">${pac.ultimatumTrasSinGanar ? `Ultimátum a los ${pac.ultimatumTrasSinGanar} partidos sin ganar.` : 'Sin ultimátums en esta dificultad.'}${pac.techo < 100 ? ` La confianza no pasa de ${pac.techo}.` : ''}${c ? ` Vestuario ${Math.round(c.confianza.vestuario)} · Hinchas ${Math.round(c.confianza.hinchas)}.` : ''}${c?.rendimiento?.[c.temporada] ? ` Rendimiento de ${esc(c.temporada)} cargado: lo mira junto con el DT cuando se habla de renovar.` : ''}</p>
           </div>
           ${ev || c?.estado?.finalizada ? '' : N.formulario(!c, href('mercado', q))}
         </section>

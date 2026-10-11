@@ -42,13 +42,23 @@ export function importar(texto){
 }
 export const resultado = p => p.gf > p.gc ? 'g' : p.gf === p.gc ? 'e' : 'p';
 
-// Plantel real de la carrera: saca a los vendidos y cedidos, y suma los juveniles que subieron de la cantera.
+// Plantel real de la carrera: saca a los vendidos y cedidos, suma los que el jugador agregó
+// y aplica media, contrato y sueldo editados. La base de Transfermarkt no se modifica.
+function conAjuste(j, c) {
+  const a = c?.ajustes?.[j.id];
+  if (!a) return j;
+  const ea = a.ovr != null ? {...(j.ea || {}), ovr: a.ovr} : j.ea;
+  return {...j, ...(a.ovr != null ? {ovr: a.ovr} : {}), ...(a.contratoHasta ? {contratoHasta: a.contratoHasta} : {}), ...(a.sueldoM != null ? {sueldoM: a.sueldoM} : {}), ...(ea ? {ea} : {})};
+}
 export function conCarrera(pl, c){
   if (!c || !pl) return pl;
   const ids = Array.isArray(c.plantilla) && c.plantilla.length ? new Set(c.plantilla) : null;
-  const base = ids ? pl.jugadores.filter(j => ids.has(j.id)) : pl.jugadores.slice();
-  const juv = (c.cantera || []).filter(x => !ids || ids.has(x.id)).map(x => ({id: x.id, nombre: x.nombre, pos: x.pos, posSec: [], edad: x.edad, nac: null, valorM: null, dorsal: null, canterano: true, pot: x.pot ?? null, ea: x.ovr != null ? {ovr: x.ovr} : null}));
-  return {...pl, jugadores: [...base, ...juv]};
+  const base = (ids ? pl.jugadores.filter(j => ids.has(j.id)) : pl.jugadores.slice()).map(j => conAjuste(j, c));
+  const ya = new Set(base.map(j => j.id));
+  const inc = (c.incorporados || []).filter(j => (!ids || ids.has(j.id)) && !ya.has(j.id)).map(j => conAjuste({...j, incorporado: true}, c));
+  inc.forEach(j => ya.add(j.id));
+  const juv = (c.cantera || []).filter(x => (!ids || ids.has(x.id)) && !ya.has(x.id)).map(x => conAjuste({id: x.id, nombre: x.nombre, pos: x.pos, posSec: [], edad: x.edad, nac: null, valorM: null, dorsal: null, canterano: true, pot: x.pot ?? null, ea: x.ovr != null ? {ovr: x.ovr} : null}, c));
+  return {...pl, jugadores: [...base, ...inc, ...juv]};
 }
 // Once de la carrera: el que eligió el jugador en Tácticas para esa formación, o el ideal por media EA.
 export function onceCarrera(J, c, onceEA){

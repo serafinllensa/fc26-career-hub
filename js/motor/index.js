@@ -13,3 +13,6 @@ export * from './tactica.js';
 export * from './finanzasJuego.js';
 export * from './salidas.js';
 export * from './refuerzos.js';
+export * from './plantel.js';
+export * from './renovacion.js';
+

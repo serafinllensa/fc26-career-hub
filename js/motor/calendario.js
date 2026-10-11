@@ -106,3 +106,26 @@ export function analizarPartido(p, {nivelPropio = 3, nivelRival = 3, partidosPre
   if (p.resultadoReal) lineas.push(`En la vida real terminó ${p.resultadoReal.gf}-${p.resultadoReal.gc}.`);
   return {titular, lineas, sensacion};
 }
+
+/** Fixture armado por el jugador. Cada ítem: {id, fecha, comp, rivalId, local}. */
+export function agregarAlFixture(carrera, {fecha, comp, rivalId, local}) {
+  if (carrera.estado?.finalizada) throw new Error('La carrera terminó: no se pueden agregar partidos');
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(fecha || '')) throw new Error('Elegí una fecha del calendario');
+  if (!COMPETICIONES.includes(comp)) throw new Error('Competición inválida');
+  if (!rivalId) throw new Error('Elegí un rival');
+  if (typeof local !== 'boolean') throw new Error('Indicá si es local o visitante');
+  const id = `f${Date.now().toString(36)}${Math.floor(Math.random() * 1000).toString(36)}`;
+  const item = {id, fecha, comp, rivalId, local};
+  return {...carrera, fixture: [...(carrera.fixture || []), item]};
+}
+export function quitarDelFixture(carrera, id) {
+  if (carrera.estado?.finalizada) throw new Error('La carrera terminó');
+  const fixture = carrera.fixture || [];
+  const esta = fixture.some(f => f.id === id) || (carrera.partidos || []).some(p => p.id === id);
+  if (!esta) throw new Error('Ese partido no está en el calendario');
+  return {
+    ...carrera,
+    fixture: fixture.filter(f => f.id !== id),
+    partidos: (carrera.partidos || []).filter(p => p.id !== id && p.fixtureId !== id),
+  };
+}
