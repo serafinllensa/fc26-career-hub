@@ -1,0 +1,1024 @@
+{
+ "clubId": "1-fc-union-berlin",
+ "fecha": "2026-10-10",
+ "fuente": "https://www.transfermarkt.com/1-fc-union-berlin/kader/verein/89/saison_id/2026/plus/1",
+ "nota": "Foto de Transfermarkt. posSec desde el perfil de cada jugador (2026-10-11).",
+ "jugadores": [
+  {
+   "id": "tm107775",
+   "nombre": "Frederik Rönnow",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 34,
+   "nac": "Denmark",
+   "nacCodigo": "DK",
+   "valorM": 2.0,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "tmUrl": "https://www.transfermarkt.com/frederik-ronnow/profil/spieler/107775",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1992-08-04",
+   "ea": {
+    "eaId": 201269,
+    "nombreEA": "Frederik Rønnow",
+    "ovr": 80,
+    "pac": 80,
+    "sho": 80,
+    "pas": 69,
+    "dri": 82,
+    "def": 47,
+    "phy": 78,
+    "posEA": "POR",
+    "equipoEA": "Union Berlin",
+    "pieHabil": "derecho",
+    "filigranas": 1,
+    "piernaMala": 2,
+    "porteroStats": {
+     "gkDiving": 80,
+     "gkHandling": 80,
+     "gkKicking": 69,
+     "gkPositioning": 78,
+     "gkReflexes": 82
+    }
+   }
+  },
+  {
+   "id": "tm386685",
+   "nombre": "Matheo Raab",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 0.8,
+   "contratoHasta": null,
+   "dorsal": 31,
+   "tmUrl": "https://www.transfermarkt.com/matheo-raab/profil/spieler/386685",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1998-12-18",
+   "ea": {
+    "eaId": 257480,
+    "nombreEA": "Matheo Raab",
+    "ovr": 70,
+    "pac": 70,
+    "sho": 69,
+    "pas": 67,
+    "dri": 70,
+    "def": 25,
+    "phy": 70,
+    "posEA": "POR",
+    "equipoEA": "Union Berlin",
+    "pieHabil": "derecho",
+    "filigranas": 1,
+    "piernaMala": 3,
+    "porteroStats": {
+     "gkDiving": 70,
+     "gkHandling": 69,
+     "gkKicking": 67,
+     "gkPositioning": 70,
+     "gkReflexes": 70
+    }
+   }
+  },
+  {
+   "id": "tm161057",
+   "nombre": "Carl Klaus",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 0.35,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "tmUrl": "https://www.transfermarkt.com/carl-klaus/profil/spieler/161057",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1994-01-16",
+   "ea": {
+    "eaId": 252456,
+    "nombreEA": "Carl Klaus",
+    "ovr": 67,
+    "pac": 67,
+    "sho": 69,
+    "pas": 66,
+    "dri": 70,
+    "def": 29,
+    "phy": 65,
+    "posEA": "POR",
+    "equipoEA": "Union Berlin",
+    "pieHabil": "derecho",
+    "filigranas": 1,
+    "piernaMala": 2,
+    "porteroStats": {
+     "gkDiving": 67,
+     "gkHandling": 69,
+     "gkKicking": 66,
+     "gkPositioning": 65,
+     "gkReflexes": 70
+    }
+   }
+  },
+  {
+   "id": "tm597432",
+   "nombre": "Leopold Querfeld",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Austria",
+   "nacCodigo": "AT",
+   "valorM": 17.0,
+   "contratoHasta": "2027-06",
+   "dorsal": 14,
+   "tmUrl": "https://www.transfermarkt.com/leopold-querfeld/profil/spieler/597432",
+   "verificado": true,
+   "fechaNac": "2003-12-20",
+   "ea": {
+    "eaId": 265576,
+    "nombreEA": "Leopold Querfeld",
+    "ovr": 75,
+    "pac": 46,
+    "sho": 44,
+    "pas": 58,
+    "dri": 53,
+    "def": 76,
+    "phy": 78,
+    "posEA": "DFC",
+    "equipoEA": "Union Berlin",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm738774",
+   "nombre": "Zeno Van Den Bosch",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Belgium",
+   "nacCodigo": "BE",
+   "valorM": 6.0,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "tmUrl": "https://www.transfermarkt.com/zeno-van-den-bosch/profil/spieler/738774",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2003-07-06",
+   "ea": {
+    "eaId": 260931,
+    "nombreEA": "Zeno Van Den Bosch",
+    "ovr": 74,
+    "pac": 60,
+    "sho": 28,
+    "pas": 65,
+    "dri": 53,
+    "def": 74,
+    "phy": 73,
+    "posEA": "DFC",
+    "equipoEA": "Royal Antwerp FC",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 4
+   }
+  },
+  {
+   "id": "tm278343",
+   "nombre": "Felix Uduokhai",
+   "pos": "DFC",
+   "posSec": [
+    "LI",
+    "MCD"
+   ],
+   "edad": 29,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "nac2": "Nigeria",
+   "valorM": 2.5,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "tmUrl": "https://www.transfermarkt.com/felix-uduokhai/profil/spieler/278343",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1997-09-09",
+   "ea": {
+    "eaId": 232144,
+    "nombreEA": "Felix Uduokhai",
+    "ovr": 76,
+    "pac": 69,
+    "sho": 39,
+    "pas": 55,
+    "dri": 61,
+    "def": 77,
+    "phy": 78,
+    "posEA": "DFC",
+    "equipoEA": "Beşiktaş",
+    "pieHabil": "izquierdo",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm371141",
+   "nombre": "Stanley Nsoki",
+   "pos": "DFC",
+   "posSec": [
+    "LI"
+   ],
+   "edad": 27,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "nac2": "DR Congo",
+   "valorM": 2.0,
+   "contratoHasta": null,
+   "dorsal": 34,
+   "tmUrl": "https://www.transfermarkt.com/stanley-nsoki/profil/spieler/371141",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1999-04-09",
+   "ea": {
+    "eaId": 241941,
+    "nombreEA": "Stanley Nsoki",
+    "ovr": 72,
+    "pac": 78,
+    "sho": 38,
+    "pas": 62,
+    "dri": 67,
+    "def": 72,
+    "phy": 77,
+    "posEA": "DFC",
+    "equipoEA": "Union Berlin",
+    "pieHabil": "izquierdo",
+    "filigranas": 2,
+    "piernaMala": 2
+   }
+  },
+  {
+   "id": "tm196231",
+   "nombre": "Marvin Friedrich",
+   "pos": "DFC",
+   "posSec": [
+    "LD"
+   ],
+   "edad": 30,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 1.8,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "tmUrl": "https://www.transfermarkt.com/marvin-friedrich/profil/spieler/196231",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1995-12-13",
+   "ea": {
+    "eaId": 222493,
+    "nombreEA": "Marvin Friedrich",
+    "ovr": 74,
+    "pac": 58,
+    "sho": 41,
+    "pas": 54,
+    "dri": 50,
+    "def": 76,
+    "phy": 72,
+    "posEA": "DFC",
+    "equipoEA": "M'gladbach",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 2
+   }
+  },
+  {
+   "id": "tm798043",
+   "nombre": "Tom Rothe",
+   "pos": "LI",
+   "posSec": [
+    "MI",
+    "DFC"
+   ],
+   "edad": 21,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 10.0,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "tmUrl": "https://www.transfermarkt.com/tom-rothe/profil/spieler/798043",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2004-10-29",
+   "ea": {
+    "eaId": 268116,
+    "nombreEA": "Tom Rothe",
+    "ovr": 74,
+    "pac": 61,
+    "sho": 50,
+    "pas": 70,
+    "dri": 68,
+    "def": 71,
+    "phy": 76,
+    "posEA": "LI",
+    "equipoEA": "Union Berlin",
+    "pieHabil": "izquierdo",
+    "filigranas": 3,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm391780",
+   "nombre": "Derrick Köhn",
+   "pos": "LI",
+   "posSec": [
+    "MI"
+   ],
+   "edad": 27,
+   "nac": "Ghana",
+   "nacCodigo": "GH",
+   "nac2": "Germany",
+   "valorM": 4.0,
+   "contratoHasta": "2029-06",
+   "dorsal": 17,
+   "tmUrl": "https://www.transfermarkt.com/derrick-kohn/profil/spieler/391780",
+   "verificado": true,
+   "fechaNac": "1999-02-04",
+   "ea": {
+    "eaId": 250941,
+    "nombreEA": "Derrick Köhn",
+    "ovr": 75,
+    "pac": 87,
+    "sho": 69,
+    "pas": 71,
+    "dri": 77,
+    "def": 68,
+    "phy": 71,
+    "posEA": "LI",
+    "equipoEA": "Union Berlin",
+    "pieHabil": "izquierdo",
+    "filigranas": 4,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm1027870",
+   "nombre": "Andrik Markgraf",
+   "pos": "LI",
+   "posSec": [
+    "MI"
+   ],
+   "edad": 20,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 0.3,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "tmUrl": "https://www.transfermarkt.com/andrik-markgraf/profil/spieler/1027870",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2006-03-07",
+   "ea": {
+    "eaId": 80165,
+    "nombreEA": "Andrik Markgraf",
+    "ovr": 63,
+    "pac": 71,
+    "sho": 39,
+    "pas": 51,
+    "dri": 60,
+    "def": 61,
+    "phy": 52,
+    "posEA": "LI",
+    "equipoEA": "Union Berlin",
+    "pieHabil": "izquierdo",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm362977",
+   "nombre": "Josip Juranovic",
+   "pos": "LD",
+   "posSec": [
+    "MD",
+    "LI"
+   ],
+   "edad": 31,
+   "nac": "Croatia",
+   "nacCodigo": "HR",
+   "valorM": 2.0,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "tmUrl": "https://www.transfermarkt.com/josip-juranovic/profil/spieler/362977",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1995-08-16",
+   "ea": {
+    "eaId": 257771,
+    "nombreEA": "Josip Juranović",
+    "ovr": 75,
+    "pac": 79,
+    "sho": 64,
+    "pas": 75,
+    "dri": 74,
+    "def": 71,
+    "phy": 66,
+    "posEA": "LD",
+    "equipoEA": "Union Berlin",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 4
+   }
+  },
+  {
+   "id": "tm75921",
+   "nombre": "Christopher Trimmel",
+   "pos": "LD",
+   "posSec": [
+    "MD",
+    "DFC"
+   ],
+   "edad": 39,
+   "nac": "Austria",
+   "nacCodigo": "AT",
+   "valorM": 0.6,
+   "contratoHasta": "2027-06",
+   "dorsal": 28,
+   "tmUrl": "https://www.transfermarkt.com/christopher-trimmel/profil/spieler/75921",
+   "verificado": true,
+   "fechaNac": "1987-02-24",
+   "ea": {
+    "eaId": 193254,
+    "nombreEA": "Christopher Trimmel",
+    "ovr": 75,
+    "pac": 67,
+    "sho": 65,
+    "pas": 74,
+    "dri": 68,
+    "def": 74,
+    "phy": 79,
+    "posEA": "LD",
+    "equipoEA": "Union Berlin",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm692737",
+   "nombre": "Aljoscha Kemlein",
+   "pos": "MCD",
+   "posSec": [
+    "MC",
+    "MD"
+   ],
+   "edad": 22,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 12.0,
+   "contratoHasta": "2029-06",
+   "dorsal": 6,
+   "tmUrl": "https://www.transfermarkt.com/aljoscha-kemlein/profil/spieler/692737",
+   "verificado": true,
+   "fechaNac": "2004-08-02",
+   "ea": {
+    "eaId": 271659,
+    "nombreEA": "Aljoscha Kemlein",
+    "ovr": 70,
+    "pac": 51,
+    "sho": 59,
+    "pas": 65,
+    "dri": 70,
+    "def": 66,
+    "phy": 67,
+    "posEA": "MC",
+    "equipoEA": "Union Berlin",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm124410",
+   "nombre": "Rani Khedira",
+   "pos": "MCD",
+   "posSec": [
+    "MC",
+    "DFC"
+   ],
+   "edad": 32,
+   "nac": "Tunisia",
+   "nacCodigo": "TN",
+   "nac2": "Germany",
+   "valorM": 2.0,
+   "contratoHasta": "2027-06",
+   "dorsal": 8,
+   "tmUrl": "https://www.transfermarkt.com/rani-khedira/profil/spieler/124410",
+   "verificado": true,
+   "fechaNac": "1994-01-27",
+   "ea": {
+    "eaId": 211999,
+    "nombreEA": "Rani Khedira",
+    "ovr": 75,
+    "pac": 57,
+    "sho": 43,
+    "pas": 57,
+    "dri": 62,
+    "def": 79,
+    "phy": 83,
+    "posEA": "MCD",
+    "equipoEA": "Union Berlin",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm454863",
+   "nombre": "András Schäfer",
+   "pos": "MC",
+   "posSec": [
+    "MCD",
+    "MCO"
+   ],
+   "edad": 27,
+   "nac": "Hungary",
+   "nacCodigo": "HU",
+   "valorM": 4.5,
+   "contratoHasta": "2027-06",
+   "dorsal": 13,
+   "tmUrl": "https://www.transfermarkt.com/andras-schafer/profil/spieler/454863",
+   "verificado": true,
+   "fechaNac": "1999-04-13",
+   "ea": {
+    "eaId": 247026,
+    "nombreEA": "András Schäfer",
+    "ovr": 74,
+    "pac": 71,
+    "sho": 62,
+    "pas": 69,
+    "dri": 76,
+    "def": 65,
+    "phy": 70,
+    "posEA": "MC",
+    "equipoEA": "Union Berlin",
+    "pieHabil": "derecho",
+    "filigranas": 4,
+    "piernaMala": 4
+   }
+  },
+  {
+   "id": "tm237658",
+   "nombre": "Michel Aebischer",
+   "pos": "MC",
+   "posSec": [
+    "MCD",
+    "MCO"
+   ],
+   "edad": 29,
+   "nac": "Switzerland",
+   "nacCodigo": "CH",
+   "valorM": 4.0,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "tmUrl": "https://www.transfermarkt.com/michel-aebischer/profil/spieler/237658",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1997-01-06",
+   "ea": {
+    "eaId": 236898,
+    "nombreEA": "Michel Aebischer",
+    "ovr": 74,
+    "pac": 66,
+    "sho": 67,
+    "pas": 72,
+    "dri": 75,
+    "def": 74,
+    "phy": 70,
+    "posEA": "MC",
+    "equipoEA": "Pisa",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 4
+   }
+  },
+  {
+   "id": "tm177779",
+   "nombre": "Janik Haberer",
+   "pos": "MC",
+   "posSec": [
+    "MD",
+    "MCO"
+   ],
+   "edad": 32,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 2.0,
+   "contratoHasta": "2027-06",
+   "dorsal": 19,
+   "tmUrl": "https://www.transfermarkt.com/janik-haberer/profil/spieler/177779",
+   "verificado": true,
+   "fechaNac": "1994-04-02",
+   "ea": {
+    "eaId": 211879,
+    "nombreEA": "Janik Haberer",
+    "ovr": 74,
+    "pac": 61,
+    "sho": 67,
+    "pas": 71,
+    "dri": 74,
+    "def": 63,
+    "phy": 70,
+    "posEA": "MC",
+    "equipoEA": "Union Berlin",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm469957",
+   "nombre": "Kastriot Imeri",
+   "pos": "MI",
+   "posSec": [
+    "MCO",
+    "MD"
+   ],
+   "edad": 26,
+   "nac": "Switzerland",
+   "nacCodigo": "CH",
+   "valorM": 2.0,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "tmUrl": "https://www.transfermarkt.com/kastriot-imeri/profil/spieler/469957",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2000-06-27",
+   "ea": {
+    "eaId": 250766,
+    "nombreEA": "Kastriot Imeri",
+    "ovr": 67,
+    "pac": 71,
+    "sho": 71,
+    "pas": 68,
+    "dri": 71,
+    "def": 57,
+    "phy": 63,
+    "posEA": "MC",
+    "equipoEA": "FC Thun",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 4
+   }
+  },
+  {
+   "id": "tm270393",
+   "nombre": "Robert Skov",
+   "pos": "MI",
+   "posSec": [
+    "LI",
+    "ED"
+   ],
+   "edad": 30,
+   "nac": "Denmark",
+   "nacCodigo": "DK",
+   "valorM": 1.5,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "tmUrl": "https://www.transfermarkt.com/robert-skov/profil/spieler/270393",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1996-05-20",
+   "ea": null
+  },
+  {
+   "id": "tm297583",
+   "nombre": "Woo-yeong Jeong",
+   "pos": "MCO",
+   "posSec": [
+    "ED",
+    "EI"
+   ],
+   "edad": 27,
+   "nac": "Korea, South",
+   "nacCodigo": "KR",
+   "valorM": 3.5,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "tmUrl": "https://www.transfermarkt.com/woo-yeong-jeong/profil/spieler/297583",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1999-09-20",
+   "ea": {
+    "eaId": 239138,
+    "nombreEA": "Jeong Woo Yeong",
+    "ovr": 73,
+    "pac": 76,
+    "sho": 62,
+    "pas": 68,
+    "dri": 78,
+    "def": 36,
+    "phy": 60,
+    "posEA": "MCO",
+    "equipoEA": "Union Berlin",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 4
+   }
+  },
+  {
+   "id": "tm519872",
+   "nombre": "Livan Burcu",
+   "pos": "EI",
+   "posSec": [
+    "MCO",
+    "ED"
+   ],
+   "edad": 22,
+   "nac": "Türkiye",
+   "nacCodigo": "TR",
+   "nac2": "Germany",
+   "valorM": 4.0,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "tmUrl": "https://www.transfermarkt.com/livan-burcu/profil/spieler/519872",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2004-09-28",
+   "ea": {
+    "eaId": 276583,
+    "nombreEA": "Livan Burcu",
+    "ovr": 70,
+    "pac": 78,
+    "sho": 64,
+    "pas": 66,
+    "dri": 73,
+    "def": 52,
+    "phy": 59,
+    "posEA": "MI",
+    "equipoEA": "Union Berlin",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm1378338",
+   "nombre": "Linus Güther",
+   "pos": "EI",
+   "posSec": [
+    "ED",
+    "MCO"
+   ],
+   "edad": 16,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 1.0,
+   "contratoHasta": "2028-06",
+   "dorsal": 49,
+   "tmUrl": "https://www.transfermarkt.com/linus-guther/profil/spieler/1378338",
+   "verificado": true,
+   "fechaNac": "2010-04-08",
+   "ea": null
+  },
+  {
+   "id": "tm1033581",
+   "nombre": "Julien Friedrich",
+   "pos": "EI",
+   "posSec": [
+    "LI",
+    "ED"
+   ],
+   "edad": 19,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 0.125,
+   "contratoHasta": null,
+   "dorsal": 38,
+   "tmUrl": "https://www.transfermarkt.com/julien-friedrich/profil/spieler/1033581",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2006-11-12",
+   "ea": null
+  },
+  {
+   "id": "tm392964",
+   "nombre": "Emmanuel Latte Lath",
+   "pos": "DC",
+   "posSec": [
+    "EI",
+    "ED"
+   ],
+   "edad": 27,
+   "nac": "Cote d'Ivoire",
+   "nacCodigo": "CI",
+   "nac2": "Italy",
+   "valorM": 10.0,
+   "contratoHasta": "2027-06",
+   "dorsal": 29,
+   "tmUrl": "https://www.transfermarkt.com/emmanuel-latte-lath/profil/spieler/392964",
+   "verificado": true,
+   "fechaNac": "1999-01-01",
+   "ea": null
+  },
+  {
+   "id": "tm583699",
+   "nombre": "Andrej Ilic",
+   "pos": "DC",
+   "posSec": [
+    "ED"
+   ],
+   "edad": 26,
+   "nac": "Serbia",
+   "nacCodigo": "RS",
+   "valorM": 9.0,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "tmUrl": "https://www.transfermarkt.com/andrej-ilic/profil/spieler/583699",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2000-04-03",
+   "ea": {
+    "eaId": 277799,
+    "nombreEA": "Andrej Ilić",
+    "ovr": 72,
+    "pac": 71,
+    "sho": 70,
+    "pas": 51,
+    "dri": 65,
+    "def": 30,
+    "phy": 77,
+    "posEA": "DC",
+    "equipoEA": "Union Berlin",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm341317",
+   "nombre": "Oliver Burke",
+   "pos": "DC",
+   "posSec": [
+    "ED",
+    "SD"
+   ],
+   "edad": 29,
+   "nac": "Scotland",
+   "nacCodigo": "GB-SCT",
+   "valorM": 3.0,
+   "contratoHasta": "2029-06",
+   "dorsal": 7,
+   "tmUrl": "https://www.transfermarkt.com/oliver-burke/profil/spieler/341317",
+   "verificado": true,
+   "fechaNac": "1997-04-07",
+   "ea": {
+    "eaId": 225632,
+    "nombreEA": "Oliver Burke",
+    "ovr": 73,
+    "pac": 93,
+    "sho": 70,
+    "pas": 64,
+    "dri": 67,
+    "def": 41,
+    "phy": 74,
+    "posEA": "DC",
+    "equipoEA": "Union Berlin",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm838236",
+   "nombre": "Marin Ljubicic",
+   "pos": "DC",
+   "posSec": [
+    "EI",
+    "SD"
+   ],
+   "edad": 24,
+   "nac": "Croatia",
+   "nacCodigo": "HR",
+   "valorM": 2.0,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "tmUrl": "https://www.transfermarkt.com/marin-ljubicic/profil/spieler/838236",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2002-02-28",
+   "ea": {
+    "eaId": 262587,
+    "nombreEA": "Marin Ljubičić",
+    "ovr": 71,
+    "pac": 72,
+    "sho": 71,
+    "pas": 58,
+    "dri": 72,
+    "def": 24,
+    "phy": 74,
+    "posEA": "DC",
+    "equipoEA": "Union Berlin",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 4
+   }
+  },
+  {
+   "id": "tm287920",
+   "nombre": "Tim Skarke",
+   "pos": "DC",
+   "posSec": [
+    "ED",
+    "EI"
+   ],
+   "edad": 30,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 1.5,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "tmUrl": "https://www.transfermarkt.com/tim-skarke/profil/spieler/287920",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1996-09-07",
+   "ea": {
+    "eaId": 229286,
+    "nombreEA": "Tim Skarke",
+    "ovr": 73,
+    "pac": 87,
+    "sho": 74,
+    "pas": 63,
+    "dri": 75,
+    "def": 47,
+    "phy": 66,
+    "posEA": "DC",
+    "equipoEA": "Union Berlin",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm1162925",
+   "nombre": "Mekhi Gray",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Jamaica",
+   "nacCodigo": "JM",
+   "nac2": "Germany",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "tmUrl": "https://www.transfermarkt.com/mekhi-gray/profil/spieler/1162925",
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2007-02-19",
+   "ea": null
+  }
+ ],
+ "fuenteEA": {
+  "url": "https://www.ea.com/games/ea-sports-fc/ratings",
+  "fecha": "2026-10-11",
+  "nota": "Ratings oficiales EA SPORTS FC 26 (base del juego). Cruce por fecha de nacimiento y nombre; sin cruce seguro, ea=null. equipoEA puede diferir del club real si EA no actualizó el pase."
+ }
+}

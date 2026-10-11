@@ -1,0 +1,2361 @@
+{
+ "liga": "Premier League",
+ "temporada": "26/27",
+ "fuente": "https://www.transfermarkt.com/x/gesamtspielplan/wettbewerb/GB1/saison_id/2026",
+ "fecha": "2026-10-11",
+ "nota": "Calendario oficial publicado (vía Transfermarkt). Fechas de partidos posteriores pueden moverse por TV; resultadoReal = partidos ya jugados en la vida real. fecha de jornada = fecha mediana; reprogramado=true si el partido se juega a más de 4 días de su jornada (adelantado o postergado en la vida real).",
+ "jornadas": [
+  {
+   "n": 1,
+   "fecha": "2026-08-22",
+   "partidos": [
+    {
+     "local": "arsenal-fc",
+     "visitante": "coventry-city",
+     "fecha": "2026-08-21",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 0
+     }
+    },
+    {
+     "local": "hull-city",
+     "visitante": "manchester-united",
+     "fecha": "2026-08-22",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 0
+     }
+    },
+    {
+     "local": "everton-fc",
+     "visitante": "crystal-palace",
+     "fecha": "2026-08-22",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 0
+     }
+    },
+    {
+     "local": "ipswich-town",
+     "visitante": "sunderland-afc",
+     "fecha": "2026-08-22",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "nottingham-forest",
+     "visitante": "leeds-united",
+     "fecha": "2026-08-22",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 1
+     }
+    },
+    {
+     "local": "brentford-fc",
+     "visitante": "tottenham-hotspur",
+     "fecha": "2026-08-22",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 0
+     }
+    },
+    {
+     "local": "brighton-hove-albion",
+     "visitante": "aston-villa",
+     "fecha": "2026-08-23",
+     "resultadoReal": {
+      "gl": 4,
+      "gv": 0
+     }
+    },
+    {
+     "local": "manchester-city",
+     "visitante": "afc-bournemouth",
+     "fecha": "2026-08-23",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "newcastle-united",
+     "visitante": "liverpool-fc",
+     "fecha": "2026-08-23",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "fulham-fc",
+     "visitante": "chelsea-fc",
+     "fecha": "2026-08-24",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 3
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "fecha": "2026-08-30",
+   "partidos": [
+    {
+     "local": "crystal-palace",
+     "visitante": "manchester-city",
+     "fecha": "2026-08-28",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 4
+     }
+    },
+    {
+     "local": "liverpool-fc",
+     "visitante": "nottingham-forest",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "afc-bournemouth",
+     "visitante": "everton-fc",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "coventry-city",
+     "visitante": "hull-city",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 1
+     }
+    },
+    {
+     "local": "tottenham-hotspur",
+     "visitante": "newcastle-united",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 2
+     }
+    },
+    {
+     "local": "chelsea-fc",
+     "visitante": "brighton-hove-albion",
+     "fecha": "2026-08-30",
+     "resultadoReal": {
+      "gl": 4,
+      "gv": 3
+     }
+    },
+    {
+     "local": "leeds-united",
+     "visitante": "brentford-fc",
+     "fecha": "2026-08-30",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "sunderland-afc",
+     "visitante": "fulham-fc",
+     "fecha": "2026-08-30",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    },
+    {
+     "local": "manchester-united",
+     "visitante": "ipswich-town",
+     "fecha": "2026-08-30",
+     "resultadoReal": {
+      "gl": 5,
+      "gv": 2
+     }
+    },
+    {
+     "local": "aston-villa",
+     "visitante": "arsenal-fc",
+     "fecha": "2026-08-31",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 1
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "fecha": "2026-09-05",
+   "partidos": [
+    {
+     "local": "ipswich-town",
+     "visitante": "liverpool-fc",
+     "fecha": "2026-09-04",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 2
+     }
+    },
+    {
+     "local": "newcastle-united",
+     "visitante": "afc-bournemouth",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "brentford-fc",
+     "visitante": "sunderland-afc",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "brighton-hove-albion",
+     "visitante": "leeds-united",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "fulham-fc",
+     "visitante": "crystal-palace",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 3
+     }
+    },
+    {
+     "local": "manchester-city",
+     "visitante": "coventry-city",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    },
+    {
+     "local": "nottingham-forest",
+     "visitante": "tottenham-hotspur",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 0
+     }
+    },
+    {
+     "local": "hull-city",
+     "visitante": "aston-villa",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 0
+     }
+    },
+    {
+     "local": "everton-fc",
+     "visitante": "manchester-united",
+     "fecha": "2026-09-06",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "arsenal-fc",
+     "visitante": "chelsea-fc",
+     "fecha": "2026-09-06",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "fecha": "2026-09-12",
+   "partidos": [
+    {
+     "local": "afc-bournemouth",
+     "visitante": "brentford-fc",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "aston-villa",
+     "visitante": "nottingham-forest",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 2
+     }
+    },
+    {
+     "local": "chelsea-fc",
+     "visitante": "hull-city",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "crystal-palace",
+     "visitante": "ipswich-town",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 3
+     }
+    },
+    {
+     "local": "liverpool-fc",
+     "visitante": "fulham-fc",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 0
+     }
+    },
+    {
+     "local": "tottenham-hotspur",
+     "visitante": "everton-fc",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 0
+     }
+    },
+    {
+     "local": "sunderland-afc",
+     "visitante": "arsenal-fc",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 2
+     }
+    },
+    {
+     "local": "coventry-city",
+     "visitante": "brighton-hove-albion",
+     "fecha": "2026-09-13",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 5
+     }
+    },
+    {
+     "local": "manchester-united",
+     "visitante": "manchester-city",
+     "fecha": "2026-09-13",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 1
+     }
+    },
+    {
+     "local": "leeds-united",
+     "visitante": "newcastle-united",
+     "fecha": "2026-09-14",
+     "resultadoReal": {
+      "gl": 4,
+      "gv": 1
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "fecha": "2026-09-19",
+   "partidos": [
+    {
+     "local": "brentford-fc",
+     "visitante": "chelsea-fc",
+     "fecha": "2026-09-18",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 0
+     }
+    },
+    {
+     "local": "tottenham-hotspur",
+     "visitante": "aston-villa",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 3
+     }
+    },
+    {
+     "local": "brighton-hove-albion",
+     "visitante": "arsenal-fc",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 0
+     }
+    },
+    {
+     "local": "everton-fc",
+     "visitante": "ipswich-town",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    },
+    {
+     "local": "newcastle-united",
+     "visitante": "hull-city",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "nottingham-forest",
+     "visitante": "coventry-city",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 1
+     }
+    },
+    {
+     "local": "afc-bournemouth",
+     "visitante": "liverpool-fc",
+     "fecha": "2026-09-20",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 1
+     }
+    },
+    {
+     "local": "leeds-united",
+     "visitante": "crystal-palace",
+     "fecha": "2026-09-20",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 0
+     }
+    },
+    {
+     "local": "manchester-city",
+     "visitante": "sunderland-afc",
+     "fecha": "2026-09-20",
+     "resultadoReal": {
+      "gl": 5,
+      "gv": 3
+     }
+    },
+    {
+     "local": "fulham-fc",
+     "visitante": "manchester-united",
+     "fecha": "2026-09-20",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "fecha": "2026-10-10",
+   "partidos": [
+    {
+     "local": "arsenal-fc",
+     "visitante": "leeds-united",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "aston-villa",
+     "visitante": "brentford-fc",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "chelsea-fc",
+     "visitante": "afc-bournemouth",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 5,
+      "gv": 1
+     }
+    },
+    {
+     "local": "ipswich-town",
+     "visitante": "fulham-fc",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "sunderland-afc",
+     "visitante": "brighton-hove-albion",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 2
+     }
+    },
+    {
+     "local": "manchester-united",
+     "visitante": "tottenham-hotspur",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "crystal-palace",
+     "visitante": "nottingham-forest",
+     "fecha": "2026-10-11"
+    },
+    {
+     "local": "hull-city",
+     "visitante": "everton-fc",
+     "fecha": "2026-10-11"
+    },
+    {
+     "local": "liverpool-fc",
+     "visitante": "manchester-city",
+     "fecha": "2026-10-11"
+    },
+    {
+     "local": "coventry-city",
+     "visitante": "newcastle-united",
+     "fecha": "2026-10-12"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "fecha": "2026-10-18",
+   "partidos": [
+    {
+     "local": "everton-fc",
+     "visitante": "chelsea-fc",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "brentford-fc",
+     "visitante": "liverpool-fc",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "fulham-fc",
+     "visitante": "hull-city",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "manchester-city",
+     "visitante": "ipswich-town",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "newcastle-united",
+     "visitante": "aston-villa",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "afc-bournemouth",
+     "visitante": "sunderland-afc",
+     "fecha": "2026-10-18"
+    },
+    {
+     "local": "brighton-hove-albion",
+     "visitante": "crystal-palace",
+     "fecha": "2026-10-18"
+    },
+    {
+     "local": "leeds-united",
+     "visitante": "manchester-united",
+     "fecha": "2026-10-18"
+    },
+    {
+     "local": "nottingham-forest",
+     "visitante": "arsenal-fc",
+     "fecha": "2026-10-18"
+    },
+    {
+     "local": "tottenham-hotspur",
+     "visitante": "coventry-city",
+     "fecha": "2026-10-19"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "fecha": "2026-10-25",
+   "partidos": [
+    {
+     "local": "ipswich-town",
+     "visitante": "nottingham-forest",
+     "fecha": "2026-10-23"
+    },
+    {
+     "local": "aston-villa",
+     "visitante": "manchester-city",
+     "fecha": "2026-10-24"
+    },
+    {
+     "local": "arsenal-fc",
+     "visitante": "everton-fc",
+     "fecha": "2026-10-24"
+    },
+    {
+     "local": "coventry-city",
+     "visitante": "fulham-fc",
+     "fecha": "2026-10-24"
+    },
+    {
+     "local": "chelsea-fc",
+     "visitante": "tottenham-hotspur",
+     "fecha": "2026-10-24"
+    },
+    {
+     "local": "crystal-palace",
+     "visitante": "newcastle-united",
+     "fecha": "2026-10-25"
+    },
+    {
+     "local": "hull-city",
+     "visitante": "brentford-fc",
+     "fecha": "2026-10-25"
+    },
+    {
+     "local": "liverpool-fc",
+     "visitante": "brighton-hove-albion",
+     "fecha": "2026-10-25"
+    },
+    {
+     "local": "manchester-united",
+     "visitante": "afc-bournemouth",
+     "fecha": "2026-10-25"
+    },
+    {
+     "local": "sunderland-afc",
+     "visitante": "leeds-united",
+     "fecha": "2026-10-25"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "fecha": "2026-10-31",
+   "partidos": [
+    {
+     "local": "chelsea-fc",
+     "visitante": "manchester-united",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "afc-bournemouth",
+     "visitante": "leeds-united",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "brentford-fc",
+     "visitante": "nottingham-forest",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "coventry-city",
+     "visitante": "sunderland-afc",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "hull-city",
+     "visitante": "ipswich-town",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "manchester-city",
+     "visitante": "brighton-hove-albion",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "tottenham-hotspur",
+     "visitante": "crystal-palace",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "aston-villa",
+     "visitante": "fulham-fc",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "liverpool-fc",
+     "visitante": "arsenal-fc",
+     "fecha": "2026-11-01"
+    },
+    {
+     "local": "newcastle-united",
+     "visitante": "everton-fc",
+     "fecha": "2026-11-02"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "fecha": "2026-11-08",
+   "partidos": [
+    {
+     "local": "everton-fc",
+     "visitante": "coventry-city",
+     "fecha": "2026-11-06"
+    },
+    {
+     "local": "leeds-united",
+     "visitante": "tottenham-hotspur",
+     "fecha": "2026-11-07"
+    },
+    {
+     "local": "arsenal-fc",
+     "visitante": "hull-city",
+     "fecha": "2026-11-07"
+    },
+    {
+     "local": "fulham-fc",
+     "visitante": "newcastle-united",
+     "fecha": "2026-11-07"
+    },
+    {
+     "local": "nottingham-forest",
+     "visitante": "manchester-city",
+     "fecha": "2026-11-07"
+    },
+    {
+     "local": "brighton-hove-albion",
+     "visitante": "brentford-fc",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "crystal-palace",
+     "visitante": "liverpool-fc",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "ipswich-town",
+     "visitante": "afc-bournemouth",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "sunderland-afc",
+     "visitante": "chelsea-fc",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "manchester-united",
+     "visitante": "aston-villa",
+     "fecha": "2026-11-08"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "fecha": "2026-11-21",
+   "partidos": [
+    {
+     "local": "manchester-city",
+     "visitante": "fulham-fc",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "afc-bournemouth",
+     "visitante": "nottingham-forest",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "aston-villa",
+     "visitante": "sunderland-afc",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "chelsea-fc",
+     "visitante": "leeds-united",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "coventry-city",
+     "visitante": "crystal-palace",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "tottenham-hotspur",
+     "visitante": "ipswich-town",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "newcastle-united",
+     "visitante": "arsenal-fc",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "hull-city",
+     "visitante": "brighton-hove-albion",
+     "fecha": "2026-11-22"
+    },
+    {
+     "local": "liverpool-fc",
+     "visitante": "manchester-united",
+     "fecha": "2026-11-22"
+    },
+    {
+     "local": "brentford-fc",
+     "visitante": "everton-fc",
+     "fecha": "2026-11-23"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "fecha": "2026-11-29",
+   "partidos": [
+    {
+     "local": "nottingham-forest",
+     "visitante": "chelsea-fc",
+     "fecha": "2026-11-27"
+    },
+    {
+     "local": "leeds-united",
+     "visitante": "coventry-city",
+     "fecha": "2026-11-28"
+    },
+    {
+     "local": "manchester-united",
+     "visitante": "brentford-fc",
+     "fecha": "2026-11-28"
+    },
+    {
+     "local": "ipswich-town",
+     "visitante": "aston-villa",
+     "fecha": "2026-11-28"
+    },
+    {
+     "local": "everton-fc",
+     "visitante": "liverpool-fc",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "brighton-hove-albion",
+     "visitante": "newcastle-united",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "crystal-palace",
+     "visitante": "hull-city",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "fulham-fc",
+     "visitante": "afc-bournemouth",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "sunderland-afc",
+     "visitante": "tottenham-hotspur",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "arsenal-fc",
+     "visitante": "manchester-city",
+     "fecha": "2026-11-29"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "fecha": "2026-12-02",
+   "partidos": [
+    {
+     "local": "afc-bournemouth",
+     "visitante": "brighton-hove-albion",
+     "fecha": "2026-12-02"
+    },
+    {
+     "local": "aston-villa",
+     "visitante": "everton-fc",
+     "fecha": "2026-12-02"
+    },
+    {
+     "local": "brentford-fc",
+     "visitante": "arsenal-fc",
+     "fecha": "2026-12-02"
+    },
+    {
+     "local": "chelsea-fc",
+     "visitante": "crystal-palace",
+     "fecha": "2026-12-02"
+    },
+    {
+     "local": "coventry-city",
+     "visitante": "ipswich-town",
+     "fecha": "2026-12-02"
+    },
+    {
+     "local": "hull-city",
+     "visitante": "nottingham-forest",
+     "fecha": "2026-12-02"
+    },
+    {
+     "local": "liverpool-fc",
+     "visitante": "sunderland-afc",
+     "fecha": "2026-12-02"
+    },
+    {
+     "local": "manchester-city",
+     "visitante": "leeds-united",
+     "fecha": "2026-12-02"
+    },
+    {
+     "local": "newcastle-united",
+     "visitante": "manchester-united",
+     "fecha": "2026-12-02"
+    },
+    {
+     "local": "tottenham-hotspur",
+     "visitante": "fulham-fc",
+     "fecha": "2026-12-02"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "fecha": "2026-12-05",
+   "partidos": [
+    {
+     "local": "afc-bournemouth",
+     "visitante": "hull-city",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "aston-villa",
+     "visitante": "crystal-palace",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "brentford-fc",
+     "visitante": "manchester-city",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "chelsea-fc",
+     "visitante": "liverpool-fc",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "everton-fc",
+     "visitante": "fulham-fc",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "leeds-united",
+     "visitante": "ipswich-town",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "manchester-united",
+     "visitante": "coventry-city",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "newcastle-united",
+     "visitante": "sunderland-afc",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "nottingham-forest",
+     "visitante": "brighton-hove-albion",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "tottenham-hotspur",
+     "visitante": "arsenal-fc",
+     "fecha": "2026-12-05"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "fecha": "2026-12-12",
+   "partidos": [
+    {
+     "local": "arsenal-fc",
+     "visitante": "afc-bournemouth",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "brighton-hove-albion",
+     "visitante": "everton-fc",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "coventry-city",
+     "visitante": "aston-villa",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "crystal-palace",
+     "visitante": "manchester-united",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "fulham-fc",
+     "visitante": "brentford-fc",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "hull-city",
+     "visitante": "tottenham-hotspur",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "ipswich-town",
+     "visitante": "newcastle-united",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "liverpool-fc",
+     "visitante": "leeds-united",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "manchester-city",
+     "visitante": "chelsea-fc",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "sunderland-afc",
+     "visitante": "nottingham-forest",
+     "fecha": "2026-12-12"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "fecha": "2026-12-19",
+   "partidos": [
+    {
+     "local": "afc-bournemouth",
+     "visitante": "coventry-city",
+     "fecha": "2026-12-19"
+    },
+    {
+     "local": "arsenal-fc",
+     "visitante": "manchester-united",
+     "fecha": "2026-12-19"
+    },
+    {
+     "local": "brentford-fc",
+     "visitante": "newcastle-united",
+     "fecha": "2026-12-19"
+    },
+    {
+     "local": "brighton-hove-albion",
+     "visitante": "ipswich-town",
+     "fecha": "2026-12-19"
+    },
+    {
+     "local": "chelsea-fc",
+     "visitante": "aston-villa",
+     "fecha": "2026-12-19"
+    },
+    {
+     "local": "leeds-united",
+     "visitante": "fulham-fc",
+     "fecha": "2026-12-19"
+    },
+    {
+     "local": "liverpool-fc",
+     "visitante": "tottenham-hotspur",
+     "fecha": "2026-12-19"
+    },
+    {
+     "local": "manchester-city",
+     "visitante": "hull-city",
+     "fecha": "2026-12-19"
+    },
+    {
+     "local": "nottingham-forest",
+     "visitante": "everton-fc",
+     "fecha": "2026-12-19"
+    },
+    {
+     "local": "sunderland-afc",
+     "visitante": "crystal-palace",
+     "fecha": "2026-12-19"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "fecha": "2026-12-26",
+   "partidos": [
+    {
+     "local": "aston-villa",
+     "visitante": "leeds-united",
+     "fecha": "2026-12-26"
+    },
+    {
+     "local": "everton-fc",
+     "visitante": "sunderland-afc",
+     "fecha": "2026-12-26"
+    },
+    {
+     "local": "fulham-fc",
+     "visitante": "brighton-hove-albion",
+     "fecha": "2026-12-26"
+    },
+    {
+     "local": "ipswich-town",
+     "visitante": "brentford-fc",
+     "fecha": "2026-12-26"
+    },
+    {
+     "local": "tottenham-hotspur",
+     "visitante": "afc-bournemouth",
+     "fecha": "2026-12-26"
+    },
+    {
+     "local": "hull-city",
+     "visitante": "liverpool-fc",
+     "fecha": "2026-12-26"
+    },
+    {
+     "local": "newcastle-united",
+     "visitante": "manchester-city",
+     "fecha": "2026-12-26"
+    },
+    {
+     "local": "coventry-city",
+     "visitante": "chelsea-fc",
+     "fecha": "2026-12-27"
+    },
+    {
+     "local": "manchester-united",
+     "visitante": "nottingham-forest",
+     "fecha": "2026-12-27"
+    },
+    {
+     "local": "crystal-palace",
+     "visitante": "arsenal-fc",
+     "fecha": "2026-12-27"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "fecha": "2026-12-30",
+   "partidos": [
+    {
+     "local": "hull-city",
+     "visitante": "leeds-united",
+     "fecha": "2026-12-29"
+    },
+    {
+     "local": "tottenham-hotspur",
+     "visitante": "brighton-hove-albion",
+     "fecha": "2026-12-29"
+    },
+    {
+     "local": "everton-fc",
+     "visitante": "manchester-city",
+     "fecha": "2026-12-29"
+    },
+    {
+     "local": "coventry-city",
+     "visitante": "brentford-fc",
+     "fecha": "2026-12-30"
+    },
+    {
+     "local": "crystal-palace",
+     "visitante": "afc-bournemouth",
+     "fecha": "2026-12-30"
+    },
+    {
+     "local": "fulham-fc",
+     "visitante": "arsenal-fc",
+     "fecha": "2026-12-30"
+    },
+    {
+     "local": "manchester-united",
+     "visitante": "sunderland-afc",
+     "fecha": "2026-12-30"
+    },
+    {
+     "local": "newcastle-united",
+     "visitante": "nottingham-forest",
+     "fecha": "2026-12-30"
+    },
+    {
+     "local": "aston-villa",
+     "visitante": "liverpool-fc",
+     "fecha": "2026-12-30"
+    },
+    {
+     "local": "ipswich-town",
+     "visitante": "chelsea-fc",
+     "fecha": "2026-12-30"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "fecha": "2027-01-02",
+   "partidos": [
+    {
+     "local": "leeds-united",
+     "visitante": "everton-fc",
+     "fecha": "2027-01-01"
+    },
+    {
+     "local": "brighton-hove-albion",
+     "visitante": "manchester-united",
+     "fecha": "2027-01-02"
+    },
+    {
+     "local": "arsenal-fc",
+     "visitante": "ipswich-town",
+     "fecha": "2027-01-02"
+    },
+    {
+     "local": "brentford-fc",
+     "visitante": "crystal-palace",
+     "fecha": "2027-01-02"
+    },
+    {
+     "local": "liverpool-fc",
+     "visitante": "coventry-city",
+     "fecha": "2027-01-02"
+    },
+    {
+     "local": "nottingham-forest",
+     "visitante": "fulham-fc",
+     "fecha": "2027-01-02"
+    },
+    {
+     "local": "sunderland-afc",
+     "visitante": "hull-city",
+     "fecha": "2027-01-02"
+    },
+    {
+     "local": "afc-bournemouth",
+     "visitante": "aston-villa",
+     "fecha": "2027-01-02"
+    },
+    {
+     "local": "chelsea-fc",
+     "visitante": "newcastle-united",
+     "fecha": "2027-01-03"
+    },
+    {
+     "local": "manchester-city",
+     "visitante": "tottenham-hotspur",
+     "fecha": "2027-01-03"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "fecha": "2027-01-06",
+   "partidos": [
+    {
+     "local": "arsenal-fc",
+     "visitante": "brentford-fc",
+     "fecha": "2027-01-05"
+    },
+    {
+     "local": "brighton-hove-albion",
+     "visitante": "afc-bournemouth",
+     "fecha": "2027-01-05"
+    },
+    {
+     "local": "everton-fc",
+     "visitante": "aston-villa",
+     "fecha": "2027-01-05"
+    },
+    {
+     "local": "nottingham-forest",
+     "visitante": "hull-city",
+     "fecha": "2027-01-05"
+    },
+    {
+     "local": "sunderland-afc",
+     "visitante": "liverpool-fc",
+     "fecha": "2027-01-05"
+    },
+    {
+     "local": "crystal-palace",
+     "visitante": "chelsea-fc",
+     "fecha": "2027-01-06"
+    },
+    {
+     "local": "fulham-fc",
+     "visitante": "tottenham-hotspur",
+     "fecha": "2027-01-06"
+    },
+    {
+     "local": "ipswich-town",
+     "visitante": "coventry-city",
+     "fecha": "2027-01-06"
+    },
+    {
+     "local": "leeds-united",
+     "visitante": "manchester-city",
+     "fecha": "2027-01-06"
+    },
+    {
+     "local": "manchester-united",
+     "visitante": "newcastle-united",
+     "fecha": "2027-01-07"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "fecha": "2027-01-16",
+   "partidos": [
+    {
+     "local": "afc-bournemouth",
+     "visitante": "ipswich-town",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "aston-villa",
+     "visitante": "manchester-united",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "brentford-fc",
+     "visitante": "brighton-hove-albion",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "chelsea-fc",
+     "visitante": "sunderland-afc",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "coventry-city",
+     "visitante": "everton-fc",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "hull-city",
+     "visitante": "arsenal-fc",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "liverpool-fc",
+     "visitante": "crystal-palace",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "manchester-city",
+     "visitante": "nottingham-forest",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "newcastle-united",
+     "visitante": "fulham-fc",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "tottenham-hotspur",
+     "visitante": "leeds-united",
+     "fecha": "2027-01-16"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "fecha": "2027-01-23",
+   "partidos": [
+    {
+     "local": "arsenal-fc",
+     "visitante": "newcastle-united",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "brighton-hove-albion",
+     "visitante": "manchester-city",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "crystal-palace",
+     "visitante": "tottenham-hotspur",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "everton-fc",
+     "visitante": "brentford-fc",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "fulham-fc",
+     "visitante": "aston-villa",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "ipswich-town",
+     "visitante": "hull-city",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "leeds-united",
+     "visitante": "chelsea-fc",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "manchester-united",
+     "visitante": "liverpool-fc",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "nottingham-forest",
+     "visitante": "afc-bournemouth",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "sunderland-afc",
+     "visitante": "coventry-city",
+     "fecha": "2027-01-23"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "fecha": "2027-01-30",
+   "partidos": [
+    {
+     "local": "afc-bournemouth",
+     "visitante": "fulham-fc",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "aston-villa",
+     "visitante": "ipswich-town",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "brentford-fc",
+     "visitante": "manchester-united",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "chelsea-fc",
+     "visitante": "nottingham-forest",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "coventry-city",
+     "visitante": "leeds-united",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "hull-city",
+     "visitante": "crystal-palace",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "liverpool-fc",
+     "visitante": "everton-fc",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "manchester-city",
+     "visitante": "arsenal-fc",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "newcastle-united",
+     "visitante": "brighton-hove-albion",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "tottenham-hotspur",
+     "visitante": "sunderland-afc",
+     "fecha": "2027-01-30"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "fecha": "2027-02-06",
+   "partidos": [
+    {
+     "local": "arsenal-fc",
+     "visitante": "liverpool-fc",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "brighton-hove-albion",
+     "visitante": "hull-city",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "everton-fc",
+     "visitante": "newcastle-united",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "fulham-fc",
+     "visitante": "manchester-city",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "ipswich-town",
+     "visitante": "tottenham-hotspur",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "leeds-united",
+     "visitante": "afc-bournemouth",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "manchester-united",
+     "visitante": "chelsea-fc",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "nottingham-forest",
+     "visitante": "brentford-fc",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "sunderland-afc",
+     "visitante": "aston-villa",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "crystal-palace",
+     "visitante": "coventry-city",
+     "fecha": "2027-02-06"
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "fecha": "2027-02-10",
+   "partidos": [
+    {
+     "local": "aston-villa",
+     "visitante": "afc-bournemouth",
+     "fecha": "2027-02-10"
+    },
+    {
+     "local": "coventry-city",
+     "visitante": "liverpool-fc",
+     "fecha": "2027-02-10"
+    },
+    {
+     "local": "crystal-palace",
+     "visitante": "brentford-fc",
+     "fecha": "2027-02-10"
+    },
+    {
+     "local": "everton-fc",
+     "visitante": "leeds-united",
+     "fecha": "2027-02-10"
+    },
+    {
+     "local": "fulham-fc",
+     "visitante": "nottingham-forest",
+     "fecha": "2027-02-10"
+    },
+    {
+     "local": "hull-city",
+     "visitante": "sunderland-afc",
+     "fecha": "2027-02-10"
+    },
+    {
+     "local": "ipswich-town",
+     "visitante": "arsenal-fc",
+     "fecha": "2027-02-10"
+    },
+    {
+     "local": "manchester-united",
+     "visitante": "brighton-hove-albion",
+     "fecha": "2027-02-10"
+    },
+    {
+     "local": "newcastle-united",
+     "visitante": "chelsea-fc",
+     "fecha": "2027-02-10"
+    },
+    {
+     "local": "tottenham-hotspur",
+     "visitante": "manchester-city",
+     "fecha": "2027-02-10"
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "fecha": "2027-02-20",
+   "partidos": [
+    {
+     "local": "afc-bournemouth",
+     "visitante": "crystal-palace",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "arsenal-fc",
+     "visitante": "fulham-fc",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "brentford-fc",
+     "visitante": "coventry-city",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "brighton-hove-albion",
+     "visitante": "tottenham-hotspur",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "chelsea-fc",
+     "visitante": "ipswich-town",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "leeds-united",
+     "visitante": "aston-villa",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "liverpool-fc",
+     "visitante": "hull-city",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "manchester-city",
+     "visitante": "newcastle-united",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "nottingham-forest",
+     "visitante": "manchester-united",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "sunderland-afc",
+     "visitante": "everton-fc",
+     "fecha": "2027-02-20"
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "fecha": "2027-02-27",
+   "partidos": [
+    {
+     "local": "aston-villa",
+     "visitante": "chelsea-fc",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "coventry-city",
+     "visitante": "afc-bournemouth",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "crystal-palace",
+     "visitante": "sunderland-afc",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "everton-fc",
+     "visitante": "nottingham-forest",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "fulham-fc",
+     "visitante": "leeds-united",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "hull-city",
+     "visitante": "manchester-city",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "ipswich-town",
+     "visitante": "brighton-hove-albion",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "manchester-united",
+     "visitante": "arsenal-fc",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "newcastle-united",
+     "visitante": "brentford-fc",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "tottenham-hotspur",
+     "visitante": "liverpool-fc",
+     "fecha": "2027-02-27"
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "fecha": "2027-03-03",
+   "partidos": [
+    {
+     "local": "afc-bournemouth",
+     "visitante": "tottenham-hotspur",
+     "fecha": "2027-03-03"
+    },
+    {
+     "local": "arsenal-fc",
+     "visitante": "crystal-palace",
+     "fecha": "2027-03-03"
+    },
+    {
+     "local": "brentford-fc",
+     "visitante": "ipswich-town",
+     "fecha": "2027-03-03"
+    },
+    {
+     "local": "brighton-hove-albion",
+     "visitante": "fulham-fc",
+     "fecha": "2027-03-03"
+    },
+    {
+     "local": "chelsea-fc",
+     "visitante": "coventry-city",
+     "fecha": "2027-03-03"
+    },
+    {
+     "local": "leeds-united",
+     "visitante": "hull-city",
+     "fecha": "2027-03-03"
+    },
+    {
+     "local": "liverpool-fc",
+     "visitante": "aston-villa",
+     "fecha": "2027-03-03"
+    },
+    {
+     "local": "manchester-city",
+     "visitante": "everton-fc",
+     "fecha": "2027-03-03"
+    },
+    {
+     "local": "nottingham-forest",
+     "visitante": "newcastle-united",
+     "fecha": "2027-03-03"
+    },
+    {
+     "local": "sunderland-afc",
+     "visitante": "manchester-united",
+     "fecha": "2027-03-03"
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "fecha": "2027-03-13",
+   "partidos": [
+    {
+     "local": "afc-bournemouth",
+     "visitante": "newcastle-united",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "aston-villa",
+     "visitante": "hull-city",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "chelsea-fc",
+     "visitante": "arsenal-fc",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "coventry-city",
+     "visitante": "manchester-city",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "crystal-palace",
+     "visitante": "fulham-fc",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "leeds-united",
+     "visitante": "brighton-hove-albion",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "liverpool-fc",
+     "visitante": "ipswich-town",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "manchester-united",
+     "visitante": "everton-fc",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "sunderland-afc",
+     "visitante": "brentford-fc",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "tottenham-hotspur",
+     "visitante": "nottingham-forest",
+     "fecha": "2027-03-13"
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "fecha": "2027-03-20",
+   "partidos": [
+    {
+     "local": "arsenal-fc",
+     "visitante": "sunderland-afc",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "brentford-fc",
+     "visitante": "afc-bournemouth",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "brighton-hove-albion",
+     "visitante": "coventry-city",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "everton-fc",
+     "visitante": "tottenham-hotspur",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "fulham-fc",
+     "visitante": "liverpool-fc",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "hull-city",
+     "visitante": "chelsea-fc",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "ipswich-town",
+     "visitante": "crystal-palace",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "manchester-city",
+     "visitante": "manchester-united",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "newcastle-united",
+     "visitante": "leeds-united",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "nottingham-forest",
+     "visitante": "aston-villa",
+     "fecha": "2027-03-20"
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "fecha": "2027-04-10",
+   "partidos": [
+    {
+     "local": "afc-bournemouth",
+     "visitante": "manchester-city",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "aston-villa",
+     "visitante": "brighton-hove-albion",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "chelsea-fc",
+     "visitante": "fulham-fc",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "coventry-city",
+     "visitante": "arsenal-fc",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "crystal-palace",
+     "visitante": "everton-fc",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "leeds-united",
+     "visitante": "nottingham-forest",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "liverpool-fc",
+     "visitante": "newcastle-united",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "manchester-united",
+     "visitante": "hull-city",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "sunderland-afc",
+     "visitante": "ipswich-town",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "tottenham-hotspur",
+     "visitante": "brentford-fc",
+     "fecha": "2027-04-10"
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "fecha": "2027-04-17",
+   "partidos": [
+    {
+     "local": "arsenal-fc",
+     "visitante": "aston-villa",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "brentford-fc",
+     "visitante": "leeds-united",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "brighton-hove-albion",
+     "visitante": "chelsea-fc",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "everton-fc",
+     "visitante": "afc-bournemouth",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "fulham-fc",
+     "visitante": "sunderland-afc",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "hull-city",
+     "visitante": "coventry-city",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "ipswich-town",
+     "visitante": "manchester-united",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "manchester-city",
+     "visitante": "crystal-palace",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "newcastle-united",
+     "visitante": "tottenham-hotspur",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "nottingham-forest",
+     "visitante": "liverpool-fc",
+     "fecha": "2027-04-17"
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "fecha": "2027-04-24",
+   "partidos": [
+    {
+     "local": "afc-bournemouth",
+     "visitante": "arsenal-fc",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "aston-villa",
+     "visitante": "coventry-city",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "brentford-fc",
+     "visitante": "fulham-fc",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "chelsea-fc",
+     "visitante": "manchester-city",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "everton-fc",
+     "visitante": "brighton-hove-albion",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "leeds-united",
+     "visitante": "liverpool-fc",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "manchester-united",
+     "visitante": "crystal-palace",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "newcastle-united",
+     "visitante": "ipswich-town",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "nottingham-forest",
+     "visitante": "sunderland-afc",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "tottenham-hotspur",
+     "visitante": "hull-city",
+     "fecha": "2027-04-24"
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "fecha": "2027-05-01",
+   "partidos": [
+    {
+     "local": "arsenal-fc",
+     "visitante": "tottenham-hotspur",
+     "fecha": "2027-05-01"
+    },
+    {
+     "local": "brighton-hove-albion",
+     "visitante": "nottingham-forest",
+     "fecha": "2027-05-01"
+    },
+    {
+     "local": "coventry-city",
+     "visitante": "manchester-united",
+     "fecha": "2027-05-01"
+    },
+    {
+     "local": "crystal-palace",
+     "visitante": "aston-villa",
+     "fecha": "2027-05-01"
+    },
+    {
+     "local": "fulham-fc",
+     "visitante": "everton-fc",
+     "fecha": "2027-05-01"
+    },
+    {
+     "local": "hull-city",
+     "visitante": "afc-bournemouth",
+     "fecha": "2027-05-01"
+    },
+    {
+     "local": "ipswich-town",
+     "visitante": "leeds-united",
+     "fecha": "2027-05-01"
+    },
+    {
+     "local": "liverpool-fc",
+     "visitante": "chelsea-fc",
+     "fecha": "2027-05-01"
+    },
+    {
+     "local": "manchester-city",
+     "visitante": "brentford-fc",
+     "fecha": "2027-05-01"
+    },
+    {
+     "local": "sunderland-afc",
+     "visitante": "newcastle-united",
+     "fecha": "2027-05-01"
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "fecha": "2027-05-08",
+   "partidos": [
+    {
+     "local": "afc-bournemouth",
+     "visitante": "manchester-united",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "brentford-fc",
+     "visitante": "aston-villa",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "brighton-hove-albion",
+     "visitante": "sunderland-afc",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "everton-fc",
+     "visitante": "hull-city",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "fulham-fc",
+     "visitante": "ipswich-town",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "leeds-united",
+     "visitante": "arsenal-fc",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "manchester-city",
+     "visitante": "liverpool-fc",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "newcastle-united",
+     "visitante": "coventry-city",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "nottingham-forest",
+     "visitante": "crystal-palace",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "tottenham-hotspur",
+     "visitante": "chelsea-fc",
+     "fecha": "2027-05-08"
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "fecha": "2027-05-15",
+   "partidos": [
+    {
+     "local": "arsenal-fc",
+     "visitante": "nottingham-forest",
+     "fecha": "2027-05-15"
+    },
+    {
+     "local": "aston-villa",
+     "visitante": "newcastle-united",
+     "fecha": "2027-05-15"
+    },
+    {
+     "local": "chelsea-fc",
+     "visitante": "everton-fc",
+     "fecha": "2027-05-15"
+    },
+    {
+     "local": "coventry-city",
+     "visitante": "tottenham-hotspur",
+     "fecha": "2027-05-15"
+    },
+    {
+     "local": "crystal-palace",
+     "visitante": "brighton-hove-albion",
+     "fecha": "2027-05-15"
+    },
+    {
+     "local": "hull-city",
+     "visitante": "fulham-fc",
+     "fecha": "2027-05-15"
+    },
+    {
+     "local": "ipswich-town",
+     "visitante": "manchester-city",
+     "fecha": "2027-05-15"
+    },
+    {
+     "local": "liverpool-fc",
+     "visitante": "brentford-fc",
+     "fecha": "2027-05-15"
+    },
+    {
+     "local": "manchester-united",
+     "visitante": "leeds-united",
+     "fecha": "2027-05-15"
+    },
+    {
+     "local": "sunderland-afc",
+     "visitante": "afc-bournemouth",
+     "fecha": "2027-05-15"
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "fecha": "2027-05-23",
+   "partidos": [
+    {
+     "local": "afc-bournemouth",
+     "visitante": "chelsea-fc",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "brentford-fc",
+     "visitante": "hull-city",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "brighton-hove-albion",
+     "visitante": "liverpool-fc",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "everton-fc",
+     "visitante": "arsenal-fc",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "fulham-fc",
+     "visitante": "coventry-city",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "leeds-united",
+     "visitante": "sunderland-afc",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "manchester-city",
+     "visitante": "aston-villa",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "newcastle-united",
+     "visitante": "crystal-palace",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "nottingham-forest",
+     "visitante": "ipswich-town",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "tottenham-hotspur",
+     "visitante": "manchester-united",
+     "fecha": "2027-05-23"
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "fecha": "2027-05-30",
+   "partidos": [
+    {
+     "local": "arsenal-fc",
+     "visitante": "brighton-hove-albion",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "aston-villa",
+     "visitante": "tottenham-hotspur",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "chelsea-fc",
+     "visitante": "brentford-fc",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "coventry-city",
+     "visitante": "nottingham-forest",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "crystal-palace",
+     "visitante": "leeds-united",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "hull-city",
+     "visitante": "newcastle-united",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "ipswich-town",
+     "visitante": "everton-fc",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "liverpool-fc",
+     "visitante": "afc-bournemouth",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "manchester-united",
+     "visitante": "fulham-fc",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "sunderland-afc",
+     "visitante": "manchester-city",
+     "fecha": "2027-05-30"
+    }
+   ]
+  }
+ ]
+}

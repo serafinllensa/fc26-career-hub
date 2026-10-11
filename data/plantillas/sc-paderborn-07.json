@@ -1,0 +1,1105 @@
+{
+ "clubId": "sc-paderborn-07",
+ "fecha": "2026-10-10",
+ "fuente": "https://www.transfermarkt.com/sc-paderborn-07/kader/verein/127/saison_id/2026/plus/1",
+ "nota": "Foto de Transfermarkt. posSec desde el perfil de cada jugador (2026-10-11).",
+ "jugadores": [
+  {
+   "id": "tm600942",
+   "nombre": "Nahuel Noll",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "nac2": "Spain",
+   "valorM": 2.5,
+   "contratoHasta": "2027-06",
+   "dorsal": 15,
+   "tmUrl": "https://www.transfermarkt.com/nahuel-noll/profil/spieler/600942",
+   "verificado": true,
+   "fechaNac": "2003-03-17",
+   "ea": {
+    "eaId": 262322,
+    "nombreEA": "Nahuel Noll",
+    "ovr": 67,
+    "pac": 66,
+    "sho": 67,
+    "pas": 61,
+    "dri": 70,
+    "def": 57,
+    "phy": 67,
+    "posEA": "POR",
+    "equipoEA": "Hannover 96",
+    "pieHabil": "derecho",
+    "filigranas": 1,
+    "piernaMala": 4,
+    "porteroStats": {
+     "gkDiving": 66,
+     "gkHandling": 67,
+     "gkKicking": 61,
+     "gkPositioning": 67,
+     "gkReflexes": 70
+    }
+   }
+  },
+  {
+   "id": "tm296741",
+   "nombre": "Markus Schubert",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 0.5,
+   "contratoHasta": "2028-06",
+   "dorsal": 1,
+   "tmUrl": "https://www.transfermarkt.com/markus-schubert/profil/spieler/296741",
+   "verificado": true,
+   "fechaNac": "1998-06-12",
+   "ea": {
+    "eaId": 234383,
+    "nombreEA": "Markus Schubert",
+    "ovr": 65,
+    "pac": 67,
+    "sho": 63,
+    "pas": 62,
+    "dri": 67,
+    "def": 39,
+    "phy": 60,
+    "posEA": "POR",
+    "equipoEA": "SC Paderborn 07",
+    "pieHabil": "derecho",
+    "filigranas": 1,
+    "piernaMala": 3,
+    "porteroStats": {
+     "gkDiving": 67,
+     "gkHandling": 63,
+     "gkKicking": 62,
+     "gkPositioning": 60,
+     "gkReflexes": 67
+    }
+   }
+  },
+  {
+   "id": "tm930013",
+   "nombre": "Florian Pruhs",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 0.15,
+   "contratoHasta": null,
+   "dorsal": 31,
+   "tmUrl": "https://www.transfermarkt.com/florian-pruhs/profil/spieler/930013",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2006-02-06",
+   "ea": {
+    "eaId": 276408,
+    "nombreEA": "Florian Pruhs",
+    "ovr": 53,
+    "pac": 55,
+    "sho": 58,
+    "pas": 57,
+    "dri": 52,
+    "def": 21,
+    "phy": 47,
+    "posEA": "POR",
+    "equipoEA": "SC Paderborn 07",
+    "pieHabil": "derecho",
+    "filigranas": 1,
+    "piernaMala": 3,
+    "porteroStats": {
+     "gkDiving": 55,
+     "gkHandling": 58,
+     "gkKicking": 57,
+     "gkPositioning": 47,
+     "gkReflexes": 52
+    }
+   }
+  },
+  {
+   "id": "tm694132",
+   "nombre": "Mattes Hansen",
+   "pos": "DFC",
+   "posSec": [
+    "MCD",
+    "MC"
+   ],
+   "edad": 22,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 2.5,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "tmUrl": "https://www.transfermarkt.com/mattes-hansen/profil/spieler/694132",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2004-05-15",
+   "ea": {
+    "eaId": 276371,
+    "nombreEA": "Mattes Hansen",
+    "ovr": 67,
+    "pac": 58,
+    "sho": 38,
+    "pas": 60,
+    "dri": 62,
+    "def": 66,
+    "phy": 67,
+    "posEA": "MCD",
+    "equipoEA": "SC Paderborn 07",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm509650",
+   "nombre": "Tjark Scheller",
+   "pos": "DFC",
+   "posSec": [
+    "MCD"
+   ],
+   "edad": 24,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 2.5,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "tmUrl": "https://www.transfermarkt.com/tjark-scheller/profil/spieler/509650",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2002-01-12",
+   "ea": {
+    "eaId": 278178,
+    "nombreEA": "Tjark Scheller",
+    "ovr": 68,
+    "pac": 57,
+    "sho": 29,
+    "pas": 50,
+    "dri": 49,
+    "def": 68,
+    "phy": 72,
+    "posEA": "DFC",
+    "equipoEA": "SC Paderborn 07",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm330635",
+   "nombre": "Felix Götze",
+   "pos": "DFC",
+   "posSec": [
+    "MCD",
+    "MC"
+   ],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 2.0,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "tmUrl": "https://www.transfermarkt.com/felix-gotze/profil/spieler/330635",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1998-02-11",
+   "ea": {
+    "eaId": 236467,
+    "nombreEA": "Felix Götze",
+    "ovr": 72,
+    "pac": 68,
+    "sho": 51,
+    "pas": 64,
+    "dri": 67,
+    "def": 72,
+    "phy": 73,
+    "posEA": "DFC",
+    "equipoEA": "SC Paderborn 07",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 2
+   }
+  },
+  {
+   "id": "tm606113",
+   "nombre": "Jano ter Horst",
+   "pos": "DFC",
+   "posSec": [
+    "MD",
+    "LD"
+   ],
+   "edad": 24,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 1.8,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "tmUrl": "https://www.transfermarkt.com/jano-ter-horst/profil/spieler/606113",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2002-06-19",
+   "ea": {
+    "eaId": 276287,
+    "nombreEA": "Jano ter Horst",
+    "ovr": 67,
+    "pac": 73,
+    "sho": 37,
+    "pas": 51,
+    "dri": 59,
+    "def": 66,
+    "phy": 67,
+    "posEA": "LD",
+    "equipoEA": "Preußen Münster",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm570152",
+   "nombre": "Marcel Hoffmeier",
+   "pos": "DFC",
+   "posSec": [
+    "MI",
+    "MD"
+   ],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 0.8,
+   "contratoHasta": "2028-06",
+   "dorsal": 33,
+   "tmUrl": "https://www.transfermarkt.com/marcel-hoffmeier/profil/spieler/570152",
+   "verificado": true,
+   "fechaNac": "1999-07-15",
+   "ea": {
+    "eaId": 250926,
+    "nombreEA": "Marcel Hoffmeier",
+    "ovr": 67,
+    "pac": 76,
+    "sho": 44,
+    "pas": 61,
+    "dri": 65,
+    "def": 66,
+    "phy": 74,
+    "posEA": "DFC",
+    "equipoEA": "SC Paderborn 07",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm698843",
+   "nombre": "Jonah Sticker",
+   "pos": "DFC",
+   "posSec": [
+    "LI",
+    "MI"
+   ],
+   "edad": 22,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 0.75,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "tmUrl": "https://www.transfermarkt.com/jonah-sticker/profil/spieler/698843",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2004-05-08",
+   "ea": {
+    "eaId": 275262,
+    "nombreEA": "Jonah Sticker",
+    "ovr": 63,
+    "pac": 72,
+    "sho": 30,
+    "pas": 60,
+    "dri": 65,
+    "def": 59,
+    "phy": 63,
+    "posEA": "LI",
+    "equipoEA": "SC Paderborn 07",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 2
+   }
+  },
+  {
+   "id": "tm521331",
+   "nombre": "Nyamekye Awortwie-Grant",
+   "pos": "DFC",
+   "posSec": [
+    "MCD"
+   ],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "nac2": "Ghana",
+   "valorM": 0.4,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "tmUrl": "https://www.transfermarkt.com/nyamekye-awortwie-grant/profil/spieler/521331",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2000-08-07",
+   "ea": {
+    "eaId": 79503,
+    "nombreEA": "Nyamekye Awortwie-Grant",
+    "ovr": 59,
+    "pac": 68,
+    "sho": 27,
+    "pas": 37,
+    "dri": 40,
+    "def": 57,
+    "phy": 72,
+    "posEA": "DFC",
+    "equipoEA": "Energie Cottbus",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm798091",
+   "nombre": "Tristan Zobel",
+   "pos": "DFC",
+   "posSec": [
+    "LI"
+   ],
+   "edad": 23,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 0.225,
+   "contratoHasta": "2028-06",
+   "dorsal": null,
+   "tmUrl": "https://www.transfermarkt.com/tristan-zobel/profil/spieler/798091",
+   "verificado": true,
+   "fechaNac": "2003-10-04",
+   "ea": {
+    "eaId": 77764,
+    "nombreEA": "Tristan Zobel",
+    "ovr": 60,
+    "pac": 58,
+    "sho": 27,
+    "pas": 39,
+    "dri": 44,
+    "def": 59,
+    "phy": 68,
+    "posEA": "DFC",
+    "equipoEA": null,
+    "pieHabil": "izquierdo",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm1005509",
+   "nombre": "Santiago Castañeda",
+   "pos": "MCD",
+   "posSec": [
+    "MC"
+   ],
+   "edad": 21,
+   "nac": "United States",
+   "nacCodigo": "US",
+   "nac2": "Colombia",
+   "valorM": 6.0,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "tmUrl": "https://www.transfermarkt.com/santiago-castaneda/profil/spieler/1005509",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2004-11-13",
+   "ea": null
+  },
+  {
+   "id": "tm331637",
+   "nombre": "Tom Baack",
+   "pos": "MCD",
+   "posSec": [
+    "MC",
+    "LD"
+   ],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 0.6,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "tmUrl": "https://www.transfermarkt.com/tom-baack/profil/spieler/331637",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1999-03-13",
+   "ea": {
+    "eaId": 229184,
+    "nombreEA": "Tom Baack",
+    "ovr": 68,
+    "pac": 64,
+    "sho": 57,
+    "pas": 63,
+    "dri": 64,
+    "def": 65,
+    "phy": 77,
+    "posEA": "MC",
+    "equipoEA": "1. FC Nürnberg",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 4
+   }
+  },
+  {
+   "id": "tm717465",
+   "nombre": "Laurin Ulrich",
+   "pos": "MC",
+   "posSec": [
+    "MCO",
+    "EI"
+   ],
+   "edad": 21,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 4.0,
+   "contratoHasta": "2027-06",
+   "dorsal": 28,
+   "tmUrl": "https://www.transfermarkt.com/laurin-ulrich/profil/spieler/717465",
+   "verificado": true,
+   "fechaNac": "2005-01-31",
+   "ea": {
+    "eaId": 270901,
+    "nombreEA": "Laurin Ulrich",
+    "ovr": 65,
+    "pac": 69,
+    "sho": 60,
+    "pas": 65,
+    "dri": 71,
+    "def": 52,
+    "phy": 62,
+    "posEA": "MC",
+    "equipoEA": "1. FC Magdeburg",
+    "pieHabil": "derecho",
+    "filigranas": 4,
+    "piernaMala": 4
+   }
+  },
+  {
+   "id": "tm378424",
+   "nombre": "Sebastian Klaas",
+   "pos": "MC",
+   "posSec": [
+    "MD",
+    "MCO"
+   ],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 0.9,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "tmUrl": "https://www.transfermarkt.com/sebastian-klaas/profil/spieler/378424",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1998-06-30",
+   "ea": {
+    "eaId": 239925,
+    "nombreEA": "Sebastian Klaas",
+    "ovr": 66,
+    "pac": 69,
+    "sho": 62,
+    "pas": 67,
+    "dri": 68,
+    "def": 49,
+    "phy": 53,
+    "posEA": "MC",
+    "equipoEA": "SC Paderborn 07",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm685484",
+   "nombre": "Luka Duric",
+   "pos": "MC",
+   "posSec": [
+    "MCO"
+   ],
+   "edad": 23,
+   "nac": "Bosnia-Herzegovina",
+   "nacCodigo": "BA",
+   "nac2": "Germany",
+   "valorM": 0.8,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "tmUrl": "https://www.transfermarkt.com/luka-duric/profil/spieler/685484",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2003-06-18",
+   "ea": {
+    "eaId": 76924,
+    "nombreEA": "Luka Đurić",
+    "ovr": 61,
+    "pac": 62,
+    "sho": 51,
+    "pas": 59,
+    "dri": 58,
+    "def": 55,
+    "phy": 60,
+    "posEA": "MC",
+    "equipoEA": "TSG Hoffenheim",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm421323",
+   "nombre": "Timur Gayret",
+   "pos": "MC",
+   "posSec": [
+    "DC",
+    "MCO"
+   ],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 0.45,
+   "contratoHasta": "2029-06",
+   "dorsal": 44,
+   "tmUrl": "https://www.transfermarkt.com/timur-gayret/profil/spieler/421323",
+   "verificado": true,
+   "fechaNac": "1998-08-08",
+   "ea": {
+    "eaId": 270008,
+    "nombreEA": "Timur Gayret",
+    "ovr": 65,
+    "pac": 69,
+    "sho": 58,
+    "pas": 61,
+    "dri": 70,
+    "def": 53,
+    "phy": 60,
+    "posEA": "MC",
+    "equipoEA": "SC Verl",
+    "pieHabil": "izquierdo",
+    "filigranas": 4,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm516978",
+   "nombre": "Laurin Curda",
+   "pos": "MD",
+   "posSec": [
+    "LD",
+    "DFC"
+   ],
+   "edad": 24,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 5.0,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "tmUrl": "https://www.transfermarkt.com/laurin-curda/profil/spieler/516978",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2001-10-30",
+   "ea": {
+    "eaId": 276367,
+    "nombreEA": "Laurin Curda",
+    "ovr": 66,
+    "pac": 72,
+    "sho": 51,
+    "pas": 62,
+    "dri": 63,
+    "def": 65,
+    "phy": 73,
+    "posEA": "DFC",
+    "equipoEA": "SC Paderborn 07",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm907085",
+   "nombre": "Ruben Müller",
+   "pos": "MD",
+   "posSec": [
+    "LD",
+    "ED"
+   ],
+   "edad": 21,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "nac2": "Spain",
+   "valorM": 1.0,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "tmUrl": "https://www.transfermarkt.com/ruben-muller/profil/spieler/907085",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2005-08-24",
+   "ea": {
+    "eaId": 79816,
+    "nombreEA": "Ruben Müller",
+    "ovr": 59,
+    "pac": 68,
+    "sho": 53,
+    "pas": 56,
+    "dri": 61,
+    "def": 52,
+    "phy": 50,
+    "posEA": "MD",
+    "equipoEA": "SC Paderborn 07",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm1148887",
+   "nombre": "Clemens Lippmann",
+   "pos": "MD",
+   "posSec": [
+    "LD",
+    "MI"
+   ],
+   "edad": 20,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 1.0,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "tmUrl": "https://www.transfermarkt.com/clemens-lippmann/profil/spieler/1148887",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2006-06-29",
+   "ea": {
+    "eaId": 76291,
+    "nombreEA": "Clemens Lippmann",
+    "ovr": 53,
+    "pac": 67,
+    "sho": 26,
+    "pas": 45,
+    "dri": 47,
+    "def": 48,
+    "phy": 59,
+    "posEA": "LD",
+    "equipoEA": null,
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm330699",
+   "nombre": "Raphael Obermair",
+   "pos": "MI",
+   "posSec": [
+    "MD",
+    "LD"
+   ],
+   "edad": 30,
+   "nac": "Philippines",
+   "nacCodigo": "PH",
+   "nac2": "Germany",
+   "valorM": 1.2,
+   "contratoHasta": "2027-06",
+   "dorsal": 23,
+   "tmUrl": "https://www.transfermarkt.com/raphael-obermair/profil/spieler/330699",
+   "verificado": true,
+   "fechaNac": "1996-04-01",
+   "ea": {
+    "eaId": 238363,
+    "nombreEA": "Raphael Obermair",
+    "ovr": 72,
+    "pac": 83,
+    "sho": 64,
+    "pas": 67,
+    "dri": 71,
+    "def": 65,
+    "phy": 73,
+    "posEA": "MD",
+    "equipoEA": "SC Paderborn 07",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 4
+   }
+  },
+  {
+   "id": "tm949389",
+   "nombre": "Niklas Mohr",
+   "pos": "MI",
+   "posSec": [
+    "LI",
+    "MCD"
+   ],
+   "edad": 22,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 0.5,
+   "contratoHasta": "2028-06",
+   "dorsal": 24,
+   "tmUrl": "https://www.transfermarkt.com/niklas-mohr/profil/spieler/949389",
+   "verificado": true,
+   "fechaNac": "2004-07-23",
+   "ea": null
+  },
+  {
+   "id": "tm1108022",
+   "nombre": "Deniz Zeitler",
+   "pos": "EI",
+   "posSec": [
+    "DC",
+    "ED"
+   ],
+   "edad": 19,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "nac2": "Türkiye",
+   "valorM": 4.0,
+   "contratoHasta": "2027-06",
+   "dorsal": 38,
+   "tmUrl": "https://www.transfermarkt.com/deniz-zeitler/profil/spieler/1108022",
+   "verificado": true,
+   "fechaNac": "2006-12-13",
+   "ea": {
+    "eaId": 279116,
+    "nombreEA": "Deniz Zeitler",
+    "ovr": 63,
+    "pac": 78,
+    "sho": 62,
+    "pas": 54,
+    "dri": 64,
+    "def": 40,
+    "phy": 56,
+    "posEA": "DC",
+    "equipoEA": "TSG Hoffenheim",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 4
+   }
+  },
+  {
+   "id": "tm604327",
+   "nombre": "Gabriel Vidovic",
+   "pos": "EI",
+   "posSec": [
+    "MCO",
+    "SD"
+   ],
+   "edad": 22,
+   "nac": "Croatia",
+   "nacCodigo": "HR",
+   "nac2": "Germany",
+   "valorM": 3.0,
+   "contratoHasta": null,
+   "dorsal": 40,
+   "tmUrl": "https://www.transfermarkt.com/gabriel-vidovic/profil/spieler/604327",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2003-12-01",
+   "ea": {
+    "eaId": 267899,
+    "nombreEA": "Gabriel Vidović",
+    "ovr": 68,
+    "pac": 68,
+    "sho": 67,
+    "pas": 61,
+    "dri": 74,
+    "def": 26,
+    "phy": 54,
+    "posEA": "MI",
+    "equipoEA": "Dinamo Zagreb",
+    "pieHabil": "derecho",
+    "filigranas": 4,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm406614",
+   "nombre": "Oliver Batista Meier",
+   "pos": "EI",
+   "posSec": [
+    "MCO",
+    "ED"
+   ],
+   "edad": 25,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "nac2": "Brazil",
+   "valorM": 1.5,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "tmUrl": "https://www.transfermarkt.com/oliver-batista-meier/profil/spieler/406614",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2001-02-16",
+   "ea": {
+    "eaId": 244024,
+    "nombreEA": "Oliver Batista Meier",
+    "ovr": 68,
+    "pac": 73,
+    "sho": 63,
+    "pas": 64,
+    "dri": 74,
+    "def": 31,
+    "phy": 50,
+    "posEA": "MCO",
+    "equipoEA": "Preußen Münster",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm814986",
+   "nombre": "Albert Millgramm",
+   "pos": "EI",
+   "posSec": [
+    "ED"
+   ],
+   "edad": 21,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 0.15,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "tmUrl": "https://www.transfermarkt.com/albert-millgramm/profil/spieler/814986",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2004-11-12",
+   "ea": null
+  },
+  {
+   "id": "tm694507",
+   "nombre": "Rayan Philippe",
+   "pos": "ED",
+   "posSec": [
+    "EI",
+    "DC"
+   ],
+   "edad": 25,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": 4.0,
+   "contratoHasta": "2027-06",
+   "dorsal": 9,
+   "tmUrl": "https://www.transfermarkt.com/rayan-philippe/profil/spieler/694507",
+   "verificado": true,
+   "fechaNac": "2000-10-23",
+   "ea": {
+    "eaId": 251961,
+    "nombreEA": "Rayan Philippe",
+    "ovr": 72,
+    "pac": 90,
+    "sho": 69,
+    "pas": 56,
+    "dri": 73,
+    "def": 22,
+    "phy": 66,
+    "posEA": "DC",
+    "equipoEA": "Hamburger SV",
+    "pieHabil": "izquierdo",
+    "filigranas": 3,
+    "piernaMala": 2
+   }
+  },
+  {
+   "id": "tm186988",
+   "nombre": "Sven Michel",
+   "pos": "ED",
+   "posSec": [
+    "EI",
+    "DC"
+   ],
+   "edad": 36,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 0.3,
+   "contratoHasta": "2027-06",
+   "dorsal": 11,
+   "tmUrl": "https://www.transfermarkt.com/sven-michel/profil/spieler/186988",
+   "verificado": true,
+   "fechaNac": "1990-07-15",
+   "ea": {
+    "eaId": 212879,
+    "nombreEA": "Sven Michel",
+    "ovr": 69,
+    "pac": 69,
+    "sho": 71,
+    "pas": 64,
+    "dri": 72,
+    "def": 33,
+    "phy": 69,
+    "posEA": "DC",
+    "equipoEA": "SC Paderborn 07",
+    "pieHabil": "izquierdo",
+    "filigranas": 3,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm471055",
+   "nombre": "Marvin Pieringer",
+   "pos": "DC",
+   "posSec": [
+    "MCO",
+    "EI"
+   ],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 3.0,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "tmUrl": "https://www.transfermarkt.com/marvin-pieringer/profil/spieler/471055",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1999-10-04",
+   "ea": {
+    "eaId": 260290,
+    "nombreEA": "Marvin Pieringer",
+    "ovr": 75,
+    "pac": 65,
+    "sho": 73,
+    "pas": 59,
+    "dri": 70,
+    "def": 36,
+    "phy": 79,
+    "posEA": "DC",
+    "equipoEA": "Heidenheim",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm829267",
+   "nombre": "Stefano Marino",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "nac2": "Italy",
+   "valorM": 1.5,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "tmUrl": "https://www.transfermarkt.com/stefano-marino/profil/spieler/829267",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2004-03-12",
+   "ea": {
+    "eaId": 266012,
+    "nombreEA": "Stefano Marino",
+    "ovr": 60,
+    "pac": 68,
+    "sho": 59,
+    "pas": 42,
+    "dri": 60,
+    "def": 18,
+    "phy": 62,
+    "posEA": "DC",
+    "equipoEA": "SC Paderborn 07",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 4
+   }
+  },
+  {
+   "id": "tm296879",
+   "nombre": "Steffen Tigges",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 0.7,
+   "contratoHasta": "2027-06",
+   "dorsal": 27,
+   "tmUrl": "https://www.transfermarkt.com/steffen-tigges/profil/spieler/296879",
+   "verificado": true,
+   "fechaNac": "1998-07-31",
+   "ea": {
+    "eaId": 238656,
+    "nombreEA": "Steffen Tigges",
+    "ovr": 67,
+    "pac": 59,
+    "sho": 66,
+    "pas": 57,
+    "dri": 56,
+    "def": 45,
+    "phy": 80,
+    "posEA": "DC",
+    "equipoEA": "SC Paderborn 07",
+    "pieHabil": "izquierdo",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm1299403",
+   "nombre": "Lasse Eickel",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 18,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 0.15,
+   "contratoHasta": "2031-06",
+   "dorsal": 32,
+   "tmUrl": "https://www.transfermarkt.com/lasse-eickel/profil/spieler/1299403",
+   "verificado": true,
+   "fechaNac": "2008-02-28",
+   "ea": null
+  }
+ ],
+ "fuenteEA": {
+  "url": "https://www.ea.com/games/ea-sports-fc/ratings",
+  "fecha": "2026-10-11",
+  "nota": "Ratings oficiales EA SPORTS FC 26 (base del juego). Cruce por fecha de nacimiento y nombre; sin cruce seguro, ea=null. equipoEA puede diferir del club real si EA no actualizó el pase."
+ }
+}

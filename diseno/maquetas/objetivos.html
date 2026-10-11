@@ -1,0 +1,20 @@
+<!doctype html><html lang="es-AR" data-tema="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><link rel="icon" href="data:,"><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../tema-fc26.css"><script src="comun.js"></script><title>Objetivos · FC26 Career Hub (maqueta)</title></head><body><div class="app" id="app"></div>
+<script>
+(async()=>{
+const club=await clubPorQuery(); aplicarClub(club);
+const dif=new URLSearchParams(location.search).get('dif')||'medio';
+const M=await import('../../js/motor/index.js'); const P=M.objetivosPlazos(club,dif);
+const IC={deportivo:'🏆',cantera:'🌱',economico:'€',institucional:'🏛',desarrollo:'📈'};
+const NOM={deportivo:'Deportivo',cantera:'Cantera',economico:'Económico',institucional:'Institucional',desarrollo:'Desarrollo'};
+const col=(k,tit)=>`<section class="tarjeta"><div class="plazo-cab"><div><div class="etiqueta">${tit}</div><div class="h2" style="margin-top:4px">${P.plazos[k]===1?'Esta temporada':P.plazos[k]+' temporadas'}</div></div><b class="num">${P[k].length}</b></div>
+${P[k].map(o=>`<div class="obj ${o.principal?'principal':''}"><span class="cat ${o.categoria}" aria-hidden="true">${IC[o.categoria]||'•'}</span><div style="flex:1"><div style="font-weight:600">${o.texto}</div><div class="meta" style="font-size:var(--t-xs);margin-top:3px">${NOM[o.categoria]||o.categoria}${o.principal?' · principal':''}</div></div></div>`).join('')}</section>`;
+const difs=['facil','medio','dificil','hardcore','leyenda'], nd={facil:'Fácil',medio:'Medio',dificil:'Difícil',hardcore:'Hardcore',leyenda:'Leyenda'};
+document.getElementById('app').innerHTML=nav('panel')+`<main class="contenido">
+${banda(club,nd[dif],difs.indexOf(dif)+1)}
+<div style="display:flex;justify-content:space-between;align-items:end;gap:var(--e3);flex-wrap:wrap;margin-bottom:var(--e4)"><div><div class="etiqueta">Lo que te pide la directiva</div><h1 class="h1">Objetivos</h1></div>
+<div class="chips" style="display:flex;gap:8px;overflow-x:auto">${difs.map(d=>`<a class="chip" href="?club=${club.id}&dif=${d}" aria-pressed="${d===dif}" style="text-decoration:none">${nd[d]}</a>`).join('')}</div></div>
+<div class="plazos">${col('corto','Corto plazo')}${col('mediano','Mediano plazo')}${col('largo','Largo plazo')}</div>
+<p class="fuente" style="margin-top:var(--e4)">Generado en vivo por el Motor (objetivosPlazos) según identidad, nivel y dificultad.</p>
+${PIE}</main>`;
+})();
+</script></body></html>

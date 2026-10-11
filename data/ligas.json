@@ -1,0 +1,57 @@
+[
+ {
+  "liga": "Premier League",
+  "pais": "ENG",
+  "coef": 103.796,
+  "ranking": 1,
+  "fuente": {
+   "url": "https://www.uefa.com/nationalassociations/uefarankings/country/",
+   "fecha": "2026-10-11",
+   "nota": "Coeficiente UEFA de asociaciones 5 temporadas, actualizado 2026-09-17"
+  }
+ },
+ {
+  "liga": "LaLiga",
+  "pais": "ESP",
+  "coef": 83.243,
+  "ranking": 3,
+  "fuente": {
+   "url": "https://www.uefa.com/nationalassociations/uefarankings/country/",
+   "fecha": "2026-10-11",
+   "nota": "Coeficiente UEFA de asociaciones 5 temporadas, actualizado 2026-09-17"
+  }
+ },
+ {
+  "liga": "Serie A",
+  "pais": "ITA",
+  "coef": 88.589,
+  "ranking": 2,
+  "fuente": {
+   "url": "https://www.uefa.com/nationalassociations/uefarankings/country/",
+   "fecha": "2026-10-11",
+   "nota": "Coeficiente UEFA de asociaciones 5 temporadas, actualizado 2026-09-17"
+  }
+ },
+ {
+  "liga": "Bundesliga",
+  "pais": "GER",
+  "coef": 81.545,
+  "ranking": 4,
+  "fuente": {
+   "url": "https://www.uefa.com/nationalassociations/uefarankings/country/",
+   "fecha": "2026-10-11",
+   "nota": "Coeficiente UEFA de asociaciones 5 temporadas, actualizado 2026-09-17"
+  }
+ },
+ {
+  "liga": "Ligue 1",
+  "pais": "FRA",
+  "coef": 69.153,
+  "ranking": 5,
+  "fuente": {
+   "url": "https://www.uefa.com/nationalassociations/uefarankings/country/",
+   "fecha": "2026-10-11",
+   "nota": "Coeficiente UEFA de asociaciones 5 temporadas, actualizado 2026-09-17"
+  }
+ }
+]

@@ -1,0 +1,486 @@
+{
+ "fecha": "2026-10-11",
+ "aprobado": "Serafin, 2026-10-11 (vía Donato)",
+ "niveles": {
+  "arsenal-fc": {
+   "nivel": 5,
+   "puntaje": 0.978,
+   "motivo": "Últimas 5: 5°, 2°, 2°, 2°, 1°; mejor en Europa: Champions final 25/26; hoy 2°; viene en subida."
+  },
+  "fc-barcelona": {
+   "nivel": 5,
+   "puntaje": 0.967,
+   "motivo": "Últimas 5: 2°, 1°, 2°, 1°, 1°; mejor en Europa: Champions semis 24/25; hoy 1°; viene en subida."
+  },
+  "bayern-munich": {
+   "nivel": 5,
+   "puntaje": 0.964,
+   "motivo": "Últimas 5: 1°, 1°, 3°, 1°, 1°; mejor en Europa: Champions semis 23/24; hoy 2°."
+  },
+  "manchester-city": {
+   "nivel": 5,
+   "puntaje": 0.956,
+   "motivo": "Últimas 5: 1°, 1°, 1°, 3°, 2°; mejor en Europa: Champions campeón 22/23; hoy 1°; viene en caída."
+  },
+  "real-madrid": {
+   "nivel": 5,
+   "puntaje": 0.953,
+   "motivo": "Últimas 5: 1°, 2°, 1°, 2°, 2°; mejor en Europa: Champions campeón 21/22; hoy 3°; viene en caída."
+  },
+  "paris-saint-germain": {
+   "nivel": 5,
+   "puntaje": 0.948,
+   "motivo": "Últimas 5: 1°, 1°, 1°, 1°, 1°; mejor en Europa: Champions campeón 24/25; hoy 5°; viene en subida."
+  },
+  "inter-milan": {
+   "nivel": 5,
+   "puntaje": 0.947,
+   "motivo": "Últimas 5: 2°, 3°, 1°, 2°, 1°; mejor en Europa: Champions final 22/23; hoy 1°."
+  },
+  "atletico-de-madrid": {
+   "nivel": 5,
+   "puntaje": 0.905,
+   "motivo": "Últimas 5: 3°, 3°, 4°, 3°, 4°; mejor en Europa: Champions semis 25/26; hoy 2°."
+  },
+  "liverpool-fc": {
+   "nivel": 5,
+   "puntaje": 0.898,
+   "motivo": "Últimas 5: 2°, 5°, 3°, 1°, 5°; mejor en Europa: Champions final 21/22; hoy 7°; viene en subida."
+  },
+  "borussia-dortmund": {
+   "nivel": 4,
+   "puntaje": 0.893,
+   "motivo": "Últimas 5: 2°, 2°, 5°, 4°, 2°; mejor en Europa: Champions final 23/24; hoy 1°. Ajuste manual: Decisión de Serafin (2026-10-11)."
+  },
+  "bayer-04-leverkusen": {
+   "nivel": 4,
+   "puntaje": 0.853,
+   "motivo": "Últimas 5: 3°, 6°, 1°, 2°, 6°; mejor en Europa: Europa League final 23/24; hoy 4° (sin dato de ingresos, no resta)."
+  },
+  "as-roma": {
+   "nivel": 4,
+   "puntaje": 0.846,
+   "motivo": "Últimas 5: 6°, 6°, 6°, 5°, 3°; mejor en Europa: Europa League final 22/23; hoy 2°."
+  },
+  "chelsea-fc": {
+   "nivel": 4,
+   "puntaje": 0.833,
+   "motivo": "Últimas 5: 3°, 12°, 6°, 4°, 10°; mejor en Europa: Champions cuartos 21/22; hoy 5°; viene en subida."
+  },
+  "ssc-napoli": {
+   "nivel": 4,
+   "puntaje": 0.829,
+   "motivo": "Últimas 5: 3°, 1°, 10°, 1°, 2°; mejor en Europa: Champions cuartos 22/23; hoy 6°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "juventus-fc": {
+   "nivel": 4,
+   "puntaje": 0.806,
+   "motivo": "Últimas 5: 4°, 7°, 3°, 4°, 6°; mejor en Europa: Champions octavos 21/22; hoy 7°."
+  },
+  "aston-villa": {
+   "nivel": 4,
+   "puntaje": 0.788,
+   "motivo": "Últimas 5: 14°, 7°, 4°, 6°, 4°; mejor en Europa: Europa League campeón 25/26; hoy 14°; viene en subida."
+  },
+  "as-monaco": {
+   "nivel": 4,
+   "puntaje": 0.774,
+   "motivo": "Últimas 5: 3°, 6°, 2°, 3°, 7°; mejor en Europa: Champions playoff 24/25; hoy 1° (sin dato de ingresos, no resta)."
+  },
+  "ac-milan": {
+   "nivel": 4,
+   "puntaje": 0.772,
+   "motivo": "Últimas 5: 1°, 4°, 2°, 8°, 5°; mejor en Europa: Champions semis 22/23; hoy 5°; viene en caída."
+  },
+  "losc-lille": {
+   "nivel": 4,
+   "puntaje": 0.77,
+   "motivo": "Últimas 5: 10°, 5°, 4°, 5°, 3°; mejor en Europa: Champions octavos 21/22; hoy 2° (sin dato de ingresos, no resta)."
+  },
+  "real-betis-balompie": {
+   "nivel": 4,
+   "puntaje": 0.761,
+   "motivo": "Últimas 5: 5°, 6°, 7°, 6°, 5°; mejor en Europa: Conference final 24/25; hoy 4°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "rb-leipzig": {
+   "nivel": 4,
+   "puntaje": 0.759,
+   "motivo": "Últimas 5: 4°, 3°, 4°, 7°, 3°; mejor en Europa: Europa League semis 21/22; hoy 5°; viene en caída (sin dato de ingresos, no resta)."
+  },
+  "atalanta-bc": {
+   "nivel": 4,
+   "puntaje": 0.751,
+   "motivo": "Últimas 5: 8°, 5°, 4°, 3°, 7°; mejor en Europa: Europa League campeón 23/24; hoy 11° (sin dato de ingresos, no resta)."
+  },
+  "villarreal-cf": {
+   "nivel": 4,
+   "puntaje": 0.742,
+   "motivo": "Últimas 5: 7°, 5°, 8°, 5°, 3°; mejor en Europa: Champions semis 21/22; hoy 10°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "brighton-hove-albion": {
+   "nivel": 4,
+   "puntaje": 0.726,
+   "motivo": "Últimas 5: 9°, 6°, 11°, 8°, 8°; mejor en Europa: Europa League octavos 23/24; hoy 3°."
+  },
+  "manchester-united": {
+   "nivel": 3,
+   "puntaje": 0.725,
+   "motivo": "Últimas 5: 6°, 3°, 8°, 15°, 3°; mejor en Europa: Europa League final 24/25; hoy 12°; viene en caída."
+  },
+  "olympique-lyon": {
+   "nivel": 3,
+   "puntaje": 0.725,
+   "motivo": "Últimas 5: 8°, 7°, 6°, 6°, 4°; mejor en Europa: Europa League cuartos 21/22; hoy 3°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "sc-freiburg": {
+   "nivel": 3,
+   "puntaje": 0.715,
+   "motivo": "Últimas 5: 6°, 5°, 10°, 5°, 7°; mejor en Europa: Europa League final 25/26; hoy 3°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "ss-lazio": {
+   "nivel": 3,
+   "puntaje": 0.698,
+   "motivo": "Últimas 5: 5°, 2°, 7°, 7°, 9°; mejor en Europa: Champions octavos 23/24; hoy 3°; viene en caída (sin dato de ingresos, no resta)."
+  },
+  "newcastle-united": {
+   "nivel": 3,
+   "puntaje": 0.669,
+   "motivo": "Últimas 5: 11°, 4°, 7°, 5°, 12°; mejor en Europa: Champions octavos 25/26; hoy 11°; viene en caída."
+  },
+  "vfb-stuttgart": {
+   "nivel": 3,
+   "puntaje": 0.669,
+   "motivo": "Últimas 5: 15°, 16°, 2°, 9°, 4°; mejor en Europa: Europa League octavos 25/26; hoy 10°; viene en subida."
+  },
+  "eintracht-frankfurt": {
+   "nivel": 3,
+   "puntaje": 0.646,
+   "motivo": "Últimas 5: 11°, 7°, 6°, 3°, 8°; mejor en Europa: Europa League campeón 21/22; hoy 13°."
+  },
+  "rc-lens": {
+   "nivel": 3,
+   "puntaje": 0.633,
+   "motivo": "Últimas 5: 7°, 2°, 7°, 8°, 2°; mejor en Europa: Champions fase 23/24; hoy 9° (sin dato de ingresos, no resta)."
+  },
+  "brentford-fc": {
+   "nivel": 3,
+   "puntaje": 0.629,
+   "motivo": "Últimas 5: 13°, 9°, 16°, 10°, 9°; hoy 4°; viene en subida."
+  },
+  "athletic-bilbao": {
+   "nivel": 3,
+   "puntaje": 0.623,
+   "motivo": "Últimas 5: 8°, 8°, 5°, 4°, 12°; mejor en Europa: Europa League semis 24/25; hoy 9° (sin dato de ingresos, no resta)."
+  },
+  "olympique-marseille": {
+   "nivel": 3,
+   "puntaje": 0.614,
+   "motivo": "Últimas 5: 2°, 3°, 8°, 2°, 5°; mejor en Europa: Europa League semis 23/24; hoy 17° (sin dato de ingresos, no resta)."
+  },
+  "real-sociedad": {
+   "nivel": 3,
+   "puntaje": 0.601,
+   "motivo": "Últimas 5: 6°, 4°, 6°, 11°, 10°; mejor en Europa: Champions octavos 23/24; hoy 8°; viene en caída (sin dato de ingresos, no resta)."
+  },
+  "afc-bournemouth": {
+   "nivel": 3,
+   "puntaje": 0.594,
+   "motivo": "Últimas 5: 2° (2ª div.), 15°, 12°, 9°, 6°; hoy 17°; viene en subida."
+  },
+  "como-1907": {
+   "nivel": 3,
+   "puntaje": 0.59,
+   "motivo": "Últimas 5: 13° (2ª div.), 13° (2ª div.), 2° (2ª div.), 10°, 4°; hoy 8°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "stade-rennais-fc": {
+   "nivel": 3,
+   "puntaje": 0.579,
+   "motivo": "Últimas 5: 4°, 4°, 10°, 12°, 6°; mejor en Europa: Conference octavos 21/22; hoy 6°; viene en caída (sin dato de ingresos, no resta)."
+  },
+  "rc-strasbourg-alsace": {
+   "nivel": 3,
+   "puntaje": 0.578,
+   "motivo": "Últimas 5: 6°, 15°, 13°, 7°, 8°; mejor en Europa: Conference semis 25/26; hoy 10°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "1-fsv-mainz-05": {
+   "nivel": 3,
+   "puntaje": 0.545,
+   "motivo": "Últimas 5: 8°, 9°, 13°, 6°, 10°; mejor en Europa: Conference cuartos 25/26; hoy 8°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "tottenham-hotspur": {
+   "nivel": 3,
+   "puntaje": 0.543,
+   "motivo": "Últimas 5: 4°, 8°, 5°, 17°, 17°; mejor en Europa: Europa League campeón 24/25; hoy 18°; viene en caída."
+  },
+  "celta-de-vigo": {
+   "nivel": 3,
+   "puntaje": 0.531,
+   "motivo": "Últimas 5: 11°, 13°, 14°, 7°, 6°; mejor en Europa: Europa League cuartos 25/26; hoy 15°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "acf-fiorentina": {
+   "nivel": 3,
+   "puntaje": 0.522,
+   "motivo": "Últimas 5: 7°, 8°, 8°, 6°, 15°; mejor en Europa: Conference final 22/23; hoy 18°; viene en caída (sin dato de ingresos, no resta)."
+  },
+  "bologna-fc-1909": {
+   "nivel": 3,
+   "puntaje": 0.516,
+   "motivo": "Últimas 5: 13°, 9°, 5°, 9°, 8°; mejor en Europa: Europa League cuartos 25/26; hoy 19° (sin dato de ingresos, no resta)."
+  },
+  "crystal-palace": {
+   "nivel": 3,
+   "puntaje": 0.498,
+   "motivo": "Últimas 5: 12°, 11°, 10°, 12°, 15°; mejor en Europa: Conference campeón 25/26; hoy 15°; viene en caída."
+  },
+  "rayo-vallecano": {
+   "nivel": 2,
+   "puntaje": 0.492,
+   "motivo": "Últimas 5: 12°, 12°, 17°, 8°, 8°; mejor en Europa: Conference final 25/26; hoy 12°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "nottingham-forest": {
+   "nivel": 2,
+   "puntaje": 0.489,
+   "motivo": "Últimas 5: 4° (2ª div.), 16°, 17°, 7°, 16°; mejor en Europa: Europa League semis 25/26; hoy 13°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "everton-fc": {
+   "nivel": 2,
+   "puntaje": 0.485,
+   "motivo": "Últimas 5: 16°, 17°, 15°, 13°, 13°; hoy 8°; viene en subida."
+  },
+  "fc-augsburg": {
+   "nivel": 2,
+   "puntaje": 0.451,
+   "motivo": "Últimas 5: 14°, 15°, 11°, 12°, 9°; hoy 6°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "tsg-1899-hoffenheim": {
+   "nivel": 2,
+   "puntaje": 0.442,
+   "motivo": "Últimas 5: 9°, 12°, 7°, 15°, 5°; mejor en Europa: Europa League fase 24/25; hoy 17° (sin dato de ingresos, no resta)."
+  },
+  "stade-brestois-29": {
+   "nivel": 2,
+   "puntaje": 0.44,
+   "motivo": "Últimas 5: 11°, 14°, 3°, 9°, 12°; mejor en Europa: Champions playoff 24/25; hoy 7°; viene en caída (sin dato de ingresos, no resta)."
+  },
+  "sevilla-fc": {
+   "nivel": 2,
+   "puntaje": 0.433,
+   "motivo": "Últimas 5: 4°, 11°, 13°, 17°, 13°; mejor en Europa: Europa League campeón 22/23; hoy 5°; viene en caída (sin dato de ingresos, no resta)."
+  },
+  "getafe-cf": {
+   "nivel": 2,
+   "puntaje": 0.417,
+   "motivo": "Últimas 5: 15°, 15°, 12°, 13°, 7°; hoy 13°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "ogc-nice": {
+   "nivel": 2,
+   "puntaje": 0.416,
+   "motivo": "Últimas 5: 5°, 9°, 5°, 4°, 16°; mejor en Europa: Conference cuartos 22/23; hoy 15°; viene en caída (sin dato de ingresos, no resta)."
+  },
+  "udinese-calcio": {
+   "nivel": 2,
+   "puntaje": 0.415,
+   "motivo": "Últimas 5: 12°, 12°, 15°, 12°, 10°; hoy 13°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "sunderland-afc": {
+   "nivel": 2,
+   "puntaje": 0.413,
+   "motivo": "Últimas 5: 5° (3ª div.), 6° (2ª div.), 16° (2ª div.), 4° (2ª div.), 7°; hoy 16°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "torino-fc": {
+   "nivel": 2,
+   "puntaje": 0.398,
+   "motivo": "Últimas 5: 10°, 10°, 9°, 11°, 12°; hoy 14°; viene en caída (sin dato de ingresos, no resta)."
+  },
+  "fc-toulouse": {
+   "nivel": 2,
+   "puntaje": 0.385,
+   "motivo": "Últimas 5: 1° (2ª div.), 13°, 11°, 10°, 9°; mejor en Europa: Europa League playoff 23/24; hoy 13°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "leeds-united": {
+   "nivel": 2,
+   "puntaje": 0.384,
+   "motivo": "Últimas 5: 17°, 19°, 3° (2ª div.), 1° (2ª div.), 14°; hoy 6°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "fulham-fc": {
+   "nivel": 2,
+   "puntaje": 0.383,
+   "motivo": "Últimas 5: 1° (2ª div.), 10°, 13°, 11°, 11°; hoy 20° (sin dato de ingresos, no resta)."
+  },
+  "valencia-cf": {
+   "nivel": 2,
+   "puntaje": 0.379,
+   "motivo": "Últimas 5: 9°, 14°, 9°, 12°, 9°; hoy 19° (sin dato de ingresos, no resta)."
+  },
+  "cagliari-calcio": {
+   "nivel": 2,
+   "puntaje": 0.367,
+   "motivo": "Últimas 5: 18°, 5° (2ª div.), 16°, 15°, 14°; hoy 4°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "us-sassuolo": {
+   "nivel": 2,
+   "puntaje": 0.362,
+   "motivo": "Últimas 5: 11°, 13°, 19°, 1° (2ª div.), 11°; hoy 10°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "paris-fc": {
+   "nivel": 2,
+   "puntaje": 0.36,
+   "motivo": "Últimas 5: 4° (2ª div.), 7° (2ª div.), 5° (2ª div.), 2° (2ª div.), 11°; hoy 4°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "sv-werder-bremen": {
+   "nivel": 2,
+   "puntaje": 0.352,
+   "motivo": "Últimas 5: 2° (2ª div.), 13°, 9°, 8°, 15°; hoy 7° (sin dato de ingresos, no resta)."
+  },
+  "rcd-espanyol-barcelona": {
+   "nivel": 2,
+   "puntaje": 0.347,
+   "motivo": "Últimas 5: 14°, 19°, 4° (2ª div.), 14°, 11°; hoy 11°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "1-fc-union-berlin": {
+   "nivel": 2,
+   "puntaje": 0.323,
+   "motivo": "Últimas 5: 5°, 4°, 15°, 13°, 11°; mejor en Europa: Europa League octavos 22/23; hoy 16°; viene en caída (sin dato de ingresos, no resta)."
+  },
+  "borussia-monchengladbach": {
+   "nivel": 2,
+   "puntaje": 0.318,
+   "motivo": "Últimas 5: 10°, 10°, 14°, 10°, 12°; hoy 18° (sin dato de ingresos, no resta)."
+  },
+  "ca-osasuna": {
+   "nivel": 2,
+   "puntaje": 0.308,
+   "motivo": "Últimas 5: 10°, 7°, 11°, 9°, 17°; hoy 14°; viene en caída (sin dato de ingresos, no resta)."
+  },
+  "fc-lorient": {
+   "nivel": 2,
+   "puntaje": 0.306,
+   "motivo": "Últimas 5: 16°, 10°, 17°, 1° (2ª div.), 10°; hoy 8° (sin dato de ingresos, no resta)."
+  },
+  "deportivo-alaves": {
+   "nivel": 1,
+   "puntaje": 0.298,
+   "motivo": "Últimas 5: 20°, 2° (2ª div.), 10°, 15°, 14°; hoy 6° (sin dato de ingresos, no resta)."
+  },
+  "ipswich-town": {
+   "nivel": 1,
+   "puntaje": 0.265,
+   "motivo": "Últimas 5: 11° (3ª div.), 2° (3ª div.), 2° (2ª div.), 19°, 2° (2ª div.); hoy 9° (sin dato de ingresos, no resta)."
+  },
+  "genoa-cfc": {
+   "nivel": 1,
+   "puntaje": 0.262,
+   "motivo": "Últimas 5: 19°, 2° (2ª div.), 11°, 13°, 16°; hoy 16° (sin dato de ingresos, no resta)."
+  },
+  "1-fc-koln": {
+   "nivel": 1,
+   "puntaje": 0.258,
+   "motivo": "Últimas 5: 7°, 11°, 17°, 1° (2ª div.), 14°; mejor en Europa: Conference fase 22/23; hoy 14° (sin dato de ingresos, no resta)."
+  },
+  "parma-calcio-1913": {
+   "nivel": 1,
+   "puntaje": 0.256,
+   "motivo": "Últimas 5: 12° (2ª div.), 4° (2ª div.), 1° (2ª div.), 16°, 13°; hoy 17°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "hamburger-sv": {
+   "nivel": 1,
+   "puntaje": 0.24,
+   "motivo": "Últimas 5: 3° (2ª div.), 3° (2ª div.), 4° (2ª div.), 2° (2ª div.), 13°; hoy 11°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "angers-sco": {
+   "nivel": 1,
+   "puntaje": 0.226,
+   "motivo": "Últimas 5: 14°, 20°, 2° (2ª div.), 14°, 13°; hoy 11°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "hull-city": {
+   "nivel": 1,
+   "puntaje": 0.211,
+   "motivo": "Últimas 5: 19° (2ª div.), 15° (2ª div.), 7° (2ª div.), 21° (2ª div.), 6° (2ª div.); hoy 10° (sin dato de ingresos, no resta)."
+  },
+  "aj-auxerre": {
+   "nivel": 1,
+   "puntaje": 0.211,
+   "motivo": "Últimas 5: 3° (2ª div.), 17°, 1° (2ª div.), 11°, 15°; hoy 14°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "coventry-city": {
+   "nivel": 1,
+   "puntaje": 0.2,
+   "motivo": "Últimas 5: 12° (2ª div.), 5° (2ª div.), 9° (2ª div.), 5° (2ª div.), 1° (2ª div.); hoy 19° (sin dato de ingresos, no resta)."
+  },
+  "us-lecce": {
+   "nivel": 1,
+   "puntaje": 0.195,
+   "motivo": "Últimas 5: 1° (2ª div.), 16°, 14°, 17°, 17°; hoy 12°; viene en caída (sin dato de ingresos, no resta)."
+  },
+  "deportivo-a-coruna": {
+   "nivel": 1,
+   "puntaje": 0.194,
+   "motivo": "Últimas 5: 2° (3ª div.), 4° (3ª div.), 1° (3ª div.), 15° (2ª div.), 2° (2ª div.); hoy 7° (sin dato de ingresos, no resta)."
+  },
+  "sv-07-elversberg": {
+   "nivel": 1,
+   "puntaje": 0.18,
+   "motivo": "Últimas 5: 1° (4ª div.), 1° (3ª div.), 11° (2ª div.), 3° (2ª div.), 2° (2ª div.); hoy 9°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "ac-monza": {
+   "nivel": 1,
+   "puntaje": 0.171,
+   "motivo": "Últimas 5: 4° (2ª div.), 11°, 12°, 20°, 3° (2ª div.); hoy 15°; viene en caída (sin dato de ingresos, no resta)."
+  },
+  "racing-santander": {
+   "nivel": 1,
+   "puntaje": 0.17,
+   "motivo": "Últimas 5: 1° (3ª div.), 12° (2ª div.), 7° (2ª div.), 5° (2ª div.), 1° (2ª div.); hoy 16° (sin dato de ingresos, no resta)."
+  },
+  "frosinone-calcio": {
+   "nivel": 1,
+   "puntaje": 0.165,
+   "motivo": "Últimas 5: 9° (2ª div.), 1° (2ª div.), 18°, 15° (2ª div.), 2° (2ª div.); hoy 9° (sin dato de ingresos, no resta)."
+  },
+  "elche-cf": {
+   "nivel": 1,
+   "puntaje": 0.158,
+   "motivo": "Últimas 5: 13°, 20°, 11° (2ª div.), 2° (2ª div.), 15°; hoy 18°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "levante-ud": {
+   "nivel": 1,
+   "puntaje": 0.157,
+   "motivo": "Últimas 5: 19°, 4° (2ª div.), 8° (2ª div.), 1° (2ª div.), 16°; hoy 17°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "fc-schalke-04": {
+   "nivel": 1,
+   "puntaje": 0.126,
+   "motivo": "Últimas 5: 1° (2ª div.), 17°, 10° (2ª div.), 14° (2ª div.), 1° (2ª div.); hoy 12° (sin dato de ingresos, no resta)."
+  },
+  "le-havre-ac": {
+   "nivel": 1,
+   "puntaje": 0.124,
+   "motivo": "Últimas 5: 8° (2ª div.), 1° (2ª div.), 15°, 15°, 14°; hoy 18° (sin dato de ingresos, no resta)."
+  },
+  "sc-paderborn-07": {
+   "nivel": 1,
+   "puntaje": 0.111,
+   "motivo": "Últimas 5: 7° (2ª div.), 6° (2ª div.), 7° (2ª div.), 4° (2ª div.), 3° (2ª div.); hoy 15° (sin dato de ingresos, no resta)."
+  },
+  "venezia-fc": {
+   "nivel": 1,
+   "puntaje": 0.105,
+   "motivo": "Últimas 5: 20°, 8° (2ª div.), 3° (2ª div.), 19°, 1° (2ª div.); hoy 20° (sin dato de ingresos, no resta)."
+  },
+  "le-mans-fc": {
+   "nivel": 1,
+   "puntaje": 0.103,
+   "motivo": "Últimas 5: 10° (3ª div.), 11° (3ª div.), 5° (3ª div.), 2° (3ª div.), 2° (2ª div.); hoy 12°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "estac-troyes": {
+   "nivel": 1,
+   "puntaje": 0.093,
+   "motivo": "Últimas 5: 15°, 19°, 17° (2ª div.), 10° (2ª div.), 1° (2ª div.); hoy 16°; viene en subida (sin dato de ingresos, no resta)."
+  },
+  "malaga-cf": {
+   "nivel": 1,
+   "puntaje": 0.038,
+   "motivo": "Últimas 5: 18° (2ª div.), 20° (2ª div.), 3° (3ª div.), 16° (2ª div.), 4° (2ª div.); hoy 20° (sin dato de ingresos, no resta)."
+  }
+ }
+}

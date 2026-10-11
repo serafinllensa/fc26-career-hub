@@ -1,0 +1,2435 @@
+{
+ "liga": "LaLiga",
+ "temporada": "26/27",
+ "fuente": "https://www.transfermarkt.com/x/gesamtspielplan/wettbewerb/ES1/saison_id/2026",
+ "fecha": "2026-10-11",
+ "nota": "Calendario oficial publicado (vía Transfermarkt). Fechas de partidos posteriores pueden moverse por TV; resultadoReal = partidos ya jugados en la vida real. fecha de jornada = fecha mediana; reprogramado=true si el partido se juega a más de 4 días de su jornada (adelantado o postergado en la vida real).",
+ "jornadas": [
+  {
+   "n": 1,
+   "fecha": "2026-08-19",
+   "partidos": [
+    {
+     "local": "deportivo-alaves",
+     "visitante": "getafe-cf",
+     "fecha": "2026-08-15",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 0
+     }
+    },
+    {
+     "local": "sevilla-fc",
+     "visitante": "rayo-vallecano",
+     "fecha": "2026-08-15",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "racing-santander",
+     "visitante": "villarreal-cf",
+     "fecha": "2026-08-16",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "rcd-espanyol-barcelona",
+     "visitante": "levante-ud",
+     "fecha": "2026-08-16",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 0
+     }
+    },
+    {
+     "local": "deportivo-a-coruna",
+     "visitante": "elche-cf",
+     "fecha": "2026-08-17",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "atletico-de-madrid",
+     "visitante": "malaga-cf",
+     "fecha": "2026-08-19",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 0
+     }
+    },
+    {
+     "local": "valencia-cf",
+     "visitante": "real-betis-balompie",
+     "fecha": "2026-08-25",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 1
+     },
+     "reprogramado": true
+    },
+    {
+     "local": "real-madrid",
+     "visitante": "real-sociedad",
+     "fecha": "2026-08-26",
+     "resultadoReal": {
+      "gl": 4,
+      "gv": 1
+     },
+     "reprogramado": true
+    },
+    {
+     "local": "celta-de-vigo",
+     "visitante": "ca-osasuna",
+     "fecha": "2026-08-27",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 2
+     },
+     "reprogramado": true
+    },
+    {
+     "local": "fc-barcelona",
+     "visitante": "athletic-bilbao",
+     "fecha": "2026-08-27",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 0
+     },
+     "reprogramado": true
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "fecha": "2026-08-23",
+   "partidos": [
+    {
+     "local": "rayo-vallecano",
+     "visitante": "deportivo-alaves",
+     "fecha": "2026-08-20",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "real-betis-balompie",
+     "visitante": "real-sociedad",
+     "fecha": "2026-08-21",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    },
+    {
+     "local": "athletic-bilbao",
+     "visitante": "sevilla-fc",
+     "fecha": "2026-08-22",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 3
+     }
+    },
+    {
+     "local": "valencia-cf",
+     "visitante": "celta-de-vigo",
+     "fecha": "2026-08-22",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 0
+     }
+    },
+    {
+     "local": "rcd-espanyol-barcelona",
+     "visitante": "real-madrid",
+     "fecha": "2026-08-22",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 2
+     }
+    },
+    {
+     "local": "atletico-de-madrid",
+     "visitante": "villarreal-cf",
+     "fecha": "2026-08-23",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "getafe-cf",
+     "visitante": "racing-santander",
+     "fecha": "2026-08-23",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    },
+    {
+     "local": "elche-cf",
+     "visitante": "fc-barcelona",
+     "fecha": "2026-08-23",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 5
+     }
+    },
+    {
+     "local": "ca-osasuna",
+     "visitante": "levante-ud",
+     "fecha": "2026-08-24",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 0
+     }
+    },
+    {
+     "local": "malaga-cf",
+     "visitante": "deportivo-a-coruna",
+     "fecha": "2026-08-24",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "fecha": "2026-08-30",
+   "partidos": [
+    {
+     "local": "racing-santander",
+     "visitante": "elche-cf",
+     "fecha": "2026-08-28",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 2
+     }
+    },
+    {
+     "local": "deportivo-alaves",
+     "visitante": "villarreal-cf",
+     "fecha": "2026-08-28",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    },
+    {
+     "local": "levante-ud",
+     "visitante": "real-betis-balompie",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 5,
+      "gv": 2
+     }
+    },
+    {
+     "local": "real-sociedad",
+     "visitante": "rcd-espanyol-barcelona",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "sevilla-fc",
+     "visitante": "atletico-de-madrid",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 3
+     }
+    },
+    {
+     "local": "real-madrid",
+     "visitante": "malaga-cf",
+     "fecha": "2026-08-30",
+     "resultadoReal": {
+      "gl": 4,
+      "gv": 0
+     }
+    },
+    {
+     "local": "deportivo-a-coruna",
+     "visitante": "valencia-cf",
+     "fecha": "2026-08-30",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 1
+     }
+    },
+    {
+     "local": "celta-de-vigo",
+     "visitante": "athletic-bilbao",
+     "fecha": "2026-08-30",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 2
+     }
+    },
+    {
+     "local": "ca-osasuna",
+     "visitante": "getafe-cf",
+     "fecha": "2026-08-31",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    },
+    {
+     "local": "fc-barcelona",
+     "visitante": "rayo-vallecano",
+     "fecha": "2026-08-31",
+     "resultadoReal": {
+      "gl": 5,
+      "gv": 2
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "fecha": "2026-09-06",
+   "partidos": [
+    {
+     "local": "real-betis-balompie",
+     "visitante": "real-madrid",
+     "fecha": "2026-09-04",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    },
+    {
+     "local": "athletic-bilbao",
+     "visitante": "atletico-de-madrid",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 0
+     }
+    },
+    {
+     "local": "rayo-vallecano",
+     "visitante": "racing-santander",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 2
+     }
+    },
+    {
+     "local": "villarreal-cf",
+     "visitante": "deportivo-a-coruna",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 3
+     }
+    },
+    {
+     "local": "valencia-cf",
+     "visitante": "fc-barcelona",
+     "fecha": "2026-09-06",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 5
+     }
+    },
+    {
+     "local": "deportivo-alaves",
+     "visitante": "ca-osasuna",
+     "fecha": "2026-09-06",
+     "resultadoReal": {
+      "gl": 5,
+      "gv": 2
+     }
+    },
+    {
+     "local": "malaga-cf",
+     "visitante": "levante-ud",
+     "fecha": "2026-09-06",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 0
+     }
+    },
+    {
+     "local": "rcd-espanyol-barcelona",
+     "visitante": "sevilla-fc",
+     "fecha": "2026-09-06",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "getafe-cf",
+     "visitante": "celta-de-vigo",
+     "fecha": "2026-09-07",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "elche-cf",
+     "visitante": "real-sociedad",
+     "fecha": "2026-09-07",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 3
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "fecha": "2026-09-13",
+   "partidos": [
+    {
+     "local": "sevilla-fc",
+     "visitante": "valencia-cf",
+     "fecha": "2026-09-11",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    },
+    {
+     "local": "racing-santander",
+     "visitante": "deportivo-alaves",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "ca-osasuna",
+     "visitante": "rcd-espanyol-barcelona",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 2
+     }
+    },
+    {
+     "local": "athletic-bilbao",
+     "visitante": "elche-cf",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "real-madrid",
+     "visitante": "rayo-vallecano",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 4,
+      "gv": 1
+     }
+    },
+    {
+     "local": "celta-de-vigo",
+     "visitante": "malaga-cf",
+     "fecha": "2026-09-13",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "levante-ud",
+     "visitante": "fc-barcelona",
+     "fecha": "2026-09-13",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 4
+     }
+    },
+    {
+     "local": "getafe-cf",
+     "visitante": "deportivo-a-coruna",
+     "fecha": "2026-09-13",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "real-sociedad",
+     "visitante": "atletico-de-madrid",
+     "fecha": "2026-09-13",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 3
+     }
+    },
+    {
+     "local": "villarreal-cf",
+     "visitante": "real-betis-balompie",
+     "fecha": "2026-09-14",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 2
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "fecha": "2026-09-16",
+   "partidos": [
+    {
+     "local": "real-sociedad",
+     "visitante": "celta-de-vigo",
+     "fecha": "2026-09-03",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 0
+     },
+     "reprogramado": true
+    },
+    {
+     "local": "rayo-vallecano",
+     "visitante": "rcd-espanyol-barcelona",
+     "fecha": "2026-09-15",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "deportivo-alaves",
+     "visitante": "valencia-cf",
+     "fecha": "2026-09-15",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 1
+     }
+    },
+    {
+     "local": "elche-cf",
+     "visitante": "real-madrid",
+     "fecha": "2026-09-15",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 3
+     }
+    },
+    {
+     "local": "atletico-de-madrid",
+     "visitante": "ca-osasuna",
+     "fecha": "2026-09-16",
+     "resultadoReal": {
+      "gl": 4,
+      "gv": 0
+     }
+    },
+    {
+     "local": "deportivo-a-coruna",
+     "visitante": "sevilla-fc",
+     "fecha": "2026-09-16",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 1
+     }
+    },
+    {
+     "local": "fc-barcelona",
+     "visitante": "racing-santander",
+     "fecha": "2026-09-16",
+     "resultadoReal": {
+      "gl": 7,
+      "gv": 2
+     }
+    },
+    {
+     "local": "real-betis-balompie",
+     "visitante": "getafe-cf",
+     "fecha": "2026-09-17",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    },
+    {
+     "local": "malaga-cf",
+     "visitante": "villarreal-cf",
+     "fecha": "2026-09-17",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 3
+     }
+    },
+    {
+     "local": "levante-ud",
+     "visitante": "athletic-bilbao",
+     "fecha": "2026-10-21",
+     "reprogramado": true
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "fecha": "2026-09-20",
+   "partidos": [
+    {
+     "local": "rcd-espanyol-barcelona",
+     "visitante": "elche-cf",
+     "fecha": "2026-09-18",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 3
+     }
+    },
+    {
+     "local": "ca-osasuna",
+     "visitante": "rayo-vallecano",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "athletic-bilbao",
+     "visitante": "deportivo-alaves",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 0
+     }
+    },
+    {
+     "local": "celta-de-vigo",
+     "visitante": "racing-santander",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 5,
+      "gv": 0
+     }
+    },
+    {
+     "local": "sevilla-fc",
+     "visitante": "fc-barcelona",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 3
+     }
+    },
+    {
+     "local": "getafe-cf",
+     "visitante": "malaga-cf",
+     "fecha": "2026-09-20",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    },
+    {
+     "local": "atletico-de-madrid",
+     "visitante": "real-madrid",
+     "fecha": "2026-09-20",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "deportivo-a-coruna",
+     "visitante": "real-betis-balompie",
+     "fecha": "2026-09-20",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "villarreal-cf",
+     "visitante": "levante-ud",
+     "fecha": "2026-09-20",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 1
+     }
+    },
+    {
+     "local": "valencia-cf",
+     "visitante": "real-sociedad",
+     "fecha": "2026-09-20",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 3
+     }
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "fecha": "2026-10-11",
+   "partidos": [
+    {
+     "local": "malaga-cf",
+     "visitante": "rcd-espanyol-barcelona",
+     "fecha": "2026-10-09",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "rayo-vallecano",
+     "visitante": "athletic-bilbao",
+     "fecha": "2026-10-10"
+    },
+    {
+     "local": "deportivo-alaves",
+     "visitante": "atletico-de-madrid",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 2
+     }
+    },
+    {
+     "local": "fc-barcelona",
+     "visitante": "getafe-cf",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 0
+     }
+    },
+    {
+     "local": "real-madrid",
+     "visitante": "villarreal-cf",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    },
+    {
+     "local": "elche-cf",
+     "visitante": "celta-de-vigo",
+     "fecha": "2026-10-11"
+    },
+    {
+     "local": "real-sociedad",
+     "visitante": "deportivo-a-coruna",
+     "fecha": "2026-10-11"
+    },
+    {
+     "local": "real-betis-balompie",
+     "visitante": "ca-osasuna",
+     "fecha": "2026-10-11"
+    },
+    {
+     "local": "racing-santander",
+     "visitante": "valencia-cf",
+     "fecha": "2026-10-11"
+    },
+    {
+     "local": "levante-ud",
+     "visitante": "sevilla-fc",
+     "fecha": "2026-10-12"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "fecha": "2026-10-18",
+   "partidos": [
+    {
+     "local": "deportivo-a-coruna",
+     "visitante": "levante-ud",
+     "fecha": "2026-10-16"
+    },
+    {
+     "local": "rcd-espanyol-barcelona",
+     "visitante": "atletico-de-madrid",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "villarreal-cf",
+     "visitante": "elche-cf",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "real-betis-balompie",
+     "visitante": "fc-barcelona",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "valencia-cf",
+     "visitante": "athletic-bilbao",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "ca-osasuna",
+     "visitante": "racing-santander",
+     "fecha": "2026-10-18"
+    },
+    {
+     "local": "celta-de-vigo",
+     "visitante": "deportivo-alaves",
+     "fecha": "2026-10-18"
+    },
+    {
+     "local": "malaga-cf",
+     "visitante": "real-sociedad",
+     "fecha": "2026-10-18"
+    },
+    {
+     "local": "real-madrid",
+     "visitante": "sevilla-fc",
+     "fecha": "2026-10-18"
+    },
+    {
+     "local": "getafe-cf",
+     "visitante": "rayo-vallecano",
+     "fecha": "2026-10-19"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "fecha": "2026-10-25",
+   "partidos": [
+    {
+     "local": "deportivo-alaves",
+     "visitante": "malaga-cf",
+     "fecha": "2026-10-23"
+    },
+    {
+     "local": "rayo-vallecano",
+     "visitante": "elche-cf",
+     "fecha": "2026-10-24"
+    },
+    {
+     "local": "racing-santander",
+     "visitante": "rcd-espanyol-barcelona",
+     "fecha": "2026-10-24"
+    },
+    {
+     "local": "valencia-cf",
+     "visitante": "villarreal-cf",
+     "fecha": "2026-10-24"
+    },
+    {
+     "local": "atletico-de-madrid",
+     "visitante": "deportivo-a-coruna",
+     "fecha": "2026-10-24"
+    },
+    {
+     "local": "athletic-bilbao",
+     "visitante": "getafe-cf",
+     "fecha": "2026-10-25"
+    },
+    {
+     "local": "celta-de-vigo",
+     "visitante": "real-betis-balompie",
+     "fecha": "2026-10-25"
+    },
+    {
+     "local": "real-sociedad",
+     "visitante": "levante-ud",
+     "fecha": "2026-10-25"
+    },
+    {
+     "local": "fc-barcelona",
+     "visitante": "real-madrid",
+     "fecha": "2026-10-25"
+    },
+    {
+     "local": "sevilla-fc",
+     "visitante": "ca-osasuna",
+     "fecha": "2026-10-26"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "fecha": "2026-11-01",
+   "partidos": [
+    {
+     "local": "villarreal-cf",
+     "visitante": "rcd-espanyol-barcelona",
+     "fecha": "2026-10-30"
+    },
+    {
+     "local": "levante-ud",
+     "visitante": "atletico-de-madrid",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "rayo-vallecano",
+     "visitante": "celta-de-vigo",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "real-betis-balompie",
+     "visitante": "malaga-cf",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "fc-barcelona",
+     "visitante": "deportivo-alaves",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "getafe-cf",
+     "visitante": "sevilla-fc",
+     "fecha": "2026-11-01"
+    },
+    {
+     "local": "racing-santander",
+     "visitante": "real-madrid",
+     "fecha": "2026-11-01"
+    },
+    {
+     "local": "elche-cf",
+     "visitante": "valencia-cf",
+     "fecha": "2026-11-01"
+    },
+    {
+     "local": "athletic-bilbao",
+     "visitante": "real-sociedad",
+     "fecha": "2026-11-01"
+    },
+    {
+     "local": "deportivo-a-coruna",
+     "visitante": "ca-osasuna",
+     "fecha": "2026-11-02"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "fecha": "2026-11-08",
+   "partidos": [
+    {
+     "local": "atletico-de-madrid",
+     "visitante": "fc-barcelona",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "celta-de-vigo",
+     "visitante": "levante-ud",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "elche-cf",
+     "visitante": "real-betis-balompie",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "rcd-espanyol-barcelona",
+     "visitante": "deportivo-a-coruna",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "malaga-cf",
+     "visitante": "racing-santander",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "ca-osasuna",
+     "visitante": "athletic-bilbao",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "real-sociedad",
+     "visitante": "rayo-vallecano",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "sevilla-fc",
+     "visitante": "deportivo-alaves",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "valencia-cf",
+     "visitante": "real-madrid",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "villarreal-cf",
+     "visitante": "getafe-cf",
+     "fecha": "2026-11-08"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "fecha": "2026-11-22",
+   "partidos": [
+    {
+     "local": "deportivo-alaves",
+     "visitante": "deportivo-a-coruna",
+     "fecha": "2026-11-22"
+    },
+    {
+     "local": "athletic-bilbao",
+     "visitante": "rcd-espanyol-barcelona",
+     "fecha": "2026-11-22"
+    },
+    {
+     "local": "fc-barcelona",
+     "visitante": "villarreal-cf",
+     "fecha": "2026-11-22"
+    },
+    {
+     "local": "getafe-cf",
+     "visitante": "atletico-de-madrid",
+     "fecha": "2026-11-22"
+    },
+    {
+     "local": "levante-ud",
+     "visitante": "elche-cf",
+     "fecha": "2026-11-22"
+    },
+    {
+     "local": "ca-osasuna",
+     "visitante": "malaga-cf",
+     "fecha": "2026-11-22"
+    },
+    {
+     "local": "racing-santander",
+     "visitante": "real-sociedad",
+     "fecha": "2026-11-22"
+    },
+    {
+     "local": "rayo-vallecano",
+     "visitante": "valencia-cf",
+     "fecha": "2026-11-22"
+    },
+    {
+     "local": "real-madrid",
+     "visitante": "celta-de-vigo",
+     "fecha": "2026-11-22"
+    },
+    {
+     "local": "sevilla-fc",
+     "visitante": "real-betis-balompie",
+     "fecha": "2026-11-22"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "fecha": "2026-11-29",
+   "partidos": [
+    {
+     "local": "real-betis-balompie",
+     "visitante": "rayo-vallecano",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "celta-de-vigo",
+     "visitante": "villarreal-cf",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "deportivo-a-coruna",
+     "visitante": "fc-barcelona",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "elche-cf",
+     "visitante": "atletico-de-madrid",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "rcd-espanyol-barcelona",
+     "visitante": "getafe-cf",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "levante-ud",
+     "visitante": "racing-santander",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "malaga-cf",
+     "visitante": "athletic-bilbao",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "real-madrid",
+     "visitante": "deportivo-alaves",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "real-sociedad",
+     "visitante": "sevilla-fc",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "valencia-cf",
+     "visitante": "ca-osasuna",
+     "fecha": "2026-11-29"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "fecha": "2026-12-06",
+   "partidos": [
+    {
+     "local": "deportivo-alaves",
+     "visitante": "rcd-espanyol-barcelona",
+     "fecha": "2026-12-06"
+    },
+    {
+     "local": "athletic-bilbao",
+     "visitante": "real-madrid",
+     "fecha": "2026-12-06"
+    },
+    {
+     "local": "atletico-de-madrid",
+     "visitante": "real-betis-balompie",
+     "fecha": "2026-12-06"
+    },
+    {
+     "local": "fc-barcelona",
+     "visitante": "celta-de-vigo",
+     "fecha": "2026-12-06"
+    },
+    {
+     "local": "getafe-cf",
+     "visitante": "valencia-cf",
+     "fecha": "2026-12-06"
+    },
+    {
+     "local": "ca-osasuna",
+     "visitante": "elche-cf",
+     "fecha": "2026-12-06"
+    },
+    {
+     "local": "racing-santander",
+     "visitante": "deportivo-a-coruna",
+     "fecha": "2026-12-06"
+    },
+    {
+     "local": "rayo-vallecano",
+     "visitante": "levante-ud",
+     "fecha": "2026-12-06"
+    },
+    {
+     "local": "sevilla-fc",
+     "visitante": "malaga-cf",
+     "fecha": "2026-12-06"
+    },
+    {
+     "local": "villarreal-cf",
+     "visitante": "real-sociedad",
+     "fecha": "2026-12-06"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "fecha": "2026-12-13",
+   "partidos": [
+    {
+     "local": "atletico-de-madrid",
+     "visitante": "valencia-cf",
+     "fecha": "2026-12-13"
+    },
+    {
+     "local": "real-betis-balompie",
+     "visitante": "racing-santander",
+     "fecha": "2026-12-13"
+    },
+    {
+     "local": "deportivo-a-coruna",
+     "visitante": "athletic-bilbao",
+     "fecha": "2026-12-13"
+    },
+    {
+     "local": "elche-cf",
+     "visitante": "sevilla-fc",
+     "fecha": "2026-12-13"
+    },
+    {
+     "local": "rcd-espanyol-barcelona",
+     "visitante": "celta-de-vigo",
+     "fecha": "2026-12-13"
+    },
+    {
+     "local": "levante-ud",
+     "visitante": "deportivo-alaves",
+     "fecha": "2026-12-13"
+    },
+    {
+     "local": "malaga-cf",
+     "visitante": "fc-barcelona",
+     "fecha": "2026-12-13"
+    },
+    {
+     "local": "real-madrid",
+     "visitante": "ca-osasuna",
+     "fecha": "2026-12-13"
+    },
+    {
+     "local": "real-sociedad",
+     "visitante": "getafe-cf",
+     "fecha": "2026-12-13"
+    },
+    {
+     "local": "villarreal-cf",
+     "visitante": "rayo-vallecano",
+     "fecha": "2026-12-13"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "fecha": "2026-12-20",
+   "partidos": [
+    {
+     "local": "deportivo-alaves",
+     "visitante": "elche-cf",
+     "fecha": "2026-12-20"
+    },
+    {
+     "local": "athletic-bilbao",
+     "visitante": "real-betis-balompie",
+     "fecha": "2026-12-20"
+    },
+    {
+     "local": "celta-de-vigo",
+     "visitante": "atletico-de-madrid",
+     "fecha": "2026-12-20"
+    },
+    {
+     "local": "deportivo-a-coruna",
+     "visitante": "real-madrid",
+     "fecha": "2026-12-20"
+    },
+    {
+     "local": "fc-barcelona",
+     "visitante": "real-sociedad",
+     "fecha": "2026-12-20"
+    },
+    {
+     "local": "getafe-cf",
+     "visitante": "levante-ud",
+     "fecha": "2026-12-20"
+    },
+    {
+     "local": "ca-osasuna",
+     "visitante": "villarreal-cf",
+     "fecha": "2026-12-20"
+    },
+    {
+     "local": "rayo-vallecano",
+     "visitante": "malaga-cf",
+     "fecha": "2026-12-20"
+    },
+    {
+     "local": "sevilla-fc",
+     "visitante": "racing-santander",
+     "fecha": "2026-12-20"
+    },
+    {
+     "local": "valencia-cf",
+     "visitante": "rcd-espanyol-barcelona",
+     "fecha": "2026-12-20"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "fecha": "2027-01-03",
+   "partidos": [
+    {
+     "local": "real-betis-balompie",
+     "visitante": "deportivo-alaves",
+     "fecha": "2027-01-03"
+    },
+    {
+     "local": "celta-de-vigo",
+     "visitante": "deportivo-a-coruna",
+     "fecha": "2027-01-03"
+    },
+    {
+     "local": "rcd-espanyol-barcelona",
+     "visitante": "fc-barcelona",
+     "fecha": "2027-01-03"
+    },
+    {
+     "local": "levante-ud",
+     "visitante": "valencia-cf",
+     "fecha": "2027-01-03"
+    },
+    {
+     "local": "malaga-cf",
+     "visitante": "elche-cf",
+     "fecha": "2027-01-03"
+    },
+    {
+     "local": "racing-santander",
+     "visitante": "athletic-bilbao",
+     "fecha": "2027-01-03"
+    },
+    {
+     "local": "rayo-vallecano",
+     "visitante": "atletico-de-madrid",
+     "fecha": "2027-01-03"
+    },
+    {
+     "local": "real-madrid",
+     "visitante": "getafe-cf",
+     "fecha": "2027-01-03"
+    },
+    {
+     "local": "real-sociedad",
+     "visitante": "ca-osasuna",
+     "fecha": "2027-01-03"
+    },
+    {
+     "local": "villarreal-cf",
+     "visitante": "sevilla-fc",
+     "fecha": "2027-01-03"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "fecha": "2027-01-10",
+   "partidos": [
+    {
+     "local": "deportivo-alaves",
+     "visitante": "real-sociedad",
+     "fecha": "2027-01-10"
+    },
+    {
+     "local": "athletic-bilbao",
+     "visitante": "villarreal-cf",
+     "fecha": "2027-01-10"
+    },
+    {
+     "local": "atletico-de-madrid",
+     "visitante": "racing-santander",
+     "fecha": "2027-01-10"
+    },
+    {
+     "local": "deportivo-a-coruna",
+     "visitante": "rayo-vallecano",
+     "fecha": "2027-01-10"
+    },
+    {
+     "local": "elche-cf",
+     "visitante": "getafe-cf",
+     "fecha": "2027-01-10"
+    },
+    {
+     "local": "rcd-espanyol-barcelona",
+     "visitante": "real-betis-balompie",
+     "fecha": "2027-01-10"
+    },
+    {
+     "local": "ca-osasuna",
+     "visitante": "fc-barcelona",
+     "fecha": "2027-01-10"
+    },
+    {
+     "local": "real-madrid",
+     "visitante": "levante-ud",
+     "fecha": "2027-01-10"
+    },
+    {
+     "local": "sevilla-fc",
+     "visitante": "celta-de-vigo",
+     "fecha": "2027-01-10"
+    },
+    {
+     "local": "valencia-cf",
+     "visitante": "malaga-cf",
+     "fecha": "2027-01-10"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "fecha": "2027-01-17",
+   "partidos": [
+    {
+     "local": "atletico-de-madrid",
+     "visitante": "real-sociedad",
+     "fecha": "2027-01-17"
+    },
+    {
+     "local": "real-betis-balompie",
+     "visitante": "deportivo-a-coruna",
+     "fecha": "2027-01-17"
+    },
+    {
+     "local": "celta-de-vigo",
+     "visitante": "valencia-cf",
+     "fecha": "2027-01-17"
+    },
+    {
+     "local": "fc-barcelona",
+     "visitante": "elche-cf",
+     "fecha": "2027-01-17"
+    },
+    {
+     "local": "getafe-cf",
+     "visitante": "athletic-bilbao",
+     "fecha": "2027-01-17"
+    },
+    {
+     "local": "levante-ud",
+     "visitante": "rcd-espanyol-barcelona",
+     "fecha": "2027-01-17"
+    },
+    {
+     "local": "malaga-cf",
+     "visitante": "real-madrid",
+     "fecha": "2027-01-17"
+    },
+    {
+     "local": "racing-santander",
+     "visitante": "ca-osasuna",
+     "fecha": "2027-01-17"
+    },
+    {
+     "local": "rayo-vallecano",
+     "visitante": "sevilla-fc",
+     "fecha": "2027-01-17"
+    },
+    {
+     "local": "villarreal-cf",
+     "visitante": "deportivo-alaves",
+     "fecha": "2027-01-17"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "fecha": "2027-01-24",
+   "partidos": [
+    {
+     "local": "deportivo-alaves",
+     "visitante": "fc-barcelona",
+     "fecha": "2027-01-24"
+    },
+    {
+     "local": "athletic-bilbao",
+     "visitante": "levante-ud",
+     "fecha": "2027-01-24"
+    },
+    {
+     "local": "deportivo-a-coruna",
+     "visitante": "atletico-de-madrid",
+     "fecha": "2027-01-24"
+    },
+    {
+     "local": "elche-cf",
+     "visitante": "rayo-vallecano",
+     "fecha": "2027-01-24"
+    },
+    {
+     "local": "rcd-espanyol-barcelona",
+     "visitante": "villarreal-cf",
+     "fecha": "2027-01-24"
+    },
+    {
+     "local": "getafe-cf",
+     "visitante": "ca-osasuna",
+     "fecha": "2027-01-24"
+    },
+    {
+     "local": "racing-santander",
+     "visitante": "celta-de-vigo",
+     "fecha": "2027-01-24"
+    },
+    {
+     "local": "real-madrid",
+     "visitante": "real-betis-balompie",
+     "fecha": "2027-01-24"
+    },
+    {
+     "local": "real-sociedad",
+     "visitante": "malaga-cf",
+     "fecha": "2027-01-24"
+    },
+    {
+     "local": "valencia-cf",
+     "visitante": "sevilla-fc",
+     "fecha": "2027-01-24"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "fecha": "2027-01-31",
+   "partidos": [
+    {
+     "local": "atletico-de-madrid",
+     "visitante": "rcd-espanyol-barcelona",
+     "fecha": "2027-01-31"
+    },
+    {
+     "local": "real-betis-balompie",
+     "visitante": "elche-cf",
+     "fecha": "2027-01-31"
+    },
+    {
+     "local": "celta-de-vigo",
+     "visitante": "getafe-cf",
+     "fecha": "2027-01-31"
+    },
+    {
+     "local": "fc-barcelona",
+     "visitante": "valencia-cf",
+     "fecha": "2027-01-31"
+    },
+    {
+     "local": "levante-ud",
+     "visitante": "real-sociedad",
+     "fecha": "2027-01-31"
+    },
+    {
+     "local": "malaga-cf",
+     "visitante": "deportivo-alaves",
+     "fecha": "2027-01-31"
+    },
+    {
+     "local": "ca-osasuna",
+     "visitante": "deportivo-a-coruna",
+     "fecha": "2027-01-31"
+    },
+    {
+     "local": "rayo-vallecano",
+     "visitante": "real-madrid",
+     "fecha": "2027-01-31"
+    },
+    {
+     "local": "sevilla-fc",
+     "visitante": "athletic-bilbao",
+     "fecha": "2027-01-31"
+    },
+    {
+     "local": "villarreal-cf",
+     "visitante": "racing-santander",
+     "fecha": "2027-01-31"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "fecha": "2027-02-07",
+   "partidos": [
+    {
+     "local": "deportivo-alaves",
+     "visitante": "celta-de-vigo",
+     "fecha": "2027-02-07"
+    },
+    {
+     "local": "athletic-bilbao",
+     "visitante": "ca-osasuna",
+     "fecha": "2027-02-07"
+    },
+    {
+     "local": "real-betis-balompie",
+     "visitante": "sevilla-fc",
+     "fecha": "2027-02-07"
+    },
+    {
+     "local": "deportivo-a-coruna",
+     "visitante": "malaga-cf",
+     "fecha": "2027-02-07"
+    },
+    {
+     "local": "elche-cf",
+     "visitante": "levante-ud",
+     "fecha": "2027-02-07"
+    },
+    {
+     "local": "rcd-espanyol-barcelona",
+     "visitante": "rayo-vallecano",
+     "fecha": "2027-02-07"
+    },
+    {
+     "local": "fc-barcelona",
+     "visitante": "atletico-de-madrid",
+     "fecha": "2027-02-07"
+    },
+    {
+     "local": "getafe-cf",
+     "visitante": "villarreal-cf",
+     "fecha": "2027-02-07"
+    },
+    {
+     "local": "real-sociedad",
+     "visitante": "real-madrid",
+     "fecha": "2027-02-07"
+    },
+    {
+     "local": "valencia-cf",
+     "visitante": "racing-santander",
+     "fecha": "2027-02-07"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "fecha": "2027-02-14",
+   "partidos": [
+    {
+     "local": "celta-de-vigo",
+     "visitante": "rayo-vallecano",
+     "fecha": "2027-02-14"
+    },
+    {
+     "local": "elche-cf",
+     "visitante": "deportivo-a-coruna",
+     "fecha": "2027-02-14"
+    },
+    {
+     "local": "levante-ud",
+     "visitante": "malaga-cf",
+     "fecha": "2027-02-14"
+    },
+    {
+     "local": "ca-osasuna",
+     "visitante": "atletico-de-madrid",
+     "fecha": "2027-02-14"
+    },
+    {
+     "local": "racing-santander",
+     "visitante": "getafe-cf",
+     "fecha": "2027-02-14"
+    },
+    {
+     "local": "real-madrid",
+     "visitante": "athletic-bilbao",
+     "fecha": "2027-02-14"
+    },
+    {
+     "local": "real-sociedad",
+     "visitante": "real-betis-balompie",
+     "fecha": "2027-02-14"
+    },
+    {
+     "local": "sevilla-fc",
+     "visitante": "rcd-espanyol-barcelona",
+     "fecha": "2027-02-14"
+    },
+    {
+     "local": "valencia-cf",
+     "visitante": "deportivo-alaves",
+     "fecha": "2027-02-14"
+    },
+    {
+     "local": "villarreal-cf",
+     "visitante": "fc-barcelona",
+     "fecha": "2027-02-14"
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "fecha": "2027-02-21",
+   "partidos": [
+    {
+     "local": "deportivo-alaves",
+     "visitante": "racing-santander",
+     "fecha": "2027-02-21"
+    },
+    {
+     "local": "athletic-bilbao",
+     "visitante": "celta-de-vigo",
+     "fecha": "2027-02-21"
+    },
+    {
+     "local": "atletico-de-madrid",
+     "visitante": "elche-cf",
+     "fecha": "2027-02-21"
+    },
+    {
+     "local": "deportivo-a-coruna",
+     "visitante": "real-sociedad",
+     "fecha": "2027-02-21"
+    },
+    {
+     "local": "rcd-espanyol-barcelona",
+     "visitante": "ca-osasuna",
+     "fecha": "2027-02-21"
+    },
+    {
+     "local": "fc-barcelona",
+     "visitante": "levante-ud",
+     "fecha": "2027-02-21"
+    },
+    {
+     "local": "malaga-cf",
+     "visitante": "real-betis-balompie",
+     "fecha": "2027-02-21"
+    },
+    {
+     "local": "rayo-vallecano",
+     "visitante": "getafe-cf",
+     "fecha": "2027-02-21"
+    },
+    {
+     "local": "sevilla-fc",
+     "visitante": "real-madrid",
+     "fecha": "2027-02-21"
+    },
+    {
+     "local": "villarreal-cf",
+     "visitante": "valencia-cf",
+     "fecha": "2027-02-21"
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "fecha": "2027-02-28",
+   "partidos": [
+    {
+     "local": "athletic-bilbao",
+     "visitante": "fc-barcelona",
+     "fecha": "2027-02-28"
+    },
+    {
+     "local": "real-betis-balompie",
+     "visitante": "villarreal-cf",
+     "fecha": "2027-02-28"
+    },
+    {
+     "local": "celta-de-vigo",
+     "visitante": "rcd-espanyol-barcelona",
+     "fecha": "2027-02-28"
+    },
+    {
+     "local": "getafe-cf",
+     "visitante": "deportivo-alaves",
+     "fecha": "2027-02-28"
+    },
+    {
+     "local": "levante-ud",
+     "visitante": "deportivo-a-coruna",
+     "fecha": "2027-02-28"
+    },
+    {
+     "local": "malaga-cf",
+     "visitante": "atletico-de-madrid",
+     "fecha": "2027-02-28"
+    },
+    {
+     "local": "ca-osasuna",
+     "visitante": "sevilla-fc",
+     "fecha": "2027-02-28"
+    },
+    {
+     "local": "racing-santander",
+     "visitante": "rayo-vallecano",
+     "fecha": "2027-02-28"
+    },
+    {
+     "local": "real-madrid",
+     "visitante": "valencia-cf",
+     "fecha": "2027-02-28"
+    },
+    {
+     "local": "real-sociedad",
+     "visitante": "elche-cf",
+     "fecha": "2027-02-28"
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "fecha": "2027-03-07",
+   "partidos": [
+    {
+     "local": "deportivo-alaves",
+     "visitante": "athletic-bilbao",
+     "fecha": "2027-03-07"
+    },
+    {
+     "local": "atletico-de-madrid",
+     "visitante": "celta-de-vigo",
+     "fecha": "2027-03-07"
+    },
+    {
+     "local": "deportivo-a-coruna",
+     "visitante": "getafe-cf",
+     "fecha": "2027-03-07"
+    },
+    {
+     "local": "elche-cf",
+     "visitante": "malaga-cf",
+     "fecha": "2027-03-07"
+    },
+    {
+     "local": "rcd-espanyol-barcelona",
+     "visitante": "racing-santander",
+     "fecha": "2027-03-07"
+    },
+    {
+     "local": "fc-barcelona",
+     "visitante": "real-betis-balompie",
+     "fecha": "2027-03-07"
+    },
+    {
+     "local": "rayo-vallecano",
+     "visitante": "ca-osasuna",
+     "fecha": "2027-03-07"
+    },
+    {
+     "local": "sevilla-fc",
+     "visitante": "real-sociedad",
+     "fecha": "2027-03-07"
+    },
+    {
+     "local": "valencia-cf",
+     "visitante": "levante-ud",
+     "fecha": "2027-03-07"
+    },
+    {
+     "local": "villarreal-cf",
+     "visitante": "real-madrid",
+     "fecha": "2027-03-07"
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "fecha": "2027-03-14",
+   "partidos": [
+    {
+     "local": "deportivo-alaves",
+     "visitante": "sevilla-fc",
+     "fecha": "2027-03-14"
+    },
+    {
+     "local": "athletic-bilbao",
+     "visitante": "valencia-cf",
+     "fecha": "2027-03-14"
+    },
+    {
+     "local": "real-betis-balompie",
+     "visitante": "levante-ud",
+     "fecha": "2027-03-14"
+    },
+    {
+     "local": "elche-cf",
+     "visitante": "villarreal-cf",
+     "fecha": "2027-03-14"
+    },
+    {
+     "local": "fc-barcelona",
+     "visitante": "deportivo-a-coruna",
+     "fecha": "2027-03-14"
+    },
+    {
+     "local": "getafe-cf",
+     "visitante": "real-sociedad",
+     "fecha": "2027-03-14"
+    },
+    {
+     "local": "malaga-cf",
+     "visitante": "rayo-vallecano",
+     "fecha": "2027-03-14"
+    },
+    {
+     "local": "ca-osasuna",
+     "visitante": "celta-de-vigo",
+     "fecha": "2027-03-14"
+    },
+    {
+     "local": "racing-santander",
+     "visitante": "atletico-de-madrid",
+     "fecha": "2027-03-14"
+    },
+    {
+     "local": "real-madrid",
+     "visitante": "rcd-espanyol-barcelona",
+     "fecha": "2027-03-14"
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "fecha": "2027-03-21",
+   "partidos": [
+    {
+     "local": "atletico-de-madrid",
+     "visitante": "getafe-cf",
+     "fecha": "2027-03-21"
+    },
+    {
+     "local": "celta-de-vigo",
+     "visitante": "real-madrid",
+     "fecha": "2027-03-21"
+    },
+    {
+     "local": "rcd-espanyol-barcelona",
+     "visitante": "athletic-bilbao",
+     "fecha": "2027-03-21"
+    },
+    {
+     "local": "levante-ud",
+     "visitante": "ca-osasuna",
+     "fecha": "2027-03-21"
+    },
+    {
+     "local": "racing-santander",
+     "visitante": "real-betis-balompie",
+     "fecha": "2027-03-21"
+    },
+    {
+     "local": "rayo-vallecano",
+     "visitante": "fc-barcelona",
+     "fecha": "2027-03-21"
+    },
+    {
+     "local": "real-sociedad",
+     "visitante": "deportivo-alaves",
+     "fecha": "2027-03-21"
+    },
+    {
+     "local": "sevilla-fc",
+     "visitante": "elche-cf",
+     "fecha": "2027-03-21"
+    },
+    {
+     "local": "valencia-cf",
+     "visitante": "deportivo-a-coruna",
+     "fecha": "2027-03-21"
+    },
+    {
+     "local": "villarreal-cf",
+     "visitante": "malaga-cf",
+     "fecha": "2027-03-21"
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "fecha": "2027-04-04",
+   "partidos": [
+    {
+     "local": "athletic-bilbao",
+     "visitante": "racing-santander",
+     "fecha": "2027-04-04"
+    },
+    {
+     "local": "real-betis-balompie",
+     "visitante": "celta-de-vigo",
+     "fecha": "2027-04-04"
+    },
+    {
+     "local": "deportivo-a-coruna",
+     "visitante": "villarreal-cf",
+     "fecha": "2027-04-04"
+    },
+    {
+     "local": "elche-cf",
+     "visitante": "deportivo-alaves",
+     "fecha": "2027-04-04"
+    },
+    {
+     "local": "fc-barcelona",
+     "visitante": "sevilla-fc",
+     "fecha": "2027-04-04"
+    },
+    {
+     "local": "getafe-cf",
+     "visitante": "rcd-espanyol-barcelona",
+     "fecha": "2027-04-04"
+    },
+    {
+     "local": "levante-ud",
+     "visitante": "rayo-vallecano",
+     "fecha": "2027-04-04"
+    },
+    {
+     "local": "malaga-cf",
+     "visitante": "ca-osasuna",
+     "fecha": "2027-04-04"
+    },
+    {
+     "local": "real-madrid",
+     "visitante": "atletico-de-madrid",
+     "fecha": "2027-04-04"
+    },
+    {
+     "local": "real-sociedad",
+     "visitante": "valencia-cf",
+     "fecha": "2027-04-04"
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "fecha": "2027-04-11",
+   "partidos": [
+    {
+     "local": "deportivo-alaves",
+     "visitante": "real-betis-balompie",
+     "fecha": "2027-04-11"
+    },
+    {
+     "local": "atletico-de-madrid",
+     "visitante": "levante-ud",
+     "fecha": "2027-04-11"
+    },
+    {
+     "local": "celta-de-vigo",
+     "visitante": "elche-cf",
+     "fecha": "2027-04-11"
+    },
+    {
+     "local": "rcd-espanyol-barcelona",
+     "visitante": "malaga-cf",
+     "fecha": "2027-04-11"
+    },
+    {
+     "local": "ca-osasuna",
+     "visitante": "real-madrid",
+     "fecha": "2027-04-11"
+    },
+    {
+     "local": "racing-santander",
+     "visitante": "fc-barcelona",
+     "fecha": "2027-04-11"
+    },
+    {
+     "local": "rayo-vallecano",
+     "visitante": "real-sociedad",
+     "fecha": "2027-04-11"
+    },
+    {
+     "local": "sevilla-fc",
+     "visitante": "deportivo-a-coruna",
+     "fecha": "2027-04-11"
+    },
+    {
+     "local": "valencia-cf",
+     "visitante": "getafe-cf",
+     "fecha": "2027-04-11"
+    },
+    {
+     "local": "villarreal-cf",
+     "visitante": "athletic-bilbao",
+     "fecha": "2027-04-11"
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "fecha": "2027-04-18",
+   "partidos": [
+    {
+     "local": "deportivo-alaves",
+     "visitante": "rayo-vallecano",
+     "fecha": "2027-04-18"
+    },
+    {
+     "local": "atletico-de-madrid",
+     "visitante": "sevilla-fc",
+     "fecha": "2027-04-18"
+    },
+    {
+     "local": "real-betis-balompie",
+     "visitante": "athletic-bilbao",
+     "fecha": "2027-04-18"
+    },
+    {
+     "local": "deportivo-a-coruna",
+     "visitante": "celta-de-vigo",
+     "fecha": "2027-04-18"
+    },
+    {
+     "local": "elche-cf",
+     "visitante": "ca-osasuna",
+     "fecha": "2027-04-18"
+    },
+    {
+     "local": "fc-barcelona",
+     "visitante": "rcd-espanyol-barcelona",
+     "fecha": "2027-04-18"
+    },
+    {
+     "local": "getafe-cf",
+     "visitante": "real-madrid",
+     "fecha": "2027-04-18"
+    },
+    {
+     "local": "levante-ud",
+     "visitante": "villarreal-cf",
+     "fecha": "2027-04-18"
+    },
+    {
+     "local": "malaga-cf",
+     "visitante": "valencia-cf",
+     "fecha": "2027-04-18"
+    },
+    {
+     "local": "real-sociedad",
+     "visitante": "racing-santander",
+     "fecha": "2027-04-18"
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "fecha": "2027-04-21",
+   "partidos": [
+    {
+     "local": "athletic-bilbao",
+     "visitante": "deportivo-a-coruna",
+     "fecha": "2027-04-21"
+    },
+    {
+     "local": "celta-de-vigo",
+     "visitante": "fc-barcelona",
+     "fecha": "2027-04-21"
+    },
+    {
+     "local": "rcd-espanyol-barcelona",
+     "visitante": "real-sociedad",
+     "fecha": "2027-04-21"
+    },
+    {
+     "local": "getafe-cf",
+     "visitante": "real-betis-balompie",
+     "fecha": "2027-04-21"
+    },
+    {
+     "local": "ca-osasuna",
+     "visitante": "deportivo-alaves",
+     "fecha": "2027-04-21"
+    },
+    {
+     "local": "racing-santander",
+     "visitante": "malaga-cf",
+     "fecha": "2027-04-21"
+    },
+    {
+     "local": "real-madrid",
+     "visitante": "elche-cf",
+     "fecha": "2027-04-21"
+    },
+    {
+     "local": "sevilla-fc",
+     "visitante": "levante-ud",
+     "fecha": "2027-04-21"
+    },
+    {
+     "local": "valencia-cf",
+     "visitante": "rayo-vallecano",
+     "fecha": "2027-04-21"
+    },
+    {
+     "local": "villarreal-cf",
+     "visitante": "atletico-de-madrid",
+     "fecha": "2027-04-21"
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "fecha": "2027-05-02",
+   "partidos": [
+    {
+     "local": "atletico-de-madrid",
+     "visitante": "deportivo-alaves",
+     "fecha": "2027-05-02"
+    },
+    {
+     "local": "real-betis-balompie",
+     "visitante": "valencia-cf",
+     "fecha": "2027-05-02"
+    },
+    {
+     "local": "celta-de-vigo",
+     "visitante": "sevilla-fc",
+     "fecha": "2027-05-02"
+    },
+    {
+     "local": "deportivo-a-coruna",
+     "visitante": "racing-santander",
+     "fecha": "2027-05-02"
+    },
+    {
+     "local": "elche-cf",
+     "visitante": "rcd-espanyol-barcelona",
+     "fecha": "2027-05-02"
+    },
+    {
+     "local": "fc-barcelona",
+     "visitante": "ca-osasuna",
+     "fecha": "2027-05-02"
+    },
+    {
+     "local": "levante-ud",
+     "visitante": "real-madrid",
+     "fecha": "2027-05-02"
+    },
+    {
+     "local": "malaga-cf",
+     "visitante": "getafe-cf",
+     "fecha": "2027-05-02"
+    },
+    {
+     "local": "rayo-vallecano",
+     "visitante": "villarreal-cf",
+     "fecha": "2027-05-02"
+    },
+    {
+     "local": "real-sociedad",
+     "visitante": "athletic-bilbao",
+     "fecha": "2027-05-02"
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "fecha": "2027-05-09",
+   "partidos": [
+    {
+     "local": "deportivo-alaves",
+     "visitante": "levante-ud",
+     "fecha": "2027-05-09"
+    },
+    {
+     "local": "athletic-bilbao",
+     "visitante": "malaga-cf",
+     "fecha": "2027-05-09"
+    },
+    {
+     "local": "real-betis-balompie",
+     "visitante": "rcd-espanyol-barcelona",
+     "fecha": "2027-05-09"
+    },
+    {
+     "local": "getafe-cf",
+     "visitante": "elche-cf",
+     "fecha": "2027-05-09"
+    },
+    {
+     "local": "ca-osasuna",
+     "visitante": "real-sociedad",
+     "fecha": "2027-05-09"
+    },
+    {
+     "local": "racing-santander",
+     "visitante": "sevilla-fc",
+     "fecha": "2027-05-09"
+    },
+    {
+     "local": "rayo-vallecano",
+     "visitante": "deportivo-a-coruna",
+     "fecha": "2027-05-09"
+    },
+    {
+     "local": "real-madrid",
+     "visitante": "fc-barcelona",
+     "fecha": "2027-05-09"
+    },
+    {
+     "local": "valencia-cf",
+     "visitante": "atletico-de-madrid",
+     "fecha": "2027-05-09"
+    },
+    {
+     "local": "villarreal-cf",
+     "visitante": "celta-de-vigo",
+     "fecha": "2027-05-09"
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "fecha": "2027-05-16",
+   "partidos": [
+    {
+     "local": "atletico-de-madrid",
+     "visitante": "rayo-vallecano",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "deportivo-a-coruna",
+     "visitante": "deportivo-alaves",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "elche-cf",
+     "visitante": "athletic-bilbao",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "rcd-espanyol-barcelona",
+     "visitante": "valencia-cf",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "levante-ud",
+     "visitante": "getafe-cf",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "malaga-cf",
+     "visitante": "celta-de-vigo",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "ca-osasuna",
+     "visitante": "real-betis-balompie",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "real-madrid",
+     "visitante": "racing-santander",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "real-sociedad",
+     "visitante": "fc-barcelona",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "sevilla-fc",
+     "visitante": "villarreal-cf",
+     "fecha": "2027-05-16"
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "fecha": "2027-05-23",
+   "partidos": [
+    {
+     "local": "deportivo-alaves",
+     "visitante": "real-madrid",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "atletico-de-madrid",
+     "visitante": "athletic-bilbao",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "celta-de-vigo",
+     "visitante": "real-sociedad",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "deportivo-a-coruna",
+     "visitante": "rcd-espanyol-barcelona",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "fc-barcelona",
+     "visitante": "malaga-cf",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "racing-santander",
+     "visitante": "levante-ud",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "rayo-vallecano",
+     "visitante": "real-betis-balompie",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "sevilla-fc",
+     "visitante": "getafe-cf",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "valencia-cf",
+     "visitante": "elche-cf",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "villarreal-cf",
+     "visitante": "ca-osasuna",
+     "fecha": "2027-05-23"
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "fecha": "2027-05-30",
+   "partidos": [
+    {
+     "local": "athletic-bilbao",
+     "visitante": "rayo-vallecano",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "real-betis-balompie",
+     "visitante": "atletico-de-madrid",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "elche-cf",
+     "visitante": "racing-santander",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "rcd-espanyol-barcelona",
+     "visitante": "deportivo-alaves",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "getafe-cf",
+     "visitante": "fc-barcelona",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "levante-ud",
+     "visitante": "celta-de-vigo",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "malaga-cf",
+     "visitante": "sevilla-fc",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "ca-osasuna",
+     "visitante": "valencia-cf",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "real-madrid",
+     "visitante": "deportivo-a-coruna",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "real-sociedad",
+     "visitante": "villarreal-cf",
+     "fecha": "2027-05-30"
+    }
+   ]
+  }
+ ]
+}

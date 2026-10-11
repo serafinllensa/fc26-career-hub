@@ -1,0 +1,120 @@
+<!doctype html><html lang="es-AR" data-tema="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Oficina del presidente · FC26 Career Hub (maqueta)</title><link rel="icon" href="data:,"><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../tema-fc26.css"><script src="comun.js"></script>
+<style>
+.segmento{display:flex;background:var(--superficie-2);border:1px solid var(--linea);border-radius:var(--r-md);padding:3px;margin-bottom:var(--e4)}
+.segmento button{flex:1;min-height:40px;border:0;border-radius:8px;background:transparent;font:600 var(--t-md)/1 var(--f-texto);color:var(--tinta-2);cursor:pointer}
+.segmento button[aria-pressed="true"]{background:var(--superficie);color:var(--tinta);box-shadow:var(--sombra-1)}
+@media(min-width:960px){.segmento{max-width:420px}}
+.pres{display:flex;gap:var(--e4);align-items:center}
+.avatar{flex:none;width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:var(--tinta);color:var(--papel);font:800 20px/1 var(--f-display)}
+.gauge{position:relative;width:132px;height:72px;margin:0 auto}
+.gauge svg{width:100%;height:100%}
+.gauge b{position:absolute;inset:auto 0 0;text-align:center;font:800 34px/1 var(--f-display)}
+.mandato{display:flex;justify-content:space-between;align-items:center;gap:var(--e3);padding:12px 0;border-top:1px solid var(--linea)}
+.mandato:first-of-type{border-top:0}
+.mandato .v{font:700 var(--t-lg)/1 var(--f-display);text-align:right;white-space:nowrap}
+.charla{display:flex;flex-direction:column;gap:var(--e3)}
+.globo{max-width:88%;padding:var(--e3) var(--e4);border-radius:var(--r-lg);background:var(--superficie-2);border:1px solid var(--linea)}
+.globo.el{border-top-left-radius:4px}
+.globo.yo{align-self:flex-end;background:var(--tinta);color:var(--papel);border-color:var(--tinta);border-top-right-radius:4px}
+.globo .quien{font:600 var(--t-xs)/1 var(--f-texto);letter-spacing:.06em;text-transform:uppercase;opacity:.6;margin-bottom:6px}
+.evento{border:2px solid var(--club-acento);border-radius:var(--r-lg);padding:var(--e4);background:var(--superficie)}
+.respuesta{display:block;width:100%;text-align:left;padding:var(--e3) var(--e4);margin-top:var(--e2);border:1px solid var(--linea-2);border-radius:var(--r-md);background:var(--superficie);font:inherit;color:inherit;cursor:pointer}
+.respuesta:hover{border-color:var(--tinta)}
+.respuesta .efectos{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.historial li{display:flex;gap:var(--e3);padding:10px 0;border-top:1px solid var(--linea);font-size:var(--t-sm)}
+.historial{list-style:none;margin:0;padding:0}.historial li:first-child{border-top:0}
+.historial .d{flex:none;width:56px;color:var(--tinta-3)}
+@media(min-width:960px){.oficina{grid-template-columns:1fr 1.4fr}}
+
+.neg-tipos{display:flex;gap:6px;flex-wrap:wrap}
+.monto{display:flex;align-items:center;justify-content:space-between;gap:var(--e3);margin-top:var(--e3);padding:10px 12px;border:1px solid var(--vidrio-borde);border-radius:var(--r-md);background:var(--superficie)}
+.monto b{font:800 var(--t-2xl)/1 var(--f-display)}
+.monto button{width:40px;height:40px;border-radius:50%;border:1px solid var(--vidrio-borde-2);background:transparent;color:#fff;font-size:20px;cursor:pointer}
+.hilo{display:flex;flex-direction:column;gap:var(--e3);width:100%;text-align:left}
+.globo.yo{background:color-mix(in srgb,var(--menta) 16%,transparent)!important;color:#fff!important;border-color:color-mix(in srgb,var(--menta) 45%,transparent)!important}
+.globo.el{background:var(--superficie-2)}
+.globo .motivos{margin-top:8px;font-size:var(--t-xs);color:var(--tinta-3)}
+.globo .motivos div::before{content:"· "}
+.dec{display:inline-block;font:700 10px/1 var(--f-texto);letter-spacing:.08em;text-transform:uppercase;padding:4px 8px;border-radius:var(--r-full);margin-left:6px;vertical-align:middle}
+.dec.acepta{color:var(--ok);background:var(--ok-bg)}.dec.contraoferta{color:var(--alerta);background:var(--alerta-bg)}.dec.rechaza{color:var(--peligro);background:var(--peligro-bg)}
+.opc{display:flex;flex-direction:column;gap:6px;width:100%}
+.opc button{display:flex;justify-content:space-between;align-items:center;gap:var(--e3);width:100%;text-align:left;padding:12px 14px;border-radius:var(--r-md);border:1px solid var(--vidrio-borde-2);background:var(--superficie);color:#fff;font:inherit;cursor:pointer;white-space:normal}
+.opc button:hover,.opc button:focus-visible{border-color:var(--menta)}
+.opc .ef{flex:none;font:700 var(--t-xs)/1 var(--f-display)}
+.cierre{font-size:var(--t-xs);color:var(--tinta-3);text-align:center;letter-spacing:.06em;text-transform:uppercase}
+</style></head><body><div class="app" id="app"></div>
+<script>
+(async()=>{
+const club=await clubPorQuery(); aplicarClub(club);
+const [M,pl]=await Promise.all([import('../../js/motor/index.js'),plantilla(club.id)]);
+const DIF='medio';
+let car=M.crearCarrera({club,dificultad:DIF,plantilla:pl.jugadores});
+const fin=M.finanzas(club,DIF).texto; const rs=M.restricciones(DIF);
+// Objetivo real: el jugador más caro de otro club de la misma liga
+const otro=CLUBES.filter(c=>c.liga===club.liga&&c.id!==club.id).sort((a,b)=>b.valorPlantillaM-a.valorPlantillaM)[0];
+const po=await plantilla(otro.id); const obj=[...po.jugadores].sort((a,b)=>(b.valorM||0)-(a.valorM||0))[0];
+const pres=club.presidente?.nombre||'Presidente';
+const ini=pres.split(' ').map(w=>w[0]).slice(0,2).join('');
+let tipo='fichaje', monto=Math.round((obj.valorM||100)*1.2/5)*5, hilo=[], neg=null;
+const TXT={fichaje:'Aprobar un fichaje',presupuesto:'Más presupuesto',masa:'Más masa salarial'};
+const DEC={acepta:'Acepta',contraoferta:'Contraoferta',rechaza:'Rechaza'};
+const tColor={baja:'var(--ok)',media:'var(--alerta)',alta:'var(--peligro)',critica:'var(--peligro)'};
+const pedidoTxt=()=>tipo==='fichaje'?`Quiero traer a ${obj.nombre} (${otro.corto||otro.nombre}). Necesito ${fmtM(monto)}.`:tipo==='presupuesto'?`Necesito ${fmtM(monto)} más de presupuesto para fichar.`:`Necesito subir la masa salarial ${fmtM(monto)}.`;
+function pedir(){
+  const p=tipo==='fichaje'?{tipo,precioM:monto,jugador:{nombre:obj.nombre,edad:obj.edad,valorM:obj.valorM,sueldoM:null}}:{tipo,montoM:monto};
+  neg=M.pedirAlPresidente(car,club,p);
+  hilo.push({yo:true,t:pedidoTxt()},{yo:false,t:neg.texto,dec:neg.decision,mot:neg.motivos});
+  if(neg.respuestas.length===1){car=M.cerrarNegociacion(car,neg,neg.respuestas[0].id);hilo.push({fin:`Aprobado ${fmtM(neg.aprobadoM)} · queda anotado en la carrera`});neg=null;}
+  pintar();
+}
+function responder(id){
+  const r=neg.respuestas.find(x=>x.id===id); const antes=car.confianza.presidente;
+  car=M.cerrarNegociacion(car,neg,id);
+  hilo.push({yo:true,t:r.texto});
+  const d=+(car.confianza.presidente-antes).toFixed(1);
+  hilo.push({fin:id==='aceptar'?`Aprobado ${fmtM(neg.aprobadoM)} · confianza ${d>=0?'+':''}${d}`:id==='insistir'?`Sigue en no · confianza ${d}`:`Pedido retirado · confianza ${d>=0?'+':''}${d}`});
+  neg=null; pintar();
+}
+function pintar(){
+  const em=M.estadoMercado(car,club); const ten=M.tension(car.confianza.presidente); const conf=car.confianza.presidente;
+  document.getElementById('app').innerHTML=nav('presidente')+`<main class="contenido">
+${banda(club,'Medio',2)}
+<div class="segmento" role="tablist" aria-label="Oficinas"><button role="tab" aria-pressed="true">Presidente</button><button role="tab">Director técnico</button></div>
+<div class="grilla oficina">
+ <section>
+  <h2 class="h1" style="font-size:var(--t-xl);margin-bottom:var(--e4)">Exigencias de la directiva</h2>
+  <div class="fila-dato"><span>Temporada</span><span>2026/27 · Medio</span></div>
+  <div class="fila-dato"><span>Disponible para fichar</span><span>≈ ${fmtM(em.disponibleM)}</span></div>
+  <div class="fila-dato"><span>Masa salarial</span><span>≈ ${fmtM(em.masaM)} de ${fmtM(em.topeM)}</span></div>
+  ${(rs||[]).map(r=>`<div class="fila-dato"><span>Regla</span><span style="text-align:right;white-space:normal;max-width:65%;text-transform:none;font-weight:600">${r.texto}</span></div>`).join('')}
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-top:var(--e4)"><span class="badge estimado">Montos estimados</span><span class="fuente">estadoMercado() del Motor</span></div>
+  <div class="tarjeta" style="margin-top:var(--e5)">
+   <div style="display:flex;align-items:center;justify-content:space-between"><span class="etiqueta">Confianza de ${pres}</span><b class="num" style="font:800 var(--t-2xl)/1 var(--f-display);color:${tColor[ten.nivel]}">${conf}</b></div>
+   <div class="medidor" style="margin-top:var(--e3)"><span style="width:${conf}%;background:${tColor[ten.nivel]}"></span></div>
+  </div>
+  <div class="tarjeta" style="margin-top:var(--e4)">
+   <div class="etiqueta">Nuevo pedido</div>
+   <div class="neg-tipos" style="margin-top:var(--e3)">${Object.keys(TXT).map(k=>`<button class="chip" data-tipo="${k}" aria-pressed="${k===tipo}">${TXT[k]}</button>`).join('')}</div>
+   ${tipo==='fichaje'?`<div class="fila-dato" style="margin-top:var(--e3)"><span>Jugador</span><span>${obj.nombre} <small class="meta">${fmtM(obj.valorM)} TM</small></span></div>`:''}
+   <div class="monto"><button data-m="-5" aria-label="Menos 5 M€">−</button><b class="num">${fmtM(monto)}</b><button data-m="5" aria-label="Más 5 M€">+</button></div>
+   <button class="btn primario" id="pedir" style="width:100%;margin-top:var(--e3)" ${neg?'disabled':''}>Pedírselo al presidente</button>
+  </div>
+ </section>
+ <section style="display:flex;flex-direction:column;align-items:center;gap:var(--e4)">
+  <div class="tarjeta brillo llamada" style="width:100%"><div class="avatar" aria-hidden="true">${ini}</div><div style="flex:1;text-align:left"><div style="color:var(--ok);font-weight:600;font-size:var(--t-sm)">En reunión con</div><div class="h3" style="font:800 var(--t-xl)/1.1 var(--f-display)">${pres}</div><div class="meta">Presidente · ${club.nombre}</div></div><span class="ondas" aria-hidden="true"><i></i><i></i><i></i><i></i></span></div>
+  <span class="tension" style="color:${tColor[ten.nivel]}">${ten.texto}</span>
+  <div class="hilo" aria-live="polite">${hilo.length?hilo.map(h=>h.fin?`<div class="cierre">${h.fin}</div>`:`<div class="globo ${h.yo?'yo':'el'}"><div class="quien">${h.yo?'Vos':pres}${h.dec?`<span class="dec ${h.dec}">${DEC[h.dec]}</span>`:''}</div>${h.t}${h.mot&&h.mot.length?`<div class="motivos">${h.mot.map(m=>`<div>${m}</div>`).join('')}</div>`:''}</div>`).join(''):'<p class="meta" style="text-align:center">Elegí qué pedir y el monto. El presidente responde según su confianza, la dificultad y el fair play.</p>'}</div>
+  ${neg?`<div class="opc">${neg.respuestas.map(r=>{const e=r.efectos.presidente;return `<button data-r="${r.id}"><span>${r.texto}</span><span class="ef" style="color:${e>0?'var(--ok)':e<0?'var(--peligro)':'var(--tinta-3)'}">${e>0?'+':''}${e} conf.</span></button>`}).join('')}</div>`:''}
+ </section>
+</div>${PIE}</main>`;
+  document.querySelectorAll('[data-tipo]').forEach(b=>b.onclick=()=>{tipo=b.dataset.tipo;monto=tipo==='fichaje'?Math.round((obj.valorM||100)*1.2/5)*5:30;pintar()});
+  document.querySelectorAll('[data-m]').forEach(b=>b.onclick=()=>{monto=Math.max(5,monto+ +b.dataset.m);pintar()});
+  const bp=document.getElementById('pedir'); if(bp) bp.onclick=pedir;
+  document.querySelectorAll('[data-r]').forEach(b=>b.onclick=()=>responder(b.dataset.r));
+}
+const q=new URLSearchParams(location.search);
+pintar(); if(q.get('demo')!=='no') pedir();
+if(q.get('demo')==='insistir'){responder('insistir'); pedir();}
+})();
+</script></body></html>

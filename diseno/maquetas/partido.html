@@ -1,0 +1,29 @@
+<!doctype html><html lang="es-AR" data-tema="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><link rel="icon" href="data:,"><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../tema-fc26.css"><script src="comun.js"></script><title>Cargar resultado · FC26 Career Hub (maqueta)</title></head><body><div class="app" id="app"></div>
+<script>
+(async()=>{
+const club=await clubPorQuery(); aplicarClub(club);
+const rival=CLUBES.filter(c=>c.liga===club.liga&&c.id!==club.id).sort((a,b)=>b.nivel-a.nivel||b.valorPlantillaM-a.valorPlantillaM)[0];
+const [pl,pr]=await Promise.all([plantilla(club.id),plantilla(rival.id)]);
+const L=lineasEA(pl.jugadores), R=lineasEA(pr.jugadores);
+const goleadores=[...pl.jugadores].filter(j=>lineaDe(j.pos)==='del').sort((a,b)=>(ovr(b)||0)-(ovr(a)||0)).slice(0,2);
+const lado=(c,lin,tipo)=>`<section class="tarjeta lado ${tipo}"><span class="vertical" aria-hidden="true">${tipo==='local'?'LOCAL':'VISITANTE'}</span>
+ <div class="liga-pais"><span>${c.pais}</span><span>${c.liga}</span></div>
+ <div class="nombre-club">${c.nombre}</div><div style="display:flex;justify-content:center">${escudo(c)}</div>
+ <div class="estrellas-hero" style="margin-top:var(--e3)">${estrellitas(c.nivel)}</div>
+ <div class="lineas3"><div><div class="etiqueta">ATA</div><b class="num">${lin.ata??'—'}</b></div><div><div class="etiqueta">MED</div><b class="num">${lin.med??'—'}</b></div><div><div class="etiqueta">DEF</div><b class="num">${lin.def??'—'}</b></div></div>
+ <div class="marcador"><button class="paso" aria-label="Restar gol">−</button><div class="goles num">${tipo==='local'?2:1}</div><button class="paso" aria-label="Sumar gol">+</button></div>
+</section>`;
+document.getElementById('app').innerHTML=nav('calendario')+`<main class="contenido">
+<div style="display:flex;align-items:center;justify-content:space-between;gap:var(--e3);margin-bottom:var(--e4)"><div><div class="etiqueta">Calendario · Jornada 9</div><h1 class="h1">Cargar resultado</h1></div><span class="badge ejemplo">Rival y marcador de ejemplo</span></div>
+<div class="versus">${lado(club,L,'local')}
+ <section class="centro">
+  <div class="opcion"><div class="etiqueta">Competición</div><b>${club.liga}</b></div>
+  <div class="opcion"><div class="etiqueta">Estadio</div><b>${club.estadio||'—'}</b></div>
+  <div class="opcion"><div class="etiqueta">Goles de ${club.nombre}</div>${goleadores.map(j=>`<div class="goleador"><span class="ovr-chip oro">${ovr(j)??'—'}</span><span style="flex:1">${j.nombre}</span><span class="meta">⚽</span></div>`).join('')}<button class="btn secundario" style="width:100%;margin-top:8px;min-height:38px">+ Agregar goleador</button></div>
+  <button class="btn primario" style="width:100%">Guardar resultado</button>
+ </section>
+${lado(rival,R,'visita')}</div>
+<p class="fuente" style="margin-top:var(--e4)">ATA, MED y DEF: promedio de la media EA FC 26 de los mejores de cada línea (base oficial de EA). Niveles: Motor.</p>
+${PIE}</main>`;
+})();
+</script></body></html>

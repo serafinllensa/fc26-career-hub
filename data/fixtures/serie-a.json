@@ -1,0 +1,2349 @@
+{
+ "liga": "Serie A",
+ "temporada": "26/27",
+ "fuente": "https://www.transfermarkt.com/x/gesamtspielplan/wettbewerb/IT1/saison_id/2026",
+ "fecha": "2026-10-11",
+ "nota": "Calendario oficial publicado (vía Transfermarkt). Fechas de partidos posteriores pueden moverse por TV; resultadoReal = partidos ya jugados en la vida real. fecha de jornada = fecha mediana; reprogramado=true si el partido se juega a más de 4 días de su jornada (adelantado o postergado en la vida real).",
+ "jornadas": [
+  {
+   "n": 1,
+   "fecha": "2026-08-23",
+   "partidos": [
+    {
+     "local": "inter-milan",
+     "visitante": "ac-monza",
+     "fecha": "2026-08-22",
+     "resultadoReal": {
+      "gl": 4,
+      "gv": 1
+     }
+    },
+    {
+     "local": "udinese-calcio",
+     "visitante": "como-1907",
+     "fecha": "2026-08-22",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "genoa-cfc",
+     "visitante": "ssc-napoli",
+     "fecha": "2026-08-22",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 2
+     }
+    },
+    {
+     "local": "parma-calcio-1913",
+     "visitante": "cagliari-calcio",
+     "fecha": "2026-08-22",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 1
+     }
+    },
+    {
+     "local": "frosinone-calcio",
+     "visitante": "juventus-fc",
+     "fecha": "2026-08-23",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 1
+     }
+    },
+    {
+     "local": "venezia-fc",
+     "visitante": "us-lecce",
+     "fecha": "2026-08-23",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 2
+     }
+    },
+    {
+     "local": "atalanta-bc",
+     "visitante": "us-sassuolo",
+     "fecha": "2026-08-23",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "torino-fc",
+     "visitante": "ac-milan",
+     "fecha": "2026-08-23",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 2
+     }
+    },
+    {
+     "local": "bologna-fc-1909",
+     "visitante": "ss-lazio",
+     "fecha": "2026-08-24",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 1
+     }
+    },
+    {
+     "local": "as-roma",
+     "visitante": "acf-fiorentina",
+     "fecha": "2026-08-24",
+     "resultadoReal": {
+      "gl": 4,
+      "gv": 0
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "fecha": "2026-08-30",
+   "partidos": [
+    {
+     "local": "ac-milan",
+     "visitante": "venezia-fc",
+     "fecha": "2026-08-28",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 0
+     }
+    },
+    {
+     "local": "acf-fiorentina",
+     "visitante": "frosinone-calcio",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 3
+     }
+    },
+    {
+     "local": "ac-monza",
+     "visitante": "udinese-calcio",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 3
+     }
+    },
+    {
+     "local": "us-sassuolo",
+     "visitante": "torino-fc",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "juventus-fc",
+     "visitante": "parma-calcio-1913",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 0
+     }
+    },
+    {
+     "local": "ssc-napoli",
+     "visitante": "como-1907",
+     "fecha": "2026-08-30",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 2
+     }
+    },
+    {
+     "local": "cagliari-calcio",
+     "visitante": "inter-milan",
+     "fecha": "2026-08-30",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 1
+     }
+    },
+    {
+     "local": "ss-lazio",
+     "visitante": "genoa-cfc",
+     "fecha": "2026-08-30",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    },
+    {
+     "local": "us-lecce",
+     "visitante": "as-roma",
+     "fecha": "2026-08-31",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 4
+     }
+    },
+    {
+     "local": "atalanta-bc",
+     "visitante": "bologna-fc-1909",
+     "fecha": "2026-08-31",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "fecha": "2026-09-06",
+   "partidos": [
+    {
+     "local": "genoa-cfc",
+     "visitante": "como-1907",
+     "fecha": "2026-09-04",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 4
+     }
+    },
+    {
+     "local": "acf-fiorentina",
+     "visitante": "torino-fc",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 2
+     }
+    },
+    {
+     "local": "inter-milan",
+     "visitante": "ssc-napoli",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 2
+     }
+    },
+    {
+     "local": "as-roma",
+     "visitante": "atalanta-bc",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "frosinone-calcio",
+     "visitante": "venezia-fc",
+     "fecha": "2026-09-06",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 2
+     }
+    },
+    {
+     "local": "parma-calcio-1913",
+     "visitante": "ac-monza",
+     "fecha": "2026-09-06",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "bologna-fc-1909",
+     "visitante": "us-sassuolo",
+     "fecha": "2026-09-06",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "juventus-fc",
+     "visitante": "ac-milan",
+     "fecha": "2026-09-06",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "cagliari-calcio",
+     "visitante": "us-lecce",
+     "fecha": "2026-09-07",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    },
+    {
+     "local": "udinese-calcio",
+     "visitante": "ss-lazio",
+     "fecha": "2026-09-07",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 2
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "fecha": "2026-09-13",
+   "partidos": [
+    {
+     "local": "venezia-fc",
+     "visitante": "acf-fiorentina",
+     "fecha": "2026-09-11",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 4
+     }
+    },
+    {
+     "local": "genoa-cfc",
+     "visitante": "frosinone-calcio",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "ss-lazio",
+     "visitante": "ac-milan",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "atalanta-bc",
+     "visitante": "cagliari-calcio",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 2
+     }
+    },
+    {
+     "local": "us-lecce",
+     "visitante": "ac-monza",
+     "fecha": "2026-09-13",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 2
+     }
+    },
+    {
+     "local": "ssc-napoli",
+     "visitante": "bologna-fc-1909",
+     "fecha": "2026-09-13",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    },
+    {
+     "local": "us-sassuolo",
+     "visitante": "juventus-fc",
+     "fecha": "2026-09-13",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 2
+     }
+    },
+    {
+     "local": "como-1907",
+     "visitante": "parma-calcio-1913",
+     "fecha": "2026-09-14",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "torino-fc",
+     "visitante": "as-roma",
+     "fecha": "2026-09-14",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 2
+     }
+    },
+    {
+     "local": "inter-milan",
+     "visitante": "udinese-calcio",
+     "fecha": "2026-09-14",
+     "resultadoReal": {
+      "gl": 5,
+      "gv": 3
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "fecha": "2026-09-20",
+   "partidos": [
+    {
+     "local": "ac-monza",
+     "visitante": "us-sassuolo",
+     "fecha": "2026-09-18",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "bologna-fc-1909",
+     "visitante": "torino-fc",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "udinese-calcio",
+     "visitante": "cagliari-calcio",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 1
+     }
+    },
+    {
+     "local": "as-roma",
+     "visitante": "inter-milan",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "venezia-fc",
+     "visitante": "ss-lazio",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 2
+     }
+    },
+    {
+     "local": "acf-fiorentina",
+     "visitante": "ssc-napoli",
+     "fecha": "2026-09-20",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "frosinone-calcio",
+     "visitante": "como-1907",
+     "fecha": "2026-09-20",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 0
+     }
+    },
+    {
+     "local": "parma-calcio-1913",
+     "visitante": "genoa-cfc",
+     "fecha": "2026-09-20",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "juventus-fc",
+     "visitante": "atalanta-bc",
+     "fecha": "2026-09-20",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 0
+     }
+    },
+    {
+     "local": "ac-milan",
+     "visitante": "us-lecce",
+     "fecha": "2026-09-20",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 0
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "fecha": "2026-10-11",
+   "partidos": [
+    {
+     "local": "genoa-cfc",
+     "visitante": "acf-fiorentina",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "inter-milan",
+     "visitante": "parma-calcio-1913",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 0
+     }
+    },
+    {
+     "local": "ssc-napoli",
+     "visitante": "frosinone-calcio",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 0
+     }
+    },
+    {
+     "local": "como-1907",
+     "visitante": "as-roma",
+     "fecha": "2026-10-11"
+    },
+    {
+     "local": "ss-lazio",
+     "visitante": "ac-monza",
+     "fecha": "2026-10-11"
+    },
+    {
+     "local": "us-lecce",
+     "visitante": "bologna-fc-1909",
+     "fecha": "2026-10-11"
+    },
+    {
+     "local": "us-sassuolo",
+     "visitante": "ac-milan",
+     "fecha": "2026-10-11"
+    },
+    {
+     "local": "cagliari-calcio",
+     "visitante": "juventus-fc",
+     "fecha": "2026-10-11"
+    },
+    {
+     "local": "atalanta-bc",
+     "visitante": "venezia-fc",
+     "fecha": "2026-10-12"
+    },
+    {
+     "local": "torino-fc",
+     "visitante": "udinese-calcio",
+     "fecha": "2026-10-12"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "fecha": "2026-10-18",
+   "partidos": [
+    {
+     "local": "frosinone-calcio",
+     "visitante": "us-sassuolo",
+     "fecha": "2026-10-16"
+    },
+    {
+     "local": "venezia-fc",
+     "visitante": "ssc-napoli",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "bologna-fc-1909",
+     "visitante": "inter-milan",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "as-roma",
+     "visitante": "genoa-cfc",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "udinese-calcio",
+     "visitante": "us-lecce",
+     "fecha": "2026-10-18"
+    },
+    {
+     "local": "acf-fiorentina",
+     "visitante": "como-1907",
+     "fecha": "2026-10-18"
+    },
+    {
+     "local": "ac-milan",
+     "visitante": "atalanta-bc",
+     "fecha": "2026-10-18"
+    },
+    {
+     "local": "juventus-fc",
+     "visitante": "ss-lazio",
+     "fecha": "2026-10-18"
+    },
+    {
+     "local": "ac-monza",
+     "visitante": "cagliari-calcio",
+     "fecha": "2026-10-19"
+    },
+    {
+     "local": "parma-calcio-1913",
+     "visitante": "torino-fc",
+     "fecha": "2026-10-19"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "fecha": "2026-10-25",
+   "partidos": [
+    {
+     "local": "torino-fc",
+     "visitante": "ac-monza",
+     "fecha": "2026-10-23"
+    },
+    {
+     "local": "cagliari-calcio",
+     "visitante": "bologna-fc-1909",
+     "fecha": "2026-10-24"
+    },
+    {
+     "local": "como-1907",
+     "visitante": "us-sassuolo",
+     "fecha": "2026-10-24"
+    },
+    {
+     "local": "ssc-napoli",
+     "visitante": "as-roma",
+     "fecha": "2026-10-24"
+    },
+    {
+     "local": "ss-lazio",
+     "visitante": "parma-calcio-1913",
+     "fecha": "2026-10-24"
+    },
+    {
+     "local": "inter-milan",
+     "visitante": "acf-fiorentina",
+     "fecha": "2026-10-25"
+    },
+    {
+     "local": "atalanta-bc",
+     "visitante": "frosinone-calcio",
+     "fecha": "2026-10-25"
+    },
+    {
+     "local": "genoa-cfc",
+     "visitante": "venezia-fc",
+     "fecha": "2026-10-25"
+    },
+    {
+     "local": "us-lecce",
+     "visitante": "juventus-fc",
+     "fecha": "2026-10-25"
+    },
+    {
+     "local": "udinese-calcio",
+     "visitante": "ac-milan",
+     "fecha": "2026-10-25"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "fecha": "2026-10-28",
+   "partidos": [
+    {
+     "local": "us-sassuolo",
+     "visitante": "ss-lazio",
+     "fecha": "2026-10-27"
+    },
+    {
+     "local": "as-roma",
+     "visitante": "cagliari-calcio",
+     "fecha": "2026-10-27"
+    },
+    {
+     "local": "torino-fc",
+     "visitante": "como-1907",
+     "fecha": "2026-10-27"
+    },
+    {
+     "local": "ac-milan",
+     "visitante": "bologna-fc-1909",
+     "fecha": "2026-10-28"
+    },
+    {
+     "local": "parma-calcio-1913",
+     "visitante": "udinese-calcio",
+     "fecha": "2026-10-28"
+    },
+    {
+     "local": "venezia-fc",
+     "visitante": "inter-milan",
+     "fecha": "2026-10-28"
+    },
+    {
+     "local": "genoa-cfc",
+     "visitante": "juventus-fc",
+     "fecha": "2026-10-28"
+    },
+    {
+     "local": "ac-monza",
+     "visitante": "ssc-napoli",
+     "fecha": "2026-10-28"
+    },
+    {
+     "local": "frosinone-calcio",
+     "visitante": "us-lecce",
+     "fecha": "2026-10-29"
+    },
+    {
+     "local": "acf-fiorentina",
+     "visitante": "atalanta-bc",
+     "fecha": "2026-10-29"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "fecha": "2026-11-01",
+   "partidos": [
+    {
+     "local": "bologna-fc-1909",
+     "visitante": "ac-monza",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "udinese-calcio",
+     "visitante": "as-roma",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "ac-milan",
+     "visitante": "inter-milan",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "como-1907",
+     "visitante": "venezia-fc",
+     "fecha": "2026-11-01"
+    },
+    {
+     "local": "frosinone-calcio",
+     "visitante": "torino-fc",
+     "fecha": "2026-11-01"
+    },
+    {
+     "local": "ss-lazio",
+     "visitante": "cagliari-calcio",
+     "fecha": "2026-11-01"
+    },
+    {
+     "local": "us-lecce",
+     "visitante": "genoa-cfc",
+     "fecha": "2026-11-01"
+    },
+    {
+     "local": "juventus-fc",
+     "visitante": "ssc-napoli",
+     "fecha": "2026-11-01"
+    },
+    {
+     "local": "us-sassuolo",
+     "visitante": "acf-fiorentina",
+     "fecha": "2026-11-02"
+    },
+    {
+     "local": "atalanta-bc",
+     "visitante": "parma-calcio-1913",
+     "fecha": "2026-11-02"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "fecha": "2026-11-08",
+   "partidos": [
+    {
+     "local": "venezia-fc",
+     "visitante": "udinese-calcio",
+     "fecha": "2026-11-06"
+    },
+    {
+     "local": "cagliari-calcio",
+     "visitante": "frosinone-calcio",
+     "fecha": "2026-11-07"
+    },
+    {
+     "local": "torino-fc",
+     "visitante": "us-lecce",
+     "fecha": "2026-11-07"
+    },
+    {
+     "local": "parma-calcio-1913",
+     "visitante": "bologna-fc-1909",
+     "fecha": "2026-11-07"
+    },
+    {
+     "local": "as-roma",
+     "visitante": "us-sassuolo",
+     "fecha": "2026-11-07"
+    },
+    {
+     "local": "ssc-napoli",
+     "visitante": "ss-lazio",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "genoa-cfc",
+     "visitante": "ac-milan",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "ac-monza",
+     "visitante": "atalanta-bc",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "inter-milan",
+     "visitante": "como-1907",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "acf-fiorentina",
+     "visitante": "juventus-fc",
+     "fecha": "2026-11-08"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "fecha": "2026-11-22",
+   "partidos": [
+    {
+     "local": "como-1907",
+     "visitante": "cagliari-calcio",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "ss-lazio",
+     "visitante": "us-lecce",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "parma-calcio-1913",
+     "visitante": "as-roma",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "ssc-napoli",
+     "visitante": "torino-fc",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "juventus-fc",
+     "visitante": "venezia-fc",
+     "fecha": "2026-11-22"
+    },
+    {
+     "local": "bologna-fc-1909",
+     "visitante": "udinese-calcio",
+     "fecha": "2026-11-22"
+    },
+    {
+     "local": "us-sassuolo",
+     "visitante": "genoa-cfc",
+     "fecha": "2026-11-22"
+    },
+    {
+     "local": "ac-milan",
+     "visitante": "frosinone-calcio",
+     "fecha": "2026-11-22"
+    },
+    {
+     "local": "atalanta-bc",
+     "visitante": "inter-milan",
+     "fecha": "2026-11-22"
+    },
+    {
+     "local": "ac-monza",
+     "visitante": "acf-fiorentina",
+     "fecha": "2026-11-23"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "fecha": "2026-11-29",
+   "partidos": [
+    {
+     "local": "venezia-fc",
+     "visitante": "bologna-fc-1909",
+     "fecha": "2026-11-27"
+    },
+    {
+     "local": "frosinone-calcio",
+     "visitante": "parma-calcio-1913",
+     "fecha": "2026-11-28"
+    },
+    {
+     "local": "torino-fc",
+     "visitante": "ss-lazio",
+     "fecha": "2026-11-28"
+    },
+    {
+     "local": "inter-milan",
+     "visitante": "genoa-cfc",
+     "fecha": "2026-11-28"
+    },
+    {
+     "local": "udinese-calcio",
+     "visitante": "acf-fiorentina",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "us-sassuolo",
+     "visitante": "ssc-napoli",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "as-roma",
+     "visitante": "ac-monza",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "como-1907",
+     "visitante": "juventus-fc",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "us-lecce",
+     "visitante": "atalanta-bc",
+     "fecha": "2026-11-30"
+    },
+    {
+     "local": "cagliari-calcio",
+     "visitante": "ac-milan",
+     "fecha": "2026-11-30"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "fecha": "2026-12-06",
+   "partidos": [
+    {
+     "local": "bologna-fc-1909",
+     "visitante": "as-roma",
+     "fecha": "2026-12-04"
+    },
+    {
+     "local": "ac-monza",
+     "visitante": "como-1907",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "frosinone-calcio",
+     "visitante": "inter-milan",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "ssc-napoli",
+     "visitante": "us-lecce",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "genoa-cfc",
+     "visitante": "torino-fc",
+     "fecha": "2026-12-06"
+    },
+    {
+     "local": "ss-lazio",
+     "visitante": "atalanta-bc",
+     "fecha": "2026-12-06"
+    },
+    {
+     "local": "juventus-fc",
+     "visitante": "udinese-calcio",
+     "fecha": "2026-12-06"
+    },
+    {
+     "local": "ac-milan",
+     "visitante": "parma-calcio-1913",
+     "fecha": "2026-12-06"
+    },
+    {
+     "local": "venezia-fc",
+     "visitante": "us-sassuolo",
+     "fecha": "2026-12-07"
+    },
+    {
+     "local": "acf-fiorentina",
+     "visitante": "cagliari-calcio",
+     "fecha": "2026-12-07"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "fecha": "2026-12-13",
+   "partidos": [
+    {
+     "local": "udinese-calcio",
+     "visitante": "frosinone-calcio",
+     "fecha": "2026-12-11"
+    },
+    {
+     "local": "cagliari-calcio",
+     "visitante": "venezia-fc",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "us-lecce",
+     "visitante": "us-sassuolo",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "como-1907",
+     "visitante": "bologna-fc-1909",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "ss-lazio",
+     "visitante": "as-roma",
+     "fecha": "2026-12-13"
+    },
+    {
+     "local": "inter-milan",
+     "visitante": "torino-fc",
+     "fecha": "2026-12-13"
+    },
+    {
+     "local": "parma-calcio-1913",
+     "visitante": "acf-fiorentina",
+     "fecha": "2026-12-13"
+    },
+    {
+     "local": "ssc-napoli",
+     "visitante": "ac-milan",
+     "fecha": "2026-12-13"
+    },
+    {
+     "local": "atalanta-bc",
+     "visitante": "genoa-cfc",
+     "fecha": "2026-12-14"
+    },
+    {
+     "local": "juventus-fc",
+     "visitante": "ac-monza",
+     "fecha": "2026-12-14"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "fecha": "2026-12-20",
+   "partidos": [
+    {
+     "local": "frosinone-calcio",
+     "visitante": "ss-lazio",
+     "fecha": "2026-12-18"
+    },
+    {
+     "local": "us-lecce",
+     "visitante": "inter-milan",
+     "fecha": "2026-12-18"
+    },
+    {
+     "local": "us-sassuolo",
+     "visitante": "parma-calcio-1913",
+     "fecha": "2026-12-19"
+    },
+    {
+     "local": "ac-milan",
+     "visitante": "como-1907",
+     "fecha": "2026-12-19"
+    },
+    {
+     "local": "as-roma",
+     "visitante": "juventus-fc",
+     "fecha": "2026-12-19"
+    },
+    {
+     "local": "acf-fiorentina",
+     "visitante": "bologna-fc-1909",
+     "fecha": "2026-12-20"
+    },
+    {
+     "local": "torino-fc",
+     "visitante": "cagliari-calcio",
+     "fecha": "2026-12-20"
+    },
+    {
+     "local": "venezia-fc",
+     "visitante": "ac-monza",
+     "fecha": "2026-12-20"
+    },
+    {
+     "local": "genoa-cfc",
+     "visitante": "udinese-calcio",
+     "fecha": "2026-12-20"
+    },
+    {
+     "local": "atalanta-bc",
+     "visitante": "ssc-napoli",
+     "fecha": "2026-12-20"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "fecha": "2027-01-03",
+   "partidos": [
+    {
+     "local": "cagliari-calcio",
+     "visitante": "genoa-cfc",
+     "fecha": "2027-01-02"
+    },
+    {
+     "local": "acf-fiorentina",
+     "visitante": "ss-lazio",
+     "fecha": "2027-01-02"
+    },
+    {
+     "local": "torino-fc",
+     "visitante": "venezia-fc",
+     "fecha": "2027-01-02"
+    },
+    {
+     "local": "as-roma",
+     "visitante": "frosinone-calcio",
+     "fecha": "2027-01-02"
+    },
+    {
+     "local": "ac-monza",
+     "visitante": "ac-milan",
+     "fecha": "2027-01-02"
+    },
+    {
+     "local": "inter-milan",
+     "visitante": "us-sassuolo",
+     "fecha": "2027-01-03"
+    },
+    {
+     "local": "como-1907",
+     "visitante": "us-lecce",
+     "fecha": "2027-01-03"
+    },
+    {
+     "local": "udinese-calcio",
+     "visitante": "atalanta-bc",
+     "fecha": "2027-01-03"
+    },
+    {
+     "local": "parma-calcio-1913",
+     "visitante": "ssc-napoli",
+     "fecha": "2027-01-03"
+    },
+    {
+     "local": "bologna-fc-1909",
+     "visitante": "juventus-fc",
+     "fecha": "2027-01-03"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "fecha": "2027-01-06",
+   "partidos": [
+    {
+     "local": "genoa-cfc",
+     "visitante": "ac-monza",
+     "fecha": "2027-01-05"
+    },
+    {
+     "local": "venezia-fc",
+     "visitante": "as-roma",
+     "fecha": "2027-01-05"
+    },
+    {
+     "local": "ac-milan",
+     "visitante": "acf-fiorentina",
+     "fecha": "2027-01-05"
+    },
+    {
+     "local": "juventus-fc",
+     "visitante": "torino-fc",
+     "fecha": "2027-01-06"
+    },
+    {
+     "local": "frosinone-calcio",
+     "visitante": "bologna-fc-1909",
+     "fecha": "2027-01-06"
+    },
+    {
+     "local": "us-lecce",
+     "visitante": "parma-calcio-1913",
+     "fecha": "2027-01-06"
+    },
+    {
+     "local": "atalanta-bc",
+     "visitante": "como-1907",
+     "fecha": "2027-01-06"
+    },
+    {
+     "local": "ss-lazio",
+     "visitante": "inter-milan",
+     "fecha": "2027-01-06"
+    },
+    {
+     "local": "us-sassuolo",
+     "visitante": "udinese-calcio",
+     "fecha": "2027-01-07"
+    },
+    {
+     "local": "ssc-napoli",
+     "visitante": "cagliari-calcio",
+     "fecha": "2027-01-07"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "fecha": "2027-01-10",
+   "partidos": [
+    {
+     "local": "ac-monza",
+     "visitante": "frosinone-calcio",
+     "fecha": "2027-01-09"
+    },
+    {
+     "local": "as-roma",
+     "visitante": "ac-milan",
+     "fecha": "2027-01-09"
+    },
+    {
+     "local": "bologna-fc-1909",
+     "visitante": "genoa-cfc",
+     "fecha": "2027-01-09"
+    },
+    {
+     "local": "como-1907",
+     "visitante": "ss-lazio",
+     "fecha": "2027-01-10"
+    },
+    {
+     "local": "acf-fiorentina",
+     "visitante": "us-lecce",
+     "fecha": "2027-01-10"
+    },
+    {
+     "local": "parma-calcio-1913",
+     "visitante": "venezia-fc",
+     "fecha": "2027-01-10"
+    },
+    {
+     "local": "torino-fc",
+     "visitante": "atalanta-bc",
+     "fecha": "2027-01-10"
+    },
+    {
+     "local": "inter-milan",
+     "visitante": "juventus-fc",
+     "fecha": "2027-01-10"
+    },
+    {
+     "local": "cagliari-calcio",
+     "visitante": "us-sassuolo",
+     "fecha": "2027-01-11"
+    },
+    {
+     "local": "udinese-calcio",
+     "visitante": "ssc-napoli",
+     "fecha": "2027-01-11"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "fecha": "2027-01-17",
+   "partidos": [
+    {
+     "local": "atalanta-bc",
+     "visitante": "as-roma",
+     "fecha": "2027-01-17"
+    },
+    {
+     "local": "cagliari-calcio",
+     "visitante": "como-1907",
+     "fecha": "2027-01-17"
+    },
+    {
+     "local": "juventus-fc",
+     "visitante": "genoa-cfc",
+     "fecha": "2027-01-17"
+    },
+    {
+     "local": "ss-lazio",
+     "visitante": "bologna-fc-1909",
+     "fecha": "2027-01-17"
+    },
+    {
+     "local": "us-lecce",
+     "visitante": "udinese-calcio",
+     "fecha": "2027-01-17"
+    },
+    {
+     "local": "ac-milan",
+     "visitante": "torino-fc",
+     "fecha": "2027-01-17"
+    },
+    {
+     "local": "ssc-napoli",
+     "visitante": "acf-fiorentina",
+     "fecha": "2027-01-17"
+    },
+    {
+     "local": "parma-calcio-1913",
+     "visitante": "inter-milan",
+     "fecha": "2027-01-17"
+    },
+    {
+     "local": "us-sassuolo",
+     "visitante": "ac-monza",
+     "fecha": "2027-01-17"
+    },
+    {
+     "local": "venezia-fc",
+     "visitante": "frosinone-calcio",
+     "fecha": "2027-01-17"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "fecha": "2027-01-24",
+   "partidos": [
+    {
+     "local": "bologna-fc-1909",
+     "visitante": "atalanta-bc",
+     "fecha": "2027-01-24"
+    },
+    {
+     "local": "como-1907",
+     "visitante": "ssc-napoli",
+     "fecha": "2027-01-24"
+    },
+    {
+     "local": "acf-fiorentina",
+     "visitante": "us-sassuolo",
+     "fecha": "2027-01-24"
+    },
+    {
+     "local": "frosinone-calcio",
+     "visitante": "ac-milan",
+     "fecha": "2027-01-24"
+    },
+    {
+     "local": "genoa-cfc",
+     "visitante": "parma-calcio-1913",
+     "fecha": "2027-01-24"
+    },
+    {
+     "local": "inter-milan",
+     "visitante": "venezia-fc",
+     "fecha": "2027-01-24"
+    },
+    {
+     "local": "juventus-fc",
+     "visitante": "cagliari-calcio",
+     "fecha": "2027-01-24"
+    },
+    {
+     "local": "us-lecce",
+     "visitante": "torino-fc",
+     "fecha": "2027-01-24"
+    },
+    {
+     "local": "ac-monza",
+     "visitante": "ss-lazio",
+     "fecha": "2027-01-24"
+    },
+    {
+     "local": "as-roma",
+     "visitante": "udinese-calcio",
+     "fecha": "2027-01-24"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "fecha": "2027-01-31",
+   "partidos": [
+    {
+     "local": "atalanta-bc",
+     "visitante": "acf-fiorentina",
+     "fecha": "2027-01-31"
+    },
+    {
+     "local": "cagliari-calcio",
+     "visitante": "parma-calcio-1913",
+     "fecha": "2027-01-31"
+    },
+    {
+     "local": "genoa-cfc",
+     "visitante": "us-lecce",
+     "fecha": "2027-01-31"
+    },
+    {
+     "local": "ss-lazio",
+     "visitante": "venezia-fc",
+     "fecha": "2027-01-31"
+    },
+    {
+     "local": "ac-milan",
+     "visitante": "juventus-fc",
+     "fecha": "2027-01-31"
+    },
+    {
+     "local": "ac-monza",
+     "visitante": "as-roma",
+     "fecha": "2027-01-31"
+    },
+    {
+     "local": "ssc-napoli",
+     "visitante": "inter-milan",
+     "fecha": "2027-01-31"
+    },
+    {
+     "local": "us-sassuolo",
+     "visitante": "como-1907",
+     "fecha": "2027-01-31"
+    },
+    {
+     "local": "torino-fc",
+     "visitante": "frosinone-calcio",
+     "fecha": "2027-01-31"
+    },
+    {
+     "local": "udinese-calcio",
+     "visitante": "bologna-fc-1909",
+     "fecha": "2027-01-31"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "fecha": "2027-02-07",
+   "partidos": [
+    {
+     "local": "atalanta-bc",
+     "visitante": "ss-lazio",
+     "fecha": "2027-02-07"
+    },
+    {
+     "local": "bologna-fc-1909",
+     "visitante": "ac-milan",
+     "fecha": "2027-02-07"
+    },
+    {
+     "local": "como-1907",
+     "visitante": "ac-monza",
+     "fecha": "2027-02-07"
+    },
+    {
+     "local": "acf-fiorentina",
+     "visitante": "udinese-calcio",
+     "fecha": "2027-02-07"
+    },
+    {
+     "local": "inter-milan",
+     "visitante": "cagliari-calcio",
+     "fecha": "2027-02-07"
+    },
+    {
+     "local": "juventus-fc",
+     "visitante": "us-sassuolo",
+     "fecha": "2027-02-07"
+    },
+    {
+     "local": "us-lecce",
+     "visitante": "ssc-napoli",
+     "fecha": "2027-02-07"
+    },
+    {
+     "local": "parma-calcio-1913",
+     "visitante": "frosinone-calcio",
+     "fecha": "2027-02-07"
+    },
+    {
+     "local": "as-roma",
+     "visitante": "torino-fc",
+     "fecha": "2027-02-07"
+    },
+    {
+     "local": "venezia-fc",
+     "visitante": "genoa-cfc",
+     "fecha": "2027-02-07"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "fecha": "2027-02-14",
+   "partidos": [
+    {
+     "local": "bologna-fc-1909",
+     "visitante": "como-1907",
+     "fecha": "2027-02-14"
+    },
+    {
+     "local": "cagliari-calcio",
+     "visitante": "ss-lazio",
+     "fecha": "2027-02-14"
+    },
+    {
+     "local": "frosinone-calcio",
+     "visitante": "acf-fiorentina",
+     "fecha": "2027-02-14"
+    },
+    {
+     "local": "genoa-cfc",
+     "visitante": "atalanta-bc",
+     "fecha": "2027-02-14"
+    },
+    {
+     "local": "inter-milan",
+     "visitante": "ac-milan",
+     "fecha": "2027-02-14"
+    },
+    {
+     "local": "ac-monza",
+     "visitante": "us-lecce",
+     "fecha": "2027-02-14"
+    },
+    {
+     "local": "ssc-napoli",
+     "visitante": "juventus-fc",
+     "fecha": "2027-02-14"
+    },
+    {
+     "local": "as-roma",
+     "visitante": "parma-calcio-1913",
+     "fecha": "2027-02-14"
+    },
+    {
+     "local": "torino-fc",
+     "visitante": "us-sassuolo",
+     "fecha": "2027-02-14"
+    },
+    {
+     "local": "udinese-calcio",
+     "visitante": "venezia-fc",
+     "fecha": "2027-02-14"
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "fecha": "2027-02-21",
+   "partidos": [
+    {
+     "local": "atalanta-bc",
+     "visitante": "ac-monza",
+     "fecha": "2027-02-21"
+    },
+    {
+     "local": "como-1907",
+     "visitante": "torino-fc",
+     "fecha": "2027-02-21"
+    },
+    {
+     "local": "acf-fiorentina",
+     "visitante": "inter-milan",
+     "fecha": "2027-02-21"
+    },
+    {
+     "local": "juventus-fc",
+     "visitante": "bologna-fc-1909",
+     "fecha": "2027-02-21"
+    },
+    {
+     "local": "ss-lazio",
+     "visitante": "ssc-napoli",
+     "fecha": "2027-02-21"
+    },
+    {
+     "local": "us-lecce",
+     "visitante": "frosinone-calcio",
+     "fecha": "2027-02-21"
+    },
+    {
+     "local": "ac-milan",
+     "visitante": "genoa-cfc",
+     "fecha": "2027-02-21"
+    },
+    {
+     "local": "us-sassuolo",
+     "visitante": "as-roma",
+     "fecha": "2027-02-21"
+    },
+    {
+     "local": "udinese-calcio",
+     "visitante": "parma-calcio-1913",
+     "fecha": "2027-02-21"
+    },
+    {
+     "local": "venezia-fc",
+     "visitante": "cagliari-calcio",
+     "fecha": "2027-02-21"
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "fecha": "2027-02-28",
+   "partidos": [
+    {
+     "local": "bologna-fc-1909",
+     "visitante": "us-lecce",
+     "fecha": "2027-02-28"
+    },
+    {
+     "local": "cagliari-calcio",
+     "visitante": "udinese-calcio",
+     "fecha": "2027-02-28"
+    },
+    {
+     "local": "como-1907",
+     "visitante": "ac-milan",
+     "fecha": "2027-02-28"
+    },
+    {
+     "local": "frosinone-calcio",
+     "visitante": "ssc-napoli",
+     "fecha": "2027-02-28"
+    },
+    {
+     "local": "genoa-cfc",
+     "visitante": "ss-lazio",
+     "fecha": "2027-02-28"
+    },
+    {
+     "local": "inter-milan",
+     "visitante": "atalanta-bc",
+     "fecha": "2027-02-28"
+    },
+    {
+     "local": "ac-monza",
+     "visitante": "juventus-fc",
+     "fecha": "2027-02-28"
+    },
+    {
+     "local": "parma-calcio-1913",
+     "visitante": "us-sassuolo",
+     "fecha": "2027-02-28"
+    },
+    {
+     "local": "as-roma",
+     "visitante": "venezia-fc",
+     "fecha": "2027-02-28"
+    },
+    {
+     "local": "torino-fc",
+     "visitante": "acf-fiorentina",
+     "fecha": "2027-02-28"
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "fecha": "2027-03-07",
+   "partidos": [
+    {
+     "local": "atalanta-bc",
+     "visitante": "torino-fc",
+     "fecha": "2027-03-07"
+    },
+    {
+     "local": "acf-fiorentina",
+     "visitante": "venezia-fc",
+     "fecha": "2027-03-07"
+    },
+    {
+     "local": "juventus-fc",
+     "visitante": "as-roma",
+     "fecha": "2027-03-07"
+    },
+    {
+     "local": "ss-lazio",
+     "visitante": "frosinone-calcio",
+     "fecha": "2027-03-07"
+    },
+    {
+     "local": "us-lecce",
+     "visitante": "como-1907",
+     "fecha": "2027-03-07"
+    },
+    {
+     "local": "ac-milan",
+     "visitante": "cagliari-calcio",
+     "fecha": "2027-03-07"
+    },
+    {
+     "local": "ac-monza",
+     "visitante": "genoa-cfc",
+     "fecha": "2027-03-07"
+    },
+    {
+     "local": "ssc-napoli",
+     "visitante": "parma-calcio-1913",
+     "fecha": "2027-03-07"
+    },
+    {
+     "local": "us-sassuolo",
+     "visitante": "bologna-fc-1909",
+     "fecha": "2027-03-07"
+    },
+    {
+     "local": "udinese-calcio",
+     "visitante": "inter-milan",
+     "fecha": "2027-03-07"
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "fecha": "2027-03-14",
+   "partidos": [
+    {
+     "local": "bologna-fc-1909",
+     "visitante": "ssc-napoli",
+     "fecha": "2027-03-14"
+    },
+    {
+     "local": "cagliari-calcio",
+     "visitante": "acf-fiorentina",
+     "fecha": "2027-03-14"
+    },
+    {
+     "local": "como-1907",
+     "visitante": "udinese-calcio",
+     "fecha": "2027-03-14"
+    },
+    {
+     "local": "frosinone-calcio",
+     "visitante": "ac-monza",
+     "fecha": "2027-03-14"
+    },
+    {
+     "local": "genoa-cfc",
+     "visitante": "as-roma",
+     "fecha": "2027-03-14"
+    },
+    {
+     "local": "ss-lazio",
+     "visitante": "juventus-fc",
+     "fecha": "2027-03-14"
+    },
+    {
+     "local": "ac-milan",
+     "visitante": "us-sassuolo",
+     "fecha": "2027-03-14"
+    },
+    {
+     "local": "parma-calcio-1913",
+     "visitante": "us-lecce",
+     "fecha": "2027-03-14"
+    },
+    {
+     "local": "torino-fc",
+     "visitante": "inter-milan",
+     "fecha": "2027-03-14"
+    },
+    {
+     "local": "venezia-fc",
+     "visitante": "atalanta-bc",
+     "fecha": "2027-03-14"
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "fecha": "2027-03-21",
+   "partidos": [
+    {
+     "local": "atalanta-bc",
+     "visitante": "ac-milan",
+     "fecha": "2027-03-21"
+    },
+    {
+     "local": "acf-fiorentina",
+     "visitante": "genoa-cfc",
+     "fecha": "2027-03-21"
+    },
+    {
+     "local": "inter-milan",
+     "visitante": "frosinone-calcio",
+     "fecha": "2027-03-21"
+    },
+    {
+     "local": "juventus-fc",
+     "visitante": "como-1907",
+     "fecha": "2027-03-21"
+    },
+    {
+     "local": "ac-monza",
+     "visitante": "bologna-fc-1909",
+     "fecha": "2027-03-21"
+    },
+    {
+     "local": "ssc-napoli",
+     "visitante": "venezia-fc",
+     "fecha": "2027-03-21"
+    },
+    {
+     "local": "parma-calcio-1913",
+     "visitante": "ss-lazio",
+     "fecha": "2027-03-21"
+    },
+    {
+     "local": "as-roma",
+     "visitante": "us-lecce",
+     "fecha": "2027-03-21"
+    },
+    {
+     "local": "us-sassuolo",
+     "visitante": "cagliari-calcio",
+     "fecha": "2027-03-21"
+    },
+    {
+     "local": "udinese-calcio",
+     "visitante": "torino-fc",
+     "fecha": "2027-03-21"
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "fecha": "2027-04-04",
+   "partidos": [
+    {
+     "local": "cagliari-calcio",
+     "visitante": "ssc-napoli",
+     "fecha": "2027-04-04"
+    },
+    {
+     "local": "como-1907",
+     "visitante": "acf-fiorentina",
+     "fecha": "2027-04-04"
+    },
+    {
+     "local": "frosinone-calcio",
+     "visitante": "udinese-calcio",
+     "fecha": "2027-04-04"
+    },
+    {
+     "local": "genoa-cfc",
+     "visitante": "inter-milan",
+     "fecha": "2027-04-04"
+    },
+    {
+     "local": "us-lecce",
+     "visitante": "ss-lazio",
+     "fecha": "2027-04-04"
+    },
+    {
+     "local": "ac-milan",
+     "visitante": "ac-monza",
+     "fecha": "2027-04-04"
+    },
+    {
+     "local": "as-roma",
+     "visitante": "bologna-fc-1909",
+     "fecha": "2027-04-04"
+    },
+    {
+     "local": "us-sassuolo",
+     "visitante": "atalanta-bc",
+     "fecha": "2027-04-04"
+    },
+    {
+     "local": "torino-fc",
+     "visitante": "juventus-fc",
+     "fecha": "2027-04-04"
+    },
+    {
+     "local": "venezia-fc",
+     "visitante": "parma-calcio-1913",
+     "fecha": "2027-04-04"
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "fecha": "2027-04-11",
+   "partidos": [
+    {
+     "local": "bologna-fc-1909",
+     "visitante": "venezia-fc",
+     "fecha": "2027-04-11"
+    },
+    {
+     "local": "cagliari-calcio",
+     "visitante": "atalanta-bc",
+     "fecha": "2027-04-11"
+    },
+    {
+     "local": "acf-fiorentina",
+     "visitante": "ac-milan",
+     "fecha": "2027-04-11"
+    },
+    {
+     "local": "frosinone-calcio",
+     "visitante": "genoa-cfc",
+     "fecha": "2027-04-11"
+    },
+    {
+     "local": "inter-milan",
+     "visitante": "as-roma",
+     "fecha": "2027-04-11"
+    },
+    {
+     "local": "juventus-fc",
+     "visitante": "us-lecce",
+     "fecha": "2027-04-11"
+    },
+    {
+     "local": "ss-lazio",
+     "visitante": "torino-fc",
+     "fecha": "2027-04-11"
+    },
+    {
+     "local": "ssc-napoli",
+     "visitante": "us-sassuolo",
+     "fecha": "2027-04-11"
+    },
+    {
+     "local": "parma-calcio-1913",
+     "visitante": "como-1907",
+     "fecha": "2027-04-11"
+    },
+    {
+     "local": "udinese-calcio",
+     "visitante": "ac-monza",
+     "fecha": "2027-04-11"
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "fecha": "2027-04-18",
+   "partidos": [
+    {
+     "local": "atalanta-bc",
+     "visitante": "udinese-calcio",
+     "fecha": "2027-04-18"
+    },
+    {
+     "local": "bologna-fc-1909",
+     "visitante": "cagliari-calcio",
+     "fecha": "2027-04-18"
+    },
+    {
+     "local": "como-1907",
+     "visitante": "frosinone-calcio",
+     "fecha": "2027-04-18"
+    },
+    {
+     "local": "acf-fiorentina",
+     "visitante": "parma-calcio-1913",
+     "fecha": "2027-04-18"
+    },
+    {
+     "local": "ac-milan",
+     "visitante": "ssc-napoli",
+     "fecha": "2027-04-18"
+    },
+    {
+     "local": "ac-monza",
+     "visitante": "inter-milan",
+     "fecha": "2027-04-18"
+    },
+    {
+     "local": "as-roma",
+     "visitante": "ss-lazio",
+     "fecha": "2027-04-18"
+    },
+    {
+     "local": "us-sassuolo",
+     "visitante": "us-lecce",
+     "fecha": "2027-04-18"
+    },
+    {
+     "local": "torino-fc",
+     "visitante": "genoa-cfc",
+     "fecha": "2027-04-18"
+    },
+    {
+     "local": "venezia-fc",
+     "visitante": "juventus-fc",
+     "fecha": "2027-04-18"
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "fecha": "2027-04-25",
+   "partidos": [
+    {
+     "local": "cagliari-calcio",
+     "visitante": "ac-monza",
+     "fecha": "2027-04-25"
+    },
+    {
+     "local": "frosinone-calcio",
+     "visitante": "as-roma",
+     "fecha": "2027-04-25"
+    },
+    {
+     "local": "genoa-cfc",
+     "visitante": "us-sassuolo",
+     "fecha": "2027-04-25"
+    },
+    {
+     "local": "inter-milan",
+     "visitante": "bologna-fc-1909",
+     "fecha": "2027-04-25"
+    },
+    {
+     "local": "juventus-fc",
+     "visitante": "acf-fiorentina",
+     "fecha": "2027-04-25"
+    },
+    {
+     "local": "ss-lazio",
+     "visitante": "como-1907",
+     "fecha": "2027-04-25"
+    },
+    {
+     "local": "us-lecce",
+     "visitante": "ac-milan",
+     "fecha": "2027-04-25"
+    },
+    {
+     "local": "ssc-napoli",
+     "visitante": "udinese-calcio",
+     "fecha": "2027-04-25"
+    },
+    {
+     "local": "parma-calcio-1913",
+     "visitante": "atalanta-bc",
+     "fecha": "2027-04-25"
+    },
+    {
+     "local": "venezia-fc",
+     "visitante": "torino-fc",
+     "fecha": "2027-04-25"
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "fecha": "2027-05-02",
+   "partidos": [
+    {
+     "local": "atalanta-bc",
+     "visitante": "juventus-fc",
+     "fecha": "2027-05-02"
+    },
+    {
+     "local": "bologna-fc-1909",
+     "visitante": "acf-fiorentina",
+     "fecha": "2027-05-02"
+    },
+    {
+     "local": "como-1907",
+     "visitante": "inter-milan",
+     "fecha": "2027-05-02"
+    },
+    {
+     "local": "us-lecce",
+     "visitante": "cagliari-calcio",
+     "fecha": "2027-05-02"
+    },
+    {
+     "local": "ac-milan",
+     "visitante": "ss-lazio",
+     "fecha": "2027-05-02"
+    },
+    {
+     "local": "ac-monza",
+     "visitante": "venezia-fc",
+     "fecha": "2027-05-02"
+    },
+    {
+     "local": "as-roma",
+     "visitante": "ssc-napoli",
+     "fecha": "2027-05-02"
+    },
+    {
+     "local": "us-sassuolo",
+     "visitante": "frosinone-calcio",
+     "fecha": "2027-05-02"
+    },
+    {
+     "local": "torino-fc",
+     "visitante": "parma-calcio-1913",
+     "fecha": "2027-05-02"
+    },
+    {
+     "local": "udinese-calcio",
+     "visitante": "genoa-cfc",
+     "fecha": "2027-05-02"
+    }
+   ]
+  },
+  {
+   "n": 35,
+   "fecha": "2027-05-09",
+   "partidos": [
+    {
+     "local": "acf-fiorentina",
+     "visitante": "as-roma",
+     "fecha": "2027-05-09"
+    },
+    {
+     "local": "frosinone-calcio",
+     "visitante": "atalanta-bc",
+     "fecha": "2027-05-09"
+    },
+    {
+     "local": "genoa-cfc",
+     "visitante": "cagliari-calcio",
+     "fecha": "2027-05-09"
+    },
+    {
+     "local": "inter-milan",
+     "visitante": "us-lecce",
+     "fecha": "2027-05-09"
+    },
+    {
+     "local": "ss-lazio",
+     "visitante": "us-sassuolo",
+     "fecha": "2027-05-09"
+    },
+    {
+     "local": "ssc-napoli",
+     "visitante": "ac-monza",
+     "fecha": "2027-05-09"
+    },
+    {
+     "local": "parma-calcio-1913",
+     "visitante": "ac-milan",
+     "fecha": "2027-05-09"
+    },
+    {
+     "local": "torino-fc",
+     "visitante": "bologna-fc-1909",
+     "fecha": "2027-05-09"
+    },
+    {
+     "local": "udinese-calcio",
+     "visitante": "juventus-fc",
+     "fecha": "2027-05-09"
+    },
+    {
+     "local": "venezia-fc",
+     "visitante": "como-1907",
+     "fecha": "2027-05-09"
+    }
+   ]
+  },
+  {
+   "n": 36,
+   "fecha": "2027-05-16",
+   "partidos": [
+    {
+     "local": "bologna-fc-1909",
+     "visitante": "frosinone-calcio",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "cagliari-calcio",
+     "visitante": "torino-fc",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "como-1907",
+     "visitante": "atalanta-bc",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "juventus-fc",
+     "visitante": "inter-milan",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "ss-lazio",
+     "visitante": "udinese-calcio",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "us-lecce",
+     "visitante": "acf-fiorentina",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "ac-milan",
+     "visitante": "as-roma",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "ac-monza",
+     "visitante": "parma-calcio-1913",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "ssc-napoli",
+     "visitante": "genoa-cfc",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "us-sassuolo",
+     "visitante": "venezia-fc",
+     "fecha": "2027-05-16"
+    }
+   ]
+  },
+  {
+   "n": 37,
+   "fecha": "2027-05-23",
+   "partidos": [
+    {
+     "local": "atalanta-bc",
+     "visitante": "us-lecce",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "acf-fiorentina",
+     "visitante": "ac-monza",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "frosinone-calcio",
+     "visitante": "cagliari-calcio",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "genoa-cfc",
+     "visitante": "bologna-fc-1909",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "inter-milan",
+     "visitante": "ss-lazio",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "parma-calcio-1913",
+     "visitante": "juventus-fc",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "as-roma",
+     "visitante": "como-1907",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "torino-fc",
+     "visitante": "ssc-napoli",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "udinese-calcio",
+     "visitante": "us-sassuolo",
+     "fecha": "2027-05-23"
+    },
+    {
+     "local": "venezia-fc",
+     "visitante": "ac-milan",
+     "fecha": "2027-05-23"
+    }
+   ]
+  },
+  {
+   "n": 38,
+   "fecha": "2027-05-30",
+   "partidos": [
+    {
+     "local": "bologna-fc-1909",
+     "visitante": "parma-calcio-1913",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "cagliari-calcio",
+     "visitante": "as-roma",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "como-1907",
+     "visitante": "genoa-cfc",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "juventus-fc",
+     "visitante": "frosinone-calcio",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "ss-lazio",
+     "visitante": "acf-fiorentina",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "us-lecce",
+     "visitante": "venezia-fc",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "ac-milan",
+     "visitante": "udinese-calcio",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "ac-monza",
+     "visitante": "torino-fc",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "ssc-napoli",
+     "visitante": "atalanta-bc",
+     "fecha": "2027-05-30"
+    },
+    {
+     "local": "us-sassuolo",
+     "visitante": "inter-milan",
+     "fecha": "2027-05-30"
+    }
+   ]
+  }
+ ]
+}

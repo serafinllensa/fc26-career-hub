@@ -1,0 +1,36 @@
+<!doctype html><html lang="es-AR" data-tema="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><link rel="icon" href="data:,"><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../tema-fc26.css"><script src="comun.js"></script><title>Oficina del DT · FC26 Career Hub (maqueta)</title>
+<style>@media(min-width:960px){.oficina-dt{grid-template-columns:minmax(0,1fr) minmax(0,1.1fr)!important;gap:var(--e10)!important}}
+.segmento{display:flex;gap:var(--e5);margin-bottom:var(--e4)}.segmento button{background:transparent;border:0;color:var(--tinta-3);font:600 var(--t-md)/1 var(--f-display);min-height:36px;padding:0;cursor:pointer}.segmento button[aria-pressed="true"]{color:#fff;font-weight:800;border-bottom:2px solid var(--menta)}</style></head><body><div class="app" id="app"></div>
+<script>
+(async()=>{
+const club=await clubPorQuery(); aplicarClub(club);
+const pl=await plantilla(club.id); const once=onceEA(pl.jugadores);
+const XY=[[50,90],[16,70],[38,74],[62,74],[84,70],[28,48],[50,56],[72,48],[18,22],[50,15],[82,22]];
+const fichas=once.map((o,i)=>o.j?`<div class="ficha-cancha" style="left:${XY[i][0]}%;top:${XY[i][1]}%"><span class="ovr-chip ${(ovr(o.j)||0)>=75?'oro':(ovr(o.j)||0)>=65?'plata':'bronce'}">${ovr(o.j)??'—'}</span><span>${corto(o.j.nombre)}</span><small>${o.rol}</small></div>`:'').join('');
+const media=Math.round(once.filter(o=>o.j&&ovr(o.j)).reduce((a,o)=>a+ovr(o.j),0)/once.filter(o=>o.j&&ovr(o.j)).length);
+document.getElementById('app').innerHTML=nav('presidente')+`<main class="contenido">
+${banda(club,'Hardcore',4)}
+<div class="segmento" role="group" aria-label="Oficina"><button>Presidente</button><button aria-pressed="true">Director técnico</button><button>Prensa</button></div>
+<div class="grilla oficina-dt">
+ <section>
+  <div style="display:flex;justify-content:space-between;align-items:end;margin-bottom:var(--e3)"><div><div class="etiqueta">Once ideal por media EA</div><h2 class="h1" style="font-size:var(--t-2xl)">4-3-3</h2></div><div style="text-align:right"><div class="etiqueta">Media del once</div><div class="ovr-xl num" style="font-size:var(--t-3xl)">${media||'—'}</div></div></div>
+  <div class="cancha">${fichas}</div>
+  <p class="fuente" style="margin-top:var(--e3)">Jugadores y medias reales (Transfermarkt + base oficial EA FC 26). La formación es de ejemplo hasta tener la del DT.</p>
+ </section>
+ <section style="display:flex;flex-direction:column;gap:var(--e4)">
+  <div class="tarjeta brillo llamada" style="width:100%"><div class="avatar" aria-hidden="true">DT</div><div style="flex:1;text-align:left"><div style="color:var(--ok);font-weight:600;font-size:var(--t-sm)">Charla con</div><div class="h3" style="font:800 var(--t-xl)/1.1 var(--f-display)">Tu director técnico</div><div class="meta">Se completa con dts.json</div></div><span class="badge ejemplo">Ejemplo</span></div>
+  <div class="tarjeta"><div class="bloque-tit" style="margin:0 0 var(--e3)"><span class="etiqueta" style="color:#fff">Idea de juego</span><span class="badge ejemplo">Ejemplo</span></div>
+   <div style="display:flex;gap:8px;flex-wrap:wrap"><span class="chip" aria-pressed="true">Posesión</span><span class="chip" aria-pressed="true">Presión alta</span><span class="chip">Transiciones</span><span class="chip">Contragolpe</span><span class="chip">Bloque bajo</span></div>
+   <div class="fila-dato" style="margin-top:var(--e3)"><span>Confianza del vestuario</span><span style="color:var(--ok)">68</span></div>
+   <div class="fila-dato" style="border:0"><span>Relación con el DT</span><span>Buena</span></div></div>
+  <div class="tarjeta"><span class="tension" style="display:inline-block;margin-bottom:var(--e3)">Tensión baja</span>
+   <p class="cita" style="max-width:none;text-align:left">“Para el clásico quiero rotar dos titulares. Venimos de tres partidos en una semana y el cuerpo no da más.”</p>
+   <div class="respuestas" style="width:100%;margin-top:var(--e3)">
+    <button class="respuesta sel"><b>“Dale, confío en tu criterio.”</b><div class="efectos" style="display:flex;gap:6px;margin-top:8px"><span class="badge ok">DT +5</span><span class="badge alerta">Riesgo en el resultado</span></div></button>
+    <button class="respuesta"><b>“En el clásico juegan los mejores.”</b><div class="efectos" style="display:flex;gap:6px;margin-top:8px"><span class="badge peligro">DT −6</span><span class="badge alerta">Riesgo de lesión</span></div></button>
+    <button class="respuesta"><b>“Rotá uno solo, y que sea en el medio.”</b><div class="efectos" style="display:flex;gap:6px;margin-top:8px"><span class="badge info">Acuerdo</span><span class="badge neutro">DT +1</span></div></button>
+   </div></div>
+ </section>
+</div>${PIE}</main>`;
+})();
+</script></body></html>

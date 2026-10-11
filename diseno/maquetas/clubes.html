@@ -1,0 +1,31 @@
+<!doctype html><html lang="es-AR" data-tema="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Elegir club · FC26 Career Hub (maqueta)</title><link rel="icon" href="data:,"><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../tema-fc26.css"><script src="comun.js"></script>
+<style>
+.chips{display:flex;gap:var(--e2);overflow-x:auto;scrollbar-width:none;margin:var(--e3) calc(var(--e4)*-1);padding:0 var(--e4)}
+.lista{display:grid;gap:var(--e2)}
+@media(min-width:720px){.lista{grid-template-columns:repeat(2,1fr)}}@media(min-width:1200px){.lista{grid-template-columns:repeat(3,1fr)}}
+.club{position:relative;display:flex;gap:var(--e3);align-items:center;padding:var(--e3) var(--e4) var(--e3) var(--e5);background:var(--superficie);border:1px solid var(--linea);border-radius:var(--r-md);text-decoration:none;color:inherit;overflow:hidden;min-height:72px}
+.club::before{content:"";position:absolute;left:0;top:0;bottom:0;width:6px;background:linear-gradient(var(--club) 50%,var(--club-2) 50%)}
+.club:hover{border-color:var(--tinta);box-shadow:var(--sombra-2)}
+.estrellas{font:700 13px/1 var(--f-display);letter-spacing:1px;color:var(--club-acento)}
+.liga-tit{display:flex;align-items:center;justify-content:space-between;margin:var(--e5) 0 var(--e2)}
+.cabeza{background:var(--tinta);color:var(--papel);margin:calc(var(--e4)*-1) calc(var(--e4)*-1) var(--e4);padding:var(--e6) var(--e4)}
+@media(min-width:960px){.cabeza{margin:calc(var(--e8)*-1) calc(var(--e10)*-1) var(--e6);padding:var(--e10)}.chips{margin:var(--e3) 0;padding:0}}
+.cabeza .etiqueta{color:#B9BCC4}
+.pasos{display:flex;gap:6px;margin-top:var(--e4)}.pasos span{flex:1;height:4px;border-radius:2px;background:rgba(255,255,255,.2)}.pasos span.on{background:#fff}
+</style></head><body><div class="app" id="app"></div>
+<script>
+(async()=>{
+await cargarClubes(); const CL=CLUBES;
+const ligas=['Premier League','LaLiga','Serie A','Bundesliga','Ligue 1'];
+const tarjeta=c=>`<a class="club" href="panel.html?club=${c.id}" style="${vars(c)}">${escudo(c)}<div style="flex:1;min-width:0"><div class="h3">${c.nombre}</div><div class="meta">${c.ciudad||c.pais} · ${c.estadio||''}</div></div><div style="text-align:right"><div class="estrellas" aria-label="Nivel ${c.nivel} de 5">${'★'.repeat(c.nivel)}<span style="opacity:.25">${'★'.repeat(5-c.nivel)}</span></div><div class="meta" style="font-size:11px">Nivel ${c.nivel}</div></div></a>`;
+document.getElementById('app').innerHTML=nav('clubes')+`<main class="contenido">
+<header class="cabeza"><div class="etiqueta">Nueva carrera · Paso 1 de 3</div><h1 class="h1" style="margin-top:6px">Elegí tu club</h1><p style="margin:8px 0 0;color:#B9BCC4">96 clubes de las 5 grandes ligas, temporada 2026/27.</p><div class="pasos"><span class="on"></span><span></span><span></span></div></header>
+<div style="display:flex;gap:var(--e2)"><label class="campo" style="flex:1">${ICONO.buscar}<input placeholder="Buscar club o ciudad" aria-label="Buscar club"></label><button class="btn secundario" aria-label="Sortear club" style="padding:0 14px">🎲<span class="solo-esc-txt"> Sortear</span></button></div>
+<div class="chips" role="group" aria-label="Liga"><button class="chip" aria-pressed="true">Todas</button>${ligas.map(l=>`<button class="chip">${l}</button>`).join('')}</div>
+<div class="chips" role="group" aria-label="Nivel" style="margin-top:0"><button class="chip" aria-pressed="true">Cualquier nivel</button>${[5,4,3,2,1].map(n=>`<button class="chip">${'★'.repeat(n)}</button>`).join('')}</div>
+${ligas.map(l=>{const cs=CL.filter(c=>c.liga===l).sort((a,b)=>b.nivel-a.nivel||b.valorPlantillaM-a.valorPlantillaM);return `<div class="liga-tit"><h2 class="h2">${l}</h2><span class="meta">${cs.length} clubes</span></div><div class="lista">${cs.map(tarjeta).join('')}</div>`}).join('')}
+<p class="fuente" style="margin-top:var(--e5)">Nivel provisorio por valor de plantilla (Transfermarkt, 10/10/2026); Motor lo recalcula con ingresos y coeficiente UEFA.</p>${PIE}
+</main>`;
+})();
+</script></body></html>

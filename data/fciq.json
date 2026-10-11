@@ -1,0 +1,830 @@
+{
+ "juego": "EA SPORTS FC 26",
+ "fecha": "2026-10-11",
+ "fuentes": [
+  {
+   "url": "https://www.ea.com/games/ea-sports-fc/fc-25/news/pitch-notes-fc-25-fc-iq-deep-dive",
+   "nota": "Tabla base de roles y focos por posición (FC 25, FC IQ)."
+  },
+  {
+   "url": "https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-gameplay-deep-dive",
+   "nota": "Cambios de FC 26: 4 roles nuevos, foco Versátil (reemplaza Completo), 10 focos nuevos y Volante por banda rehecho."
+  },
+  {
+   "url": "https://www.ea.com/games/ea-sports-fc/fc-26/news/pitch-notes-fc26-career-mode-deep-dive",
+   "nota": "Modo carrera FC 26: los roles ya no son obligatorios. Los roles de la Visión del DT ganan +1 de familiaridad: con DT Plata llega hasta Rol+ y con DT Oro hasta Rol++."
+  }
+ ],
+ "notas": [
+  "rolEA/focoEA son los nombres oficiales en inglés; rol/foco son traducciones nuestras, no los textos oficiales en español del juego.",
+  "Familiaridad: Rol, Rol+ y Rol++. En FC 26 el foco Versátil en extremo es solo para ED/EI.",
+  "Desde FC 25 no existen las posiciones SD ni CAI/CAD en el juego (las de Transfermarkt se mapean a DC y LD/LI)."
+ ],
+ "posiciones": [
+  {
+   "posEA": "GK",
+   "pos": [
+    "POR"
+   ],
+   "roles": [
+    {
+     "id": "gk-goalkeeper",
+     "rolEA": "Goalkeeper",
+     "rol": "Arquero",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Defend",
+       "foco": "Defensa",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Balanced",
+       "foco": "Equilibrado",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "gk-sweeper-keeper",
+     "rolEA": "Sweeper Keeper",
+     "rol": "Arquero líbero",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Balanced",
+       "foco": "Equilibrado",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Build-Up",
+       "foco": "Salida",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "gk-ball-playing-keeper",
+     "rolEA": "Ball-Playing Keeper",
+     "rol": "Arquero con juego de pies",
+     "nuevoFC26": true,
+     "focos": [
+      {
+       "focoEA": "Build-Up",
+       "foco": "Salida",
+       "nuevoFC26": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "posEA": "RB/LB",
+   "pos": [
+    "LD",
+    "LI"
+   ],
+   "roles": [
+    {
+     "id": "rb-lb-fullback",
+     "rolEA": "Fullback",
+     "rol": "Lateral",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Defend",
+       "foco": "Defensa",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Balanced",
+       "foco": "Equilibrado",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Versatile",
+       "foco": "Versátil",
+       "nuevoFC26": true
+      }
+     ]
+    },
+    {
+     "id": "rb-lb-wingback",
+     "rolEA": "Wingback",
+     "rol": "Carrilero",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Balanced",
+       "foco": "Equilibrado",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Support",
+       "foco": "Apoyo",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "rb-lb-falseback",
+     "rolEA": "Falseback",
+     "rol": "Lateral falso",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Defend",
+       "foco": "Defensa",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Balanced",
+       "foco": "Equilibrado",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "rb-lb-attacking-wingback",
+     "rolEA": "Attacking Wingback",
+     "rol": "Carrilero ofensivo",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Support",
+       "foco": "Apoyo",
+       "nuevoFC26": true
+      },
+      {
+       "focoEA": "Attack",
+       "foco": "Ataque",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "rb-lb-inverted-wingback",
+     "rolEA": "Inverted Wingback",
+     "rol": "Carrilero invertido",
+     "nuevoFC26": true,
+     "focos": [
+      {
+       "focoEA": "Build-Up",
+       "foco": "Salida",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Attack",
+       "foco": "Ataque",
+       "nuevoFC26": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "posEA": "CB",
+   "pos": [
+    "DFC"
+   ],
+   "roles": [
+    {
+     "id": "cb-defender",
+     "rolEA": "Defender",
+     "rol": "Defensor",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Defend",
+       "foco": "Defensa",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Balanced",
+       "foco": "Equilibrado",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "cb-stopper",
+     "rolEA": "Stopper",
+     "rol": "Stopper",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Balanced",
+       "foco": "Equilibrado",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Aggressive",
+       "foco": "Agresivo",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "cb-ball-playing-defender",
+     "rolEA": "Ball-Playing Defender",
+     "rol": "Central con salida",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Defend",
+       "foco": "Defensa",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Build-Up",
+       "foco": "Salida",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Aggressive",
+       "foco": "Agresivo",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "cb-wide-back",
+     "rolEA": "Wide Back",
+     "rol": "Central abierto",
+     "nuevoFC26": true,
+     "focos": [
+      {
+       "focoEA": "Defend",
+       "foco": "Defensa",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Aggressive",
+       "foco": "Agresivo",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Support",
+       "foco": "Apoyo",
+       "nuevoFC26": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "posEA": "CDM",
+   "pos": [
+    "MCD"
+   ],
+   "roles": [
+    {
+     "id": "cdm-holding",
+     "rolEA": "Holding",
+     "rol": "Contención",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Defend",
+       "foco": "Defensa",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Roaming",
+       "foco": "Libre",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Ball-Winning",
+       "foco": "Recuperación",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "cdm-centre-half",
+     "rolEA": "Centre-Half",
+     "rol": "Central retrasado",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Defend",
+       "foco": "Defensa",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "cdm-deep-lying-playmaker",
+     "rolEA": "Deep-Lying Playmaker",
+     "rol": "Organizador retrasado",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Defend",
+       "foco": "Defensa",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Roaming",
+       "foco": "Libre",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Build-Up",
+       "foco": "Salida",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "cdm-wide-half",
+     "rolEA": "Wide Half",
+     "rol": "Medio abierto",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Defend",
+       "foco": "Defensa",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Build-Up",
+       "foco": "Salida",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "cdm-box-crasher",
+     "rolEA": "Box Crasher",
+     "rol": "Volante de llegada",
+     "nuevoFC26": true,
+     "focos": [
+      {
+       "focoEA": "Balanced",
+       "foco": "Equilibrado",
+       "nuevoFC26": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "posEA": "CM",
+   "pos": [
+    "MC"
+   ],
+   "roles": [
+    {
+     "id": "cm-box-to-box",
+     "rolEA": "Box-to-Box",
+     "rol": "Box to box",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Balanced",
+       "foco": "Equilibrado",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Ball-Winning",
+       "foco": "Recuperación",
+       "nuevoFC26": true
+      }
+     ]
+    },
+    {
+     "id": "cm-holding",
+     "rolEA": "Holding",
+     "rol": "Contención",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Defend",
+       "foco": "Defensa",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Ball-Winning",
+       "foco": "Recuperación",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "cm-deep-lying-playmaker",
+     "rolEA": "Deep-Lying Playmaker",
+     "rol": "Organizador retrasado",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Defend",
+       "foco": "Defensa",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Build-Up",
+       "foco": "Salida",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "cm-playmaker",
+     "rolEA": "Playmaker",
+     "rol": "Organizador",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Attack",
+       "foco": "Ataque",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Roaming",
+       "foco": "Libre",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "cm-half-winger",
+     "rolEA": "Half-Winger",
+     "rol": "Medio extremo",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Balanced",
+       "foco": "Equilibrado",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Attack",
+       "foco": "Ataque",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Support",
+       "foco": "Apoyo",
+       "nuevoFC26": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "posEA": "RM/LM",
+   "pos": [
+    "MD",
+    "MI"
+   ],
+   "roles": [
+    {
+     "id": "rm-lm-winger",
+     "rolEA": "Winger",
+     "rol": "Extremo",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Balanced",
+       "foco": "Equilibrado",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Attack",
+       "foco": "Ataque",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "rm-lm-wide-midfielder",
+     "rolEA": "Wide Midfielder",
+     "rol": "Volante por banda",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Defend",
+       "foco": "Defensa",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Support",
+       "foco": "Apoyo",
+       "nuevoFC26": true
+      },
+      {
+       "focoEA": "Build-Up",
+       "foco": "Salida",
+       "nuevoFC26": true
+      }
+     ]
+    },
+    {
+     "id": "rm-lm-wide-playmaker",
+     "rolEA": "Wide Playmaker",
+     "rol": "Organizador por banda",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Attack",
+       "foco": "Ataque",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Build-Up",
+       "foco": "Salida",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "rm-lm-inside-forward",
+     "rolEA": "Inside Forward",
+     "rol": "Delantero interior",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Balanced",
+       "foco": "Equilibrado",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Attack",
+       "foco": "Ataque",
+       "nuevoFC26": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "posEA": "CAM",
+   "pos": [
+    "MCO"
+   ],
+   "roles": [
+    {
+     "id": "cam-playmaker",
+     "rolEA": "Playmaker",
+     "rol": "Organizador",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Balanced",
+       "foco": "Equilibrado",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Roaming",
+       "foco": "Libre",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Build-Up",
+       "foco": "Salida",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "cam-shadow-striker",
+     "rolEA": "Shadow Striker",
+     "rol": "Segundo delantero",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Attack",
+       "foco": "Ataque",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "cam-half-winger",
+     "rolEA": "Half-Winger",
+     "rol": "Medio extremo",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Balanced",
+       "foco": "Equilibrado",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Attack",
+       "foco": "Ataque",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Roaming",
+       "foco": "Libre",
+       "nuevoFC26": true
+      }
+     ]
+    },
+    {
+     "id": "cam-classic-10",
+     "rolEA": "Classic 10",
+     "rol": "Enganche clásico",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Attack",
+       "foco": "Ataque",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Wide",
+       "foco": "Abierto",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Versatile",
+       "foco": "Versátil",
+       "nuevoFC26": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "posEA": "RW/LW",
+   "pos": [
+    "ED",
+    "EI"
+   ],
+   "roles": [
+    {
+     "id": "rw-lw-winger",
+     "rolEA": "Winger",
+     "rol": "Extremo",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Balanced",
+       "foco": "Equilibrado",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Attack",
+       "foco": "Ataque",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Versatile",
+       "foco": "Versátil",
+       "nuevoFC26": true
+      }
+     ]
+    },
+    {
+     "id": "rw-lw-inside-forward",
+     "rolEA": "Inside Forward",
+     "rol": "Delantero interior",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Balanced",
+       "foco": "Equilibrado",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Attack",
+       "foco": "Ataque",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Roaming",
+       "foco": "Libre",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "rw-lw-wide-playmaker",
+     "rolEA": "Wide Playmaker",
+     "rol": "Organizador por banda",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Attack",
+       "foco": "Ataque",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Build-Up",
+       "foco": "Salida",
+       "nuevoFC26": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "posEA": "ST",
+   "pos": [
+    "DC"
+   ],
+   "roles": [
+    {
+     "id": "st-advanced-forward",
+     "rolEA": "Advanced Forward",
+     "rol": "Delantero avanzado",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Attack",
+       "foco": "Ataque",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Versatile",
+       "foco": "Versátil",
+       "nuevoFC26": true
+      },
+      {
+       "focoEA": "Support",
+       "foco": "Apoyo",
+       "nuevoFC26": false
+      }
+     ]
+    },
+    {
+     "id": "st-poacher",
+     "rolEA": "Poacher",
+     "rol": "Delantero de área",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Attack",
+       "foco": "Ataque",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Support",
+       "foco": "Apoyo",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Versatile",
+       "foco": "Versátil",
+       "nuevoFC26": true
+      }
+     ]
+    },
+    {
+     "id": "st-false-9",
+     "rolEA": "False 9",
+     "rol": "Falso 9",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Build-Up",
+       "foco": "Salida",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Attack",
+       "foco": "Ataque",
+       "nuevoFC26": true
+      }
+     ]
+    },
+    {
+     "id": "st-target-forward",
+     "rolEA": "Target Forward",
+     "rol": "Delantero referencia",
+     "nuevoFC26": false,
+     "focos": [
+      {
+       "focoEA": "Balanced",
+       "foco": "Equilibrado",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Attack",
+       "foco": "Ataque",
+       "nuevoFC26": false
+      },
+      {
+       "focoEA": "Wide",
+       "foco": "Abierto",
+       "nuevoFC26": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "familiaridad": [
+  "base",
+  "+",
+  "++"
+ ],
+ "resumen": {
+  "roles": 37,
+  "combinaciones": 85
+ }
+}

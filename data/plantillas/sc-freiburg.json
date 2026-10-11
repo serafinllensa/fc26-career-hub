@@ -1,0 +1,993 @@
+{
+ "clubId": "sc-freiburg",
+ "fecha": "2026-10-10",
+ "fuente": "https://www.transfermarkt.com/sc-freiburg/kader/verein/60/saison_id/2026/plus/1",
+ "nota": "Foto de Transfermarkt. posSec desde el perfil de cada jugador (2026-10-11).",
+ "jugadores": [
+  {
+   "id": "tm620295",
+   "nombre": "Mio Backhaus",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "nac2": "Japan",
+   "valorM": 15.0,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "tmUrl": "https://www.transfermarkt.com/mio-backhaus/profil/spieler/620295",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2004-04-16",
+   "ea": {
+    "eaId": 268428,
+    "nombreEA": "Mio Backhaus",
+    "ovr": 67,
+    "pac": 67,
+    "sho": 63,
+    "pas": 61,
+    "dri": 71,
+    "def": 19,
+    "phy": 66,
+    "posEA": "POR",
+    "equipoEA": "SV Werder Bremen",
+    "pieHabil": "derecho",
+    "filigranas": 1,
+    "piernaMala": 4,
+    "porteroStats": {
+     "gkDiving": 67,
+     "gkHandling": 63,
+     "gkKicking": 61,
+     "gkPositioning": 66,
+     "gkReflexes": 71
+    }
+   }
+  },
+  {
+   "id": "tm284769",
+   "nombre": "Florian Müller",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 1.2,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "tmUrl": "https://www.transfermarkt.com/florian-muller/profil/spieler/284769",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1997-11-13",
+   "ea": {
+    "eaId": 234833,
+    "nombreEA": "Florian Müller",
+    "ovr": 72,
+    "pac": 72,
+    "sho": 67,
+    "pas": 71,
+    "dri": 79,
+    "def": 43,
+    "phy": 68,
+    "posEA": "POR",
+    "equipoEA": "SC Freiburg",
+    "pieHabil": "izquierdo",
+    "filigranas": 1,
+    "piernaMala": 4,
+    "porteroStats": {
+     "gkDiving": 72,
+     "gkHandling": 67,
+     "gkKicking": 71,
+     "gkPositioning": 68,
+     "gkReflexes": 79
+    }
+   }
+  },
+  {
+   "id": "tm160954",
+   "nombre": "Jannik Huth",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 0.4,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "tmUrl": "https://www.transfermarkt.com/jannik-huth/profil/spieler/160954",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1994-04-15",
+   "ea": {
+    "eaId": 229692,
+    "nombreEA": "Jannik Huth",
+    "ovr": 69,
+    "pac": 71,
+    "sho": 64,
+    "pas": 74,
+    "dri": 71,
+    "def": 59,
+    "phy": 67,
+    "posEA": "POR",
+    "equipoEA": "SC Freiburg",
+    "pieHabil": "derecho",
+    "filigranas": 1,
+    "piernaMala": 4,
+    "porteroStats": {
+     "gkDiving": 71,
+     "gkHandling": 64,
+     "gkKicking": 74,
+     "gkPositioning": 67,
+     "gkReflexes": 71
+    }
+   }
+  },
+  {
+   "id": "tm863759",
+   "nombre": "Bruno Ogbus",
+   "pos": "DFC",
+   "posSec": [
+    "LD"
+   ],
+   "edad": 20,
+   "nac": "Switzerland",
+   "nacCodigo": "CH",
+   "nac2": "Nigeria",
+   "valorM": 12.0,
+   "contratoHasta": null,
+   "dorsal": 43,
+   "tmUrl": "https://www.transfermarkt.com/bruno-ogbus/profil/spieler/863759",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2005-12-17",
+   "ea": {
+    "eaId": 279045,
+    "nombreEA": "Bruno Ogbus",
+    "ovr": 59,
+    "pac": 65,
+    "sho": 27,
+    "pas": 41,
+    "dri": 49,
+    "def": 59,
+    "phy": 59,
+    "posEA": "DFC",
+    "equipoEA": "SC Freiburg",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm225657",
+   "nombre": "Philipp Lienhart",
+   "pos": "DFC",
+   "posSec": [
+    "MCD"
+   ],
+   "edad": 30,
+   "nac": "Austria",
+   "nacCodigo": "AT",
+   "valorM": 10.0,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "tmUrl": "https://www.transfermarkt.com/philipp-lienhart/profil/spieler/225657",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1996-07-11",
+   "ea": {
+    "eaId": 231366,
+    "nombreEA": "Philipp Lienhart",
+    "ovr": 79,
+    "pac": 67,
+    "sho": 28,
+    "pas": 59,
+    "dri": 64,
+    "def": 81,
+    "phy": 78,
+    "posEA": "DFC",
+    "equipoEA": "SC Freiburg",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm599419",
+   "nombre": "Max Rosenfelder",
+   "pos": "DFC",
+   "posSec": [
+    "LD"
+   ],
+   "edad": 23,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 8.0,
+   "contratoHasta": null,
+   "dorsal": 37,
+   "tmUrl": "https://www.transfermarkt.com/max-rosenfelder/profil/spieler/599419",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2003-02-10",
+   "ea": {
+    "eaId": 263022,
+    "nombreEA": "Max Rosenfelder",
+    "ovr": 74,
+    "pac": 82,
+    "sho": 30,
+    "pas": 57,
+    "dri": 67,
+    "def": 75,
+    "phy": 68,
+    "posEA": "DFC",
+    "equipoEA": "SC Freiburg",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm124502",
+   "nombre": "Matthias Ginter",
+   "pos": "DFC",
+   "posSec": [
+    "MCD",
+    "LD"
+   ],
+   "edad": 32,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 5.0,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "tmUrl": "https://www.transfermarkt.com/matthias-ginter/profil/spieler/124502",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1994-01-19",
+   "ea": {
+    "eaId": 207862,
+    "nombreEA": "Matthias Ginter",
+    "ovr": 82,
+    "pac": 55,
+    "sho": 58,
+    "pas": 71,
+    "dri": 66,
+    "def": 85,
+    "phy": 75,
+    "posEA": "DFC",
+    "equipoEA": "SC Freiburg",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm58995",
+   "nombre": "Anthony Jung",
+   "pos": "DFC",
+   "posSec": [
+    "LI",
+    "MI"
+   ],
+   "edad": 34,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "nac2": "Spain",
+   "valorM": 0.6,
+   "contratoHasta": "2027-06",
+   "dorsal": 5,
+   "tmUrl": "https://www.transfermarkt.com/anthony-jung/profil/spieler/58995",
+   "verificado": true,
+   "fechaNac": "1991-11-03",
+   "ea": {
+    "eaId": 207897,
+    "nombreEA": "Anthony Jung",
+    "ovr": 72,
+    "pac": 62,
+    "sho": 62,
+    "pas": 65,
+    "dri": 65,
+    "def": 73,
+    "phy": 75,
+    "posEA": "DFC",
+    "equipoEA": "SC Freiburg",
+    "pieHabil": "izquierdo",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm815078",
+   "nombre": "Jordy Makengo",
+   "pos": "LI",
+   "posSec": [
+    "MI",
+    "DFC"
+   ],
+   "edad": 25,
+   "nac": "DR Congo",
+   "nacCodigo": "CD",
+   "nac2": "France",
+   "valorM": 10.0,
+   "contratoHasta": "2028-06",
+   "dorsal": 33,
+   "tmUrl": "https://www.transfermarkt.com/jordy-makengo/profil/spieler/815078",
+   "verificado": true,
+   "fechaNac": "2001-08-03",
+   "ea": {
+    "eaId": 262668,
+    "nombreEA": "Jordy Makengo",
+    "ovr": 72,
+    "pac": 82,
+    "sho": 36,
+    "pas": 62,
+    "dri": 66,
+    "def": 69,
+    "phy": 72,
+    "posEA": "LI",
+    "equipoEA": "SC Freiburg",
+    "pieHabil": "izquierdo",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm907087",
+   "nombre": "Berkay Yılmaz",
+   "pos": "LI",
+   "posSec": [
+    "MI",
+    "MC"
+   ],
+   "edad": 21,
+   "nac": "Türkiye",
+   "nacCodigo": "TR",
+   "nac2": "Germany",
+   "valorM": 7.0,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "tmUrl": "https://www.transfermarkt.com/berkay-yilmaz/profil/spieler/907087",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2005-02-25",
+   "ea": {
+    "eaId": 279115,
+    "nombreEA": "Berkay Yilmaz",
+    "ovr": 68,
+    "pac": 75,
+    "sho": 35,
+    "pas": 58,
+    "dri": 69,
+    "def": 61,
+    "phy": 55,
+    "posEA": "LI",
+    "equipoEA": "1. FC Nürnberg",
+    "pieHabil": "izquierdo",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm93707",
+   "nombre": "Christian Günter",
+   "pos": "LI",
+   "posSec": [
+    "MI"
+   ],
+   "edad": 33,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 2.0,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "tmUrl": "https://www.transfermarkt.com/christian-gunter/profil/spieler/93707",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1993-02-28",
+   "ea": {
+    "eaId": 209846,
+    "nombreEA": "Christian Günter",
+    "ovr": 77,
+    "pac": 83,
+    "sho": 60,
+    "pas": 69,
+    "dri": 71,
+    "def": 73,
+    "phy": 82,
+    "posEA": "LI",
+    "equipoEA": "SC Freiburg",
+    "pieHabil": "izquierdo",
+    "filigranas": 3,
+    "piernaMala": 2
+   }
+  },
+  {
+   "id": "tm335993",
+   "nombre": "Philipp Treu",
+   "pos": "LD",
+   "posSec": [
+    "MD",
+    "LI"
+   ],
+   "edad": 25,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 18.0,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "tmUrl": "https://www.transfermarkt.com/philipp-treu/profil/spieler/335993",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2000-12-03",
+   "ea": {
+    "eaId": 262666,
+    "nombreEA": "Philipp Treu",
+    "ovr": 74,
+    "pac": 81,
+    "sho": 45,
+    "pas": 67,
+    "dri": 76,
+    "def": 65,
+    "phy": 66,
+    "posEA": "LI",
+    "equipoEA": "SC Freiburg",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm93604",
+   "nombre": "Lukas Kübler",
+   "pos": "LD",
+   "posSec": [
+    "DFC",
+    "MD"
+   ],
+   "edad": 34,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 1.5,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "tmUrl": "https://www.transfermarkt.com/lukas-kubler/profil/spieler/93604",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1992-08-30",
+   "ea": {
+    "eaId": 208335,
+    "nombreEA": "Lukas Kübler",
+    "ovr": 75,
+    "pac": 77,
+    "sho": 54,
+    "pas": 61,
+    "dri": 67,
+    "def": 73,
+    "phy": 76,
+    "posEA": "LD",
+    "equipoEA": "SC Freiburg",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 2
+   }
+  },
+  {
+   "id": "tm405670",
+   "nombre": "Yannik Engelhardt",
+   "pos": "MCD",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 12.0,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "tmUrl": "https://www.transfermarkt.com/yannik-engelhardt/profil/spieler/405670",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2001-02-07",
+   "ea": {
+    "eaId": 262906,
+    "nombreEA": "Yannik Engelhardt",
+    "ovr": 70,
+    "pac": 65,
+    "sho": 46,
+    "pas": 64,
+    "dri": 64,
+    "def": 68,
+    "phy": 69,
+    "posEA": "MCD",
+    "equipoEA": "M'gladbach",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 4
+   }
+  },
+  {
+   "id": "tm443331",
+   "nombre": "Patrick Osterhage",
+   "pos": "MCD",
+   "posSec": [
+    "MC"
+   ],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 10.0,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "tmUrl": "https://www.transfermarkt.com/patrick-osterhage/profil/spieler/443331",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2000-02-01",
+   "ea": {
+    "eaId": 250931,
+    "nombreEA": "Patrick Osterhage",
+    "ovr": 75,
+    "pac": 78,
+    "sho": 57,
+    "pas": 66,
+    "dri": 69,
+    "def": 74,
+    "phy": 75,
+    "posEA": "MCD",
+    "equipoEA": "SC Freiburg",
+    "pieHabil": "izquierdo",
+    "filigranas": 3,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm432403",
+   "nombre": "Rihito Yamamoto",
+   "pos": "MCD",
+   "posSec": [
+    "MC"
+   ],
+   "edad": 24,
+   "nac": "Japan",
+   "nacCodigo": "JP",
+   "valorM": 7.0,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "tmUrl": "https://www.transfermarkt.com/rihito-yamamoto/profil/spieler/432403",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2001-12-12",
+   "ea": {
+    "eaId": 270923,
+    "nombreEA": "Rihito Yamamoto",
+    "ovr": 65,
+    "pac": 63,
+    "sho": 54,
+    "pas": 61,
+    "dri": 66,
+    "def": 63,
+    "phy": 63,
+    "posEA": "MC",
+    "equipoEA": "STVV",
+    "pieHabil": "izquierdo",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm190284",
+   "nombre": "Maximilian Eggestein",
+   "pos": "MC",
+   "posSec": [
+    "MCD"
+   ],
+   "edad": 29,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 10.0,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "tmUrl": "https://www.transfermarkt.com/maximilian-eggestein/profil/spieler/190284",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1996-12-08",
+   "ea": {
+    "eaId": 226168,
+    "nombreEA": "Maximilian Eggestein",
+    "ovr": 75,
+    "pac": 60,
+    "sho": 62,
+    "pas": 69,
+    "dri": 71,
+    "def": 72,
+    "phy": 77,
+    "posEA": "MCD",
+    "equipoEA": "SC Freiburg",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 4
+   }
+  },
+  {
+   "id": "tm1159439",
+   "nombre": "Rouven Tarnutzer",
+   "pos": "MC",
+   "posSec": [
+    "MCO",
+    "MCD"
+   ],
+   "edad": 19,
+   "nac": "Switzerland",
+   "nacCodigo": "CH",
+   "nac2": "Germany",
+   "valorM": 0.5,
+   "contratoHasta": null,
+   "dorsal": 39,
+   "tmUrl": "https://www.transfermarkt.com/rouven-tarnutzer/profil/spieler/1159439",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2007-07-24",
+   "ea": null
+  },
+  {
+   "id": "tm820957",
+   "nombre": "Derry Scherhant",
+   "pos": "EI",
+   "posSec": [
+    "ED",
+    "DC"
+   ],
+   "edad": 23,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 20.0,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "tmUrl": "https://www.transfermarkt.com/derry-scherhant/profil/spieler/820957",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2002-11-10",
+   "ea": {
+    "eaId": 269705,
+    "nombreEA": "Derry Scherhant",
+    "ovr": 69,
+    "pac": 83,
+    "sho": 66,
+    "pas": 61,
+    "dri": 73,
+    "def": 23,
+    "phy": 65,
+    "posEA": "DC",
+    "equipoEA": "SC Freiburg",
+    "pieHabil": "derecho",
+    "filigranas": 4,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm185077",
+   "nombre": "Vincenzo Grifo",
+   "pos": "EI",
+   "posSec": [
+    "MCO",
+    "MI"
+   ],
+   "edad": 33,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "nac2": "Germany",
+   "valorM": 4.0,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "tmUrl": "https://www.transfermarkt.com/vincenzo-grifo/profil/spieler/185077",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1993-04-07",
+   "ea": {
+    "eaId": 212096,
+    "nombreEA": "Vincenzo Grifo",
+    "ovr": 80,
+    "pac": 70,
+    "sho": 76,
+    "pas": 82,
+    "dri": 81,
+    "def": 43,
+    "phy": 66,
+    "posEA": "MI",
+    "equipoEA": "SC Freiburg",
+    "pieHabil": "derecho",
+    "filigranas": 4,
+    "piernaMala": 2
+   }
+  },
+  {
+   "id": "tm337036",
+   "nombre": "Florent Muslija",
+   "pos": "EI",
+   "posSec": [
+    "MCO",
+    "MC"
+   ],
+   "edad": 28,
+   "nac": "Kosovo",
+   "nacCodigo": "XK",
+   "nac2": "Germany",
+   "valorM": 1.0,
+   "contratoHasta": "2028-06",
+   "dorsal": 23,
+   "tmUrl": "https://www.transfermarkt.com/florent-muslija/profil/spieler/337036",
+   "verificado": true,
+   "fechaNac": "1998-07-06",
+   "ea": {
+    "eaId": 239696,
+    "nombreEA": "Florent Muslija",
+    "ovr": 71,
+    "pac": 73,
+    "sho": 66,
+    "pas": 71,
+    "dri": 75,
+    "def": 30,
+    "phy": 47,
+    "posEA": "MCO",
+    "equipoEA": "Düsseldorf",
+    "pieHabil": "derecho",
+    "filigranas": 4,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm342967",
+   "nombre": "Niklas Beste",
+   "pos": "ED",
+   "posSec": [
+    "EI",
+    "LI"
+   ],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 10.0,
+   "contratoHasta": "2030-06",
+   "dorsal": 19,
+   "tmUrl": "https://www.transfermarkt.com/niklas-beste/profil/spieler/342967",
+   "verificado": true,
+   "fechaNac": "1999-01-04",
+   "ea": {
+    "eaId": 240451,
+    "nombreEA": "Jan-Niklas Beste",
+    "ovr": 76,
+    "pac": 78,
+    "sho": 70,
+    "pas": 78,
+    "dri": 76,
+    "def": 60,
+    "phy": 63,
+    "posEA": "MI",
+    "equipoEA": "SC Freiburg",
+    "pieHabil": "izquierdo",
+    "filigranas": 3,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm1145064",
+   "nombre": "Cyriaque Irié",
+   "pos": "ED",
+   "posSec": [
+    "DC",
+    "EI"
+   ],
+   "edad": 21,
+   "nac": "Burkina Faso",
+   "nacCodigo": "BF",
+   "nac2": "Cote d'Ivoire",
+   "valorM": 8.0,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "tmUrl": "https://www.transfermarkt.com/cyriaque-irie/profil/spieler/1145064",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2005-06-20",
+   "ea": {
+    "eaId": 74431,
+    "nombreEA": "Cyriaque Irié",
+    "ovr": 70,
+    "pac": 86,
+    "sho": 62,
+    "pas": 62,
+    "dri": 69,
+    "def": 27,
+    "phy": 72,
+    "posEA": "MD",
+    "equipoEA": "SC Freiburg",
+    "pieHabil": "izquierdo",
+    "filigranas": 3,
+    "piernaMala": 2
+   }
+  },
+  {
+   "id": "tm668606",
+   "nombre": "Yuito Suzuki",
+   "pos": "SD",
+   "posSec": [
+    "MCO",
+    "ED"
+   ],
+   "edad": 24,
+   "nac": "Japan",
+   "nacCodigo": "JP",
+   "valorM": 28.0,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "tmUrl": "https://www.transfermarkt.com/yuito-suzuki/profil/spieler/668606",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2001-10-25",
+   "ea": {
+    "eaId": 255185,
+    "nombreEA": "Yuito Suzuki",
+    "ovr": 71,
+    "pac": 83,
+    "sho": 68,
+    "pas": 65,
+    "dri": 74,
+    "def": 48,
+    "phy": 57,
+    "posEA": "MCO",
+    "equipoEA": "SC Freiburg",
+    "pieHabil": "derecho",
+    "filigranas": 3,
+    "piernaMala": 4
+   }
+  },
+  {
+   "id": "tm605268",
+   "nombre": "Igor Matanovic",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Croatia",
+   "nacCodigo": "HR",
+   "nac2": "Germany",
+   "valorM": 30.0,
+   "contratoHasta": null,
+   "dorsal": 31,
+   "tmUrl": "https://www.transfermarkt.com/igor-matanovic/profil/spieler/605268",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2003-03-31",
+   "ea": {
+    "eaId": 259750,
+    "nombreEA": "Igor Matanović",
+    "ovr": 71,
+    "pac": 68,
+    "sho": 69,
+    "pas": 55,
+    "dri": 67,
+    "def": 34,
+    "phy": 74,
+    "posEA": "DC",
+    "equipoEA": "SC Freiburg",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 4
+   }
+  },
+  {
+   "id": "tm916623",
+   "nombre": "Keisuke Goto",
+   "pos": "DC",
+   "posSec": [
+    "EI"
+   ],
+   "edad": 21,
+   "nac": "Japan",
+   "nacCodigo": "JP",
+   "valorM": 10.0,
+   "contratoHasta": null,
+   "dorsal": 42,
+   "tmUrl": "https://www.transfermarkt.com/keisuke-goto/profil/spieler/916623",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "2005-06-03",
+   "ea": {
+    "eaId": 76570,
+    "nombreEA": "Keisuke Goto",
+    "ovr": 56,
+    "pac": 53,
+    "sho": 58,
+    "pas": 40,
+    "dri": 47,
+    "def": 29,
+    "phy": 65,
+    "posEA": "DC",
+    "equipoEA": "STVV",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 3
+   }
+  },
+  {
+   "id": "tm248999",
+   "nombre": "Lucas Höler",
+   "pos": "DC",
+   "posSec": [
+    "SD",
+    "ED"
+   ],
+   "edad": 32,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": 3.0,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "tmUrl": "https://www.transfermarkt.com/lucas-holer/profil/spieler/248999",
+   "verificado": false,
+   "sinVerificar": [
+    "contratoHasta"
+   ],
+   "fechaNac": "1994-07-10",
+   "ea": {
+    "eaId": 234875,
+    "nombreEA": "Lucas Höler",
+    "ovr": 73,
+    "pac": 67,
+    "sho": 72,
+    "pas": 55,
+    "dri": 63,
+    "def": 51,
+    "phy": 79,
+    "posEA": "DC",
+    "equipoEA": "SC Freiburg",
+    "pieHabil": "derecho",
+    "filigranas": 2,
+    "piernaMala": 2
+   }
+  }
+ ],
+ "fuenteEA": {
+  "url": "https://www.ea.com/games/ea-sports-fc/ratings",
+  "fecha": "2026-10-11",
+  "nota": "Ratings oficiales EA SPORTS FC 26 (base del juego). Cruce por fecha de nacimiento y nombre; sin cruce seguro, ea=null. equipoEA puede diferir del club real si EA no actualizó el pase."
+ }
+}

@@ -1,0 +1,1915 @@
+{
+ "liga": "Bundesliga",
+ "temporada": "26/27",
+ "fuente": "https://www.transfermarkt.com/x/gesamtspielplan/wettbewerb/L1/saison_id/2026",
+ "fecha": "2026-10-11",
+ "nota": "Calendario oficial publicado (vía Transfermarkt). Fechas de partidos posteriores pueden moverse por TV; resultadoReal = partidos ya jugados en la vida real. fecha de jornada = fecha mediana; reprogramado=true si el partido se juega a más de 4 días de su jornada (adelantado o postergado en la vida real).",
+ "jornadas": [
+  {
+   "n": 1,
+   "fecha": "2026-08-29",
+   "partidos": [
+    {
+     "local": "bayern-munich",
+     "visitante": "vfb-stuttgart",
+     "fecha": "2026-08-28",
+     "resultadoReal": {
+      "gl": 5,
+      "gv": 1
+     }
+    },
+    {
+     "local": "rb-leipzig",
+     "visitante": "borussia-monchengladbach",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 0
+     }
+    },
+    {
+     "local": "1-fsv-mainz-05",
+     "visitante": "sc-paderborn-07",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 0
+     }
+    },
+    {
+     "local": "1-fc-union-berlin",
+     "visitante": "eintracht-frankfurt",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 3
+     }
+    },
+    {
+     "local": "1-fc-koln",
+     "visitante": "tsg-1899-hoffenheim",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 2
+     }
+    },
+    {
+     "local": "sv-07-elversberg",
+     "visitante": "bayer-04-leverkusen",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 2
+     }
+    },
+    {
+     "local": "borussia-dortmund",
+     "visitante": "hamburger-sv",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 0
+     }
+    },
+    {
+     "local": "sc-freiburg",
+     "visitante": "sv-werder-bremen",
+     "fecha": "2026-08-30",
+     "resultadoReal": {
+      "gl": 4,
+      "gv": 1
+     }
+    },
+    {
+     "local": "fc-augsburg",
+     "visitante": "fc-schalke-04",
+     "fecha": "2026-08-30",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 0
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "fecha": "2026-09-05",
+   "partidos": [
+    {
+     "local": "vfb-stuttgart",
+     "visitante": "1-fc-koln",
+     "fecha": "2026-09-04",
+     "resultadoReal": {
+      "gl": 4,
+      "gv": 1
+     }
+    },
+    {
+     "local": "tsg-1899-hoffenheim",
+     "visitante": "borussia-dortmund",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 3
+     }
+    },
+    {
+     "local": "bayer-04-leverkusen",
+     "visitante": "1-fc-union-berlin",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 4,
+      "gv": 0
+     }
+    },
+    {
+     "local": "borussia-monchengladbach",
+     "visitante": "sv-07-elversberg",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 4
+     }
+    },
+    {
+     "local": "sv-werder-bremen",
+     "visitante": "rb-leipzig",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 1
+     }
+    },
+    {
+     "local": "sc-paderborn-07",
+     "visitante": "sc-freiburg",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 1
+     }
+    },
+    {
+     "local": "fc-schalke-04",
+     "visitante": "bayern-munich",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 0
+     }
+    },
+    {
+     "local": "hamburger-sv",
+     "visitante": "1-fsv-mainz-05",
+     "fecha": "2026-09-06",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 5
+     }
+    },
+    {
+     "local": "eintracht-frankfurt",
+     "visitante": "fc-augsburg",
+     "fecha": "2026-09-06",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 4
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "fecha": "2026-09-12",
+   "partidos": [
+    {
+     "local": "1-fc-union-berlin",
+     "visitante": "fc-schalke-04",
+     "fecha": "2026-09-11",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 3
+     }
+    },
+    {
+     "local": "borussia-dortmund",
+     "visitante": "sc-paderborn-07",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 0
+     }
+    },
+    {
+     "local": "tsg-1899-hoffenheim",
+     "visitante": "vfb-stuttgart",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "sc-freiburg",
+     "visitante": "borussia-monchengladbach",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 5,
+      "gv": 0
+     }
+    },
+    {
+     "local": "fc-augsburg",
+     "visitante": "bayer-04-leverkusen",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "1-fsv-mainz-05",
+     "visitante": "eintracht-frankfurt",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 3
+     }
+    },
+    {
+     "local": "1-fc-koln",
+     "visitante": "sv-werder-bremen",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "rb-leipzig",
+     "visitante": "hamburger-sv",
+     "fecha": "2026-09-13",
+     "resultadoReal": {
+      "gl": 5,
+      "gv": 0
+     }
+    },
+    {
+     "local": "sv-07-elversberg",
+     "visitante": "bayern-munich",
+     "fecha": "2026-09-13",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 2
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "fecha": "2026-09-19",
+   "partidos": [
+    {
+     "local": "bayern-munich",
+     "visitante": "1-fc-union-berlin",
+     "fecha": "2026-09-18",
+     "resultadoReal": {
+      "gl": 7,
+      "gv": 0
+     }
+    },
+    {
+     "local": "eintracht-frankfurt",
+     "visitante": "sc-freiburg",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "borussia-monchengladbach",
+     "visitante": "1-fsv-mainz-05",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 4
+     }
+    },
+    {
+     "local": "hamburger-sv",
+     "visitante": "1-fc-koln",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "sv-werder-bremen",
+     "visitante": "fc-augsburg",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 2
+     }
+    },
+    {
+     "local": "vfb-stuttgart",
+     "visitante": "borussia-dortmund",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 1
+     }
+    },
+    {
+     "local": "bayer-04-leverkusen",
+     "visitante": "rb-leipzig",
+     "fecha": "2026-09-20",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 0
+     }
+    },
+    {
+     "local": "fc-schalke-04",
+     "visitante": "sv-07-elversberg",
+     "fecha": "2026-09-20",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 0
+     }
+    },
+    {
+     "local": "sc-paderborn-07",
+     "visitante": "tsg-1899-hoffenheim",
+     "fecha": "2026-09-20",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 1
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "fecha": "2026-10-10",
+   "partidos": [
+    {
+     "local": "borussia-dortmund",
+     "visitante": "sv-werder-bremen",
+     "fecha": "2026-10-09",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "tsg-1899-hoffenheim",
+     "visitante": "hamburger-sv",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 3
+     }
+    },
+    {
+     "local": "fc-augsburg",
+     "visitante": "bayern-munich",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "1-fsv-mainz-05",
+     "visitante": "bayer-04-leverkusen",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 4
+     }
+    },
+    {
+     "local": "1-fc-union-berlin",
+     "visitante": "sv-07-elversberg",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    },
+    {
+     "local": "sc-paderborn-07",
+     "visitante": "vfb-stuttgart",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 2
+     }
+    },
+    {
+     "local": "rb-leipzig",
+     "visitante": "eintracht-frankfurt",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 6,
+      "gv": 0
+     }
+    },
+    {
+     "local": "1-fc-koln",
+     "visitante": "borussia-monchengladbach",
+     "fecha": "2026-10-11"
+    },
+    {
+     "local": "sc-freiburg",
+     "visitante": "fc-schalke-04",
+     "fecha": "2026-10-11"
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "fecha": "2026-10-17",
+   "partidos": [
+    {
+     "local": "eintracht-frankfurt",
+     "visitante": "1-fc-koln",
+     "fecha": "2026-10-16"
+    },
+    {
+     "local": "1-fc-union-berlin",
+     "visitante": "borussia-dortmund",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "hamburger-sv",
+     "visitante": "vfb-stuttgart",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "sv-werder-bremen",
+     "visitante": "sc-paderborn-07",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "fc-schalke-04",
+     "visitante": "1-fsv-mainz-05",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "sv-07-elversberg",
+     "visitante": "fc-augsburg",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "bayern-munich",
+     "visitante": "rb-leipzig",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "bayer-04-leverkusen",
+     "visitante": "sc-freiburg",
+     "fecha": "2026-10-18"
+    },
+    {
+     "local": "borussia-monchengladbach",
+     "visitante": "tsg-1899-hoffenheim",
+     "fecha": "2026-10-18"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "fecha": "2026-10-24",
+   "partidos": [
+    {
+     "local": "vfb-stuttgart",
+     "visitante": "borussia-monchengladbach",
+     "fecha": "2026-10-23"
+    },
+    {
+     "local": "rb-leipzig",
+     "visitante": "sv-07-elversberg",
+     "fecha": "2026-10-24"
+    },
+    {
+     "local": "fc-augsburg",
+     "visitante": "1-fc-union-berlin",
+     "fecha": "2026-10-24"
+    },
+    {
+     "local": "1-fsv-mainz-05",
+     "visitante": "sv-werder-bremen",
+     "fecha": "2026-10-24"
+    },
+    {
+     "local": "1-fc-koln",
+     "visitante": "fc-schalke-04",
+     "fecha": "2026-10-24"
+    },
+    {
+     "local": "sc-paderborn-07",
+     "visitante": "hamburger-sv",
+     "fecha": "2026-10-24"
+    },
+    {
+     "local": "borussia-dortmund",
+     "visitante": "eintracht-frankfurt",
+     "fecha": "2026-10-24"
+    },
+    {
+     "local": "tsg-1899-hoffenheim",
+     "visitante": "bayer-04-leverkusen",
+     "fecha": "2026-10-25"
+    },
+    {
+     "local": "sc-freiburg",
+     "visitante": "bayern-munich",
+     "fecha": "2026-10-25"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "fecha": "2026-10-31",
+   "partidos": [
+    {
+     "local": "sv-07-elversberg",
+     "visitante": "1-fsv-mainz-05",
+     "fecha": "2026-10-30"
+    },
+    {
+     "local": "bayer-04-leverkusen",
+     "visitante": "vfb-stuttgart",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "fc-augsburg",
+     "visitante": "sc-freiburg",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "borussia-monchengladbach",
+     "visitante": "sc-paderborn-07",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "sv-werder-bremen",
+     "visitante": "tsg-1899-hoffenheim",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "fc-schalke-04",
+     "visitante": "rb-leipzig",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "bayern-munich",
+     "visitante": "borussia-dortmund",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "1-fc-union-berlin",
+     "visitante": "1-fc-koln",
+     "fecha": "2026-11-01"
+    },
+    {
+     "local": "eintracht-frankfurt",
+     "visitante": "hamburger-sv",
+     "fecha": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "fecha": "2026-11-07",
+   "partidos": [
+    {
+     "local": "hamburger-sv",
+     "visitante": "borussia-monchengladbach",
+     "fecha": "2026-11-06"
+    },
+    {
+     "local": "borussia-dortmund",
+     "visitante": "sv-07-elversberg",
+     "fecha": "2026-11-07"
+    },
+    {
+     "local": "rb-leipzig",
+     "visitante": "fc-augsburg",
+     "fecha": "2026-11-07"
+    },
+    {
+     "local": "1-fsv-mainz-05",
+     "visitante": "bayern-munich",
+     "fecha": "2026-11-07"
+    },
+    {
+     "local": "sc-paderborn-07",
+     "visitante": "eintracht-frankfurt",
+     "fecha": "2026-11-07"
+    },
+    {
+     "local": "vfb-stuttgart",
+     "visitante": "sv-werder-bremen",
+     "fecha": "2026-11-07"
+    },
+    {
+     "local": "1-fc-koln",
+     "visitante": "bayer-04-leverkusen",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "sc-freiburg",
+     "visitante": "1-fc-union-berlin",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "tsg-1899-hoffenheim",
+     "visitante": "fc-schalke-04",
+     "fecha": "2026-11-08"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "fecha": "2026-11-21",
+   "partidos": [
+    {
+     "local": "bayern-munich",
+     "visitante": "1-fc-koln",
+     "fecha": "2026-11-20"
+    },
+    {
+     "local": "bayer-04-leverkusen",
+     "visitante": "sc-paderborn-07",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "eintracht-frankfurt",
+     "visitante": "tsg-1899-hoffenheim",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "1-fc-union-berlin",
+     "visitante": "rb-leipzig",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "borussia-monchengladbach",
+     "visitante": "borussia-dortmund",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "sv-07-elversberg",
+     "visitante": "sc-freiburg",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "fc-schalke-04",
+     "visitante": "vfb-stuttgart",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "fc-augsburg",
+     "visitante": "1-fsv-mainz-05",
+     "fecha": "2026-11-22"
+    },
+    {
+     "local": "sv-werder-bremen",
+     "visitante": "hamburger-sv",
+     "fecha": "2026-11-22"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "fecha": "2026-11-28",
+   "partidos": [
+    {
+     "local": "sv-werder-bremen",
+     "visitante": "borussia-monchengladbach",
+     "fecha": "2026-11-27"
+    },
+    {
+     "local": "1-fsv-mainz-05",
+     "visitante": "1-fc-union-berlin",
+     "fecha": "2026-11-28"
+    },
+    {
+     "local": "hamburger-sv",
+     "visitante": "bayern-munich",
+     "fecha": "2026-11-28"
+    },
+    {
+     "local": "1-fc-koln",
+     "visitante": "sv-07-elversberg",
+     "fecha": "2026-11-28"
+    },
+    {
+     "local": "sc-paderborn-07",
+     "visitante": "fc-schalke-04",
+     "fecha": "2026-11-28"
+    },
+    {
+     "local": "vfb-stuttgart",
+     "visitante": "eintracht-frankfurt",
+     "fecha": "2026-11-28"
+    },
+    {
+     "local": "sc-freiburg",
+     "visitante": "rb-leipzig",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "tsg-1899-hoffenheim",
+     "visitante": "fc-augsburg",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "borussia-dortmund",
+     "visitante": "bayer-04-leverkusen",
+     "fecha": "2026-11-29"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "fecha": "2026-12-05",
+   "partidos": [
+    {
+     "local": "bayern-munich",
+     "visitante": "sc-paderborn-07",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "rb-leipzig",
+     "visitante": "1-fsv-mainz-05",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "bayer-04-leverkusen",
+     "visitante": "borussia-monchengladbach",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "sc-freiburg",
+     "visitante": "tsg-1899-hoffenheim",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "eintracht-frankfurt",
+     "visitante": "sv-werder-bremen",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "fc-augsburg",
+     "visitante": "1-fc-koln",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "1-fc-union-berlin",
+     "visitante": "hamburger-sv",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "fc-schalke-04",
+     "visitante": "borussia-dortmund",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "sv-07-elversberg",
+     "visitante": "vfb-stuttgart",
+     "fecha": "2026-12-05"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "fecha": "2026-12-12",
+   "partidos": [
+    {
+     "local": "borussia-dortmund",
+     "visitante": "fc-augsburg",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "vfb-stuttgart",
+     "visitante": "1-fc-union-berlin",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "tsg-1899-hoffenheim",
+     "visitante": "bayern-munich",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "1-fsv-mainz-05",
+     "visitante": "sc-freiburg",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "borussia-monchengladbach",
+     "visitante": "eintracht-frankfurt",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "hamburger-sv",
+     "visitante": "fc-schalke-04",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "1-fc-koln",
+     "visitante": "rb-leipzig",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "sv-werder-bremen",
+     "visitante": "bayer-04-leverkusen",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "sc-paderborn-07",
+     "visitante": "sv-07-elversberg",
+     "fecha": "2026-12-12"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "fecha": "2026-12-19",
+   "partidos": [
+    {
+     "local": "bayern-munich",
+     "visitante": "sv-werder-bremen",
+     "fecha": "2026-12-19"
+    },
+    {
+     "local": "rb-leipzig",
+     "visitante": "borussia-dortmund",
+     "fecha": "2026-12-19"
+    },
+    {
+     "local": "bayer-04-leverkusen",
+     "visitante": "eintracht-frankfurt",
+     "fecha": "2026-12-19"
+    },
+    {
+     "local": "sc-freiburg",
+     "visitante": "vfb-stuttgart",
+     "fecha": "2026-12-19"
+    },
+    {
+     "local": "fc-augsburg",
+     "visitante": "sc-paderborn-07",
+     "fecha": "2026-12-19"
+    },
+    {
+     "local": "1-fsv-mainz-05",
+     "visitante": "1-fc-koln",
+     "fecha": "2026-12-19"
+    },
+    {
+     "local": "1-fc-union-berlin",
+     "visitante": "tsg-1899-hoffenheim",
+     "fecha": "2026-12-19"
+    },
+    {
+     "local": "fc-schalke-04",
+     "visitante": "borussia-monchengladbach",
+     "fecha": "2026-12-19"
+    },
+    {
+     "local": "sv-07-elversberg",
+     "visitante": "hamburger-sv",
+     "fecha": "2026-12-19"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "fecha": "2027-01-09",
+   "partidos": [
+    {
+     "local": "borussia-dortmund",
+     "visitante": "1-fsv-mainz-05",
+     "fecha": "2027-01-09"
+    },
+    {
+     "local": "vfb-stuttgart",
+     "visitante": "fc-augsburg",
+     "fecha": "2027-01-09"
+    },
+    {
+     "local": "tsg-1899-hoffenheim",
+     "visitante": "sv-07-elversberg",
+     "fecha": "2027-01-09"
+    },
+    {
+     "local": "eintracht-frankfurt",
+     "visitante": "fc-schalke-04",
+     "fecha": "2027-01-09"
+    },
+    {
+     "local": "borussia-monchengladbach",
+     "visitante": "bayern-munich",
+     "fecha": "2027-01-09"
+    },
+    {
+     "local": "hamburger-sv",
+     "visitante": "bayer-04-leverkusen",
+     "fecha": "2027-01-09"
+    },
+    {
+     "local": "1-fc-koln",
+     "visitante": "sc-freiburg",
+     "fecha": "2027-01-09"
+    },
+    {
+     "local": "sv-werder-bremen",
+     "visitante": "1-fc-union-berlin",
+     "fecha": "2027-01-09"
+    },
+    {
+     "local": "sc-paderborn-07",
+     "visitante": "rb-leipzig",
+     "fecha": "2027-01-09"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "fecha": "2027-01-13",
+   "partidos": [
+    {
+     "local": "bayern-munich",
+     "visitante": "bayer-04-leverkusen",
+     "fecha": "2027-01-13"
+    },
+    {
+     "local": "rb-leipzig",
+     "visitante": "vfb-stuttgart",
+     "fecha": "2027-01-13"
+    },
+    {
+     "local": "sc-freiburg",
+     "visitante": "hamburger-sv",
+     "fecha": "2027-01-13"
+    },
+    {
+     "local": "fc-augsburg",
+     "visitante": "borussia-monchengladbach",
+     "fecha": "2027-01-13"
+    },
+    {
+     "local": "1-fsv-mainz-05",
+     "visitante": "tsg-1899-hoffenheim",
+     "fecha": "2027-01-13"
+    },
+    {
+     "local": "1-fc-union-berlin",
+     "visitante": "sc-paderborn-07",
+     "fecha": "2027-01-13"
+    },
+    {
+     "local": "1-fc-koln",
+     "visitante": "borussia-dortmund",
+     "fecha": "2027-01-13"
+    },
+    {
+     "local": "fc-schalke-04",
+     "visitante": "sv-werder-bremen",
+     "fecha": "2027-01-13"
+    },
+    {
+     "local": "sv-07-elversberg",
+     "visitante": "eintracht-frankfurt",
+     "fecha": "2027-01-13"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "fecha": "2027-01-16",
+   "partidos": [
+    {
+     "local": "borussia-dortmund",
+     "visitante": "sc-freiburg",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "vfb-stuttgart",
+     "visitante": "1-fsv-mainz-05",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "tsg-1899-hoffenheim",
+     "visitante": "rb-leipzig",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "bayer-04-leverkusen",
+     "visitante": "fc-schalke-04",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "eintracht-frankfurt",
+     "visitante": "bayern-munich",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "borussia-monchengladbach",
+     "visitante": "1-fc-union-berlin",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "hamburger-sv",
+     "visitante": "fc-augsburg",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "sv-werder-bremen",
+     "visitante": "sv-07-elversberg",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "sc-paderborn-07",
+     "visitante": "1-fc-koln",
+     "fecha": "2027-01-16"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "fecha": "2027-01-23",
+   "partidos": [
+    {
+     "local": "vfb-stuttgart",
+     "visitante": "bayern-munich",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "tsg-1899-hoffenheim",
+     "visitante": "1-fc-koln",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "bayer-04-leverkusen",
+     "visitante": "sv-07-elversberg",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "eintracht-frankfurt",
+     "visitante": "1-fc-union-berlin",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "borussia-monchengladbach",
+     "visitante": "rb-leipzig",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "hamburger-sv",
+     "visitante": "borussia-dortmund",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "sv-werder-bremen",
+     "visitante": "sc-freiburg",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "fc-schalke-04",
+     "visitante": "fc-augsburg",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "sc-paderborn-07",
+     "visitante": "1-fsv-mainz-05",
+     "fecha": "2027-01-23"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "fecha": "2027-01-30",
+   "partidos": [
+    {
+     "local": "bayern-munich",
+     "visitante": "fc-schalke-04",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "borussia-dortmund",
+     "visitante": "tsg-1899-hoffenheim",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "rb-leipzig",
+     "visitante": "sv-werder-bremen",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "sc-freiburg",
+     "visitante": "sc-paderborn-07",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "fc-augsburg",
+     "visitante": "eintracht-frankfurt",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "1-fsv-mainz-05",
+     "visitante": "hamburger-sv",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "1-fc-union-berlin",
+     "visitante": "bayer-04-leverkusen",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "1-fc-koln",
+     "visitante": "vfb-stuttgart",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "sv-07-elversberg",
+     "visitante": "borussia-monchengladbach",
+     "fecha": "2027-01-30"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "fecha": "2027-02-06",
+   "partidos": [
+    {
+     "local": "bayern-munich",
+     "visitante": "sv-07-elversberg",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "vfb-stuttgart",
+     "visitante": "tsg-1899-hoffenheim",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "bayer-04-leverkusen",
+     "visitante": "fc-augsburg",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "eintracht-frankfurt",
+     "visitante": "1-fsv-mainz-05",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "borussia-monchengladbach",
+     "visitante": "sc-freiburg",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "hamburger-sv",
+     "visitante": "rb-leipzig",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "sv-werder-bremen",
+     "visitante": "1-fc-koln",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "fc-schalke-04",
+     "visitante": "1-fc-union-berlin",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "sc-paderborn-07",
+     "visitante": "borussia-dortmund",
+     "fecha": "2027-02-06"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "fecha": "2027-02-13",
+   "partidos": [
+    {
+     "local": "borussia-dortmund",
+     "visitante": "vfb-stuttgart",
+     "fecha": "2027-02-13"
+    },
+    {
+     "local": "rb-leipzig",
+     "visitante": "bayer-04-leverkusen",
+     "fecha": "2027-02-13"
+    },
+    {
+     "local": "tsg-1899-hoffenheim",
+     "visitante": "sc-paderborn-07",
+     "fecha": "2027-02-13"
+    },
+    {
+     "local": "sc-freiburg",
+     "visitante": "eintracht-frankfurt",
+     "fecha": "2027-02-13"
+    },
+    {
+     "local": "fc-augsburg",
+     "visitante": "sv-werder-bremen",
+     "fecha": "2027-02-13"
+    },
+    {
+     "local": "1-fsv-mainz-05",
+     "visitante": "borussia-monchengladbach",
+     "fecha": "2027-02-13"
+    },
+    {
+     "local": "1-fc-union-berlin",
+     "visitante": "bayern-munich",
+     "fecha": "2027-02-13"
+    },
+    {
+     "local": "1-fc-koln",
+     "visitante": "hamburger-sv",
+     "fecha": "2027-02-13"
+    },
+    {
+     "local": "sv-07-elversberg",
+     "visitante": "fc-schalke-04",
+     "fecha": "2027-02-13"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "fecha": "2027-02-20",
+   "partidos": [
+    {
+     "local": "bayern-munich",
+     "visitante": "fc-augsburg",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "vfb-stuttgart",
+     "visitante": "sc-paderborn-07",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "bayer-04-leverkusen",
+     "visitante": "1-fsv-mainz-05",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "eintracht-frankfurt",
+     "visitante": "rb-leipzig",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "borussia-monchengladbach",
+     "visitante": "1-fc-koln",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "hamburger-sv",
+     "visitante": "tsg-1899-hoffenheim",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "sv-werder-bremen",
+     "visitante": "borussia-dortmund",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "fc-schalke-04",
+     "visitante": "sc-freiburg",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "sv-07-elversberg",
+     "visitante": "1-fc-union-berlin",
+     "fecha": "2027-02-20"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "fecha": "2027-02-27",
+   "partidos": [
+    {
+     "local": "borussia-dortmund",
+     "visitante": "1-fc-union-berlin",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "rb-leipzig",
+     "visitante": "bayern-munich",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "vfb-stuttgart",
+     "visitante": "hamburger-sv",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "tsg-1899-hoffenheim",
+     "visitante": "borussia-monchengladbach",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "sc-freiburg",
+     "visitante": "bayer-04-leverkusen",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "fc-augsburg",
+     "visitante": "sv-07-elversberg",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "1-fsv-mainz-05",
+     "visitante": "fc-schalke-04",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "1-fc-koln",
+     "visitante": "eintracht-frankfurt",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "sc-paderborn-07",
+     "visitante": "sv-werder-bremen",
+     "fecha": "2027-02-27"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "fecha": "2027-03-03",
+   "partidos": [
+    {
+     "local": "bayern-munich",
+     "visitante": "sc-freiburg",
+     "fecha": "2027-03-03"
+    },
+    {
+     "local": "bayer-04-leverkusen",
+     "visitante": "tsg-1899-hoffenheim",
+     "fecha": "2027-03-03"
+    },
+    {
+     "local": "eintracht-frankfurt",
+     "visitante": "borussia-dortmund",
+     "fecha": "2027-03-03"
+    },
+    {
+     "local": "1-fc-union-berlin",
+     "visitante": "fc-augsburg",
+     "fecha": "2027-03-03"
+    },
+    {
+     "local": "borussia-monchengladbach",
+     "visitante": "vfb-stuttgart",
+     "fecha": "2027-03-03"
+    },
+    {
+     "local": "hamburger-sv",
+     "visitante": "sc-paderborn-07",
+     "fecha": "2027-03-03"
+    },
+    {
+     "local": "sv-werder-bremen",
+     "visitante": "1-fsv-mainz-05",
+     "fecha": "2027-03-03"
+    },
+    {
+     "local": "fc-schalke-04",
+     "visitante": "1-fc-koln",
+     "fecha": "2027-03-03"
+    },
+    {
+     "local": "sv-07-elversberg",
+     "visitante": "rb-leipzig",
+     "fecha": "2027-03-03"
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "fecha": "2027-03-06",
+   "partidos": [
+    {
+     "local": "borussia-dortmund",
+     "visitante": "bayern-munich",
+     "fecha": "2027-03-06"
+    },
+    {
+     "local": "rb-leipzig",
+     "visitante": "fc-schalke-04",
+     "fecha": "2027-03-06"
+    },
+    {
+     "local": "vfb-stuttgart",
+     "visitante": "bayer-04-leverkusen",
+     "fecha": "2027-03-06"
+    },
+    {
+     "local": "tsg-1899-hoffenheim",
+     "visitante": "sv-werder-bremen",
+     "fecha": "2027-03-06"
+    },
+    {
+     "local": "sc-freiburg",
+     "visitante": "fc-augsburg",
+     "fecha": "2027-03-06"
+    },
+    {
+     "local": "1-fsv-mainz-05",
+     "visitante": "sv-07-elversberg",
+     "fecha": "2027-03-06"
+    },
+    {
+     "local": "hamburger-sv",
+     "visitante": "eintracht-frankfurt",
+     "fecha": "2027-03-06"
+    },
+    {
+     "local": "1-fc-koln",
+     "visitante": "1-fc-union-berlin",
+     "fecha": "2027-03-06"
+    },
+    {
+     "local": "sc-paderborn-07",
+     "visitante": "borussia-monchengladbach",
+     "fecha": "2027-03-06"
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "fecha": "2027-03-13",
+   "partidos": [
+    {
+     "local": "bayern-munich",
+     "visitante": "1-fsv-mainz-05",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "bayer-04-leverkusen",
+     "visitante": "1-fc-koln",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "eintracht-frankfurt",
+     "visitante": "sc-paderborn-07",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "fc-augsburg",
+     "visitante": "rb-leipzig",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "1-fc-union-berlin",
+     "visitante": "sc-freiburg",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "borussia-monchengladbach",
+     "visitante": "hamburger-sv",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "sv-werder-bremen",
+     "visitante": "vfb-stuttgart",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "fc-schalke-04",
+     "visitante": "tsg-1899-hoffenheim",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "sv-07-elversberg",
+     "visitante": "borussia-dortmund",
+     "fecha": "2027-03-13"
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "fecha": "2027-03-20",
+   "partidos": [
+    {
+     "local": "borussia-dortmund",
+     "visitante": "borussia-monchengladbach",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "rb-leipzig",
+     "visitante": "1-fc-union-berlin",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "vfb-stuttgart",
+     "visitante": "fc-schalke-04",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "tsg-1899-hoffenheim",
+     "visitante": "eintracht-frankfurt",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "sc-freiburg",
+     "visitante": "sv-07-elversberg",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "1-fsv-mainz-05",
+     "visitante": "fc-augsburg",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "hamburger-sv",
+     "visitante": "sv-werder-bremen",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "1-fc-koln",
+     "visitante": "bayern-munich",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "sc-paderborn-07",
+     "visitante": "bayer-04-leverkusen",
+     "fecha": "2027-03-20"
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "fecha": "2027-04-03",
+   "partidos": [
+    {
+     "local": "bayern-munich",
+     "visitante": "hamburger-sv",
+     "fecha": "2027-04-03"
+    },
+    {
+     "local": "rb-leipzig",
+     "visitante": "sc-freiburg",
+     "fecha": "2027-04-03"
+    },
+    {
+     "local": "bayer-04-leverkusen",
+     "visitante": "borussia-dortmund",
+     "fecha": "2027-04-03"
+    },
+    {
+     "local": "eintracht-frankfurt",
+     "visitante": "vfb-stuttgart",
+     "fecha": "2027-04-03"
+    },
+    {
+     "local": "fc-augsburg",
+     "visitante": "tsg-1899-hoffenheim",
+     "fecha": "2027-04-03"
+    },
+    {
+     "local": "1-fc-union-berlin",
+     "visitante": "1-fsv-mainz-05",
+     "fecha": "2027-04-03"
+    },
+    {
+     "local": "borussia-monchengladbach",
+     "visitante": "sv-werder-bremen",
+     "fecha": "2027-04-03"
+    },
+    {
+     "local": "fc-schalke-04",
+     "visitante": "sc-paderborn-07",
+     "fecha": "2027-04-03"
+    },
+    {
+     "local": "sv-07-elversberg",
+     "visitante": "1-fc-koln",
+     "fecha": "2027-04-03"
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "fecha": "2027-04-10",
+   "partidos": [
+    {
+     "local": "borussia-dortmund",
+     "visitante": "fc-schalke-04",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "vfb-stuttgart",
+     "visitante": "sv-07-elversberg",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "tsg-1899-hoffenheim",
+     "visitante": "sc-freiburg",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "1-fsv-mainz-05",
+     "visitante": "rb-leipzig",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "borussia-monchengladbach",
+     "visitante": "bayer-04-leverkusen",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "hamburger-sv",
+     "visitante": "1-fc-union-berlin",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "1-fc-koln",
+     "visitante": "fc-augsburg",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "sv-werder-bremen",
+     "visitante": "eintracht-frankfurt",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "sc-paderborn-07",
+     "visitante": "bayern-munich",
+     "fecha": "2027-04-10"
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "fecha": "2027-04-17",
+   "partidos": [
+    {
+     "local": "bayern-munich",
+     "visitante": "tsg-1899-hoffenheim",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "rb-leipzig",
+     "visitante": "1-fc-koln",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "bayer-04-leverkusen",
+     "visitante": "sv-werder-bremen",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "sc-freiburg",
+     "visitante": "1-fsv-mainz-05",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "eintracht-frankfurt",
+     "visitante": "borussia-monchengladbach",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "fc-augsburg",
+     "visitante": "borussia-dortmund",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "1-fc-union-berlin",
+     "visitante": "vfb-stuttgart",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "fc-schalke-04",
+     "visitante": "hamburger-sv",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "sv-07-elversberg",
+     "visitante": "sc-paderborn-07",
+     "fecha": "2027-04-17"
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "fecha": "2027-04-24",
+   "partidos": [
+    {
+     "local": "borussia-dortmund",
+     "visitante": "rb-leipzig",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "vfb-stuttgart",
+     "visitante": "sc-freiburg",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "tsg-1899-hoffenheim",
+     "visitante": "1-fc-union-berlin",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "eintracht-frankfurt",
+     "visitante": "bayer-04-leverkusen",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "borussia-monchengladbach",
+     "visitante": "fc-schalke-04",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "hamburger-sv",
+     "visitante": "sv-07-elversberg",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "1-fc-koln",
+     "visitante": "1-fsv-mainz-05",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "sv-werder-bremen",
+     "visitante": "bayern-munich",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "sc-paderborn-07",
+     "visitante": "fc-augsburg",
+     "fecha": "2027-04-24"
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "fecha": "2027-05-08",
+   "partidos": [
+    {
+     "local": "bayern-munich",
+     "visitante": "borussia-monchengladbach",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "rb-leipzig",
+     "visitante": "sc-paderborn-07",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "bayer-04-leverkusen",
+     "visitante": "hamburger-sv",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "sc-freiburg",
+     "visitante": "1-fc-koln",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "fc-augsburg",
+     "visitante": "vfb-stuttgart",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "1-fsv-mainz-05",
+     "visitante": "borussia-dortmund",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "1-fc-union-berlin",
+     "visitante": "sv-werder-bremen",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "fc-schalke-04",
+     "visitante": "eintracht-frankfurt",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "sv-07-elversberg",
+     "visitante": "tsg-1899-hoffenheim",
+     "fecha": "2027-05-08"
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "fecha": "2027-05-15",
+   "partidos": [
+    {
+     "local": "borussia-dortmund",
+     "visitante": "1-fc-koln",
+     "fecha": "2027-05-15"
+    },
+    {
+     "local": "vfb-stuttgart",
+     "visitante": "rb-leipzig",
+     "fecha": "2027-05-15"
+    },
+    {
+     "local": "tsg-1899-hoffenheim",
+     "visitante": "1-fsv-mainz-05",
+     "fecha": "2027-05-15"
+    },
+    {
+     "local": "bayer-04-leverkusen",
+     "visitante": "bayern-munich",
+     "fecha": "2027-05-15"
+    },
+    {
+     "local": "eintracht-frankfurt",
+     "visitante": "sv-07-elversberg",
+     "fecha": "2027-05-15"
+    },
+    {
+     "local": "borussia-monchengladbach",
+     "visitante": "fc-augsburg",
+     "fecha": "2027-05-15"
+    },
+    {
+     "local": "hamburger-sv",
+     "visitante": "sc-freiburg",
+     "fecha": "2027-05-15"
+    },
+    {
+     "local": "sv-werder-bremen",
+     "visitante": "fc-schalke-04",
+     "fecha": "2027-05-15"
+    },
+    {
+     "local": "sc-paderborn-07",
+     "visitante": "1-fc-union-berlin",
+     "fecha": "2027-05-15"
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "fecha": "2027-05-22",
+   "partidos": [
+    {
+     "local": "bayern-munich",
+     "visitante": "eintracht-frankfurt",
+     "fecha": "2027-05-22"
+    },
+    {
+     "local": "rb-leipzig",
+     "visitante": "tsg-1899-hoffenheim",
+     "fecha": "2027-05-22"
+    },
+    {
+     "local": "sc-freiburg",
+     "visitante": "borussia-dortmund",
+     "fecha": "2027-05-22"
+    },
+    {
+     "local": "fc-augsburg",
+     "visitante": "hamburger-sv",
+     "fecha": "2027-05-22"
+    },
+    {
+     "local": "1-fsv-mainz-05",
+     "visitante": "vfb-stuttgart",
+     "fecha": "2027-05-22"
+    },
+    {
+     "local": "1-fc-union-berlin",
+     "visitante": "borussia-monchengladbach",
+     "fecha": "2027-05-22"
+    },
+    {
+     "local": "1-fc-koln",
+     "visitante": "sc-paderborn-07",
+     "fecha": "2027-05-22"
+    },
+    {
+     "local": "fc-schalke-04",
+     "visitante": "bayer-04-leverkusen",
+     "fecha": "2027-05-22"
+    },
+    {
+     "local": "sv-07-elversberg",
+     "visitante": "sv-werder-bremen",
+     "fecha": "2027-05-22"
+    }
+   ]
+  }
+ ]
+}

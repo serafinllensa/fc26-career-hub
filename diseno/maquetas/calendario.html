@@ -1,0 +1,26 @@
+<!doctype html><html lang="es-AR" data-tema="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><link rel="icon" href="data:,"><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../tema-fc26.css"><script src="comun.js"></script><title>Calendario · FC26 Career Hub (maqueta)</title></head><body><div class="app" id="app"></div>
+<script>
+(async()=>{
+const club=await clubPorQuery(); aplicarClub(club);
+const rivales=CLUBES.filter(c=>c.liga===club.liga&&c.id!==club.id).sort((a,b)=>a.nombre.localeCompare(b.nombre));
+const ej=[['g','3–0'],['e','1–1'],['g','2–1'],['p','0–1'],['g','4–2'],['g','2–0'],['e','0–0'],['g','1–0']];
+const filas=rivales.slice(0,12).map((r,i)=>{const local=i%2===0, jugado=i<ej.length, prox=i===ej.length;
+ return `<a class="jornada ${prox?'proxima':''}" href="partido.html?club=${club.id}" style="text-decoration:none;color:inherit"><div class="fecha">Jorn.<b class="num">${i+1}</b></div>
+ <div class="partido">${escudo(r,'sm')}<div style="min-width:0"><div class="rival">${local?'vs':'en'} ${r.nombre}</div><div class="meta" style="display:flex;gap:6px;align-items:center"><span class="comp">${club.liga}</span>${local?'Local':'Visitante'}</div></div></div>
+ ${jugado?`<span class="res ${ej[i][0]} num">${ej[i][1]}</span>`:prox?'<span class="btn primario" style="min-height:36px;padding:0 14px">Cargar</span>':'<span class="meta">Por jugar</span>'}</a>`}).join('');
+document.getElementById('app').innerHTML=nav('calendario')+`<main class="contenido">
+${banda(club,'Hardcore',4)}
+<div class="grilla g-panel">
+ <section><div style="display:flex;justify-content:space-between;align-items:end;gap:var(--e3);margin-bottom:var(--e3)"><h2 class="h1" style="font-size:var(--t-2xl)">Calendario</h2><span class="badge ejemplo">Fixture de ejemplo</span></div>
+  <div class="chips" style="display:flex;gap:8px;margin-bottom:var(--e3);overflow-x:auto"><button class="chip" aria-pressed="true">Todo</button><button class="chip">${club.liga}</button><button class="chip">Champions</button><button class="chip">Copa</button></div>
+  <div class="jornadas">${filas}</div>
+  <p class="fuente" style="margin-top:var(--e3)">Rivales reales de ${club.liga}; el orden y los resultados son de ejemplo hasta que Motor cargue el fixture oficial.</p>
+ </section>
+ <div class="grilla" style="align-content:start">
+  <section class="tarjeta"><header><h2 class="h2">Forma</h2><span class="badge ejemplo">Ejemplo</span></header><div class="forma">${ej.slice(-5).map(([r])=>`<span class="${r}">${{g:'G',e:'E',p:'P'}[r]}</span>`).join('')}</div>
+   <div class="grilla g3" style="margin-top:var(--e4);gap:var(--e3)"><div class="kpi"><div class="etiqueta">Puntos</div><div class="valor num">17</div></div><div class="kpi"><div class="etiqueta">Goles</div><div class="valor num">13–5</div></div><div class="kpi"><div class="etiqueta">Puesto</div><div class="valor num">2º</div></div></div></section>
+  <section class="tarjeta brillo"><header><h2 class="h2">Próximo</h2></header><div style="display:flex;align-items:center;gap:var(--e3)">${escudo(rivales[ej.length])}<div><div class="h3">${ej.length%2===0?'vs':'en'} ${rivales[ej.length].nombre}</div><div class="meta">Jornada ${ej.length+1} · ${club.liga}</div></div></div><a class="btn primario" href="partido.html?club=${club.id}" style="width:100%;margin-top:var(--e4)">Cargar resultado</a></section>
+ </div>
+</div>${PIE}</main>`;
+})();
+</script></body></html>

@@ -1,0 +1,4 @@
+diseno/capturas/
+diseno/version-vieja/
+data/_tools/__pycache__/
+*.pyc

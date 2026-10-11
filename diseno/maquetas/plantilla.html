@@ -1,0 +1,77 @@
+<!doctype html><html lang="es-AR" data-tema="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Plantilla · FC26 Career Hub (maqueta)</title><link rel="icon" href="data:,"><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../tema-fc26.css"><script src="comun.js"></script>
+<style>
+.barra{display:flex;flex-direction:column;gap:var(--e3);margin-bottom:var(--e4)}
+.chips{display:flex;gap:var(--e2);overflow-x:auto;scrollbar-width:none;margin:0 calc(var(--e4)*-1);padding:0 var(--e4)}
+.resumen{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--e2);margin-bottom:var(--e4)}
+.resumen .kpi .valor{font-size:var(--t-xl)}@media(min-width:960px){.resumen .kpi .valor{font-size:var(--t-2xl)}}
+/* Celular: filas compactas */
+.filas{list-style:none;margin:0;padding:0;background:var(--superficie);border:1px solid var(--linea);border-radius:var(--r-lg);overflow:hidden}
+.filas li{display:grid;grid-template-columns:30px 1fr auto;gap:var(--e3);align-items:center;padding:12px var(--e4);border-top:1px solid var(--linea);min-height:60px}
+.filas li:first-child{border-top:0}
+.filas .dorsal{font:800 var(--t-xl)/1 var(--f-display);color:var(--tinta-3);text-align:center}
+.filas .nom{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.filas .sub{display:flex;gap:6px;align-items:center;font-size:var(--t-sm);color:var(--tinta-2);margin-top:3px}
+.filas .val{text-align:right;font:700 var(--t-lg)/1 var(--f-display)}
+.filas .val small{display:block;font:500 11px/1.4 var(--f-texto);color:var(--tinta-3)}
+.sep{background:var(--superficie-2)!important;min-height:0!important;padding:8px var(--e4)!important;display:flex!important;justify-content:space-between}
+.tabla-wrap{display:none}
+@media (min-width:960px){
+ .barra{flex-direction:row;align-items:center}.barra .campo{width:320px}.chips{margin:0;padding:0;flex:1}
+ .resumen{grid-template-columns:repeat(5,1fr)}
+ .filas{display:none}.tabla-wrap{display:block;background:var(--superficie);border:1px solid var(--linea);border-radius:var(--r-lg);overflow:hidden}
+}
+.verif{width:8px;height:8px;border-radius:50%;background:var(--ok);display:inline-block}
+.verif.no{background:transparent;border:2px dashed var(--alerta)}
+.vence{color:var(--alerta);font-weight:600}
+</style></head><body><div class="app" id="app"></div>
+<script>
+(async()=>{
+const club=await clubPorQuery(); aplicarClub(club);
+const pl=await plantilla(club.id); const J=pl.jugadores.sort((a,b)=>ORDEN[a.pos]-ORDEN[b.pos]||b.valorM-a.valorM);
+const fecha=new Date(pl.fecha+'T12:00').toLocaleDateString('es-AR',{day:'numeric',month:'short',year:'numeric'});
+const estrella=[...J].sort((a,b)=>(b.valorM||0)-(a.valorM||0))[0];
+const total=J.reduce((a,j)=>a+(j.valorM||0),0);
+const n={por:0,def:0,med:0,del:0};J.forEach(j=>n[lineaDe(j.pos)]++);
+const vence=j=>j.contratoHasta&&j.contratoHasta<='2027-06';
+const fmtC=c=>c?c.split('-').reverse().join('/'):'<span class="sin-verificar">Sin dato</span>';
+const nombres={por:'Arqueros',def:'Defensores',med:'Mediocampistas',del:'Delanteros'};
+let filas='',ult='';
+J.forEach(j=>{const l=lineaDe(j.pos); if(l!==ult){filas+=`<li class="sep"><span class="etiqueta">${nombres[l]}</span><span class="etiqueta">${n[l]}</span></li>`;ult=l}
+ filas+=`<li class="${j===estrella?'sel':''}"><span class="dorsal num">${j.dorsal??'–'}</span><div style="min-width:0"><div class="nom">${j.nombre}</div><div class="sub"><span class="pos ${l}">${j.pos}</span><span class="num">${j.edad} años</span>·<span>${j.nacCodigo||pais(j.nac)}</span>·<span class="num ${vence(j)?'vence':''}">${fmtC(j.contratoHasta)}</span></div></div><div class="val num">${fmtVal(j.valorM)}<small>M€</small></div></li>`});
+document.getElementById('app').innerHTML=nav('plantilla')+`<main class="contenido">
+${banda(club,'Hardcore',4)}
+<div style="display:flex;align-items:end;justify-content:space-between;gap:var(--e3);margin-bottom:var(--e4)"><div><h2 class="h1">Plantilla</h2><p class="fuente" style="margin:6px 0 0"><span class="verif"></span> Fuente: <a href="${pl.fuente}">Transfermarkt</a> · consulta ${fecha}</p></div><button class="btn club">+ Alta</button></div>
+<div class="resumen">
+ <div class="tarjeta kpi"><div class="etiqueta">Valor total</div><div class="valor num">${fmtVal(total)}<small>M€</small></div></div>
+ <div class="tarjeta kpi"><div class="etiqueta">Jugadores</div><div class="valor num">${J.length}</div></div>
+ <div class="tarjeta kpi"><div class="etiqueta">Vencen 2027</div><div class="valor num" style="color:var(--alerta)">${J.filter(vence).length}</div></div>
+ <div class="tarjeta kpi solo-esc" style=""><div class="etiqueta">Edad media</div><div class="valor num">${(J.reduce((a,j)=>a+j.edad,0)/J.length).toLocaleString('es-AR',{maximumFractionDigits:1})}</div></div>
+ <div class="tarjeta kpi solo-esc"><div class="etiqueta">Sub-21</div><div class="valor num">${J.filter(j=>j.edad<=21).length}</div></div>
+</div>
+<div class="barra"><label class="campo">${ICONO.buscar}<input placeholder="Buscar jugador" aria-label="Buscar jugador"></label>
+<div class="chips" role="group" aria-label="Filtrar por línea"><button class="chip" aria-pressed="true">Todos ${J.length}</button><button class="chip">Arqueros ${n.por}</button><button class="chip">Defensores ${n.def}</button><button class="chip">Medios ${n.med}</button><button class="chip">Delanteros ${n.del}</button><button class="chip">Vencen 2027</button></div>
+<label class="campo" style="width:auto;flex:none"><select aria-label="Ordenar"><option>Por posición</option><option>Por valor</option><option>Por edad</option><option>Por contrato</option></select></label></div>
+<ul class="filas">${filas}</ul>
+<div class="plantel"><div class="tabla-wrap"><table class="tabla"><thead><tr><th>Pos.</th><th title="Media EA FC 26">Med.</th><th>#</th><th>Jugador</th><th class="der">Edad</th><th>Nac.</th><th class="der">Valor ▾</th><th>Contrato</th><th title="Verificado contra la fuente">Estado</th></tr></thead><tbody>
+${J.map(j=>`<tr class="${j===estrella?'sel':''}"><td><span class="pos ${lineaDe(j.pos)}">${j.pos}</span></td><td>${ovr(j)!=null?`<span class="ovr-chip ${ovr(j)>=75?'oro':ovr(j)>=65?'plata':'bronce'}">${ovr(j)}</span>`:'<span class="meta">—</span>'}</td><td class="num" style="font:800 var(--t-lg)/1 var(--f-display);color:var(--tinta-2)">${j.dorsal??'–'}</td><td style="font-weight:600">${j.nombre}</td><td class="der num">${j.edad}</td><td class="meta">${j.nacCodigo||pais(j.nac)}</td><td class="der num" style="font-weight:700">${fmtM(j.valorM)}</td><td class="num ${vence(j)?'vence':''}">${fmtC(j.contratoHasta)}</td><td>${!j.contratoHasta||j.valorM==null?'<span class="estado-ico alerta" title="Sin verificar">!</span>':vence(j)?'<span class="estado-ico info" title="Vence en 2027">◷</span>':'<span class="estado-ico ok" title="Verificado">✓</span>'}</td></tr>`).join('')}
+</tbody></table></div>
+<aside class="ficha tarjeta brillo" aria-label="Ficha del jugador elegido">
+ <div class="cab"><div class="${ovr(estrella)!=null?'ovr-xl':'num-xl'} num">${ovr(estrella)??estrella.dorsal??'–'}</div><div style="min-width:0"><div class="posg"><b>${estrella.ea?.posEA||estrella.pos}</b>${(estrella.posSec||[]).map(x=>' · '+x).join('')}</div><div class="nombre-j">${estrella.nombre}</div><div class="meta">#${estrella.dorsal??'–'} · ${estrella.nacCodigo||pais(estrella.nac)} · ${club.nombre}</div></div></div>
+ <div class="bloque"><div class="bloque-tit"><span class="etiqueta">EA FC 26 · el juego</span>${estrella.ea?'<span class="badge neutro">Base oficial EA</span>':'<span class="sin-verificar">Sin media de EA</span>'}</div>
+ ${estrella.ea?`<div class="stats6">${['pac','sho','pas','dri','def','phy'].map((k,i)=>`<div><div class="etiqueta">${['RIT','TIR','PAS','REG','DEF','FÍS'][i]}</div><b class="num" style="color:${estrella.ea[k]>=85?'var(--ok)':estrella.ea[k]>=70?'#fff':'var(--tinta-2)'}">${estrella.ea[k]}</b></div>`).join('')}</div>
+ <div class="mini-dato"><span>Pie <b>${estrella.ea.pieHabil}</b></span><span>Filigranas <b>${estrellitas(estrella.ea.filigranas)}</b></span><span>Pierna mala <b>${estrellitas(estrella.ea.piernaMala)}</b></span></div>
+ ${estrella.ea.equipoEA&&estrella.ea.equipoEA!==club.nombre?`<div class="aviso-equipoea">En EA figura en ${estrella.ea.equipoEA} (pase 26/27 cargado a mano)</div>`:''}`:'<p class="meta" style="margin:0">Este jugador no tiene ficha en la base de EA. No inventamos la media.</p>'}
+ </div>
+ <div class="bloque"><div class="bloque-tit"><span class="etiqueta">Transfermarkt · la vida real</span><a class="fuente" href="${estrella.tmUrl}" style="color:#fff;font-weight:700">Ver ficha ↗</a></div>
+ <div class="datos" style="margin:0;padding:0;border:0">
+  <div><div class="etiqueta">Edad</div><b class="num">${estrella.edad}</b></div>
+  <div><div class="etiqueta">Valor</div><b class="num">${fmtM(estrella.valorM)}</b></div>
+  <div><div class="etiqueta">Contrato</div><b class="num">${fmtC(estrella.contratoHasta)}</b></div>
+ </div></div>
+ <div style="display:flex;gap:var(--e2);margin-top:var(--e5)"><button class="btn primario" style="flex:1">Editar jugador</button><button class="btn secundario" style="flex:1">Dar de baja</button></div>
+</aside></div>
+${PIE}</main>`;
+if(innerWidth<960)document.querySelectorAll('.solo-esc').forEach(e=>e.remove());
+})();
+</script></body></html>

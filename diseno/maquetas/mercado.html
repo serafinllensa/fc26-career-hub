@@ -1,0 +1,62 @@
+<!doctype html><html lang="es-AR" data-tema="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><link rel="icon" href="data:,"><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../tema-fc26.css"><script src="comun.js"></script><title>Mercado y finanzas · FC26 Career Hub (maqueta)</title><style>@media(min-width:960px){.merc{grid-template-columns:1fr 1fr!important;gap:var(--e12)!important}}.reac{display:inline-block;font:700 var(--t-xs)/1 var(--f-texto);letter-spacing:.08em;text-transform:uppercase;padding:5px 10px;border-radius:var(--r-full)}.reac.acepta{color:var(--ok);background:var(--ok-bg)}.reac.contraoferta{color:var(--alerta);background:var(--alerta-bg)}.reac.rechaza{color:var(--peligro);background:var(--peligro-bg)}</style></head><body><div class="app" id="app"></div>
+<script>
+(async()=>{
+const club=await clubPorQuery(); aplicarClub(club);
+const M=await import('../../js/motor/index.js'); const fin=M.finanzas(club,'medio').texto;
+// Objetivo de ejemplo: el jugador con mejor media EA de otro club de la misma liga
+const otro=CLUBES.filter(c=>c.liga===club.liga&&c.id!==club.id).sort((a,b)=>b.valorPlantillaM-a.valorPlantillaM)[1];
+const po=await plantilla(otro.id); const obj=[...po.jugadores].sort((a,b)=>(ovr(b)||0)-(ovr(a)||0)||(b.valorM||0)-(a.valorM||0))[0];
+const pl0=await plantilla(club.id);
+const car=M.crearCarrera({club,dt:null,dificultad:'medio',plantilla:pl0.jugadores});
+const em=M.estadoMercado(car,club); const uso=Math.round(em.usoMasa*100);
+const precio=obj.valorM?Math.round(obj.valorM*1.2):null;
+const neg=precio?M.pedirAlPresidente(car,club,{tipo:'fichaje',precioM:precio,jugador:{nombre:obj.nombre,edad:obj.edad,valorM:obj.valorM,sueldoM:null}}):null;
+const colUso=uso>=100?'var(--peligro)':uso>=85?'var(--alerta)':'var(--ok)';
+const LCPD={'fc-barcelona':582.76,'real-madrid':832.78}[club.id];
+document.getElementById('app').innerHTML=nav('mercado')+`<main class="contenido">
+${banda(club,'Medio',2)}
+<div role="group" aria-label="Mercado" style="display:flex;gap:8px;margin-bottom:var(--e4)"><button class="chip" aria-pressed="true">Negociar</button><button class="chip">Lista de seguimiento</button><button class="chip">Finanzas</button></div>
+<div class="grilla merc">
+ <section>
+  <h2 class="h1" style="font-size:var(--t-xl);margin-bottom:var(--e4)">Fichar jugador</h2>
+  <div class="fila-dato"><span>Incorporación</span><span>Inmediata</span></div>
+  <div class="fila-dato sel"><span>Monto del pase</span><span>◂ ${fmtM(obj.valorM?Math.round(obj.valorM*1.2):null)} ▸</span></div>
+  <div class="fila-dato"><span>Cuotas</span><span>2 cuotas</span></div>
+  <div class="fila-dato"><span>Jugador a cambio</span><span>Ninguno</span></div>
+  <div class="fila-dato"><span>Bonus por objetivos</span><span>Ninguno</span></div>
+  <div class="fila-dato"><span>Otras cláusulas</span><span>Incluidas</span></div>
+  <div class="resumen-pago"><div><span>Presupuesto disponible</span><b>≈ ${fmtM(em.disponibleM)}</b></div><div><span>Tope de masa salarial</span><b>≈ ${fmtM(em.topeM)}</b></div><span class="badge estimado" style="justify-self:start">Estimado por Motor</span></div>
+  <div style="display:flex;justify-content:center;margin-top:var(--e5)"><button class="btn primario" style="min-width:200px">Hacer oferta</button></div>
+
+  <section class="tarjeta" style="margin-top:var(--e8)"><header><h2 class="h2">Fair play financiero</h2><span class="badge estimado">Estimado por Motor</span></header>
+   <div class="meta">Masa salarial sobre el tope que te da la directiva</div>
+   <div style="display:flex;align-items:baseline;gap:var(--e3);margin:var(--e3) 0"><b class="num" style="font:800 var(--t-3xl)/1 var(--f-display);color:${colUso}">${uso}%</b><span class="meta">${fmtM(em.masaM)} de ${fmtM(em.topeM)}</span></div>
+   <div class="ffp" style="--v1:85%;--v2:100%"><span class="aguja" style="left:${Math.min(uso,100)}%"><b class="num">${uso}%</b></span><span class="marca" style="left:85%">85%<br>Alerta</span><span class="marca" style="left:99%">100%<br>Tope</span></div>
+   <div class="fila-dato" style="margin-top:var(--e4)"><span>Disponible para fichar</span><span>${fmtM(em.disponibleM)}</span></div>
+   <div class="fila-dato"><span>Margen de masa salarial</span><span>${fmtM(Math.max(0,+(em.topeM-em.masaM).toFixed(1)))}</span></div>
+   ${club.liga==='LaLiga'?`<div class="regla"><span class="badge info">LaLiga</span><div><b>Límite de coste de plantilla: ${LCPD?LCPD.toLocaleString('es-AR')+' M€':'<span class="sin-verificar">Sin dato</span>'}</b><div class="meta">Dentro del límite fichás con la regla 1:1. Sin margen, no podés inscribir. ${LCPD?'Fuente: LaLiga vía EFE, 10/09/2026.':''}</div></div></div>`:''}
+   <div class="regla"><span class="badge neutro">UEFA</span><div><b>Tope 70%</b><div class="meta">Si te pasás, multa sobre los premios. Si te pasás mucho, menos altas en la lista.</div></div></div>
+   <div class="regla"><span class="badge alerta">En Medio</span><div><b>Multas y bloqueos automáticos</b><div class="meta">En Hardcore te prohíben inscribir; en Leyenda, quita de puntos o afuera de Europa.</div></div></div>
+  </section>
+ </section>
+ <section style="display:flex;flex-direction:column;align-items:center;gap:var(--e4);text-align:center">
+  <div class="etiqueta" style="color:#fff;letter-spacing:.12em">Negociación · ejemplo</div>
+  <div class="tarjeta brillo llamada"><div class="avatar" aria-hidden="true">DD</div><div style="flex:1;text-align:left"><div style="color:var(--ok);font-weight:600;font-size:var(--t-sm)">En llamada con</div><div class="h3" style="font:800 var(--t-xl)/1.1 var(--f-display)">Director deportivo</div><div class="meta">${otro.nombre}</div></div><span class="ondas" aria-hidden="true"><i></i><i></i><i></i><i></i></span></div>
+  <span class="tension" style="color:var(--ok)">Tensión baja</span>
+  <p class="cita">“Lo podemos escuchar, pero por menos de ${fmtM(obj.valorM?Math.round(obj.valorM*1.2):null)} ni nos sentamos.”</p>
+  <div class="jugador-card"><span class="fondo-pos">${obj.ea?.posEA||obj.pos}</span>
+   <div class="ap">${obj.nombre.split(' ').slice(0,-1).join(' ')||'&nbsp;'}</div><div class="nom">${obj.nombre.split(' ').slice(-1)[0]}</div>
+   <div class="fila-dato"><span>Edad · Pos.</span><span>${obj.edad} · ${obj.pos}</span></div>
+   <div class="fila-dato"><span>Media EA</span><span>${ovr(obj)!=null?`<span class="ovr-chip oro">${ovr(obj)}</span>`:'<span class="sin-verificar">Sin media de EA</span>'}</span></div>
+   <div class="fila-dato"><span>Valor (Transfermarkt)</span><span>${fmtM(obj.valorM)}</span></div>
+   <div class="fila-dato" style="border:0"><span>Contrato</span><span>${obj.contratoHasta?obj.contratoHasta.split('-').reverse().join('/'):'Sin dato'}</span></div>
+  </div>
+  ${neg?`<div class="tarjeta" style="width:100%;text-align:left"><header><h2 class="h2">Visto bueno del presidente</h2><span class="reac ${neg.decision}">${{acepta:'Aprueba',contraoferta:'Contraoferta',rechaza:'Rechaza'}[neg.decision]}</span></header>
+   <p class="cita" style="text-align:left;max-width:none;font-size:var(--t-md)">“${neg.texto}”</p>
+   ${neg.aprobadoM!=null?`<div class="fila-dato" style="border:0"><span>Aprobado</span><span>${fmtM(neg.aprobadoM)}</span></div>`:''}
+   ${neg.motivos.map(m=>`<p class="meta">· ${m}</p>`).join('')}</div>`:''}
+  <button class="btn peligro" aria-label="Cortar la negociación">✆</button><div class="etiqueta" style="color:#fff">Cortar la negociación</div>
+ </section>
+</div>${PIE}</main>`;
+})();
+</script></body></html>

@@ -1,0 +1,29 @@
+<!doctype html><html lang="es-AR" data-tema="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><link rel="icon" href="data:,"><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../tema-fc26.css"><script src="comun.js"></script><title>Vitrina · FC26 Career Hub (maqueta)</title></head><body><div class="app" id="app"></div>
+<script>
+(async()=>{
+const club=await clubPorQuery(); aplicarClub(club);
+const COPAS={'LaLiga':['Copa del Rey','Supercopa de España'],'Premier League':['FA Cup','EFL Cup'],'Serie A':['Coppa Italia','Supercoppa Italiana'],'Bundesliga':['DFB-Pokal','DFL-Supercup'],'Ligue 1':['Coupe de France','Trophée des Champions']}[club.liga]||[];
+const comps=[club.liga,...COPAS,'Champions League'];
+const ganadas={[COPAS[0]]:1};
+document.getElementById('app').innerHTML=nav('trofeos')+`<main class="contenido">
+${banda(club,'Hardcore',4)}
+<div style="display:flex;justify-content:space-between;align-items:end;gap:var(--e3);margin-bottom:var(--e4)"><div><div class="etiqueta">Tu carrera</div><h1 class="h1">Vitrina</h1></div><span class="badge ejemplo">Carrera de ejemplo</span></div>
+<div class="vitrina">${comps.map(c=>`<div class="copa ${ganadas[c]?'ganada':''}">${ganadas[c]?`<span class="veces num">×${ganadas[c]}</span>`:''}<div class="icono" aria-hidden="true">🏆</div><div class="n">${c}</div><div class="t">${ganadas[c]?'Ganada en 2026/27':'En juego'}</div></div>`).join('')}</div>
+<section class="tarjeta brillo" style="margin-top:var(--e8);border-color:var(--peligro)"><header><h2 class="h2">Carrera terminada</h2><span class="badge peligro">Despedido</span></header>
+ <div class="meta">Así se ve el cierre cuando el Motor marca la carrera como finalizada (datos de ejemplo)</div>
+ <div class="stats6" style="display:grid;grid-template-columns:repeat(4,1fr);gap:var(--e3);margin:var(--e4) 0;text-align:center">
+  <div><b class="num" style="font:800 var(--t-2xl)/1 var(--f-display)">6</b><div class="meta">Partidos</div></div>
+  <div><b class="num" style="font:800 var(--t-2xl)/1 var(--f-display)">0%</b><div class="meta">Efectividad</div></div>
+  <div><b class="num" style="font:800 var(--t-2xl)/1 var(--f-display)">1</b><div class="meta">Ultimátums</div></div>
+  <div><b class="num" style="font:800 var(--t-2xl)/1 var(--f-display);color:var(--peligro)">8</b><div class="meta">Confianza final</div></div></div>
+ <div style="display:flex;gap:var(--e2);flex-wrap:wrap"><button class="btn primario" style="flex:1">Nueva carrera</button><button class="btn secundario" style="flex:1">Mis carreras</button></div>
+</section>
+<h2 class="h2" style="margin:var(--e8) 0 var(--e3)">Historial de la carrera</h2>
+<div class="linea-tiempo">
+ <div class="temporada"><b class="num" style="font:800 var(--t-lg)/1 var(--f-display)">2026/27</b><div><div style="font-weight:600">2º en ${club.liga} · Campeón de ${COPAS[0]} · Semis de Champions</div><div class="meta">Objetivos: 2 de 3 cumplidos · Confianza final 58</div></div><span class="badge ok">Continúa</span></div>
+ <div class="temporada" style="opacity:.6"><b class="num" style="font:800 var(--t-lg)/1 var(--f-display)">2027/28</b><div><div style="font-weight:600">En curso</div><div class="meta">Se completa al cerrar la temporada</div></div><span class="badge neutro">Próxima</span></div>
+</div>
+<p class="fuente" style="margin-top:var(--e4)">La vitrina muestra solo lo que ganás en tu carrera. Las competiciones son las reales de ${club.liga}.</p>
+${PIE}</main>`;
+})();
+</script></body></html>

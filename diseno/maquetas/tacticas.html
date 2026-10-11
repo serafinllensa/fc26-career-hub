@@ -1,0 +1,65 @@
+<!doctype html><html lang="es-AR" data-tema="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><link rel="icon" href="data:,"><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../tema-fc26.css"><script src="comun.js"></script><title>Tácticas · FC26 Career Hub (maqueta)</title><style>
+@media(min-width:960px){.tac{grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:var(--e10)!important}}
+.ficha-cancha.sel .ovr-chip{outline:2px solid #fff;outline-offset:3px;box-shadow:0 0 18px var(--menta)}
+.roles{display:flex;flex-direction:column;gap:6px;margin-top:var(--e3)}
+.rol{display:grid;grid-template-columns:1fr auto;gap:2px 8px;align-items:center;padding:10px 12px;border:1px solid var(--vidrio-borde);border-radius:var(--r-md);background:var(--superficie)}
+.rol[aria-pressed=true]{border-color:var(--menta);box-shadow:0 0 0 1px var(--menta) inset;background:color-mix(in srgb,var(--menta) 10%,transparent)}
+.rol b{font:700 var(--t-md)/1.2 var(--f-display);text-transform:uppercase;letter-spacing:.02em}
+.rol small{grid-column:1/-1;color:var(--tinta-3);font-size:var(--t-xs)}
+.focos{display:flex;flex-wrap:wrap;gap:6px;grid-column:1/-1;margin-top:6px}
+.foco{font-size:var(--t-xs);padding:3px 9px;border-radius:var(--r-full);border:1px solid var(--vidrio-borde-2);color:var(--tinta-2)}
+.foco.on{background:var(--menta);color:#06231c;border-color:var(--menta);font-weight:700}
+.nuevo{font:700 10px/1 var(--f-texto);letter-spacing:.06em;text-transform:uppercase;color:var(--menta);border:1px solid var(--menta);border-radius:var(--r-full);padding:3px 7px}
+.fam{display:flex;gap:6px;margin-top:var(--e2)}.fam span{font:700 var(--t-xs)/1 var(--f-display);padding:4px 8px;border-radius:6px;background:var(--superficie-2)}
+.reac{display:inline-block;font:700 var(--t-xs)/1 var(--f-texto);letter-spacing:.08em;text-transform:uppercase;padding:5px 10px;border-radius:var(--r-full)}
+.reac.acepta{color:var(--ok);background:var(--ok-bg)}.reac.discute{color:var(--alerta);background:var(--alerta-bg)}.reac.resiste{color:var(--peligro);background:var(--peligro-bg)}
+.respuestas .btn{white-space:normal;text-align:left;height:auto;min-height:44px;gap:var(--e3)}.respuestas .btn small{white-space:nowrap}
+.form-sel{display:flex;gap:6px;flex-wrap:wrap;margin-top:var(--e3)}
+</style></head><body><div class="app" id="app"></div>
+<script>
+(async()=>{
+const club=await clubPorQuery(); aplicarClub(club);
+const [pl,fciq,dts,M]=await Promise.all([plantilla(club.id),fetch('../../data/fciq.json').then(r=>r.json()),fetch('../../data/dts.json').then(r=>r.json()),import('../../js/motor/index.js')]);
+const dt=dts.find(d=>d.clubActual===club.id);
+const once=onceEA(pl.jugadores);
+const XY=[[50,90],[16,70],[38,74],[62,74],[84,70],[28,48],[50,56],[72,48],[18,22],[50,15],[82,22]];
+const posDe=p=>fciq.posiciones.find(x=>x.pos.includes(p));
+const sel=(once[9]&&once[9].j)?once[9]:once[0];
+const fichas=once.map((o,i)=>{if(!o.j)return'';const r=posDe(o.rol)?.roles[0];const v=ovr(o.j)||0;
+ return `<div class="ficha-cancha ${o===sel?'sel':''}" style="left:${XY[i][0]}%;top:${XY[i][1]}%"><span class="ovr-chip ${v>=75?'oro':v>=65?'plata':'bronce'}">${ovr(o.j)??'—'}</span><span>${corto(o.j.nombre)}</span><small>${r?r.rol:o.rol}</small></div>`}).join('');
+const P=posDe(sel.rol); const R=P?P.roles:[];
+const roles=R.map((r,i)=>`<div class="rol" role="button" tabindex="0" aria-pressed="${i===0}"><b>${r.rol}</b>${r.nuevoFC26?'<span class="nuevo">Nuevo FC 26</span>':'<span></span>'}<small>${r.rolEA} (nombre oficial EA)</small>${i===0?`<div class="focos">${r.focos.map((f,k)=>`<span class="foco ${k===0?'on':''}">${f.foco}${f.nuevoFC26?' ·nuevo':''}</span>`).join('')}</div>`:''}</div>`).join('');
+const formDT=dt&&dt.formaciones&&dt.formaciones[0];
+let car=M.crearCarrera({club,dt,dificultad:'medio',plantilla:pl.jugadores});
+const prop=dt?M.proponerTactica(car,dt,{formacion:'3-5-2'}):null;
+const nomDT=dt?dt.nombre:'Sin DT cargado';
+document.getElementById('app').innerHTML=nav('tacticas')+`<main class="contenido">
+${banda(club,'Medio',2)}
+<div class="grilla tac">
+ <section>
+  <div style="display:flex;justify-content:space-between;align-items:end;margin-bottom:var(--e3);gap:var(--e3)"><div><div class="etiqueta">Formación</div><h1 class="h1" style="font-size:var(--t-2xl)">◂ 4-3-3 ▸</h1></div><span class="badge ejemplo">Roles sin elegir</span></div>
+  <div class="cancha">${fichas}</div>
+  <p class="fuente" style="margin-top:var(--e3)">Once y medias de la base EA FC 26. En la cancha va el primer rol que lista EA para cada posición hasta que elijas uno. Roles y enfoques: ${fciq.fuentes.length} fuentes de EA, consultadas el ${fciq.fecha}.</p>
+ </section>
+ <section style="display:flex;flex-direction:column;gap:var(--e4)">
+  <div class="tarjeta brillo"><div class="etiqueta">Jugador elegido</div>
+   <div style="display:flex;align-items:flex-end;gap:var(--e4);margin-top:var(--e3)"><div class="ovr-xl num">${ovr(sel.j)??'—'}</div><div><div style="font:800 var(--t-md)/1 var(--f-display);color:var(--tinta-2)"><b style="color:#fff">${sel.rol}</b> · ${P?P.posEA:''}</div><div style="font:800 var(--t-2xl)/1 var(--f-display);text-transform:uppercase">${sel.j.nombre}</div></div></div>
+   <div class="etiqueta" style="margin-top:var(--e5)">Rol FC IQ · ${R.length} disponibles</div>
+   <div class="roles">${roles}</div>
+   <div class="etiqueta" style="margin-top:var(--e4)">Familiaridad</div>
+   <div class="fam"><span>Rol</span><span>Rol+</span><span style="color:var(--menta)">Rol++</span></div>
+   <p class="fuente" style="margin-top:var(--e2)">En el modo carrera, los roles de la Visión del DT suben un nivel: con DT Plata hasta Rol+ y con DT Oro hasta Rol++. Las traducciones son nuestras, no las del juego.</p>
+  </div>
+  <div class="tarjeta"><header><h2 class="h2">Charla táctica con ${nomDT}</h2></header>
+   ${dt?`<div class="fila-dato"><span>Su formación</span><span>${formDT||'Sin dato'} <small class="meta">Transfermarkt</small></span></div>
+   <div class="fila-dato"><span>Le proponés</span><span>3-5-2</span></div>
+   <div class="fila-dato" style="border:0"><span>Estilo</span><span class="meta" style="text-transform:none;font-weight:400;text-align:right">Sin opinión: no hay fuente de su filosofía</span></div>
+   <span class="reac ${prop.reaccion}" style="margin-top:var(--e3)">${{acepta:'Acepta',discute:'Discute',resiste:'Se resiste'}[prop.reaccion]}</span>
+   <p class="cita" style="text-align:left;max-width:none;font-size:var(--t-md);margin-top:var(--e3)">${prop.texto.replace(/^[^:]+:\s*/,'')}</p>
+   ${prop.motivos.map(m=>`<p class="meta">· ${m}</p>`).join('')}
+   <div class="respuestas" style="margin-top:var(--e3)">${prop.respuestas.map((r,i)=>`<button class="btn ${r.id==='probar'?'primario':'secundario'}" style="width:100%;justify-content:space-between"><span>${r.texto}</span><small class="meta">${r.efectos.relacion>0?'+':''}${r.efectos.relacion} relación</small></button>`).join('')}</div>`:'<p class="meta">Sin DT cargado para este club.</p>'}
+  </div>
+ </section>
+</div>${PIE}</main>`;
+})();
+</script></body></html>

@@ -1,0 +1,1947 @@
+{
+ "liga": "Ligue 1",
+ "temporada": "26/27",
+ "fuente": "https://www.transfermarkt.com/x/gesamtspielplan/wettbewerb/FR1/saison_id/2026",
+ "fecha": "2026-10-11",
+ "nota": "Calendario oficial publicado (vía Transfermarkt). Fechas de partidos posteriores pueden moverse por TV; resultadoReal = partidos ya jugados en la vida real. fecha de jornada = fecha mediana; reprogramado=true si el partido se juega a más de 4 días de su jornada (adelantado o postergado en la vida real).",
+ "jornadas": [
+  {
+   "n": 1,
+   "fecha": "2026-08-22",
+   "partidos": [
+    {
+     "local": "olympique-marseille",
+     "visitante": "rc-strasbourg-alsace",
+     "fecha": "2026-08-21",
+     "resultadoReal": {
+      "gl": 4,
+      "gv": 0
+     }
+    },
+    {
+     "local": "rc-lens",
+     "visitante": "aj-auxerre",
+     "fecha": "2026-08-22",
+     "resultadoReal": {
+      "gl": 5,
+      "gv": 2
+     }
+    },
+    {
+     "local": "le-mans-fc",
+     "visitante": "stade-brestois-29",
+     "fecha": "2026-08-22",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "ogc-nice",
+     "visitante": "fc-lorient",
+     "fecha": "2026-08-22",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 0
+     }
+    },
+    {
+     "local": "fc-toulouse",
+     "visitante": "olympique-lyon",
+     "fecha": "2026-08-22",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 2
+     }
+    },
+    {
+     "local": "estac-troyes",
+     "visitante": "paris-fc",
+     "fecha": "2026-08-22",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 0
+     }
+    },
+    {
+     "local": "angers-sco",
+     "visitante": "losc-lille",
+     "fecha": "2026-08-23",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 2
+     }
+    },
+    {
+     "local": "le-havre-ac",
+     "visitante": "as-monaco",
+     "fecha": "2026-08-23",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 1
+     }
+    },
+    {
+     "local": "stade-rennais-fc",
+     "visitante": "paris-saint-germain",
+     "fecha": "2026-08-23",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "fecha": "2026-08-29",
+   "partidos": [
+    {
+     "local": "losc-lille",
+     "visitante": "paris-saint-germain",
+     "fecha": "2026-08-28",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "rc-strasbourg-alsace",
+     "visitante": "rc-lens",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "aj-auxerre",
+     "visitante": "angers-sco",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 3
+     }
+    },
+    {
+     "local": "stade-brestois-29",
+     "visitante": "fc-toulouse",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "fc-lorient",
+     "visitante": "estac-troyes",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 2
+     }
+    },
+    {
+     "local": "olympique-lyon",
+     "visitante": "le-havre-ac",
+     "fecha": "2026-08-29",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "paris-fc",
+     "visitante": "ogc-nice",
+     "fecha": "2026-08-30",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 0
+     }
+    },
+    {
+     "local": "stade-rennais-fc",
+     "visitante": "le-mans-fc",
+     "fecha": "2026-08-30",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 2
+     }
+    },
+    {
+     "local": "as-monaco",
+     "visitante": "olympique-marseille",
+     "fecha": "2026-08-30",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 0
+     }
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "fecha": "2026-09-05",
+   "partidos": [
+    {
+     "local": "fc-toulouse",
+     "visitante": "losc-lille",
+     "fecha": "2026-09-03",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 1
+     }
+    },
+    {
+     "local": "olympique-lyon",
+     "visitante": "aj-auxerre",
+     "fecha": "2026-09-04",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 1
+     }
+    },
+    {
+     "local": "paris-saint-germain",
+     "visitante": "as-monaco",
+     "fecha": "2026-09-04",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 2
+     }
+    },
+    {
+     "local": "rc-lens",
+     "visitante": "fc-lorient",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 1
+     }
+    },
+    {
+     "local": "le-havre-ac",
+     "visitante": "stade-brestois-29",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 2
+     }
+    },
+    {
+     "local": "ogc-nice",
+     "visitante": "le-mans-fc",
+     "fecha": "2026-09-05",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "estac-troyes",
+     "visitante": "rc-strasbourg-alsace",
+     "fecha": "2026-09-06",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 6
+     }
+    },
+    {
+     "local": "angers-sco",
+     "visitante": "stade-rennais-fc",
+     "fecha": "2026-09-06",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 2
+     }
+    },
+    {
+     "local": "olympique-marseille",
+     "visitante": "paris-fc",
+     "fecha": "2026-09-06",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 3
+     }
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "fecha": "2026-09-12",
+   "partidos": [
+    {
+     "local": "stade-rennais-fc",
+     "visitante": "olympique-marseille",
+     "fecha": "2026-09-11",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    },
+    {
+     "local": "rc-strasbourg-alsace",
+     "visitante": "as-monaco",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 1
+     }
+    },
+    {
+     "local": "aj-auxerre",
+     "visitante": "ogc-nice",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    },
+    {
+     "local": "le-havre-ac",
+     "visitante": "angers-sco",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 0
+     }
+    },
+    {
+     "local": "fc-lorient",
+     "visitante": "fc-toulouse",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "paris-fc",
+     "visitante": "olympique-lyon",
+     "fecha": "2026-09-12",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 0
+     }
+    },
+    {
+     "local": "losc-lille",
+     "visitante": "estac-troyes",
+     "fecha": "2026-09-13",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 0
+     }
+    },
+    {
+     "local": "le-mans-fc",
+     "visitante": "rc-lens",
+     "fecha": "2026-09-13",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "stade-brestois-29",
+     "visitante": "paris-saint-germain",
+     "fecha": "2026-09-13",
+     "resultadoReal": {
+      "gl": 0,
+      "gv": 1
+     }
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "fecha": "2026-09-19",
+   "partidos": [
+    {
+     "local": "as-monaco",
+     "visitante": "rc-lens",
+     "fecha": "2026-09-18",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "paris-fc",
+     "visitante": "rc-strasbourg-alsace",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "angers-sco",
+     "visitante": "estac-troyes",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 0
+     }
+    },
+    {
+     "local": "le-mans-fc",
+     "visitante": "fc-lorient",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "olympique-lyon",
+     "visitante": "stade-rennais-fc",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 4,
+      "gv": 0
+     }
+    },
+    {
+     "local": "fc-toulouse",
+     "visitante": "le-havre-ac",
+     "fecha": "2026-09-19",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 2
+     }
+    },
+    {
+     "local": "aj-auxerre",
+     "visitante": "stade-brestois-29",
+     "fecha": "2026-09-20",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "ogc-nice",
+     "visitante": "losc-lille",
+     "fecha": "2026-09-20",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "olympique-marseille",
+     "visitante": "paris-saint-germain",
+     "fecha": "2026-09-20",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 2
+     }
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "fecha": "2026-10-10",
+   "partidos": [
+    {
+     "local": "rc-lens",
+     "visitante": "olympique-lyon",
+     "fecha": "2026-10-09",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 1
+     }
+    },
+    {
+     "local": "losc-lille",
+     "visitante": "le-havre-ac",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    },
+    {
+     "local": "stade-brestois-29",
+     "visitante": "angers-sco",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 5,
+      "gv": 1
+     }
+    },
+    {
+     "local": "fc-lorient",
+     "visitante": "paris-fc",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 1,
+      "gv": 0
+     }
+    },
+    {
+     "local": "as-monaco",
+     "visitante": "fc-toulouse",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 2,
+      "gv": 2
+     }
+    },
+    {
+     "local": "paris-saint-germain",
+     "visitante": "le-mans-fc",
+     "fecha": "2026-10-10",
+     "resultadoReal": {
+      "gl": 3,
+      "gv": 1
+     }
+    },
+    {
+     "local": "ogc-nice",
+     "visitante": "rc-strasbourg-alsace",
+     "fecha": "2026-10-11"
+    },
+    {
+     "local": "stade-rennais-fc",
+     "visitante": "aj-auxerre",
+     "fecha": "2026-10-11"
+    },
+    {
+     "local": "estac-troyes",
+     "visitante": "olympique-marseille",
+     "fecha": "2026-10-11"
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "fecha": "2026-10-18",
+   "partidos": [
+    {
+     "local": "le-mans-fc",
+     "visitante": "fc-toulouse",
+     "fecha": "2026-10-16"
+    },
+    {
+     "local": "rc-strasbourg-alsace",
+     "visitante": "paris-saint-germain",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "losc-lille",
+     "visitante": "stade-brestois-29",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "estac-troyes",
+     "visitante": "rc-lens",
+     "fecha": "2026-10-17"
+    },
+    {
+     "local": "angers-sco",
+     "visitante": "olympique-marseille",
+     "fecha": "2026-10-18"
+    },
+    {
+     "local": "le-havre-ac",
+     "visitante": "aj-auxerre",
+     "fecha": "2026-10-18"
+    },
+    {
+     "local": "fc-lorient",
+     "visitante": "as-monaco",
+     "fecha": "2026-10-18"
+    },
+    {
+     "local": "paris-fc",
+     "visitante": "stade-rennais-fc",
+     "fecha": "2026-10-18"
+    },
+    {
+     "local": "olympique-lyon",
+     "visitante": "ogc-nice",
+     "fecha": "2026-10-18"
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "fecha": "2026-10-25",
+   "partidos": [
+    {
+     "local": "stade-brestois-29",
+     "visitante": "ogc-nice",
+     "fecha": "2026-10-23"
+    },
+    {
+     "local": "fc-toulouse",
+     "visitante": "estac-troyes",
+     "fecha": "2026-10-24"
+    },
+    {
+     "local": "rc-lens",
+     "visitante": "paris-fc",
+     "fecha": "2026-10-24"
+    },
+    {
+     "local": "as-monaco",
+     "visitante": "losc-lille",
+     "fecha": "2026-10-25"
+    },
+    {
+     "local": "angers-sco",
+     "visitante": "fc-lorient",
+     "fecha": "2026-10-25"
+    },
+    {
+     "local": "aj-auxerre",
+     "visitante": "le-mans-fc",
+     "fecha": "2026-10-25"
+    },
+    {
+     "local": "olympique-marseille",
+     "visitante": "le-havre-ac",
+     "fecha": "2026-10-25"
+    },
+    {
+     "local": "stade-rennais-fc",
+     "visitante": "rc-strasbourg-alsace",
+     "fecha": "2026-10-25"
+    },
+    {
+     "local": "paris-saint-germain",
+     "visitante": "olympique-lyon",
+     "fecha": "2026-10-25"
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "fecha": "2026-10-31",
+   "partidos": [
+    {
+     "local": "le-havre-ac",
+     "visitante": "paris-saint-germain",
+     "fecha": "2026-10-30"
+    },
+    {
+     "local": "losc-lille",
+     "visitante": "rc-lens",
+     "fecha": "2026-10-30"
+    },
+    {
+     "local": "ogc-nice",
+     "visitante": "stade-rennais-fc",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "fc-lorient",
+     "visitante": "stade-brestois-29",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "olympique-lyon",
+     "visitante": "angers-sco",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "estac-troyes",
+     "visitante": "le-mans-fc",
+     "fecha": "2026-10-31"
+    },
+    {
+     "local": "rc-strasbourg-alsace",
+     "visitante": "aj-auxerre",
+     "fecha": "2026-11-01"
+    },
+    {
+     "local": "paris-fc",
+     "visitante": "as-monaco",
+     "fecha": "2026-11-01"
+    },
+    {
+     "local": "olympique-marseille",
+     "visitante": "fc-toulouse",
+     "fecha": "2026-11-01"
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "fecha": "2026-11-08",
+   "partidos": [
+    {
+     "local": "fc-toulouse",
+     "visitante": "rc-strasbourg-alsace",
+     "fecha": "2026-11-06"
+    },
+    {
+     "local": "aj-auxerre",
+     "visitante": "paris-fc",
+     "fecha": "2026-11-07"
+    },
+    {
+     "local": "paris-saint-germain",
+     "visitante": "estac-troyes",
+     "fecha": "2026-11-07"
+    },
+    {
+     "local": "stade-rennais-fc",
+     "visitante": "losc-lille",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "angers-sco",
+     "visitante": "ogc-nice",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "stade-brestois-29",
+     "visitante": "olympique-lyon",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "le-havre-ac",
+     "visitante": "fc-lorient",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "le-mans-fc",
+     "visitante": "as-monaco",
+     "fecha": "2026-11-08"
+    },
+    {
+     "local": "rc-lens",
+     "visitante": "olympique-marseille",
+     "fecha": "2026-11-08"
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "fecha": "2026-11-21",
+   "partidos": [
+    {
+     "local": "estac-troyes",
+     "visitante": "le-havre-ac",
+     "fecha": "2026-11-20"
+    },
+    {
+     "local": "ogc-nice",
+     "visitante": "paris-saint-germain",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "rc-lens",
+     "visitante": "fc-toulouse",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "losc-lille",
+     "visitante": "olympique-lyon",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "as-monaco",
+     "visitante": "aj-auxerre",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "rc-strasbourg-alsace",
+     "visitante": "stade-brestois-29",
+     "fecha": "2026-11-21"
+    },
+    {
+     "local": "paris-fc",
+     "visitante": "angers-sco",
+     "fecha": "2026-11-22"
+    },
+    {
+     "local": "fc-lorient",
+     "visitante": "stade-rennais-fc",
+     "fecha": "2026-11-22"
+    },
+    {
+     "local": "olympique-marseille",
+     "visitante": "le-mans-fc",
+     "fecha": "2026-11-22"
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "fecha": "2026-11-28",
+   "partidos": [
+    {
+     "local": "stade-brestois-29",
+     "visitante": "paris-fc",
+     "fecha": "2026-11-27"
+    },
+    {
+     "local": "angers-sco",
+     "visitante": "rc-lens",
+     "fecha": "2026-11-28"
+    },
+    {
+     "local": "le-havre-ac",
+     "visitante": "rc-strasbourg-alsace",
+     "fecha": "2026-11-28"
+    },
+    {
+     "local": "le-mans-fc",
+     "visitante": "losc-lille",
+     "fecha": "2026-11-28"
+    },
+    {
+     "local": "ogc-nice",
+     "visitante": "estac-troyes",
+     "fecha": "2026-11-28"
+    },
+    {
+     "local": "paris-saint-germain",
+     "visitante": "fc-lorient",
+     "fecha": "2026-11-28"
+    },
+    {
+     "local": "aj-auxerre",
+     "visitante": "olympique-marseille",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "fc-toulouse",
+     "visitante": "stade-rennais-fc",
+     "fecha": "2026-11-29"
+    },
+    {
+     "local": "olympique-lyon",
+     "visitante": "as-monaco",
+     "fecha": "2026-11-29"
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "fecha": "2026-12-05",
+   "partidos": [
+    {
+     "local": "rc-lens",
+     "visitante": "le-havre-ac",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "losc-lille",
+     "visitante": "aj-auxerre",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "olympique-marseille",
+     "visitante": "ogc-nice",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "as-monaco",
+     "visitante": "angers-sco",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "paris-fc",
+     "visitante": "le-mans-fc",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "stade-rennais-fc",
+     "visitante": "stade-brestois-29",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "rc-strasbourg-alsace",
+     "visitante": "fc-lorient",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "fc-toulouse",
+     "visitante": "paris-saint-germain",
+     "fecha": "2026-12-05"
+    },
+    {
+     "local": "estac-troyes",
+     "visitante": "olympique-lyon",
+     "fecha": "2026-12-05"
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "fecha": "2026-12-12",
+   "partidos": [
+    {
+     "local": "angers-sco",
+     "visitante": "rc-strasbourg-alsace",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "aj-auxerre",
+     "visitante": "fc-toulouse",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "stade-brestois-29",
+     "visitante": "estac-troyes",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "le-havre-ac",
+     "visitante": "le-mans-fc",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "fc-lorient",
+     "visitante": "losc-lille",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "ogc-nice",
+     "visitante": "rc-lens",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "paris-saint-germain",
+     "visitante": "paris-fc",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "stade-rennais-fc",
+     "visitante": "as-monaco",
+     "fecha": "2026-12-12"
+    },
+    {
+     "local": "olympique-lyon",
+     "visitante": "olympique-marseille",
+     "fecha": "2026-12-13"
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "fecha": "2027-01-02",
+   "partidos": [
+    {
+     "local": "stade-brestois-29",
+     "visitante": "olympique-marseille",
+     "fecha": "2027-01-02"
+    },
+    {
+     "local": "le-mans-fc",
+     "visitante": "olympique-lyon",
+     "fecha": "2027-01-02"
+    },
+    {
+     "local": "losc-lille",
+     "visitante": "rc-strasbourg-alsace",
+     "fecha": "2027-01-02"
+    },
+    {
+     "local": "fc-lorient",
+     "visitante": "aj-auxerre",
+     "fecha": "2027-01-02"
+    },
+    {
+     "local": "as-monaco",
+     "visitante": "ogc-nice",
+     "fecha": "2027-01-02"
+    },
+    {
+     "local": "paris-fc",
+     "visitante": "le-havre-ac",
+     "fecha": "2027-01-02"
+    },
+    {
+     "local": "fc-toulouse",
+     "visitante": "angers-sco",
+     "fecha": "2027-01-02"
+    },
+    {
+     "local": "estac-troyes",
+     "visitante": "stade-rennais-fc",
+     "fecha": "2027-01-02"
+    },
+    {
+     "local": "rc-lens",
+     "visitante": "paris-saint-germain",
+     "fecha": "2027-01-03"
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "fecha": "2027-01-16",
+   "partidos": [
+    {
+     "local": "angers-sco",
+     "visitante": "paris-saint-germain",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "aj-auxerre",
+     "visitante": "estac-troyes",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "olympique-lyon",
+     "visitante": "fc-lorient",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "olympique-marseille",
+     "visitante": "losc-lille",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "as-monaco",
+     "visitante": "stade-brestois-29",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "ogc-nice",
+     "visitante": "le-havre-ac",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "paris-fc",
+     "visitante": "fc-toulouse",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "stade-rennais-fc",
+     "visitante": "rc-lens",
+     "fecha": "2027-01-16"
+    },
+    {
+     "local": "rc-strasbourg-alsace",
+     "visitante": "le-mans-fc",
+     "fecha": "2027-01-16"
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "fecha": "2027-01-23",
+   "partidos": [
+    {
+     "local": "le-havre-ac",
+     "visitante": "stade-rennais-fc",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "le-mans-fc",
+     "visitante": "angers-sco",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "rc-lens",
+     "visitante": "stade-brestois-29",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "losc-lille",
+     "visitante": "paris-fc",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "fc-lorient",
+     "visitante": "olympique-marseille",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "paris-saint-germain",
+     "visitante": "aj-auxerre",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "rc-strasbourg-alsace",
+     "visitante": "olympique-lyon",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "fc-toulouse",
+     "visitante": "ogc-nice",
+     "fecha": "2027-01-23"
+    },
+    {
+     "local": "estac-troyes",
+     "visitante": "as-monaco",
+     "fecha": "2027-01-23"
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "fecha": "2027-01-30",
+   "partidos": [
+    {
+     "local": "angers-sco",
+     "visitante": "le-havre-ac",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "stade-brestois-29",
+     "visitante": "rc-strasbourg-alsace",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "le-mans-fc",
+     "visitante": "ogc-nice",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "olympique-lyon",
+     "visitante": "losc-lille",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "olympique-marseille",
+     "visitante": "estac-troyes",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "as-monaco",
+     "visitante": "paris-saint-germain",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "paris-fc",
+     "visitante": "aj-auxerre",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "stade-rennais-fc",
+     "visitante": "fc-lorient",
+     "fecha": "2027-01-30"
+    },
+    {
+     "local": "fc-toulouse",
+     "visitante": "rc-lens",
+     "fecha": "2027-01-30"
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "fecha": "2027-02-06",
+   "partidos": [
+    {
+     "local": "aj-auxerre",
+     "visitante": "as-monaco",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "le-havre-ac",
+     "visitante": "fc-toulouse",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "rc-lens",
+     "visitante": "angers-sco",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "fc-lorient",
+     "visitante": "le-mans-fc",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "ogc-nice",
+     "visitante": "stade-brestois-29",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "stade-rennais-fc",
+     "visitante": "olympique-lyon",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "rc-strasbourg-alsace",
+     "visitante": "paris-fc",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "estac-troyes",
+     "visitante": "losc-lille",
+     "fecha": "2027-02-06"
+    },
+    {
+     "local": "paris-saint-germain",
+     "visitante": "olympique-marseille",
+     "fecha": "2027-02-07"
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "fecha": "2027-02-13",
+   "partidos": [
+    {
+     "local": "aj-auxerre",
+     "visitante": "rc-strasbourg-alsace",
+     "fecha": "2027-02-13"
+    },
+    {
+     "local": "stade-brestois-29",
+     "visitante": "stade-rennais-fc",
+     "fecha": "2027-02-13"
+    },
+    {
+     "local": "le-mans-fc",
+     "visitante": "paris-saint-germain",
+     "fecha": "2027-02-13"
+    },
+    {
+     "local": "losc-lille",
+     "visitante": "ogc-nice",
+     "fecha": "2027-02-13"
+    },
+    {
+     "local": "fc-lorient",
+     "visitante": "le-havre-ac",
+     "fecha": "2027-02-13"
+    },
+    {
+     "local": "olympique-lyon",
+     "visitante": "rc-lens",
+     "fecha": "2027-02-13"
+    },
+    {
+     "local": "olympique-marseille",
+     "visitante": "angers-sco",
+     "fecha": "2027-02-13"
+    },
+    {
+     "local": "paris-fc",
+     "visitante": "estac-troyes",
+     "fecha": "2027-02-13"
+    },
+    {
+     "local": "fc-toulouse",
+     "visitante": "as-monaco",
+     "fecha": "2027-02-13"
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "fecha": "2027-02-20",
+   "partidos": [
+    {
+     "local": "angers-sco",
+     "visitante": "paris-fc",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "le-havre-ac",
+     "visitante": "olympique-lyon",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "rc-lens",
+     "visitante": "estac-troyes",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "losc-lille",
+     "visitante": "fc-lorient",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "as-monaco",
+     "visitante": "le-mans-fc",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "ogc-nice",
+     "visitante": "aj-auxerre",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "paris-saint-germain",
+     "visitante": "stade-brestois-29",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "stade-rennais-fc",
+     "visitante": "fc-toulouse",
+     "fecha": "2027-02-20"
+    },
+    {
+     "local": "rc-strasbourg-alsace",
+     "visitante": "olympique-marseille",
+     "fecha": "2027-02-20"
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "fecha": "2027-02-27",
+   "partidos": [
+    {
+     "local": "aj-auxerre",
+     "visitante": "losc-lille",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "stade-brestois-29",
+     "visitante": "as-monaco",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "le-mans-fc",
+     "visitante": "paris-fc",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "fc-lorient",
+     "visitante": "angers-sco",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "olympique-lyon",
+     "visitante": "fc-toulouse",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "olympique-marseille",
+     "visitante": "stade-rennais-fc",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "rc-strasbourg-alsace",
+     "visitante": "le-havre-ac",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "estac-troyes",
+     "visitante": "ogc-nice",
+     "fecha": "2027-02-27"
+    },
+    {
+     "local": "paris-saint-germain",
+     "visitante": "rc-lens",
+     "fecha": "2027-02-28"
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "fecha": "2027-03-06",
+   "partidos": [
+    {
+     "local": "angers-sco",
+     "visitante": "aj-auxerre",
+     "fecha": "2027-03-06"
+    },
+    {
+     "local": "le-havre-ac",
+     "visitante": "ogc-nice",
+     "fecha": "2027-03-06"
+    },
+    {
+     "local": "rc-lens",
+     "visitante": "rc-strasbourg-alsace",
+     "fecha": "2027-03-06"
+    },
+    {
+     "local": "losc-lille",
+     "visitante": "olympique-marseille",
+     "fecha": "2027-03-06"
+    },
+    {
+     "local": "as-monaco",
+     "visitante": "olympique-lyon",
+     "fecha": "2027-03-06"
+    },
+    {
+     "local": "paris-fc",
+     "visitante": "stade-brestois-29",
+     "fecha": "2027-03-06"
+    },
+    {
+     "local": "paris-saint-germain",
+     "visitante": "stade-rennais-fc",
+     "fecha": "2027-03-06"
+    },
+    {
+     "local": "fc-toulouse",
+     "visitante": "le-mans-fc",
+     "fecha": "2027-03-06"
+    },
+    {
+     "local": "estac-troyes",
+     "visitante": "fc-lorient",
+     "fecha": "2027-03-06"
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "fecha": "2027-03-13",
+   "partidos": [
+    {
+     "local": "aj-auxerre",
+     "visitante": "paris-saint-germain",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "stade-brestois-29",
+     "visitante": "losc-lille",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "le-havre-ac",
+     "visitante": "rc-lens",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "le-mans-fc",
+     "visitante": "stade-rennais-fc",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "olympique-lyon",
+     "visitante": "estac-troyes",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "olympique-marseille",
+     "visitante": "as-monaco",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "ogc-nice",
+     "visitante": "fc-toulouse",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "paris-fc",
+     "visitante": "fc-lorient",
+     "fecha": "2027-03-13"
+    },
+    {
+     "local": "rc-strasbourg-alsace",
+     "visitante": "angers-sco",
+     "fecha": "2027-03-13"
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "fecha": "2027-03-20",
+   "partidos": [
+    {
+     "local": "angers-sco",
+     "visitante": "le-mans-fc",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "rc-lens",
+     "visitante": "losc-lille",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "fc-lorient",
+     "visitante": "ogc-nice",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "as-monaco",
+     "visitante": "le-havre-ac",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "paris-saint-germain",
+     "visitante": "rc-strasbourg-alsace",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "stade-rennais-fc",
+     "visitante": "paris-fc",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "fc-toulouse",
+     "visitante": "stade-brestois-29",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "estac-troyes",
+     "visitante": "aj-auxerre",
+     "fecha": "2027-03-20"
+    },
+    {
+     "local": "olympique-marseille",
+     "visitante": "olympique-lyon",
+     "fecha": "2027-03-21"
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "fecha": "2027-04-03",
+   "partidos": [
+    {
+     "local": "angers-sco",
+     "visitante": "as-monaco",
+     "fecha": "2027-04-03"
+    },
+    {
+     "local": "aj-auxerre",
+     "visitante": "rc-lens",
+     "fecha": "2027-04-03"
+    },
+    {
+     "local": "stade-brestois-29",
+     "visitante": "fc-lorient",
+     "fecha": "2027-04-03"
+    },
+    {
+     "local": "le-havre-ac",
+     "visitante": "estac-troyes",
+     "fecha": "2027-04-03"
+    },
+    {
+     "local": "le-mans-fc",
+     "visitante": "olympique-marseille",
+     "fecha": "2027-04-03"
+    },
+    {
+     "local": "losc-lille",
+     "visitante": "stade-rennais-fc",
+     "fecha": "2027-04-03"
+    },
+    {
+     "local": "ogc-nice",
+     "visitante": "olympique-lyon",
+     "fecha": "2027-04-03"
+    },
+    {
+     "local": "paris-fc",
+     "visitante": "paris-saint-germain",
+     "fecha": "2027-04-03"
+    },
+    {
+     "local": "rc-strasbourg-alsace",
+     "visitante": "fc-toulouse",
+     "fecha": "2027-04-03"
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "fecha": "2027-04-10",
+   "partidos": [
+    {
+     "local": "le-mans-fc",
+     "visitante": "aj-auxerre",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "losc-lille",
+     "visitante": "fc-toulouse",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "fc-lorient",
+     "visitante": "rc-lens",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "olympique-lyon",
+     "visitante": "rc-strasbourg-alsace",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "olympique-marseille",
+     "visitante": "stade-brestois-29",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "as-monaco",
+     "visitante": "stade-rennais-fc",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "ogc-nice",
+     "visitante": "paris-fc",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "paris-saint-germain",
+     "visitante": "le-havre-ac",
+     "fecha": "2027-04-10"
+    },
+    {
+     "local": "estac-troyes",
+     "visitante": "angers-sco",
+     "fecha": "2027-04-10"
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "fecha": "2027-04-17",
+   "partidos": [
+    {
+     "local": "angers-sco",
+     "visitante": "olympique-lyon",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "aj-auxerre",
+     "visitante": "fc-lorient",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "stade-brestois-29",
+     "visitante": "le-mans-fc",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "le-havre-ac",
+     "visitante": "olympique-marseille",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "rc-lens",
+     "visitante": "ogc-nice",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "as-monaco",
+     "visitante": "rc-strasbourg-alsace",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "paris-saint-germain",
+     "visitante": "losc-lille",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "stade-rennais-fc",
+     "visitante": "estac-troyes",
+     "fecha": "2027-04-17"
+    },
+    {
+     "local": "fc-toulouse",
+     "visitante": "paris-fc",
+     "fecha": "2027-04-17"
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "fecha": "2027-04-24",
+   "partidos": [
+    {
+     "local": "le-mans-fc",
+     "visitante": "le-havre-ac",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "losc-lille",
+     "visitante": "as-monaco",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "fc-lorient",
+     "visitante": "paris-saint-germain",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "olympique-lyon",
+     "visitante": "stade-brestois-29",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "olympique-marseille",
+     "visitante": "aj-auxerre",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "ogc-nice",
+     "visitante": "angers-sco",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "paris-fc",
+     "visitante": "rc-lens",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "rc-strasbourg-alsace",
+     "visitante": "stade-rennais-fc",
+     "fecha": "2027-04-24"
+    },
+    {
+     "local": "estac-troyes",
+     "visitante": "fc-toulouse",
+     "fecha": "2027-04-24"
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "fecha": "2027-05-01",
+   "partidos": [
+    {
+     "local": "aj-auxerre",
+     "visitante": "olympique-lyon",
+     "fecha": "2027-05-01"
+    },
+    {
+     "local": "le-havre-ac",
+     "visitante": "paris-fc",
+     "fecha": "2027-05-01"
+    },
+    {
+     "local": "rc-lens",
+     "visitante": "le-mans-fc",
+     "fecha": "2027-05-01"
+    },
+    {
+     "local": "as-monaco",
+     "visitante": "fc-lorient",
+     "fecha": "2027-05-01"
+    },
+    {
+     "local": "paris-saint-germain",
+     "visitante": "angers-sco",
+     "fecha": "2027-05-01"
+    },
+    {
+     "local": "stade-rennais-fc",
+     "visitante": "ogc-nice",
+     "fecha": "2027-05-01"
+    },
+    {
+     "local": "rc-strasbourg-alsace",
+     "visitante": "losc-lille",
+     "fecha": "2027-05-01"
+    },
+    {
+     "local": "fc-toulouse",
+     "visitante": "olympique-marseille",
+     "fecha": "2027-05-01"
+    },
+    {
+     "local": "estac-troyes",
+     "visitante": "stade-brestois-29",
+     "fecha": "2027-05-01"
+    }
+   ]
+  },
+  {
+   "n": 31,
+   "fecha": "2027-05-08",
+   "partidos": [
+    {
+     "local": "angers-sco",
+     "visitante": "fc-toulouse",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "stade-brestois-29",
+     "visitante": "aj-auxerre",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "le-mans-fc",
+     "visitante": "estac-troyes",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "rc-lens",
+     "visitante": "as-monaco",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "fc-lorient",
+     "visitante": "rc-strasbourg-alsace",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "ogc-nice",
+     "visitante": "olympique-marseille",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "paris-fc",
+     "visitante": "losc-lille",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "stade-rennais-fc",
+     "visitante": "le-havre-ac",
+     "fecha": "2027-05-08"
+    },
+    {
+     "local": "olympique-lyon",
+     "visitante": "paris-saint-germain",
+     "fecha": "2027-05-09"
+    }
+   ]
+  },
+  {
+   "n": 32,
+   "fecha": "2027-05-16",
+   "partidos": [
+    {
+     "local": "aj-auxerre",
+     "visitante": "stade-rennais-fc",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "stade-brestois-29",
+     "visitante": "le-havre-ac",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "losc-lille",
+     "visitante": "angers-sco",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "olympique-lyon",
+     "visitante": "le-mans-fc",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "olympique-marseille",
+     "visitante": "rc-lens",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "as-monaco",
+     "visitante": "paris-fc",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "paris-saint-germain",
+     "visitante": "ogc-nice",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "rc-strasbourg-alsace",
+     "visitante": "estac-troyes",
+     "fecha": "2027-05-16"
+    },
+    {
+     "local": "fc-toulouse",
+     "visitante": "fc-lorient",
+     "fecha": "2027-05-16"
+    }
+   ]
+  },
+  {
+   "n": 33,
+   "fecha": "2027-05-22",
+   "partidos": [
+    {
+     "local": "angers-sco",
+     "visitante": "stade-brestois-29",
+     "fecha": "2027-05-22"
+    },
+    {
+     "local": "le-havre-ac",
+     "visitante": "losc-lille",
+     "fecha": "2027-05-22"
+    },
+    {
+     "local": "le-mans-fc",
+     "visitante": "rc-strasbourg-alsace",
+     "fecha": "2027-05-22"
+    },
+    {
+     "local": "rc-lens",
+     "visitante": "stade-rennais-fc",
+     "fecha": "2027-05-22"
+    },
+    {
+     "local": "fc-lorient",
+     "visitante": "olympique-lyon",
+     "fecha": "2027-05-22"
+    },
+    {
+     "local": "ogc-nice",
+     "visitante": "as-monaco",
+     "fecha": "2027-05-22"
+    },
+    {
+     "local": "paris-fc",
+     "visitante": "olympique-marseille",
+     "fecha": "2027-05-22"
+    },
+    {
+     "local": "fc-toulouse",
+     "visitante": "aj-auxerre",
+     "fecha": "2027-05-22"
+    },
+    {
+     "local": "estac-troyes",
+     "visitante": "paris-saint-germain",
+     "fecha": "2027-05-22"
+    }
+   ]
+  },
+  {
+   "n": 34,
+   "fecha": "2027-05-29",
+   "partidos": [
+    {
+     "local": "aj-auxerre",
+     "visitante": "le-havre-ac",
+     "fecha": "2027-05-29"
+    },
+    {
+     "local": "stade-brestois-29",
+     "visitante": "rc-lens",
+     "fecha": "2027-05-29"
+    },
+    {
+     "local": "losc-lille",
+     "visitante": "le-mans-fc",
+     "fecha": "2027-05-29"
+    },
+    {
+     "local": "olympique-lyon",
+     "visitante": "paris-fc",
+     "fecha": "2027-05-29"
+    },
+    {
+     "local": "olympique-marseille",
+     "visitante": "fc-lorient",
+     "fecha": "2027-05-29"
+    },
+    {
+     "local": "as-monaco",
+     "visitante": "estac-troyes",
+     "fecha": "2027-05-29"
+    },
+    {
+     "local": "paris-saint-germain",
+     "visitante": "fc-toulouse",
+     "fecha": "2027-05-29"
+    },
+    {
+     "local": "stade-rennais-fc",
+     "visitante": "angers-sco",
+     "fecha": "2027-05-29"
+    },
+    {
+     "local": "rc-strasbourg-alsace",
+     "visitante": "ogc-nice",
+     "fecha": "2027-05-29"
+    }
+   ]
+  }
+ ]
+}
