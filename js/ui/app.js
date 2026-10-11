@@ -35,19 +35,34 @@ ruta('404', o.noEncontrada);
 
 document.getElementById('vista').insertAdjacentHTML('afterend', '<footer class="pie contenido">Los escudos son marcas de sus clubes. Proyecto de fans sin fines comerciales. Datos: Transfermarkt y fuentes oficiales, con fecha en cada pantalla.</footer>');
 const app = document.getElementById('app'), nav = document.getElementById('nav'), vista = document.getElementById('vista');
+const esperar = ms => new Promise(r => setTimeout(r, ms));
 onCambio(async (nombre, def, params, viejo) => {
+  document.querySelectorAll('.cortina').forEach(n => n.remove());
+  const reducido = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const cortina = document.createElement('div');
+  cortina.className = 'cortina';
+  if (!reducido) document.body.append(cortina);
+  if (!reducido) await esperar(460);
+  if (viejo()) { cortina.remove(); return; }
   app.classList.toggle('sin-nav', !!def.sinNav);
   if (def.sinNav) aplicarClub(null); else pintarNav(nav, nombre, params);
   document.title = `${def.titulo} · FC26 Career Hub`;
-  const el = document.createElement('div'); // contenedor nuevo por pantalla: sin listeners viejos
+  const el = document.createElement('div');
+  el.className = 'pantalla-entra';
   vista.replaceChildren(el);
   scrollTo(0, 0);
   try { await def.render(el, params, viejo); }
   catch (e) {
     console.error(e);
-    if (!viejo()) el.innerHTML = `<div class="vacio error" role="alert"><h2 class="h2">Algo falló</h2><p>${String(e.message).replace(/</g, '&lt;')}</p><a class="btn secundario" href="#/inicio">Ir al inicio</a></div>`;
+    if (!viejo()) el.innerHTML = `<div class="vacio error" role="alert"><h2 class="h2">Algo falló</h2><p>${String(e.message).replace(/</g, '<')}</p><a class="btn secundario" href="#/inicio">Ir al inicio</a></div>`;
   }
-  if (!viejo()) vista.focus({preventScroll: true});
+  if (viejo()) { cortina.remove(); return; }
+  if (!reducido) {
+    cortina.classList.add('fuera');
+    cortina.addEventListener('animationend', () => cortina.remove(), {once: true});
+    setTimeout(() => cortina.remove(), 800);
+  }
+  vista.focus({preventScroll: true});
 });
 resolver();
 mejorarSelects(document.body);

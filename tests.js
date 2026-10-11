@@ -650,7 +650,17 @@ async function t(nombre, fn) { try { await fn(); ok++; console.log('  ✔', nomb
     assert.equal(h.finanzasJuego.presupuestoM, 28); assert.equal(h.finanzasJuego.topeM, 180);
     const om = {id: 'olympique-marseille', nombre: 'OM', liga: 'Ligue 1', nivel: 4};
     const o = M.configurarFinanzas(M.crearCarrera({club: om, dificultad: 'medio'}), om, {masaJuegoM: 100, presupuestoJuegoM: 40});
-    assert.equal(o.finanzasJuego.salud.salud, 'ajustada'); assert.equal(o.finanzasJuego.presupuestoM, 34);
+    assert.equal(o.finanzasJuego.salud.salud, 'ajustada');
+    assert.equal(o.finanzasJuego.presupuestoM, 40); // cargado a mano: la salud no lo toca
+    assert.equal(o.finanzasJuego.topeM, 92.4); // 100 × 1,05 × 0,88
+    const crisis = M.configurarFinanzas(M.crearCarrera({club: BAR, dificultad: 'medio'}), BAR, {masaJuegoM: 80, presupuestoJuegoM: 80, salud: 'crisis'});
+    assert.equal(crisis.finanzasJuego.presupuestoM, 80);
+    assert.equal(crisis.finanzasJuego.topeM, 68.9); // 80 × 1,05 × 0,82
+    const est = M.aplicarSaludEstimada(M.crearCarrera({club: BAR, dificultad: 'medio'}), BAR, 'crisis');
+    const base = M.finanzas(BAR, 'medio');
+    assert.equal(est.finanzasJuego.estimado, true);
+    assert.equal(est.finanzasJuego.presupuestoM, Math.round(base.presupuesto.central * 0.6 * 10) / 10);
+    assert.equal(est.finanzasJuego.topeM, Math.round(base.topeSalarial.central * 0.82 * 10) / 10);
     const e = M.estadoMercado(m, BAR); assert.equal(e.fuente, 'juego'); assert.equal(e.estimado, false); assert.equal(e.disponibleM, 80);
     assert.throws(() => M.configurarFinanzas(m, BAR, {masaJuegoM: 0, presupuestoJuegoM: 10}));
     assert.equal(M.semanalAAnualM(1000), 52);

@@ -1,5 +1,5 @@
 // Oficina del presidente, formato "negociación": exigencias a la izquierda, reunión con tensión y tres respuestas a la derecha.
-import {aviso} from '../avisos.js';
+import {aviso, cartel, cartelSiNuevo} from '../avisos.js';
 // Todo sale del Motor: restricciones, finanzas, paciencia, confianza, tensión y eventos.
 import * as motor from '../../motor/index.js';
 import {contextoClub, banda} from '../contexto.js';
@@ -82,12 +82,20 @@ export default {
         if (b.dataset.ev) { if (!activa()) return; responder(b.dataset.ev, b.dataset.r); }
         else if (b.dataset.tipo) N.tipo(b.dataset.tipo);
         else if (b.dataset.m) N.monto(Number(b.dataset.m));
-        else if (b.dataset.pedir !== undefined && c) N.pedir(activa(), club);
+        else if (b.dataset.pedir !== undefined && c) {
+          N.pedir(activa(), club);
+          const ult = [...N.estado.hilo].reverse().find(h => !h.yo && h.t);
+          if (ult) cartel({cargo: 'Presidente', quien: club.presidente?.nombre || 'Presidente', texto: ult.t, tono: ult.dec === 'acepta' ? 'ok' : ult.dec === 'rechaza' ? 'peligro' : 'alerta'});
+        }
         else if (b.dataset.negR && c) N.responder(b.dataset.negR);
         else if (b.dataset.limpiar !== undefined) N.limpiar();
         const enfocar = b.dataset.pedir !== undefined || b.dataset.negR;
         Promise.resolve(this.render(el, params, viejo)).then(() => { if (enfocar && innerWidth < 960) el.querySelector('.hilo')?.lastElementChild?.scrollIntoView({block: 'center', behavior: 'smooth'}); });
       } catch (err) { aviso(err.message, {tipo: 'peligro'}); }
     };
+    if (ev) {
+      const tono = ev.tipo === 'elogio' ? 'ok' : ev.tipo === 'despido' || ev.tipo === 'ultimatum' ? 'peligro' : 'alerta';
+      cartelSiNuevo('pres-' + ev.id, {cargo: 'Presidente', quien: club.presidente?.nombre || 'Presidente', texto: ev.texto, tono});
+    }
   }
 };

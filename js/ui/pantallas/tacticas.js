@@ -1,5 +1,6 @@
 // Tácticas y FC IQ: once ideal con roles reales de fciq.json (EA) y charla táctica con el DT (proponerTactica / cerrarCharlaTactica).
 import {aviso} from '../avisos.js';
+import {cartel} from '../avisos.js';
 import * as datos from '../datos.js';
 import * as motor from '../../motor/index.js';
 import {contextoClub, banda} from '../contexto.js';
@@ -39,9 +40,12 @@ export default {
       const c = car(), t = c.tactica; once = onceCarrera(pl.jugadores, c, onceEA); const form = t?.formacion || '4-3-3', propio = !!c.alineacion?.[form];
       const enCancha = new Set(once.map(x => x.j).filter(Boolean)), resto = pl.jugadores.filter(j => !enCancha.has(j)).sort((a, b) => (ovr(b) ?? -1) - (ovr(a) ?? -1)), supl = resto.slice(0, 12), resv = resto.slice(12);
       const filaBanco = j => `<button class="banco-j" data-banco="${esc(j.id)}" draggable="${!previa}" ${previa ? 'disabled' : ''}><span class="pos ${lineaDe(j.pos)}">${esc(j.pos || '—')}</span><span class="nom">${esc(j.nombre)}${j.canterano ? ' <small class="meta">Cantera</small>' : ''}</span><span class="ovr-chip ${claseOvr(ovr(j)) || 'bronce'}">${ovr(j) ?? '—'}</span></button>`; if (!once[s.sel]) s.sel = 0; const o = once[s.sel], {R, r, foco, porDefecto} = rolDe(o);
-      const fichas = once.map((x, i) => { if (!x.j) return ''; const rr = rolDe(x).r;
+      const fichas = once.map((x, i) => { if (!x.j) return ''; const info = rolDe(x), rr = info.r;
         const fu = fueraDePosicion(x.j, x.rol);
-        return `<button class="ficha-cancha ${i === s.sel ? 'sel' : ''}${fu ? ' fuera' : ''}" data-sel="${i}" draggable="${!previa}" style="left:${x.x}%;top:${x.y}%" aria-label="${esc(x.j.nombre)}"><span class="ovr-chip ${claseOvr(ovr(x.j)) || 'bronce'}">${ovr(x.j) ?? '—'}</span><span>${esc(apellido(x.j.nombre))}</span><small>${esc(rr ? rr.rol : x.rol)}</small>${fu ? '<span class="chip-fuera">Fuera de posición</span>' : ''}</button>`; }).join('');
+        const focoNom = rr?.focos?.find(f => f.focoEA === info.foco)?.foco || '';
+        const pos = {POR:'PO', DFC:'DEF', LI:'LI', LD:'LD', CAI:'LI', CAD:'LD', MCD:'MCD', MC:'MC', MCO:'MCO', MI:'MI', MD:'MD', EI:'EI', ED:'ED', DC:'DC', SD:'DC'}[x.rol] || x.rol;
+        const correr = t => { const raw = String(t || '—'); const s = esc(raw); const largo = raw.length > 15; return `<span class="fc-run${largo ? ' mueve' : ''}"><span>${s}${largo ? '   ·   ' + s : ''}</span></span>`; };
+        return `<button class="ficha-cancha fc-carta ${i === s.sel ? 'on' : ''}${fu ? ' fuera' : ''}" data-sel="${i}" draggable="${!previa}" style="left:${x.x}%;top:${x.y}%" aria-label="${esc(x.j.nombre)}, ${esc(rr?.rol || x.rol)}, ${esc(pos)}"><b>${esc(apellido(x.j.nombre))}</b>${correr(rr?.rol || x.rol)}${correr(focoNom)}<small>${esc(pos)}</small></button>`; }).join('');
       const roles = R.map(x => { const on = r?.id === x.id;
         return `<button class="rol" data-rol="${esc(x.id)}" aria-pressed="${on}" ${previa ? 'disabled' : ''}><b>${esc(x.rol)}</b>${x.nuevoFC26 ? '<span class="nuevo">Nuevo FC 26</span>' : '<span></span>'}<small>${esc(x.rolEA)} (nombre oficial EA)${on && porDefecto ? ' · por defecto' : ''}</small>
           ${on ? `<div class="focos">${x.focos.map(f => `<span class="foco ${foco === f.focoEA ? 'on' : ''}" role="button" tabindex="0" data-foco="${esc(f.focoEA)}">${esc(f.foco)}${f.nuevoFC26 ? ' · nuevo' : ''}</span>`).join('')}</div>` : ''}</button>`; }).join('');
@@ -98,6 +102,7 @@ export default {
     el.onchange = e => { if (e.target.matches('[data-estilo]')) { s.estilo = e.target.value; s.charla = null; pintar(); } };
     el.onclick = e => {
       const b = e.target.closest('[data-sel],[data-rol],[data-foco],[data-form],[data-proponer],[data-resp],[data-banco],[data-reset]'); if (!b) return;
+      let decir = null;
       try {
         if (b.dataset.banco) { if (previa) return; cambiar(s.sel, b.dataset.banco); }
         else if (b.dataset.reset !== undefined) { const f = car().tactica?.formacion || '4-3-3'; ctx.carrera = actualizar(c => { const a = {...(c.alineacion || {})}; delete a[f]; return {...c, alineacion: a}; }); }
@@ -105,15 +110,20 @@ export default {
         else if (b.dataset.foco && !previa) { const id = once[s.sel].j.id; ctx.carrera = actualizar(c => ({...c, roles: {...(c.roles || {}), [id]: {...(c.roles || {})[id], foco: b.dataset.foco}}})); }
         else if (b.dataset.rol && !previa) { const id = once[s.sel].j.id; ctx.carrera = actualizar(c => ({...c, roles: {...(c.roles || {}), [id]: {rol: b.dataset.rol, foco: null}}})); }
         else if (b.dataset.form) { s.formacion = b.dataset.form; s.charla = null; s.cerrada = null; }
-        else if (b.dataset.proponer !== undefined && !previa) { s.charla = motor.proponerTactica(car(), dt, {formacion: s.formacion, estilo: s.estilo || null}); s.cerrada = null; }
+        else if (b.dataset.proponer !== undefined && !previa) {
+          s.charla = motor.proponerTactica(car(), dt, {formacion: s.formacion, estilo: s.estilo || null}); s.cerrada = null;
+          decir = {cargo: 'Director técnico', quien: dt?.nombre || 'El DT', texto: String(s.charla.texto || '').replace(/^[^:]+:\s*/, '').replace(/^"|"$/g, '')};
+        }
         else if (b.dataset.resp && s.charla) {
           const antes = car().relacionDT ?? 60;
           ctx.carrera = actualizar(c => motor.cerrarCharlaTactica(c, s.charla, b.dataset.resp));
           const d = Math.round((ctx.carrera.relacionDT ?? 60) - antes), t = ctx.carrera.tactica;
           s.cerrada = `${t.pruebaHasta ? `Se prueba ${t.formacion} 3 partidos.` : `Jugamos ${t.formacion}.`} Relación con el DT ${d >= 0 ? '+' : ''}${d}.`;
+          decir = {cargo: 'Director técnico', quien: dt?.nombre || 'El DT', texto: s.cerrada};
         }
       } catch (err) { aviso(err.message, {tipo: 'peligro'}); return; }
       pintar();
+      if (decir) cartel(decir);
     };
     pintar();
   }

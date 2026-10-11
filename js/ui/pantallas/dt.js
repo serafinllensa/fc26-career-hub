@@ -1,10 +1,10 @@
 // Oficina del DT: once ideal por media EA, DT real (dts.json), charlas y eventos del vestuario (Motor).
-import {aviso} from '../avisos.js';
+import {aviso, cartel, cartelSiNuevo} from '../avisos.js';
 import * as datos from '../datos.js';
 import {contextoClub, banda} from '../contexto.js';
 import {esc, estado, cargando} from '../util.js';
 import {href} from '../router.js';
-import {ovr, claseOvr, onceEA, apellido} from '../ea.js';
+import {ovr, onceEA, apellido} from '../ea.js';
 import {pestanasOficina} from '../nav.js';
 import * as motor from '../../motor/index.js';
 import {charla, responder, deOficina, activa, conCarrera, onceCarrera, actualizar} from '../carrera.js';
@@ -44,7 +44,8 @@ export default {
     const form = ctx.carrera?.tactica?.formacion || '4-3-3';
     const once = onceCarrera(pl.jugadores, ctx.carrera, onceEA), conMedia = once.filter(o => o.j && ovr(o.j) != null);
     const media = conMedia.length ? Math.round(conMedia.reduce((a, o) => a + ovr(o.j), 0) / conMedia.length) : null;
-    const fichas = once.map((o, i) => o.j ? `<div class="ficha-cancha" style="left:${o.x}%;top:${o.y}%"><span class="ovr-chip ${claseOvr(ovr(o.j)) || 'bronce'}">${ovr(o.j) ?? '—'}</span><span>${esc(apellido(o.j.nombre))}</span><small>${o.rol}</small></div>` : '').join('');
+    const posCorta = {POR:'PO', DFC:'DEF', LI:'LI', LD:'LD', CAI:'LI', CAD:'LD', MCD:'MCD', MC:'MC', MCO:'MCO', MI:'MI', MD:'MD', EI:'EI', ED:'ED', DC:'DC', SD:'DC'};
+    const fichas = once.map(o => o.j ? `<div class="ficha-cancha fc-carta" style="left:${o.x}%;top:${o.y}%"><b>${esc(apellido(o.j.nombre))}</b><small>${esc(posCorta[o.rol] || o.rol)}</small></div>` : '').join('');
     const q = params.club ? {club: params.club} : undefined;
     const pref = dt ? motor.preferenciasDT(dt) : null;
     const rs = REF.get(c?.id) || {fal: null, sugs: null, charla: null, aviso: null, cargando: false}; if (c) REF.set(c.id, rs);
@@ -88,7 +89,7 @@ export default {
             <p class="meta" data-resultado-charla style="margin:var(--e3) 0 0">${c ? 'Hablar en cada partido le quita fuerza al mensaje.' : 'Empezá una carrera para hablar con el plantel.'}</p></div>
         </section>
       </div>`;
-    el.onclick = e => {
+    el.onclick = async e => {
       const b = e.target.closest('[data-charla],[data-ev],[data-fal],[data-opinar],[data-proponer-j],[data-ref-r]'); if (!b || !activa()) return;
       const otra = () => this.render(el, params, viejo);
       try {
@@ -100,14 +101,20 @@ export default {
           if (b.dataset.opinar) j = rs.sugs.find(x => x.jugador.id === b.dataset.opinar)?.jugador;
           else { const v = el.querySelector('[data-otro-j]').value; j = (CANDIDATOS || []).find(x => `${x.club}|${x.id}` === v); if (!j) { aviso('Elegí un jugador de la lista.', {tipo: 'alerta'}); return; } }
           const f = motor.detectarFalencias(pl.jugadores, form).falencias[rs.fal];
-          rs.charla = {...motor.opinarJugador(activa(), dt, f, j, {clubes: todos}), jugador: j}; rs.aviso = null; otra(); return; }
+          rs.charla = {...motor.opinarJugador(activa(), dt, f, j, {clubes: todos}), jugador: j}; rs.aviso = null;
+          const tono = rs.charla.opinion === 'no' ? 'peligro' : rs.charla.opinion === 'de-acuerdo' ? 'ok' : 'alerta';
+          await cartel({cargo: 'Director técnico', quien: dt?.nombre || 'El DT', texto: `${rs.charla.jugador.nombre}. ${rs.charla.texto || ''}`, tono});
+          otra(); return;
+        }
         if (b.dataset.refR && rs.charla) {
           const ch = rs.charla, r = motor.responderRefuerzo(activa(), ch, b.dataset.refR); actualizar(() => r.carrera); rs.charla = null;
           if (r.pedirAlPresidente) { const j = ch.jugador; pedidoDesdeMercado(activa().id, {id: j.id, nombre: j.nombre, edad: j.edad, valorM: j.valorM, sueldoM: null, club: nomC(j.club), respaldoDT: !!r.respaldoDT}, Math.max(1, Math.round((j.valorM || 10) * 1.1))); ir('presidente'); return; }
-          rs.aviso = b.dataset.refR === 'otra' ? 'Proponele otro jugador.' : b.dataset.refR === 'ceder' ? 'Buscamos otro perfil.' : 'Listo.'; otra(); return; }
-        if (b.dataset.charla) { const r = charla(b.dataset.charla); this.render(el, params, viejo).then(() => { const m = el.querySelector('[data-resultado-charla]'); if (m) m.innerHTML = `<b style="color:${r.efecto > 0 ? 'var(--ok)' : r.efecto < 0 ? 'var(--peligro)' : 'inherit'}">Vestuario ${r.efecto > 0 ? '+' : r.efecto < 0 ? '−' : '±'}${Math.abs(r.efecto)}.</b> ${esc(r.texto)}`; }); }
+          rs.aviso = b.dataset.refR === 'otra' ? 'Proponele otro jugador.' : b.dataset.refR === 'ceder' ? 'Buscamos otro perfil.' : 'Listo.'; otra(); return;
+        }
+        if (b.dataset.charla) { const r = charla(b.dataset.charla); await cartel({cargo: 'Director técnico', quien: dt?.nombre || 'El DT', texto: r.texto, tono: r.efecto < 0 ? 'no' : 'renovar'}); this.render(el, params, viejo); }
         else { responder(b.dataset.ev, b.dataset.r); this.render(el, params, viejo); }
       } catch (err) { aviso(err.message, {tipo: 'peligro'}); }
     };
+    if (evDT) cartelSiNuevo('dt-' + evDT.id, {cargo: 'Director técnico', quien: dt?.nombre || 'El DT', texto: evDT.texto, tono: 'alerta'});
   }
 };

@@ -8,7 +8,7 @@ import {href} from '../router.js';
 import {ovr, claseOvr} from '../ea.js';
 import {pedidoDesdeMercado, iniciales} from '../negociacion.js';
 import {ir} from '../router.js';
-import {aviso, confirmar} from '../avisos.js';
+import {aviso, confirmar, cartel} from '../avisos.js';
 
 const LCPD = {'fc-barcelona': [582.76, 'EFE'], 'real-madrid': [832.78, 'EFE']}; // dato citado por Diseño (EFE)
 
@@ -186,7 +186,17 @@ export default {
         else if (b.dataset.ofM) { sx.sal.meses = Number(b.dataset.ofM); }
         else if (b.dataset.salTipo) { sx.sal.tipo = b.dataset.salTipo; sx.prop = null; }
         else if (b.dataset.salP) { sx.sal.precio = Math.max(0, (sx.sal.precio || 0) + Number(b.dataset.salP)); sx.prop = null; }
-        else if (b.dataset.salProponer !== undefined && jsal) { sx.prop = sx.ultProp = motor.proponerSalida(c, club, {tipo: sx.sal.tipo, jugador: jsal, precioPedidoM: sx.sal.tipo === 'venta' ? sx.sal.precio : undefined, plantilla: plProp.jugadores}); sx.aviso = null; }
+        else if (b.dataset.salProponer !== undefined && jsal) {
+          sx.prop = sx.ultProp = motor.proponerSalida(c, club, {tipo: sx.sal.tipo, jugador: jsal, precioPedidoM: sx.sal.tipo === 'venta' ? sx.sal.precio : undefined, plantilla: plProp.jugadores});
+          sx.aviso = null;
+          const pr = sx.prop;
+          const tonoP = pr.presidente?.decision === 'acepta' ? 'ok' : pr.presidente?.decision === 'rechaza' ? 'peligro' : 'alerta';
+          const hablaDT = (pr.dt?.motivos || []).filter(Boolean).join('. ');
+          cartel({cargo: 'Presidente', quien: club.presidente?.nombre || 'Presidente', texto: pr.presidente?.texto || '', tono: tonoP}).then(() => {
+            if (!hablaDT) return;
+            return cartel({cargo: 'Director técnico', quien: ctx.carrera?.dt?.nombre || 'El DT', texto: hablaDT, tono: pr.dt?.opinion === 'en-contra' ? 'peligro' : pr.dt?.opinion === 'de-acuerdo' ? 'ok' : 'alerta'});
+          });
+        }
         else if (b.dataset.salR && sx.prop) { const pr = sx.prop, r = pr.respuestas.find(x => x.id === b.dataset.salR); ctx.carrera = actualizar(x => motor.responderSalida(x, pr, b.dataset.salR)); sx.prop = null;
           sx.aviso = b.dataset.salR === 'otra' ? 'Proponé otra cosa: cambiá el precio, el tipo o el jugador.' : b.dataset.salR === 'dejar' ? 'Lo dejamos así.' : ctx.carrera.transferibles?.[jsal.id] ? `${jsal.nombre} queda ${sx.sal.tipo === 'venta' ? 'en venta' : 'para ceder'}. Cuando llegue la oferta en el juego, cargala abajo.` : (r?.texto || 'Listo.'); }
         else if (b.dataset.ofRegistrar !== undefined && jsal) {

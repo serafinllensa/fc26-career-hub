@@ -1,59 +1,122 @@
-// Nueva carrera · paso 1: elegir o sortear club. Pensado para 96 clubes: búsqueda, filtro por liga y por nivel.
+// Nueva carrera · paso 1: elegir club como en EA FC.
+// Arriba el país, al centro un club de esa liga, abajo la división.
 import * as datos from '../datos.js';
 import {href, ir} from '../router.js';
-import {LIGAS, ICONO, esc, norm, estado, cargando} from '../util.js';
-import {estiloClub, escudo, ciudad} from '../club.js';
+import {esc, estado, cargando} from '../util.js';
+import {escudo} from '../club.js';
+import {aviso} from '../avisos.js';
 
-const tarjeta = c => `<a class="club" href="${href('nueva/dt', {club:c.id})}" style="${estiloClub(c)}">
-  ${escudo(c)}
-  <div style="flex:1;min-width:0"><div class="h3">${esc(c.nombre)}</div><div class="meta">${esc([ciudad(c), c.estadio].filter(Boolean).join(' · '))}</div></div>
-  <div style="text-align:right">${c.nivel ? `<div class="estrellas" aria-label="Nivel ${c.nivel} de 5">${'★'.repeat(c.nivel)}<span style="opacity:.25">${'★'.repeat(5 - c.nivel)}</span></div>` : '<span class="sin-verificar">Nivel</span>'}</div></a>`;
+const PAISES = [
+  {liga: 'Premier League', pais: 'Inglaterra', bandera: '🇬🇧', segunda: 'Championship'},
+  {liga: 'LaLiga', pais: 'España', bandera: '🇪🇸', segunda: 'Segunda División'},
+  {liga: 'Serie A', pais: 'Italia', bandera: '🇮🇹', segunda: 'Serie B'},
+  {liga: 'Bundesliga', pais: 'Alemania', bandera: '🇩🇪', segunda: '2. Bundesliga'},
+  {liga: 'Ligue 1', pais: 'Francia', bandera: '🇫🇷', segunda: 'Ligue 2'},
+];
 
 export default {
   titulo: 'Nueva carrera', sinNav: true,
   async render(el, params, viejo){
-    const f = {q: params.q || '', liga: params.liga || '', nivel: Number(params.nivel) || 0};
-    el.innerHTML = `
-      <header class="cabeza"><div class="etiqueta">Nueva carrera · Paso 1 de 3</div><h1 class="h1" style="margin-top:6px">Elegí tu club</h1>
-        <p>Los clubes de las 5 grandes ligas de Europa, temporada 2026/27.</p><div class="pasos"><span class="on"></span><span></span><span></span></div></header>
-      <div class="fila-h"><label class="campo">${ICONO.buscar}<input type="search" placeholder="Buscar club, ciudad o estadio" aria-label="Buscar club" value="${esc(f.q)}" data-q></label>
-        <button class="btn secundario" data-sortear disabled style="flex:none" aria-label="Sortear club">Sortear</button></div>
-      <div class="chips" role="group" aria-label="Liga" data-ligas></div>
-      <div class="chips" role="group" aria-label="Nivel" style="margin-top:0" data-niveles></div>
-      <div data-lista>${cargando(6)}</div>
-      <p style="margin-top:var(--e6)"><a class="btn fantasma" href="#/inicio">← Volver</a></p>`;
+    el.innerHTML = `<div class="picker">${cargando(3)}</div>`;
     let todos;
     try { todos = await datos.clubes(); }
     catch (e) {
       if (viejo()) return;
-      el.querySelector('[data-lista]').innerHTML = estado('Faltan los clubes', `No se pudo cargar <code>data/clubes.json</code>: ${esc(e.motivo)}. Datos FC lo está armando con fuente y fecha.`, 'error');
+      el.innerHTML = estado('Faltan los clubes', `No se pudo cargar la base: ${esc(e.motivo || e.message)}`, 'error');
       return;
     }
     if (viejo()) return;
-    const $ = s => el.querySelector(s);
-    const pintarChips = () => {
-      $('[data-ligas]').innerHTML = `<button class="chip" data-liga="" aria-pressed="${!f.liga}">Todas</button>` + LIGAS.map(l => `<button class="chip" data-liga="${l.id}" aria-pressed="${f.liga === l.id}">${l.id}</button>`).join('');
-      $('[data-niveles]').innerHTML = `<button class="chip" data-nivel="0" aria-pressed="${!f.nivel}">Cualquier nivel</button>` + [5,4,3,2,1].map(n => `<button class="chip" data-nivel="${n}" aria-pressed="${f.nivel === n}" aria-label="Nivel ${n}">${'★'.repeat(n)}</button>`).join('');
+    const deLiga = liga => todos.filter(c => c.liga === liga).sort((a, b) => (b.nivel || 0) - (a.nivel || 0) || a.nombre.localeCompare(b.nombre, 'es'));
+    let iPais = Math.max(0, PAISES.findIndex(p => p.liga === params.liga));
+    let iClub = 0;
+    let iDiv = 1;
+    const clubActual = () => (iDiv === 1 ? deLiga(PAISES[iPais].liga)[iClub] : null);
+    const pintar = () => {
+      const pais = PAISES[iPais];
+      const lista = deLiga(pais.liga);
+      if (iClub >= lista.length) iClub = 0;
+      const c = iDiv === 1 ? lista[iClub] : null;
+      const n = c?.nivel || 0;
+      const paises = PAISES.map((p, i) => `<button type="button" class="picker-pais ${i === iPais ? 'on' : ''}" data-ir-pais="${i}" aria-pressed="${i === iPais}"><span class="picker-bandera" aria-hidden="true">${p.bandera}</span><b>${esc(p.pais)}</b></button>`).join('');
+      const carta = iDiv === 2
+        ? `<div class="picker-carta vacia" aria-live="polite"><div class="picker-liga">${esc(pais.segunda)}</div><p>La 2ª división llega más adelante.</p><div class="picker-nombre">Pronto</div></div>`
+        : c ? `<a class="picker-carta" href="${href('nueva/dt', {club: c.id})}" style="--pick:${esc((c.colores?.principal) || '#1f6f5b')}">
+            <div class="picker-liga">${esc(pais.liga)}</div>
+            <div class="picker-escudo">${escudo(c, 'lg')}</div>
+            <div class="picker-nombre">${esc(c.nombre)}</div>
+            <div class="picker-stars" aria-label="Nivel ${n} de 5">${'★'.repeat(n)}<span>${'★'.repeat(Math.max(0, 5 - n))}</span></div>
+            <div class="picker-cuenta">${iClub + 1} / ${lista.length}</div>
+          </a>` : `<div class="picker-carta vacia"><p>No hay clubes de esta liga.</p></div>`;
+      el.innerHTML = `<div class="picker">
+        <div class="picker-top">
+          <button type="button" class="picker-flecha" data-pais="-1" aria-label="País anterior">‹</button>
+          <div class="picker-paises" role="tablist" aria-label="País">${paises}</div>
+          <button type="button" class="picker-flecha" data-pais="1" aria-label="País siguiente">›</button>
+        </div>
+        <div class="picker-medio">
+          <button type="button" class="picker-flecha grande" data-club="-1" aria-label="Club anterior" ${iDiv !== 1 || lista.length < 2 ? 'disabled' : ''}>‹</button>
+          ${carta}
+          <button type="button" class="picker-flecha grande" data-club="1" aria-label="Club siguiente" ${iDiv !== 1 || lista.length < 2 ? 'disabled' : ''}>›</button>
+        </div>
+        <div class="picker-div" role="group" aria-label="División">
+          <button type="button" class="picker-div-btn ${iDiv === 1 ? 'on' : ''}" data-div="1" aria-pressed="${iDiv === 1}">1ª división</button>
+          <button type="button" class="picker-div-btn ${iDiv === 2 ? 'on' : ''}" data-div="2" aria-pressed="${iDiv === 2}">2ª división</button>
+        </div>
+        <p class="picker-nota">${iDiv === 2 ? 'Por ahora se juega la primera. El hueco de abajo queda listo para cuando sumemos la segunda.' : 'Deslizá el escudo o usá las flechas. Un club por vez, como en el juego.'}</p>
+        <div class="picker-acciones">
+          ${c ? `<a class="btn primario" href="${href('nueva/dt', {club: c.id})}">Elegir ${esc(c.corto || c.nombre)}</a>` : ''}
+          <button type="button" class="btn secundario" data-sortear ${iDiv === 1 && lista.length ? '' : 'disabled'}>Sortear</button>
+        </div>
+        <p class="picker-volver"><a class="btn fantasma" href="#/inicio">← Volver</a></p>
+      </div>`;
+      history.replaceState(null, '', href('nueva', {liga: pais.liga}));
+      el.querySelector('.picker-pais.on')?.scrollIntoView({inline: 'center', block: 'nearest', behavior: 'smooth'});
     };
-    const filtrados = () => todos.filter(c => (!f.liga || c.liga === f.liga) && (!f.nivel || c.nivel === f.nivel) && (!f.q || norm(`${c.nombre} ${c.corto} ${c.sigla} ${c.ciudad} ${c.estadio}`).includes(norm(f.q))));
-    const pintarLista = () => {
-      const r = filtrados();
-      $('[data-sortear]').disabled = !r.length;
-      $('[data-lista]').innerHTML = !r.length ? estado('Sin resultados', 'Probá con otro nombre o sacá algún filtro.')
-        : LIGAS.filter(l => r.some(c => c.liga === l.id)).map(l => {
-            const de = r.filter(c => c.liga === l.id).sort((a, b) => (b.nivel || 0) - (a.nivel || 0) || a.nombre.localeCompare(b.nombre, 'es'));
-            const total = todos.filter(c => c.liga === l.id).length;
-            return `<div class="liga-tit"><h2 class="h2">${l.id}</h2><span class="meta">${de.length} de ${total}${total < l.clubes ? ` <span class="badge alerta">faltan ${l.clubes - total}</span>` : ''}</span></div><div class="lista">${de.map(tarjeta).join('')}</div>`;
-          }).join('');
-      history.replaceState(null, '', href('nueva', Object.fromEntries(Object.entries(f).filter(([, v]) => v))));
+    const mover = (deltaPais, deltaClub) => {
+      if (deltaPais) {
+        iPais = (iPais + deltaPais + PAISES.length) % PAISES.length;
+        iClub = 0;
+      }
+      if (deltaClub && iDiv === 1) {
+        const n = deLiga(PAISES[iPais].liga).length || 1;
+        iClub = (iClub + deltaClub + n) % n;
+      }
+      pintar();
     };
-    $('[data-q]').addEventListener('input', e => { f.q = e.target.value; pintarLista(); });
     el.addEventListener('click', e => {
-      const b = e.target.closest('[data-liga],[data-nivel],[data-sortear]'); if (!b) return;
-      if (b.dataset.sortear !== undefined) { const r = filtrados(); ir('nueva/dt', {club: r[Math.floor(Math.random() * r.length)].id, sorteo: 1}); return; } // Motor FC traerá el sorteo con semilla
-      if (b.dataset.liga !== undefined) f.liga = b.dataset.liga; else f.nivel = Number(b.dataset.nivel);
-      pintarChips(); pintarLista();
+      const b = e.target.closest('[data-pais],[data-ir-pais],[data-club],[data-div],[data-sortear]'); if (!b) return;
+      if (b.dataset.irPais != null) { iPais = Number(b.dataset.irPais); iClub = 0; pintar(); }
+      else if (b.dataset.pais) mover(Number(b.dataset.pais), 0);
+      else if (b.dataset.club) mover(0, Number(b.dataset.club));
+      else if (b.dataset.div) { iDiv = Number(b.dataset.div) === 2 ? 2 : 1; pintar(); }
+      else if (b.dataset.sortear !== undefined) {
+        const lista = deLiga(PAISES[iPais].liga);
+        if (iDiv !== 1 || !lista.length) { aviso('No hay clubes para sortear en esta división.', {tipo: 'alerta'}); return; }
+        ir('nueva/dt', {club: lista[Math.floor(Math.random() * lista.length)].id, sorteo: 1});
+      }
     });
-    pintarChips(); pintarLista();
+    let px = 0, py = 0, arrastro = false;
+    el.addEventListener('pointerdown', e => {
+      if (!e.target.closest('.picker-carta')) return;
+      px = e.clientX; py = e.clientY; arrastro = false;
+    });
+    el.addEventListener('pointerup', e => {
+      if (!px) return;
+      const dx = e.clientX - px, dy = e.clientY - py;
+      px = 0;
+      if (Math.abs(dx) < 56 || Math.abs(dx) < Math.abs(dy) * 1.2) return;
+      arrastro = true;
+      mover(0, dx < 0 ? 1 : -1);
+    });
+    el.addEventListener('click', e => {
+      if (arrastro && e.target.closest('.picker-carta')) { arrastro = false; e.preventDefault(); }
+    }, true);
+    el.addEventListener('keydown', e => {
+      if (e.key === 'ArrowLeft') mover(0, -1);
+      else if (e.key === 'ArrowRight') mover(0, 1);
+      else if (e.key === 'ArrowUp') mover(-1, 0);
+      else if (e.key === 'ArrowDown') mover(1, 0);
+    });
+    pintar();
   }
 };

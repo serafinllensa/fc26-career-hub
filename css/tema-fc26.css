@@ -240,9 +240,9 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
 .centro .opcion b{display:block;margin-top:4px;font:800 var(--t-lg)/1 var(--f-display)}
 
 .desp{position:relative;display:inline-block;min-width:180px}
-.desp[data-abierto]{z-index:200;position:relative}
-.desp-pop{z-index:300}
-details.fin-juego[open]{position:relative;z-index:100}
+.desp[data-abierto]{z-index:40;position:relative}
+.desp-pop{z-index:50;background:#0c1e26}
+details.fin-juego[open]{position:relative;z-index:auto;overflow:visible}
 .desp-btn{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;min-height:44px;padding:0 14px;border-radius:var(--r-md);border:1px solid var(--vidrio-borde-2);background:rgba(255,255,255,.07);backdrop-filter:var(--blur);color:#fff;font:700 var(--t-sm)/1 var(--f-display);letter-spacing:.02em;cursor:pointer;transition:border-color .15s,background .15s}
 .desp-btn::after{content:"";width:8px;height:8px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translateY(-2px);transition:transform .15s;opacity:.8}
 .desp-btn:hover{background:rgba(255,255,255,.11)}
@@ -376,3 +376,104 @@ button.cal-dia .punto{width:5px;height:5px;border-radius:50%;background:var(--me
 .lista-alta{display:grid;gap:4px;max-height:240px;overflow:auto;margin-top:8px}
 .lista-alta button{display:flex;justify-content:space-between;gap:8px;width:100%;text-align:left;padding:8px 10px;border-radius:10px;border:1px solid var(--linea);background:transparent;color:inherit;cursor:pointer}
 .merc section,.tac section{min-width:0}
+
+/* ---------- Transición entre pantallas (parpadeo de menú, no un corte de página) ---------- */
+.cortina{position:fixed;inset:0;z-index:80;pointer-events:none;background:#04080c;opacity:0;animation:cortinaIn .42s ease forwards}
+.cortina.fuera{animation:cortinaOut .52s ease forwards}
+@keyframes cortinaIn{to{opacity:1}}
+@keyframes cortinaOut{from{opacity:1}to{opacity:0}}
+.pantalla-entra{animation:pantallaIn .55s cubic-bezier(.22,.7,.2,1) both}
+@keyframes pantallaIn{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+
+/* ---------- Cartel del presidente / DT ---------- */
+.cartel-fondo{z-index:140;background:rgba(2,8,12,.72);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);animation:fundido .28s ease}
+.cartel-fondo.sale{animation:fundidoSale .22s ease forwards}
+@keyframes fundidoSale{to{opacity:0}}
+.cartel{width:min(100%,480px);padding:28px 26px 22px;text-align:center;border-radius:22px;animation:cartelEntra .42s cubic-bezier(.2,.8,.2,1);box-shadow:0 30px 80px rgba(0,0,0,.55);border-width:1px}
+.cartel-avatar{width:72px;height:72px;margin:0 auto 14px;border-radius:18px;display:grid;place-items:center;font:800 26px/1 var(--f-display);background:linear-gradient(160deg,#24384a,#101920);border:2px solid rgba(255,255,255,.38);letter-spacing:.04em}
+.cartel .etiqueta{letter-spacing:.18em}
+.cartel-quien{font-size:clamp(1.7rem,4vw,2.2rem);margin:8px 0 14px}
+.cartel .cita{max-width:none;font:500 1.12rem/1.45 var(--f-display);margin:0 0 22px}
+.cartel .btn{width:100%}
+.cartel.ok{border-color:rgba(59,224,139,.75);box-shadow:0 0 0 1px rgba(59,224,139,.35),0 30px 80px rgba(0,0,0,.55)}
+.cartel.alerta,.cartel.dudar{border-color:rgba(255,201,77,.8);box-shadow:0 0 0 1px rgba(255,201,77,.35),0 30px 80px rgba(0,0,0,.55)}
+.cartel.peligro,.cartel.no{border-color:rgba(255,90,90,.8);box-shadow:0 0 0 1px rgba(255,90,90,.35),0 30px 80px rgba(0,0,0,.55)}
+.cartel.renovar,.cartel.info{border-color:rgba(47,224,181,.75)}
+@keyframes cartelEntra{from{opacity:0;transform:translateY(18px) scale(.96)}to{opacity:1;transform:none}}
+
+/* ---------- Elegir club, estilo EA FC ---------- */
+.picker{margin:calc(var(--e4) * -1) calc(var(--e4) * -1) 0;min-height:auto;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:8px 12px 16px}
+@media(min-width:960px){.picker{margin:0 calc(var(--e10) * -1);min-height:auto;padding:0 32px 8px}}
+.picker-top{display:flex;align-items:center;gap:8px;width:min(920px,100%)}
+.picker-paises{display:flex;gap:6px;align-items:flex-end;overflow-x:auto;scrollbar-width:none;flex:1;justify-content:center;scroll-snap-type:x mandatory;padding:4px 0}
+.picker-paises::-webkit-scrollbar{display:none}
+.picker-pais{display:flex;flex-direction:column;align-items:center;gap:6px;min-width:84px;min-height:72px;padding:6px 8px;border:0;border-radius:14px;background:transparent;color:rgba(255,255,255,.48);font:700 13px/1 var(--f-display);cursor:pointer;scroll-snap-align:center}
+.picker-pais b{font-weight:700}
+.picker-bandera{font-size:28px;line-height:1;filter:saturate(.85)}
+.picker-pais.on{color:#fff}
+.picker-pais.on .picker-bandera{font-size:40px;filter:drop-shadow(0 8px 12px rgba(0,0,0,.45))}
+.picker-pais.on b{border-bottom:2px solid var(--menta);padding-bottom:3px}
+.picker-flecha{width:44px;height:44px;flex:none;border-radius:50%;border:1px solid rgba(255,255,255,.28);background:rgba(255,255,255,.06);color:#fff;font:500 28px/1 var(--f-display);cursor:pointer}
+.picker-flecha:hover,.picker-flecha:focus-visible{border-color:#fff;background:rgba(255,255,255,.14);outline:none}
+.picker-flecha:disabled{opacity:.35;cursor:default}
+.picker-flecha.grande{width:52px;height:52px;font-size:34px}
+.picker-medio{display:grid;grid-template-columns:52px minmax(0,1fr) 52px;align-items:center;gap:12px;width:min(560px,100%)}
+.picker-carta{width:min(280px,70vw);margin:0 auto;aspect-ratio:3/3.7;border-radius:28px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:22px 16px 18px;text-decoration:none;color:#fff;text-align:center;background:
+  radial-gradient(90% 55% at 50% 18%, color-mix(in srgb, var(--pick,#1c6b58) 55%, #fff) 0%, transparent 62%),
+  linear-gradient(180deg, color-mix(in srgb, var(--pick,#143) 78%, #071018), #070d12 78%);
+  border:1px solid rgba(255,255,255,.32);box-shadow:0 28px 60px rgba(0,0,0,.48), inset 0 1px 0 rgba(255,255,255,.25);
+  animation:pickerEntra .42s cubic-bezier(.2,.7,.2,1);touch-action:pan-y}
+.picker-carta.vacia{background:rgba(255,255,255,.05);justify-content:center}
+.picker-liga{font:800 12px/1 var(--f-display);letter-spacing:.22em;text-transform:uppercase;opacity:.8}
+.picker-escudo .escudo-real,.picker-escudo .escudo{width:132px;height:132px}
+.picker-escudo .escudo{font-size:36px}
+.picker-nombre{font:800 clamp(1.25rem,3vw,1.7rem)/1.05 var(--f-display);text-transform:uppercase;letter-spacing:.01em;max-width:100%}
+.picker-stars{font:700 18px/1 var(--f-display);letter-spacing:3px;color:#f3d27a}
+.picker-stars span{opacity:.28}
+.picker-cuenta{font:700 12px/1 var(--f-display);letter-spacing:.14em;opacity:.7}
+.picker-div{display:flex;gap:4px;padding:4px;border-radius:999px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14)}
+.picker-div-btn{min-height:44px;padding:0 22px;border:0;border-radius:999px;background:transparent;color:rgba(255,255,255,.62);font:700 14px/1 var(--f-display);cursor:pointer}
+.picker-div-btn.on{background:#fff;color:#07141b}
+.picker-nota{margin:0;max-width:46ch;text-align:center;color:var(--tinta-3);font-size:var(--t-sm)}
+.picker-acciones{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.picker-volver{margin:0}
+@keyframes pickerEntra{from{opacity:0;transform:translateX(18px)}to{opacity:1;transform:none}}
+
+/* ---------- Salud económica: pastillas, no un desplegable que se pisa con las dificultades ---------- */
+.salud-bloque{grid-column:1 / -1}
+.salud-ops{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.salud-op{min-height:42px;padding:0 14px;border-radius:999px;border:1px solid var(--vidrio-borde-2);background:rgba(255,255,255,.05);color:#fff;font:700 13px/1 var(--f-display);cursor:pointer}
+.salud-op.on{background:#fff;color:#07141b;border-color:#fff}
+.fin-juego{overflow:visible}
+[data-dificultades]{position:relative;z-index:0}
+.limites-fin{display:flex;flex-direction:column;gap:4px}
+.limites-fin .badge{margin-left:6px;vertical-align:middle}
+
+/* ---------- Ficha de jugador en la cancha (nombre, rol, enfoque, posición) ---------- */
+.cancha{min-height:540px}
+.cancha .ficha-cancha.fc-carta,
+button.ficha-cancha.fc-carta,
+button.ficha-cancha.fc-carta:hover,
+button.ficha-cancha.fc-carta.sel{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:stretch;justify-content:center;gap:2px;width:92px;min-height:0;height:auto;padding:7px 7px 6px;border-radius:8px;border:1px solid rgba(255,255,255,.22) !important;background:rgba(7,14,20,.9) !important;box-shadow:0 8px 16px rgba(0,0,0,.42) !important;color:#fff;text-align:center;z-index:1;cursor:pointer}
+button.ficha-cancha.fc-carta.on{border-color:#fff !important;background:rgba(16,28,36,.96) !important;box-shadow:0 0 0 1px #fff, 0 12px 22px rgba(0,0,0,.5) !important;z-index:2}
+button.ficha-cancha.fc-carta.fuera{border-color:var(--alerta) !important}
+.fc-carta b{display:block;font:800 12px/1.15 var(--f-display);letter-spacing:.01em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#fff}
+.fc-carta .fc-run{display:block;width:100%;overflow:hidden;line-height:1.15}
+.fc-carta .fc-run span{display:inline-block;max-width:none;overflow:visible;text-overflow:clip;text-shadow:none;font:600 9px/1.15 var(--f-texto);color:rgba(255,255,255,.7);white-space:nowrap;letter-spacing:0}
+.fc-carta .fc-run.mueve span{animation:fcMarquee 7.5s linear infinite}
+.fc-carta small{display:block;margin-top:1px;font:800 10px/1 var(--f-display);letter-spacing:.08em;color:rgba(255,255,255,.55);text-shadow:none}
+@keyframes fcMarquee{0%,18%{transform:translateX(0)}82%,100%{transform:translateX(-50%)}}
+@media (max-width:719px){
+  .picker-top .picker-flecha{display:none}
+  .picker-pais{min-width:0;flex:1;padding:4px 2px}
+  .picker-pais.on .picker-bandera{font-size:32px}
+  .picker-paises{justify-content:space-between;overflow:visible}
+  .cancha{min-height:460px}
+  .cancha .ficha-cancha.fc-carta,button.ficha-cancha.fc-carta{width:74px;padding:5px 4px 4px}
+  .fc-carta b{font-size:10px}
+  .picker-medio{grid-template-columns:44px minmax(0,1fr) 44px;gap:6px}
+  .picker-flecha.grande{width:44px;height:44px}
+}
+@media (prefers-reduced-motion:reduce){
+  .cortina,.pantalla-entra,.picker-carta,.cartel,.fc-run.mueve span{animation:none}
+}

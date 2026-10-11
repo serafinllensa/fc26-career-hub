@@ -1,5 +1,5 @@
 // Cargar resultado estilo "Classic Match": local contra visitante con escudo, nivel y líneas EA.
-import {aviso} from '../avisos.js';
+import {aviso, cartel} from '../avisos.js';
 import * as datos from '../datos.js';
 import {contextoClub} from '../contexto.js';
 import {esc, estado, cargando, lineaDe, fmtFecha} from '../util.js';
@@ -101,7 +101,6 @@ export default {
         ${r.corregido ? `<p class="badge neutro" style="margin:var(--e3) 0 0">${esc(r.etiqueta || 'Resultado corregido')} · se aplica solo la diferencia</p>` : ''}
         <div class="an-pie"><span style="display:flex;gap:var(--e3);flex-wrap:wrap">${(r.corregido && r.deltas ? ['presidente', 'vestuario', 'hinchas'] : r.tension ? ['presidente'] : []).map(k => { const v = Math.round(((r.corregido && r.deltas ? r.deltas[k] : d) || 0) * 10) / 10;
             return `<span class="conf ${v > 0 ? 'sube' : v < 0 ? 'baja' : ''}">${v > 0 ? '▲' : v < 0 ? '▼' : '='} ${k[0].toUpperCase() + k.slice(1)} ${v > 0 ? '+' : ''}${String(v).replace('.', ',')}</span>`; }).join('')}</span></div>
-        ${evDT ? `<p class="meta" style="margin:var(--e3) 0 0">En el vestuario: ${esc(evDT.titulo)}. <a href="${href('dt')}">Ver en la oficina del DT</a></p>` : ''}
         <div class="an-acciones">${ev ? `<a class="btn menta" href="${href('presidente')}">Ir a la reunión</a>` : ''}<button class="btn ${ev ? 'secundario' : 'primario'}" data-volver>Volver al calendario</button></div>
       </div></div>`);
       const fondo = document.querySelector('.hoja-fondo');
@@ -109,6 +108,12 @@ export default {
       fondo.addEventListener('click', e => { if (e.target === fondo || e.target.closest('[data-volver]')) { cerrar(); ir('calendario'); } else if (e.target.closest('a')) cerrar(); });
       addEventListener('hashchange', cerrar, {once: true});
       fondo.querySelector('[data-volver]').focus();
+      const tonoEv = ev?.tipo === 'elogio' ? 'ok' : ev?.tipo === 'despido' || ev?.tipo === 'ultimatum' ? 'peligro' : 'alerta';
+      const hablar = async () => {
+        if (evDT?.texto) await cartel({cargo: 'Director técnico', quien: ctx.carrera?.dt?.nombre || 'El DT', texto: evDT.texto, tono: 'alerta'});
+        if (ev?.texto) await cartel({cargo: 'Presidente', quien: club.presidente?.nombre || 'Presidente', texto: ev.texto, tono: tonoEv});
+      };
+      hablar();
     };
     pintarGol(); pintarTit();
   }

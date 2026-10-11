@@ -28,3 +28,32 @@ export function confirmar({titulo = '¿Seguro?', texto = '', si = 'Confirmar', n
     document.addEventListener('keydown', k); document.body.append(f); f.querySelector('[data-no]').focus();
   });
 }
+
+/** Cartel al centro: lo que dice el presidente o el DT. No es un toast escondido. */
+const TONOS = new Set(['ok', 'alerta', 'peligro', 'info', 'no', 'renovar']);
+export function cartel({quien = '', cargo = '', texto = '', tono = 'info'} = {}) {
+  return new Promise(res => {
+    const f = document.createElement('div');
+    const tonoClase = TONOS.has(tono) ? tono : 'info';
+    f.className = 'dialogo-fondo cartel-fondo';
+    f.innerHTML = `<div class="cartel tarjeta brillo ${tonoClase}" role="dialog" aria-modal="true" aria-labelledby="cartel-q"><div class="cartel-avatar" aria-hidden="true"></div><div class="etiqueta" id="cartel-q"></div><h2 class="h2 cartel-quien"></h2><p class="cita"></p><button type="button" class="btn primario">Entendido</button></div>`;
+    const ini = String(quien || cargo || '?').trim().split(/\s+/).slice(0, 2).map(p => p[0]).join('').toUpperCase();
+    f.querySelector('.cartel-avatar').textContent = ini || '·';
+    f.querySelector('.etiqueta').textContent = cargo || 'Mensaje';
+    f.querySelector('.cartel-quien').textContent = quien || cargo || '';
+    f.querySelector('.cita').textContent = texto ? `“${texto}”` : '';
+    const fin = () => { f.classList.add('sale'); setTimeout(() => { f.remove(); document.removeEventListener('keydown', k); res(); }, 220); };
+    const k = e => { if (e.key === 'Escape' || e.key === 'Enter') fin(); };
+    f.addEventListener('pointerdown', e => { if (e.target === f) fin(); });
+    f.querySelector('button').onclick = e => { e.stopPropagation(); fin(); };
+    document.addEventListener('keydown', k);
+    document.body.append(f);
+    f.querySelector('button').focus();
+  });
+}
+const vistos = new Set();
+export function cartelSiNuevo(id, datos) {
+  if (!id || vistos.has(id)) return Promise.resolve();
+  vistos.add(id);
+  return cartel(datos);
+}

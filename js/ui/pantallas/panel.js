@@ -22,7 +22,7 @@ export default {
     const rest = motor.restricciones(dif);
     const fj = ctx.carrera?.finanzasJuego;
     const finHtml = fj
-      ? `<section class="tarjeta"><header><h2 class="h2">Finanzas</h2><span class="badge neutro">Según el juego</span></header>
+      ? `<section class="tarjeta"><header><h2 class="h2">Finanzas</h2><span class="badge neutro">${fj.estimado ? 'Estimado' : 'Según el juego'}</span></header>
           <div class="etiqueta">Presupuesto de fichajes</div><p class="h3" style="margin:4px 0 var(--e3)">${fj.presupuestoM} M€</p>
           <div class="etiqueta">Tope salarial</div><p class="h3" style="margin:4px 0 0">${fj.topeM} M€</p>
           <p class="meta" style="margin-top:var(--e3)">Base del juego: ${fj.presupuestoJuegoM} M€ fichajes · ${fj.masaJuegoM} M€ masa${fj.salud?.salud ? ` · salud ${fj.salud.salud}` : ''}</p>

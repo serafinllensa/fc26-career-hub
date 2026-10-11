@@ -1,6 +1,7 @@
 // Motor FC: finanzas cargadas desde el juego. EA pone sueldos y presupuestos propios, así que el jugador carga
 // la masa salarial y el presupuesto que le da su modo carrera, y los límites salen de esos números + dificultad + salud del club.
 import {REGLAS} from './dificultades.js';
+import {finanzas} from './estimados.js';
 
 const r1 = x => Math.round(x * 10) / 10;
 // Salud económica: solo con fuente. Ligue 1: clubes encuadrados por la DNCG (decisiones del 26-06-2026, ver OBJETIVOS-Y-FFP.md).
@@ -9,7 +10,8 @@ export const SALUD_CON_FUENTE = {
   'olympique-lyon': {salud: 'ajustada', fuente: 'https://www.lfp.fr/article/dncg-releve-de-decisions-du-26-juin-2026', nota: 'Masa salarial encuadrada por la DNCG'},
   'as-monaco': {salud: 'ajustada', fuente: 'https://www.lfp.fr/article/dncg-releve-de-decisions-du-26-juin-2026', nota: 'Masa salarial encuadrada por la DNCG'},
 };
-const F_SALUD = {sana: {presupuesto: 1, tope: 1}, ajustada: {presupuesto: 0.85, tope: 0.95}, crisis: {presupuesto: 0.6, tope: 0.9}, null: {presupuesto: 1, tope: 1}};
+const F_SALUD = {sana: {presupuesto: 1.1, tope: 1.04}, ajustada: {presupuesto: 0.85, tope: 0.88}, crisis: {presupuesto: 0.6, tope: 0.82}, null: {presupuesto: 1, tope: 1}};
+export const factoresSalud = salud => F_SALUD[salud] ?? F_SALUD.null;
 
 export function saludClub(club, override = null) {
   if (override) return {salud: override, fuente: 'elegida por el jugador'};
@@ -27,17 +29,37 @@ export const semanalAAnualM = k => r1((k * 52) / 1000);
 export function configurarFinanzas(carrera, club, {masaJuegoM, presupuestoJuegoM, salud = null}) {
   if (!(masaJuegoM > 0)) throw new Error('Cargá la masa salarial del juego (mayor a 0)');
   if (!(presupuestoJuegoM >= 0)) throw new Error('Cargá el presupuesto del juego (0 o más)');
-  const r = REGLAS[carrera.dificultad], s = saludClub(club, salud), f = F_SALUD[s.salud] ?? F_SALUD.null;
+  const r = REGLAS[carrera.dificultad], s = saludClub(club, salud), f = factoresSalud(s.salud);
   const mecenas = club.presidente?.perfil === 'mecenas' ? 1.1 : 1;
-  const presupuestoM = r.presupuesto === 0 ? 0 : r1(presupuestoJuegoM * r.presupuesto * f.presupuesto * mecenas);
+  // Números cargados a mano: la salud no toca el presupuesto. Solo aprieta el tope salarial.
+  const presupuestoM = r.presupuesto === 0 ? 0 : r1(presupuestoJuegoM * r.presupuesto * mecenas);
   const topeM = r1(masaJuegoM * r.tope * f.tope);
-  const fj = {masaJuegoM: r1(masaJuegoM), presupuestoJuegoM: r1(presupuestoJuegoM), presupuestoM, topeM, salud: s,
+  const fj = {masaJuegoM: r1(masaJuegoM), presupuestoJuegoM: r1(presupuestoJuegoM), presupuestoM, topeM, salud: s, manual: true,
     explicacion: [
-      `Presupuesto: ${presupuestoJuegoM} M€ del juego × ${r.presupuesto} por la dificultad${f.presupuesto !== 1 ? ` × ${f.presupuesto} por salud ${s.salud}` : ''}${mecenas !== 1 ? ' × 1,1 por presidente mecenas' : ''}`,
+      `Presupuesto: ${presupuestoJuegoM} M€ del juego × ${r.presupuesto} por la dificultad${mecenas !== 1 ? ' × 1,1 por presidente mecenas' : ''}. La salud no lo cambia porque lo cargaste vos.`,
       `Tope salarial: ${masaJuegoM} M€ × ${r.tope} por la dificultad${f.tope !== 1 ? ` × ${f.tope} por salud ${s.salud}` : ''}`,
       ...(r.reinvierteVentas != null ? [`Solo se reinvierte el ${r.reinvierteVentas * 100}% de las ventas`] : []),
     ]};
   return {...carrera, finanzasJuego: fj};
+}
+
+/** Sin números del juego: la salud (si no es neutral) sí mueve el presupuesto estimado y el tope. */
+export function aplicarSaludEstimada(carrera, club, salud = null) {
+  const s = saludClub(club, salud);
+  if (!s.salud) return carrera;
+  const est = finanzas(club, carrera.dificultad), f = factoresSalud(s.salud);
+  const p0 = est.presupuesto?.central ?? 0, t0 = est.topeSalarial?.central ?? 0;
+  const presupuestoM = est.presupuesto == null ? null : (p0 === 0 ? 0 : r1(p0 * f.presupuesto));
+  const topeM = est.topeSalarial == null ? null : r1(t0 * f.tope);
+  return {...carrera, finanzasJuego: {
+    estimado: true, manual: false,
+    presupuestoJuegoM: est.presupuesto?.central ?? null, masaJuegoM: est.masaActual?.central ?? null,
+    presupuestoM, topeM, salud: s,
+    explicacion: [
+      `Presupuesto estimado × ${f.presupuesto} por salud ${s.salud}`,
+      `Tope salarial estimado × ${f.tope} por salud ${s.salud}`,
+    ],
+  }};
 }
 
 // Sanciones por dificultad y liga. Los mecanismos son los reales (OBJETIVOS-Y-FFP.md); los montos de multa son regla de la app.

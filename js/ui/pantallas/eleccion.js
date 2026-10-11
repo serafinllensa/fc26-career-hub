@@ -107,34 +107,39 @@ export const dificultad = {
   async render(el, params, viejo){
     el.innerHTML = cargando(5);
     const club = await clubDe(params, el); if (!club || viejo()) return;
+    let saludElegida = '';
+    const datoSalud = motor.saludClub(club).salud || 'neutral';
 
     const leer = () => {
       const n = sel => { const v = el.querySelector(sel)?.value; const x = v === '' || v == null ? NaN : Number(String(v).replace(',', '.')); return Number.isFinite(x) ? x : null; };
       const pres = n('[data-fj-pres]'), masa0 = n('[data-fj-masa]');
       const unidad = el.querySelector('[data-fj-unidad]')?.value;
-      const salud = el.querySelector('[data-fj-salud]')?.value || null;
       const masa = masa0 == null ? null : (unidad === 'semanal' ? motor.semanalAAnualM(masa0) : masa0);
-      return {pres, masa, salud};
+      return {pres, masa, salud: saludElegida || null};
     };
 
     const textoLimites = (d, manual) => {
-      if (manual.pres == null || manual.masa == null) {
+      const manualOk = manual.pres != null && manual.masa != null;
+      if (!manualOk && !manual.salud) {
         const fin = motor.finanzas(club, d);
         return `<div class="meta">Fichajes: ${esc(fin.texto.presupuesto)}</div><div class="meta">Tope salarial: ${esc(fin.texto.topeSalarial)}</div>`;
       }
-      // Simular el resultado de configurarFinanzas
-      const r = motor.REGLAS[d];
-      const s = motor.saludClub(club, manual.salud);
-      const F = {sana: {presupuesto: 1, tope: 1}, ajustada: {presupuesto: 0.85, tope: 0.95}, crisis: {presupuesto: 0.6, tope: 0.9}, null: {presupuesto: 1, tope: 1}};
-      const f = F[s.salud] || F.null;
-      const mecenas = club.presidente?.perfil === 'mecenas' ? 1.1 : 1;
-      const presupuestoM = r.presupuesto === 0 ? 0 : Math.round(manual.pres * r.presupuesto * f.presupuesto * mecenas * 10) / 10;
-      const topeM = Math.round(manual.masa * r.tope * f.tope * 10) / 10;
-      const extra = [];
-      if (f.presupuesto !== 1 || f.tope !== 1) extra.push(`salud ${s.salud}`);
-      if (mecenas !== 1) extra.push('mecenas');
-      const nota = extra.length ? ` <span class="badge neutro">${extra.join(' · ')}</span>` : '';
-      return `<div class="meta">Fichajes: ${presupuestoM} M€${nota}</div><div class="meta">Tope salarial: ${topeM} M€</div>`;
+      const base = motor.crearCarrera({club, dificultad: d});
+      let fj;
+      try {
+        fj = manualOk
+          ? motor.configurarFinanzas(base, club, {presupuestoJuegoM: manual.pres, masaJuegoM: manual.masa, salud: manual.salud}).finanzasJuego
+          : motor.aplicarSaludEstimada(base, club, manual.salud).finanzasJuego;
+      } catch (err) {
+        return `<p class="meta">${esc(err.message)}</p>`;
+      }
+      const tag = fj.salud?.salud ? `<span class="badge alerta">Salud ${esc(fj.salud.salud)}</span>` : '';
+      const nota = manualOk
+        ? 'Cargaste los números: la salud no mueve el presupuesto. Sí aprieta el tope salarial.'
+        : 'Sin números del juego, esta salud también mueve el presupuesto estimado.';
+      const presTxt = fj.presupuestoM == null ? 'Sin dato' : `${fj.presupuestoM} M€`;
+      const topeTxt = fj.topeM == null ? 'Sin dato' : `${fj.topeM} M€`;
+      return `<div class="limites-fin"><div class="meta">Fichajes: ${presTxt} ${tag}</div><div class="meta">Tope salarial: ${topeTxt}</div></div><p class="meta" style="margin:6px 0 0">${nota}</p>`;
     };
 
     const pintarTarjetas = () => {
@@ -153,11 +158,17 @@ export const dificultad = {
     el.innerHTML = cabeza(3, 'Dificultad', club)
       + `<p class="meta">Cargá el presupuesto y la masa salarial que te muestra el juego. Después elegí la dificultad. Al empezar vas a la plantilla: ahí podés sacar jugadores, sumar otros y corregir OVR, contrato y sueldo antes del primer partido.</p>
          <details class="tarjeta fin-juego" open style="margin-bottom:var(--e5)"><summary><span class="h3">Finanzas de tu modo carrera</span><span class="badge neutro">Se aplica a la dificultad que elijas</span></summary>
-           <p class="meta" style="margin:var(--e2) 0 var(--e3)">Los números que pongas acá son la base. Al elegir una dificultad se multiplican por sus factores (y por la salud económica) para dar el presupuesto y el tope finales. Si los dejás vacíos, usamos el estimado del Motor.</p>
+           <p class="meta" style="margin:var(--e2) 0 var(--e3)">Si cargás presupuesto y masa, la dificultad los usa tal cual y la salud solo aprieta el tope salarial. Si los dejás vacíos y elegís una salud que no sea neutral, ahí sí el estimado del presupuesto también cambia.</p>
            <div class="grilla g2">
              <div><div class="etiqueta">Presupuesto de fichajes (M€)</div><label class="campo" style="margin-top:6px"><input type="number" inputmode="decimal" min="0" step="0.1" data-fj-pres placeholder="Ej. 85"></label></div>
              <div><div class="etiqueta">Masa salarial</div><div class="fila-h" style="margin-top:6px;gap:var(--e2)"><label class="campo" style="flex:1"><input type="number" inputmode="decimal" min="0" step="0.1" data-fj-masa placeholder="Ej. 320"></label><label class="campo" style="flex:none"><select data-fj-unidad aria-label="Unidad"><option value="anual">M€ por año</option><option value="semanal">mil € por semana</option></select></label></div></div>
-             <div><div class="etiqueta">Salud económica</div><label class="campo" style="margin-top:6px"><select data-fj-salud aria-label="Salud económica"><option value="">Según los datos (${esc(motor.saludClub(club).salud || 'neutral')})</option><option value="sana">Sana</option><option value="ajustada">Ajustada</option><option value="crisis">En crisis</option></select></label></div>
+             <div class="salud-bloque"><div class="etiqueta">Salud económica</div>
+               <div class="salud-ops" role="radiogroup" aria-label="Salud económica">
+                 <button type="button" class="salud-op on" data-salud="" aria-pressed="true">Según los datos (${esc(datoSalud)})</button>
+                 <button type="button" class="salud-op" data-salud="sana" aria-pressed="false">Sana</button>
+                 <button type="button" class="salud-op" data-salud="ajustada" aria-pressed="false">Ajustada</button>
+                 <button type="button" class="salud-op" data-salud="crisis" aria-pressed="false">En crisis</button>
+               </div></div>
            </div></details>
          <div class="grilla g2" data-dificultades></div>
          <p style="margin-top:var(--e6)"><a class="btn fantasma" href="${href('nueva/dt', {club:club.id})}">← Cambiar DT</a></p>`;
@@ -165,13 +176,24 @@ export const dificultad = {
     pintarTarjetas();
 
     el.addEventListener('input', e => {
-      if (e.target.matches('[data-fj-pres],[data-fj-masa],[data-fj-unidad],[data-fj-salud]')) pintarTarjetas();
+      if (e.target.matches('[data-fj-pres],[data-fj-masa],[data-fj-unidad]')) pintarTarjetas();
     });
     el.addEventListener('change', e => {
-      if (e.target.matches('[data-fj-pres],[data-fj-masa],[data-fj-unidad],[data-fj-salud]')) pintarTarjetas();
+      if (e.target.matches('[data-fj-pres],[data-fj-masa],[data-fj-unidad]')) pintarTarjetas();
     });
 
     el.addEventListener('click', e => {
+      const saludBtn = e.target.closest('[data-salud]');
+      if (saludBtn && saludBtn.closest('.salud-ops')) {
+        saludElegida = saludBtn.dataset.salud || '';
+        el.querySelectorAll('.salud-op').forEach(b => {
+          const on = b === saludBtn;
+          b.classList.toggle('on', on);
+          b.setAttribute('aria-pressed', String(on));
+        });
+        pintarTarjetas();
+        return;
+      }
       const b = e.target.closest('[data-dif]'); if (!b) return;
       const manual = leer();
       if ((manual.pres == null) !== (manual.masa == null)) { aviso('Para usar las finanzas del juego cargá el presupuesto y la masa salarial, o dejá los dos vacíos.', {tipo: 'alerta'}); return; }
@@ -180,6 +202,10 @@ export const dificultad = {
       Promise.all([datos.plantilla(club.id).catch(() => ({jugadores: []})), params.dt ? datos.dts().catch(() => []) : []]).then(([pl, lista]) => {
         empezar({club, dt: lista.find?.(d => d.id === params.dt) || null, dificultad: b.dataset.dif, plantilla: pl.jugadores});
         if (fin) actualizar(c => motor.configurarFinanzas(c, club, fin));
+        else {
+          const s = motor.saludClub(club, manual.salud);
+          if (s.salud) actualizar(c => motor.aplicarSaludEstimada(c, club, s.salud));
+        }
         ir('plantilla');
       });
     });
