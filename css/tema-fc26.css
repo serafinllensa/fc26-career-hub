@@ -25,6 +25,7 @@
   --sombra-1:0 1px 0 rgba(255,255,255,.04) inset,0 10px 30px rgba(0,0,0,.25);
   --sombra-2:0 18px 50px rgba(0,0,0,.45);
   --blur:blur(18px) saturate(140%);
+  color-scheme:dark;
 }
 
 /* Fondo: capas de luz como el menú del juego; el color del club tiñe el brillo de la derecha */
@@ -59,12 +60,13 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
   /* Escritorio: barra superior con pestañas, como "Transfers | Lists · Shortlist ..." */
   .app{padding:72px 0 56px}
   .contenido{padding:var(--e6) var(--e10)}
-  .nav{inset:0 0 auto 0;width:auto;height:72px;flex-direction:row;align-items:center;gap:var(--e1);padding:0 var(--e8);border-right:0;border-top:0;border-bottom:1px solid var(--vidrio-borde)}
+  .nav{inset:0 0 auto 0;width:auto;height:72px;flex-direction:row;align-items:center;gap:var(--e1);padding:0 var(--e8);border-right:0;border-top:0;border-bottom:1px solid var(--vidrio-borde);overflow-x:auto;scrollbar-width:none}
+  .nav::-webkit-scrollbar{display:none}
   .nav .marca{display:flex;align-items:center;gap:var(--e3);padding:0 var(--e6) 0 0;margin-right:var(--e3);border-right:1px solid var(--linea-2);font:800 15px/1 var(--f-display);letter-spacing:.04em}
   .nav .marca::before{content:"HUB";display:grid;place-items:center;width:40px;height:40px;border-radius:50%;border:2px solid #fff;font:800 11px/1 var(--f-display);letter-spacing:.02em}
   .nav .marca small{display:none}
   .nav .grupo{display:none}
-  .nav a{height:72px;padding:0 var(--e4);border-radius:0;gap:var(--e2);font:600 var(--t-md)/1 var(--f-display);color:var(--tinta-3);position:relative}
+  .nav a{height:72px;padding:0 var(--e3);border-radius:0;gap:var(--e2);font:600 var(--t-sm)/1 var(--f-display);color:var(--tinta-3);position:relative;flex:none;white-space:nowrap}
   .nav a svg{display:none}
   .nav a:hover{background:transparent;color:#fff}
   .nav a[aria-current="page"]{background:transparent;color:#fff;font-weight:800}
@@ -318,10 +320,11 @@ details.fin-juego[open]{position:relative;z-index:100}
 .cancha::before{content:"";position:absolute;inset:10px;border:2px solid rgba(255,255,255,.28);border-radius:4px;pointer-events:none}
 .cancha::after{content:"";position:absolute;left:10px;right:10px;top:50%;border-top:2px solid rgba(255,255,255,.28);pointer-events:none}
 .cancha .ficha-cancha,
-button.ficha-cancha{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:2px;width:88px;min-height:0;height:auto;padding:0;border:0;background:transparent!important;box-shadow:none!important;color:#fff;text-align:center;z-index:1;cursor:pointer}
+button.ficha-cancha{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:2px;width:clamp(46px,13%,88px);min-height:0;height:auto;padding:0;border:0;background:transparent!important;box-shadow:none!important;color:#fff;text-align:center;z-index:1;cursor:pointer}
 .ficha-cancha .ovr-chip{box-shadow:0 4px 12px rgba(0,0,0,.35)}
-.ficha-cancha span{font:700 11px/1.15 var(--f-display);text-shadow:0 1px 3px rgba(0,0,0,.7);max-width:86px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.ficha-cancha small{font:800 9px/1 var(--f-display);color:var(--menta);letter-spacing:.04em;max-width:86px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ficha-cancha span{font:700 11px/1.15 var(--f-display);text-shadow:0 1px 3px rgba(0,0,0,.7);max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ficha-cancha small{font:800 9px/1 var(--f-display);color:var(--menta);letter-spacing:.04em;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ficha-cancha .chip-fuera{display:block;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .cal-layout{display:grid;gap:var(--e5);align-items:start}
 @media(min-width:960px){.cal-layout{grid-template-columns:minmax(0,1.05fr) minmax(300px,.95fr)}}
 .mes-nav{display:flex;align-items:center;justify-content:space-between;gap:var(--e3);margin-bottom:var(--e3)}
