@@ -107,30 +107,75 @@ export const dificultad = {
   async render(el, params, viejo){
     el.innerHTML = cargando(5);
     const club = await clubDe(params, el); if (!club || viejo()) return;
-    const tarjeta = d => {
-      const obj = motor.objetivos(club, d), fin = motor.finanzas(club, d), pac = motor.paciencia(d);
-      return `<button class="tarjeta" data-dif="${d}" style="text-align:left;font:inherit;color:inherit;cursor:pointer">
-        <header><span class="h2">${motor.NOMBRE_DIFICULTAD[d]}</span><span class="badge neutro">Paciencia ${pac.inicial}</span></header>
-        <ul style="margin:0 0 var(--e3);padding-left:18px">${obj.map(o => `<li${o.principal ? ' style="font-weight:600"' : ''}>${esc(o.texto)}</li>`).join('')}</ul>
-        <div class="meta">Fichajes: ${esc(fin.texto.presupuesto)}</div><div class="meta">Tope salarial: ${esc(fin.texto.topeSalarial)}</div></button>`;
+
+    const leer = () => {
+      const n = sel => { const v = el.querySelector(sel)?.value; const x = v === '' || v == null ? NaN : Number(String(v).replace(',', '.')); return Number.isFinite(x) ? x : null; };
+      const pres = n('[data-fj-pres]'), masa0 = n('[data-fj-masa]');
+      const unidad = el.querySelector('[data-fj-unidad]')?.value;
+      const salud = el.querySelector('[data-fj-salud]')?.value || null;
+      const masa = masa0 == null ? null : (unidad === 'semanal' ? motor.semanalAAnualM(masa0) : masa0);
+      return {pres, masa, salud};
     };
+
+    const textoLimites = (d, manual) => {
+      if (manual.pres == null || manual.masa == null) {
+        const fin = motor.finanzas(club, d);
+        return `<div class="meta">Fichajes: ${esc(fin.texto.presupuesto)}</div><div class="meta">Tope salarial: ${esc(fin.texto.topeSalarial)}</div>`;
+      }
+      // Simular el resultado de configurarFinanzas
+      const r = motor.REGLAS[d];
+      const s = motor.saludClub(club, manual.salud);
+      const F = {sana: {presupuesto: 1, tope: 1}, ajustada: {presupuesto: 0.85, tope: 0.95}, crisis: {presupuesto: 0.6, tope: 0.9}, null: {presupuesto: 1, tope: 1}};
+      const f = F[s.salud] || F.null;
+      const mecenas = club.presidente?.perfil === 'mecenas' ? 1.1 : 1;
+      const presupuestoM = r.presupuesto === 0 ? 0 : Math.round(manual.pres * r.presupuesto * f.presupuesto * mecenas * 10) / 10;
+      const topeM = Math.round(manual.masa * r.tope * f.tope * 10) / 10;
+      const extra = [];
+      if (f.presupuesto !== 1 || f.tope !== 1) extra.push(`salud ${s.salud}`);
+      if (mecenas !== 1) extra.push('mecenas');
+      const nota = extra.length ? ` <span class="badge neutro">${extra.join(' · ')}</span>` : '';
+      return `<div class="meta">Fichajes: ${presupuestoM} M€${nota}</div><div class="meta">Tope salarial: ${topeM} M€</div>`;
+    };
+
+    const pintarTarjetas = () => {
+      const manual = leer();
+      const cont = el.querySelector('[data-dificultades]');
+      if (!cont) return;
+      cont.innerHTML = motor.DIFICULTADES.map(d => {
+        const obj = motor.objetivos(club, d), pac = motor.paciencia(d);
+        return `<button class="tarjeta" data-dif="${d}" style="text-align:left;font:inherit;color:inherit;cursor:pointer">
+          <header><span class="h2">${motor.NOMBRE_DIFICULTAD[d]}</span><span class="badge neutro">Paciencia ${pac.inicial}</span></header>
+          <ul style="margin:0 0 var(--e3);padding-left:18px">${obj.map(o => `<li${o.principal ? ' style="font-weight:600"' : ''}>${esc(o.texto)}</li>`).join('')}</ul>
+          ${textoLimites(d, manual)}</button>`;
+      }).join('');
+    };
+
     el.innerHTML = cabeza(3, 'Dificultad', club)
-      + `<p class="meta">Objetivos de la temporada y límites de la directiva según el nivel del club. Los montos son estimados del Motor.</p>
-         <details class="tarjeta fin-juego" style="margin-bottom:var(--e5)"><summary><span class="h3">Finanzas de tu modo carrera</span><span class="badge neutro">Opcional</span></summary>
-           <p class="meta" style="margin:var(--e2) 0 var(--e3)">EA pone sueldos más bajos que los reales. Si cargás el presupuesto y la masa salarial que te muestra el juego, los límites, las exigencias y las multas salen de esos números, de la dificultad y de la salud del club. Si no, usamos el estimado. Lo podés cambiar después en Mercado y finanzas.</p>
+      + `<p class="meta">Cargá el presupuesto y la masa salarial que te muestra el juego. Después elegí la dificultad: los límites, las restricciones y los castigos salen de esos números + la dificultad + la salud económica.</p>
+         <details class="tarjeta fin-juego" open style="margin-bottom:var(--e5)"><summary><span class="h3">Finanzas de tu modo carrera</span><span class="badge neutro">Se aplica a la dificultad que elijas</span></summary>
+           <p class="meta" style="margin:var(--e2) 0 var(--e3)">Los números que pongas acá son la base. Al elegir una dificultad se multiplican por sus factores (y por la salud económica) para dar el presupuesto y el tope finales. Si los dejás vacíos, usamos el estimado del Motor.</p>
            <div class="grilla g2">
              <div><div class="etiqueta">Presupuesto de fichajes (M€)</div><label class="campo" style="margin-top:6px"><input type="number" inputmode="decimal" min="0" step="0.1" data-fj-pres placeholder="Ej. 85"></label></div>
              <div><div class="etiqueta">Masa salarial</div><div class="fila-h" style="margin-top:6px;gap:var(--e2)"><label class="campo" style="flex:1"><input type="number" inputmode="decimal" min="0" step="0.1" data-fj-masa placeholder="Ej. 320"></label><label class="campo" style="flex:none"><select data-fj-unidad aria-label="Unidad"><option value="anual">M€ por año</option><option value="semanal">mil € por semana</option></select></label></div></div>
              <div><div class="etiqueta">Salud económica</div><label class="campo" style="margin-top:6px"><select data-fj-salud aria-label="Salud económica"><option value="">Según los datos (${esc(motor.saludClub(club).salud || 'neutral')})</option><option value="sana">Sana</option><option value="ajustada">Ajustada</option><option value="crisis">En crisis</option></select></label></div>
            </div></details>
-         <div class="grilla g2">${motor.DIFICULTADES.map(tarjeta).join('')}</div>
+         <div class="grilla g2" data-dificultades></div>
          <p style="margin-top:var(--e6)"><a class="btn fantasma" href="${href('nueva/dt', {club:club.id})}">← Cambiar DT</a></p>`;
+
+    pintarTarjetas();
+
+    el.addEventListener('input', e => {
+      if (e.target.matches('[data-fj-pres],[data-fj-masa],[data-fj-unidad],[data-fj-salud]')) pintarTarjetas();
+    });
+    el.addEventListener('change', e => {
+      if (e.target.matches('[data-fj-pres],[data-fj-masa],[data-fj-unidad],[data-fj-salud]')) pintarTarjetas();
+    });
+
     el.addEventListener('click', e => {
       const b = e.target.closest('[data-dif]'); if (!b) return;
-      const n = sel => { const v = el.querySelector(sel)?.value; const x = v === '' || v == null ? NaN : Number(String(v).replace(',', '.')); return Number.isFinite(x) ? x : null; };
-      const pres = n('[data-fj-pres]'), masa0 = n('[data-fj-masa]');
-      if ((pres == null) !== (masa0 == null)) { aviso('Para usar las finanzas del juego cargá el presupuesto y la masa salarial, o dejá los dos vacíos.', {tipo: 'alerta'}); return; }
-      const fin = pres != null ? {presupuestoJuegoM: pres, masaJuegoM: el.querySelector('[data-fj-unidad]').value === 'semanal' ? motor.semanalAAnualM(masa0) : masa0, ...(el.querySelector('[data-fj-salud]').value ? {salud: el.querySelector('[data-fj-salud]').value} : {})} : null;
+      const manual = leer();
+      if ((manual.pres == null) !== (manual.masa == null)) { aviso('Para usar las finanzas del juego cargá el presupuesto y la masa salarial, o dejá los dos vacíos.', {tipo: 'alerta'}); return; }
+      const fin = manual.pres != null ? {presupuestoJuegoM: manual.pres, masaJuegoM: manual.masa, ...(manual.salud ? {salud: manual.salud} : {})} : null;
       b.disabled = true;
       Promise.all([datos.plantilla(club.id).catch(() => ({jugadores: []})), params.dt ? datos.dts().catch(() => []) : []]).then(([pl, lista]) => {
         empezar({club, dt: lista.find?.(d => d.id === params.dt) || null, dificultad: b.dataset.dif, plantilla: pl.jugadores});
