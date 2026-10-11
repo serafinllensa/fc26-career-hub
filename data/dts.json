@@ -122,7 +122,20 @@
   "formaciones": [
    "4-2-3-1"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "posesion",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Enzo_Maresca&oldid=1379409701",
+    "fecha": "2026-10-11",
+    "cita": "Maresca's style – nicknamed Marescaball in the press – is built on balance, and is characterised not only by maintaining ball possession, creating chances, scoring goals, and building plays from deep, with defenders and goalkeepers passing out from the back, but also by remaining defensively solid."
+   },
+   {
+    "valor": "presion-alta",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Enzo_Maresca&oldid=1379409701",
+    "fecha": "2026-10-11",
+    "cita": "Off the ball, his teams make use of heavy man-to-man counter-pressing, with the aim of winning the ball back further up the field."
+   }
+  ],
   "temperamento": null,
   "nivel": 5,
   "fuentes": [
@@ -150,13 +163,20 @@
     "nota": "Calculado: el nivel más alto (tabla de Motor) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
-    "fecha": "2026-10-10",
-    "nota": "Vacío hasta tener una fuente citable (pendiente)."
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Enzo_Maresca&oldid=1379409701",
+    "fecha": "2026-10-11",
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/53749",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "estado": "con-club"
+  "estado": "con-club",
+  "preferenciasFuente": "top30"
  },
  {
   "id": "mikel-arteta",
@@ -212,7 +232,14 @@
   "formaciones": [
    "4-3-3 Attacking"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "posesion",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Mikel_Arteta&oldid=1379521981",
+    "fecha": "2026-10-11",
+    "cita": "Tactically, his teams look to control games and create chances by dominating possession through fluid, creative passing, often building plays from deep."
+   }
+  ],
   "temperamento": null,
   "nivel": 5,
   "fuentes": [
@@ -240,13 +267,20 @@
     "nota": "Calculado: el nivel más alto (tabla de Motor) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
-    "fecha": "2026-10-10",
-    "nota": "Vacío hasta tener una fuente citable (pendiente)."
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Mikel_Arteta&oldid=1379521981",
+    "fecha": "2026-10-11",
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/47620",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "estado": "con-club"
+  "estado": "con-club",
+  "preferenciasFuente": "top30"
  },
  {
   "id": "xabi-alonso",
@@ -332,7 +366,20 @@
   "formaciones": [
    "3-4-2-1"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "posesion",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Xabi_Alonso&oldid=1379539589",
+    "fecha": "2026-10-11",
+    "cita": "Alonso is known for his versatility as a manager, using rigorous and highly organised, yet fluid set-up based on positional play."
+   },
+   {
+    "valor": "presion-alta",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Xabi_Alonso&oldid=1379539589",
+    "fecha": "2026-10-11",
+    "cita": "He is known for making use of tactics such as quick counter-pressing in central areas off the ball."
+   }
+  ],
   "temperamento": null,
   "nivel": 5,
   "fuentes": [
@@ -360,13 +407,20 @@
     "nota": "Calculado: el nivel más alto (tabla de Motor) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
-    "fecha": "2026-10-10",
-    "nota": "Vacío hasta tener una fuente citable (pendiente)."
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Xabi_Alonso&oldid=1379539589",
+    "fecha": "2026-10-11",
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/63052",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "estado": "con-club"
+  "estado": "con-club",
+  "preferenciasFuente": "top30"
  },
  {
   "id": "andoni-iraola",
@@ -440,7 +494,20 @@
   "formaciones": [
    "4-2-3-1"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "presion-alta",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Andoni_Iraola&oldid=1379382581",
+    "fecha": "2026-10-11",
+    "cita": "From the latter, the former adopted a philosophy centered on extreme physical output, man-oriented pressing, and a relentless desire to attack."
+   },
+   {
+    "valor": "transiciones",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Andoni_Iraola&oldid=1379382581",
+    "fecha": "2026-10-11",
+    "cita": "This led to a high-tempo, \"up-and-down\" style of play—often likened to basketball transitions—where the team intentionally stretched the pitch to punish opponents slow to react to turnovers."
+   }
+  ],
   "temperamento": null,
   "nivel": 5,
   "fuentes": [
@@ -468,13 +535,20 @@
     "nota": "Calculado: el nivel más alto (tabla de Motor) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
-    "fecha": "2026-10-10",
-    "nota": "Vacío hasta tener una fuente citable (pendiente)."
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Andoni_Iraola&oldid=1379382581",
+    "fecha": "2026-10-11",
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/60677",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "estado": "con-club"
+  "estado": "con-club",
+  "preferenciasFuente": "top30"
  },
  {
   "id": "michael-carrick",
@@ -697,7 +771,20 @@
   "formaciones": [
    "4-2-3-1"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "posesion",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Roberto_De_Zerbi&oldid=1379604224",
+    "fecha": "2026-10-11",
+    "cita": "De Zerbi has developed a reputation for playing an attacking–minded possession-based style of football, focusing heavily on shorter build-up from the goalkeeper rather than quick counter-attacks."
+   },
+   {
+    "valor": "presion-alta",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Roberto_De_Zerbi&oldid=1379604224",
+    "fecha": "2026-10-11",
+    "cita": "He also favours a deep double pivot approach in a 4–2–3–1 system whilst deploying an aggressive high press off the ball."
+   }
+  ],
   "temperamento": null,
   "nivel": 4,
   "fuentes": [
@@ -725,13 +812,20 @@
     "nota": "Calculado: el nivel más alto (tabla de Motor) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
-    "fecha": "2026-10-10",
-    "nota": "Vacío hasta tener una fuente citable (pendiente)."
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Roberto_De_Zerbi&oldid=1379604224",
+    "fecha": "2026-10-11",
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/32157",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "estado": "con-club"
+  "estado": "con-club",
+  "preferenciasFuente": "top30"
  },
  {
   "id": "matthias-jaissle",
@@ -1247,13 +1341,20 @@
     "nota": "Calculado: el nivel más alto (tabla de Motor) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
+    "campo": "filosofia",
     "url": null,
-    "fecha": "2026-10-10",
-    "nota": "Vacío hasta tener una fuente citable (pendiente)."
+    "fecha": "2026-10-11",
+    "nota": "Wikipedia no describe su estilo con claridad: queda vacío y Motor lo estima."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/5075",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "estado": "con-club"
+  "estado": "con-club",
+  "preferenciasFuente": "top30"
  },
  {
   "id": "marco-rose",
@@ -2794,7 +2895,20 @@
   "formaciones": [
    "4-2-3-1"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "contragolpe",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Jos%C3%A9_Mourinho&oldid=1379707055",
+    "fecha": "2026-10-11",
+    "cita": "This formation allowed for rapid counterattacks, with the four attackers being able to play any of the four offensive positions."
+   },
+   {
+    "valor": "bloque-bajo",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Jos%C3%A9_Mourinho&oldid=1379707055",
+    "fecha": "2026-10-11",
+    "cita": "In the second leg of the 2009–10 Champions League semi-final against Barcelona, Motta's sending off led Mourinho to sit deep and narrow to defend their lead from the first leg away from home, while Barcelona were allowed possession."
+   }
+  ],
   "temperamento": null,
   "nivel": 5,
   "fuentes": [
@@ -2822,13 +2936,20 @@
     "nota": "Calculado: el nivel más alto (tabla de Motor) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
-    "fecha": "2026-10-10",
-    "nota": "Vacío hasta tener una fuente citable (pendiente)."
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Jos%C3%A9_Mourinho&oldid=1379707055",
+    "fecha": "2026-10-11",
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/781",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "estado": "con-club"
+  "estado": "con-club",
+  "preferenciasFuente": "top30"
  },
  {
   "id": "hansi-flick",
@@ -2969,13 +3090,20 @@
     "nota": "Calculado: el nivel más alto (tabla de Motor) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
+    "campo": "filosofia",
     "url": null,
-    "fecha": "2026-10-10",
-    "nota": "Vacío hasta tener una fuente citable (pendiente)."
+    "fecha": "2026-10-11",
+    "nota": "Wikipedia no describe su estilo con claridad: queda vacío y Motor lo estima."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/67",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "estado": "con-club"
+  "estado": "con-club",
+  "preferenciasFuente": "top30"
  },
  {
   "id": "diego-simeone",
@@ -3067,7 +3195,20 @@
   "formaciones": [
    "4-4-2"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "contragolpe",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Diego_Simeone&oldid=1379715113",
+    "fecha": "2026-10-11",
+    "cita": "A common feature of Simeone's teams is defensive compactness and quick counter-attacks."
+   },
+   {
+    "valor": "bloque-bajo",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Diego_Simeone&oldid=1379715113",
+    "fecha": "2026-10-11",
+    "cita": "Their defending consists of two stages: deep defending in their own defensive third in a narrow 4–4–2 consisting of two closely connected defensive lines of four players, and counter-pressing in their opponents' third to win the ball high up the pitch."
+   }
+  ],
   "temperamento": null,
   "nivel": 5,
   "fuentes": [
@@ -3095,13 +3236,20 @@
     "nota": "Calculado: el nivel más alto (tabla de Motor) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
-    "fecha": "2026-10-10",
-    "nota": "Vacío hasta tener una fuente citable (pendiente)."
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Diego_Simeone&oldid=1379715113",
+    "fecha": "2026-10-11",
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/2868",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "estado": "con-club"
+  "estado": "con-club",
+  "preferenciasFuente": "top30"
  },
  {
   "id": "inigo-perez",
@@ -5955,7 +6103,14 @@
   "formaciones": [
    "3-4-2-1"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "presion-alta",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Luciano_Spalletti&oldid=1378162637",
+    "fecha": "2026-10-11",
+    "cita": "Prior to Italy's final warm-up games before the tournament, he expressed his desire to put together a team that had a fluid shape tactically, and versatile players who were capable of pressing opponents, building plays, and exploiting spaces, in contrast to Italy's historic reputation for defending"
+   }
+  ],
   "temperamento": null,
   "nivel": 5,
   "fuentes": [
@@ -5983,13 +6138,20 @@
     "nota": "Calculado: el nivel más alto (tabla de Motor) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
-    "fecha": "2026-10-10",
-    "nota": "Vacío hasta tener una fuente citable (pendiente)."
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Luciano_Spalletti&oldid=1378162637",
+    "fecha": "2026-10-11",
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/517",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "estado": "con-club"
+  "estado": "con-club",
+  "preferenciasFuente": "top30"
  },
  {
   "id": "cesc-fabregas",
@@ -6181,7 +6343,20 @@
   "formaciones": [
    "3-4-2-1"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "presion-alta",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Ruben_Amorim&oldid=1375911359",
+    "fecha": "2026-10-11",
+    "cita": "Amorim's team utilises an intense pressing style and attempts to win the ball back in the final third."
+   },
+   {
+    "valor": "bloque-bajo",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Ruben_Amorim&oldid=1375911359",
+    "fecha": "2026-10-11",
+    "cita": "When defending in a low block, Sporting's players stay behind the line of the box in order to keep a compact shape, prevent any potential shots from the edge of the box, and limit attacking opportunities."
+   }
+  ],
   "temperamento": null,
   "nivel": 4,
   "fuentes": [
@@ -6209,13 +6384,20 @@
     "nota": "Calculado: el nivel más alto (tabla de Motor) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
-    "fecha": "2026-10-10",
-    "nota": "Vacío hasta tener una fuente citable (pendiente)."
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Ruben_Amorim&oldid=1375911359",
+    "fecha": "2026-10-11",
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/65202",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "estado": "con-club"
+  "estado": "con-club",
+  "preferenciasFuente": "top30"
  },
  {
   "id": "gian-piero-gasperini",
@@ -6332,7 +6514,20 @@
   "formaciones": [
    "3-4-2-1"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "posesion",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Gian_Piero_Gasperini&oldid=1375987822",
+    "fecha": "2026-10-11",
+    "cita": "Tactically, Gasperini is known for using a fluid 3–4–3 formation and a spectacular high-risk hyper-offensive-minded possession-based system, which relies on the versatility of his midfielders and front line."
+   },
+   {
+    "valor": "presion-alta",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Gian_Piero_Gasperini&oldid=1375987822",
+    "fecha": "2026-10-11",
+    "cita": "His teams are known for playing a high defensive line and for being very compact defensively, with little distance between the attack and the defence."
+   }
+  ],
   "temperamento": null,
   "nivel": 5,
   "fuentes": [
@@ -6360,13 +6555,20 @@
     "nota": "Calculado: el nivel más alto (tabla de Motor) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
-    "fecha": "2026-10-10",
-    "nota": "Vacío hasta tener una fuente citable (pendiente)."
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gian_Piero_Gasperini&oldid=1375987822",
+    "fecha": "2026-10-11",
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/3436",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "estado": "con-club"
+  "estado": "con-club",
+  "preferenciasFuente": "top30"
  },
  {
   "id": "maurizio-sarri",
@@ -6536,7 +6738,20 @@
   "formaciones": [
    "4-3-3 Attacking"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "posesion",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Maurizio_Sarri&oldid=1378161440",
+    "fecha": "2026-10-11",
+    "cita": "As such, he favours dynamic wingers in his team, as well as defenders and goalkeepers who are comfortable on the ball, to help his team retain possession, and hard-working players who can implement his high pressing game."
+   },
+   {
+    "valor": "presion-alta",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Maurizio_Sarri&oldid=1378161440",
+    "fecha": "2026-10-11",
+    "cita": "His teams usually play a high defensive line and adopt the offside trap and a zonal marking system."
+   }
+  ],
   "temperamento": null,
   "nivel": 5,
   "fuentes": [
@@ -6564,13 +6779,20 @@
     "nota": "Calculado: el nivel más alto (tabla de Motor) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
-    "fecha": "2026-10-10",
-    "nota": "Vacío hasta tener una fuente citable (pendiente)."
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Maurizio_Sarri&oldid=1378161440",
+    "fecha": "2026-10-11",
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/10073",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "estado": "con-club"
+  "estado": "con-club",
+  "preferenciasFuente": "top30"
  },
  {
   "id": "massimiliano-allegri",
@@ -6708,7 +6930,14 @@
   "formaciones": [
    "3-5-2 flat"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "contragolpe",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Massimiliano_Allegri&oldid=1375844094",
+    "fecha": "2026-10-11",
+    "cita": "Although Allegri's team was still effective at winning the ball in midfield and scoring from counter-attacks, the club's attacking play on the ball usually involved a slower build-up, which mainly consisted of short passes, and fewer long balls from Pirlo and Bonucci."
+   }
+  ],
   "temperamento": null,
   "nivel": 4,
   "fuentes": [
@@ -6736,13 +6965,20 @@
     "nota": "Calculado: el nivel más alto (tabla de Motor) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
-    "fecha": "2026-10-10",
-    "nota": "Vacío hasta tener una fuente citable (pendiente)."
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Massimiliano_Allegri&oldid=1375844094",
+    "fecha": "2026-10-11",
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/7671",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "estado": "con-club"
+  "estado": "con-club",
+  "preferenciasFuente": "top30"
  },
  {
   "id": "paolo-vanoli",
@@ -7057,7 +7293,14 @@
   "formaciones": [
    "4-2-3-1"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "posesion",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Gennaro_Gattuso&oldid=1375766793",
+    "fecha": "2026-10-11",
+    "cita": "In contrast to his own defensive playing style, his teams instead tend to play out and build plays from the back, implementing a possession game based on technique and passing; his teams are also known for their intensity and team-work off the ball, using heavy pressing in order to win the ball back"
+   }
+  ],
   "temperamento": null,
   "nivel": 4,
   "fuentes": [
@@ -7085,13 +7328,20 @@
     "nota": "Calculado: el nivel más alto (tabla de Motor) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
-    "fecha": "2026-10-10",
-    "nota": "Vacío hasta tener una fuente citable (pendiente)."
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Gennaro_Gattuso&oldid=1375766793",
+    "fecha": "2026-10-11",
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/27803",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "estado": "con-club"
+  "estado": "con-club",
+  "preferenciasFuente": "top30"
  },
  {
   "id": "raffaele-palladino",
@@ -8812,7 +9062,14 @@
   "formaciones": [
    "4-2-3-1"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "posesion",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Vincent_Kompany&oldid=1379681751",
+    "fecha": "2026-10-11",
+    "cita": "Adrian Clarke of the Premier League official website and Thom Harris of The Athletic wrote in 2023 that Kompany had a passing and possession-based style of football similar to his former Manchester City manager Pep Guardiola, and greatly different to the direct and physical football of former Burnle"
+   }
+  ],
   "temperamento": null,
   "nivel": 5,
   "fuentes": [
@@ -8840,13 +9097,20 @@
     "nota": "Calculado: el nivel más alto (tabla de Motor) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
-    "fecha": "2026-10-10",
-    "nota": "Vacío hasta tener una fuente citable (pendiente)."
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Vincent_Kompany&oldid=1379681751",
+    "fecha": "2026-10-11",
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/69681",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "estado": "con-club"
+  "estado": "con-club",
+  "preferenciasFuente": "top30"
  },
  {
   "id": "niko-kovac",
@@ -11449,7 +11713,20 @@
   "formaciones": [
    "4-3-3 Attacking"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "presion-alta",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Luis_Enrique&oldid=1379707945",
+    "fecha": "2026-10-11",
+    "cita": "Whilst pressing oppositions high-up, the center forward, usually Álvaro Morata, screened the opposition defensive midfielder as wide forwards engaged opposition center backs."
+   },
+   {
+    "valor": "transiciones",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Luis_Enrique&oldid=1379707945",
+    "fecha": "2026-10-11",
+    "cita": "One of the most successful managers of his generation, Luis Enrique's incisive and direct football featuring quick transitions from defense to attack, though reliant on the front three of Messi, Suárez and Neymar, was in sharp contrast to the possession-heavy approach of Barcelona managers immediate"
+   }
+  ],
   "temperamento": null,
   "nivel": 5,
   "fuentes": [
@@ -11477,13 +11754,20 @@
     "nota": "Calculado: el nivel más alto (tabla de Motor) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
-    "fecha": "2026-10-10",
-    "nota": "Vacío hasta tener una fuente citable (pendiente)."
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Luis_Enrique&oldid=1379707945",
+    "fecha": "2026-10-11",
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/6499",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "estado": "con-club"
+  "estado": "con-club",
+  "preferenciasFuente": "top30"
  },
  {
   "id": "filipe-luis",
@@ -14078,7 +14362,20 @@
   "formaciones": [
    "3-4-2-1"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "presion-alta",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Antonio_Conte&oldid=1378803743",
+    "fecha": "2026-10-11",
+    "cita": "Defensive solidity has been highlighted as a hallmark of his sides, as well as the effective use of high and aggressive pressing in order to put pressure on opponents and win back the ball quickly."
+   },
+   {
+    "valor": "transiciones",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Antonio_Conte&oldid=1378803743",
+    "fecha": "2026-10-11",
+    "cita": "When losing the ball, players' quick defensive transitions make the system easily transform into a compact 5–4–1."
+   }
+  ],
   "temperamento": null,
   "nivel": 5,
   "fuentes": [
@@ -14105,12 +14402,19 @@
     "nota": "Calculado: nivel más alto (js/motor/niveles.json) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Antonio_Conte&oldid=1378803743",
     "fecha": "2026-10-11",
-    "nota": "Vacío hasta tener una fuente citable."
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/3517",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
-  ]
+  ],
+  "preferenciasFuente": "top30"
  },
  {
   "id": "arne-slot",
@@ -14219,12 +14523,19 @@
     "nota": "Calculado: nivel más alto (js/motor/niveles.json) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
+    "campo": "filosofia",
     "url": null,
     "fecha": "2026-10-11",
-    "nota": "Vacío hasta tener una fuente citable."
+    "nota": "Wikipedia no describe su estilo con claridad: queda vacío y Motor lo estima."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/34822",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
-  ]
+  ],
+  "preferenciasFuente": "top30"
  },
  {
   "id": "claudio-ranieri",
@@ -14669,12 +14980,19 @@
     "nota": "Calculado: nivel más alto (js/motor/niveles.json) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
+    "campo": "filosofia",
     "url": null,
     "fecha": "2026-10-11",
-    "nota": "Vacío hasta tener una fuente citable."
+    "nota": "Wikipedia no describe su estilo con claridad: queda vacío y Motor lo estima."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/1559",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
-  ]
+  ],
+  "preferenciasFuente": "top30"
  },
  {
   "id": "frank-de-boer",
@@ -15122,7 +15440,20 @@
   "formaciones": [
    "4-2-3-1"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "posesion",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Julian_Nagelsmann&oldid=1379079545",
+    "fecha": "2026-10-11",
+    "cita": "Analysts have described Nagelsmann's teams as tactically flexible, with frequent changes of formation, possession-oriented play and aggressive pressing after turnovers, including the use of gegenpressing."
+   },
+   {
+    "valor": "presion-alta",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Julian_Nagelsmann&oldid=1379079545",
+    "fecha": "2026-10-11",
+    "cita": "Analysts have described Nagelsmann's teams as tactically flexible, with frequent changes of formation, possession-oriented play and aggressive pressing after turnovers, including the use of gegenpressing."
+   }
+  ],
   "temperamento": null,
   "nivel": 5,
   "fuentes": [
@@ -15149,12 +15480,19 @@
     "nota": "Calculado: nivel más alto (js/motor/niveles.json) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Julian_Nagelsmann&oldid=1379079545",
     "fecha": "2026-10-11",
-    "nota": "Vacío hasta tener una fuente citable."
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/8402",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
-  ]
+  ],
+  "preferenciasFuente": "top30"
  },
  {
   "id": "jupp-heynckes",
@@ -15657,7 +15995,20 @@
   "formaciones": [
    "4-1-4-1"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "posesion",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Pep_Guardiola&oldid=1379520207",
+    "fecha": "2026-10-11",
+    "cita": "Although much emphasis is placed on retaining possession of the ball and dictating play, with the intent to have the opposing side's defence chase the ball for extended periods of play, Guardiola's teams are recognised for pressing off the ball."
+   },
+   {
+    "valor": "presion-alta",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Pep_Guardiola&oldid=1379520207",
+    "fecha": "2026-10-11",
+    "cita": "Although much emphasis is placed on retaining possession of the ball and dictating play, with the intent to have the opposing side's defence chase the ball for extended periods of play, Guardiola's teams are recognised for pressing off the ball."
+   }
+  ],
   "temperamento": null,
   "nivel": 5,
   "fuentes": [
@@ -15684,12 +16035,19 @@
     "nota": "Calculado: nivel más alto (js/motor/niveles.json) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Pep_Guardiola&oldid=1379520207",
     "fecha": "2026-10-11",
-    "nota": "Vacío hasta tener una fuente citable."
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/5672",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
-  ]
+  ],
+  "preferenciasFuente": "top30"
  },
  {
   "id": "quique-setien",
@@ -16056,12 +16414,19 @@
     "nota": "Calculado: nivel más alto (js/motor/niveles.json) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
+    "campo": "filosofia",
     "url": null,
     "fecha": "2026-10-11",
-    "nota": "Vacío hasta tener una fuente citable."
+    "nota": "Wikipedia no describe su estilo con claridad: queda vacío y Motor lo estima."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/1522",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
-  ]
+  ],
+  "preferenciasFuente": "top30"
  },
  {
   "id": "ronald-koeman",
@@ -18105,12 +18470,19 @@
     "nota": "Calculado: nivel más alto (js/motor/niveles.json) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
+    "campo": "filosofia",
     "url": null,
     "fecha": "2026-10-11",
-    "nota": "Vacío hasta tener una fuente citable."
+    "nota": "Wikipedia no describe su estilo con claridad: queda vacío y Motor lo estima."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/3816",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
-  ]
+  ],
+  "preferenciasFuente": "top30"
  },
  {
   "id": "fernando-vazquez",
@@ -20067,7 +20439,20 @@
   "formaciones": [
    "4-3-3 Attacking"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "presion-alta",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Marcelo_Bielsa&oldid=1376286643",
+    "fecha": "2026-10-11",
+    "cita": "To use 3–3–3–1, all players have to quickly set to attacking positions when the ball is in the team's possession, and all players have to aggressively press and recover the ball when it is not in possession, so it requires great teamwork and understanding between teammates."
+   },
+   {
+    "valor": "transiciones",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Marcelo_Bielsa&oldid=1376286643",
+    "fecha": "2026-10-11",
+    "cita": "The 3–3–3–1 allows quick transitions from defending to attacking, as many of the players used in the formation can perform both defensive and attacking tasks."
+   }
+  ],
   "temperamento": null,
   "nivel": 4,
   "fuentes": [
@@ -20094,12 +20479,19 @@
     "nota": "Calculado: nivel más alto (js/motor/niveles.json) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Marcelo_Bielsa&oldid=1376286643",
     "fecha": "2026-10-11",
-    "nota": "Vacío hasta tener una fuente citable."
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/2553",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
-  ]
+  ],
+  "preferenciasFuente": "top30"
  },
  {
   "id": "marco-giampaolo",
@@ -22322,12 +22714,19 @@
     "nota": "Calculado: nivel más alto (js/motor/niveles.json) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
+    "campo": "filosofia",
     "url": null,
     "fecha": "2026-10-11",
-    "nota": "Vacío hasta tener una fuente citable."
+    "nota": "Wikipedia no describe su estilo con claridad: queda vacío y Motor lo estima."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/61868",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
-  ]
+  ],
+  "preferenciasFuente": "top30"
  },
  {
   "id": "thierry-henry",
@@ -24409,7 +24808,14 @@
   "formaciones": [
    "4-3-3 Attacking"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "presion-alta",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Eddie_Howe&oldid=1374975291",
+    "fecha": "2026-10-11",
+    "cita": "Tactically, Howe prefers a 4–3–3 in possession, switching to a 4–5–1 out of possession, with an emphasis placed on pressing the opposition's defence, resulting in a higher amount of quick-turnovers."
+   }
+  ],
   "temperamento": null,
   "nivel": 3,
   "fuentes": [
@@ -24436,12 +24842,19 @@
     "nota": "Calculado: nivel más alto (js/motor/niveles.json) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Eddie_Howe&oldid=1374975291",
     "fecha": "2026-10-11",
-    "nota": "Vacío hasta tener una fuente citable."
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/10976",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
-  ]
+  ],
+  "preferenciasFuente": "top30"
  },
  {
   "id": "eduardo-berizzo",
@@ -45201,13 +45614,20 @@
     "nota": "Calculado: nivel más alto (js/motor/niveles.json) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
+    "campo": "filosofia",
     "url": null,
     "fecha": "2026-10-11",
-    "nota": "Vacío hasta tener una fuente citable."
+    "nota": "Wikipedia no describe su estilo con claridad: queda vacío y Motor lo estima."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/21284",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "seleccionActual": "France"
+  "seleccionActual": "France",
+  "preferenciasFuente": "top30"
  },
  {
   "id": "carlo-ancelotti",
@@ -45349,7 +45769,14 @@
   "formaciones": [
    "4-2-3-1"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "contragolpe",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Carlo_Ancelotti&oldid=1379690505",
+    "fecha": "2026-10-11",
+    "cita": "Although he initially sought to use an offensive, possession-based style, he instead adopted a quick counter-attacking style, as he noticed that his players were more suited to attacking in that manner."
+   }
+  ],
   "temperamento": null,
   "nivel": 5,
   "fuentes": [
@@ -45376,13 +45803,20 @@
     "nota": "Calculado: nivel más alto (js/motor/niveles.json) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Carlo_Ancelotti&oldid=1379690505",
     "fecha": "2026-10-11",
-    "nota": "Vacío hasta tener una fuente citable."
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/523",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "seleccionActual": "Brazil"
+  "seleccionActual": "Brazil",
+  "preferenciasFuente": "top30"
  },
  {
   "id": "jurgen-klopp",
@@ -45500,7 +45934,14 @@
   "formaciones": [
    "4-2-3-1"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "presion-alta",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=J%C3%BCrgen_Klopp&oldid=1378508617",
+    "fecha": "2026-10-11",
+    "cita": "Klopp is a notable proponent of Gegenpressing, a tactic in which the team immediately attempts to win back possession after losing the ball, rather than falling back to regroup."
+   }
+  ],
   "temperamento": null,
   "nivel": 5,
   "fuentes": [
@@ -45527,13 +45968,20 @@
     "nota": "Calculado: nivel más alto (js/motor/niveles.json) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=J%C3%BCrgen_Klopp&oldid=1378508617",
     "fecha": "2026-10-11",
-    "nota": "Vacío hasta tener una fuente citable."
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/118",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "seleccionActual": "Germany"
+  "seleccionActual": "Germany",
+  "preferenciasFuente": "top30"
  },
  {
   "id": "thomas-tuchel",
@@ -45659,7 +46107,20 @@
   "formaciones": [
    "4-2-3-1"
   ],
-  "filosofia": [],
+  "filosofia": [
+   {
+    "valor": "posesion",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Thomas_Tuchel&oldid=1378994172",
+    "fecha": "2026-10-11",
+    "cita": "He also made the club more ball-dominant, as average possession by the team increased almost 9% following his appointment."
+   },
+   {
+    "valor": "presion-alta",
+    "fuente": "https://en.wikipedia.org/w/index.php?title=Thomas_Tuchel&oldid=1378994172",
+    "fecha": "2026-10-11",
+    "cita": "The team also heavily used Gegenpressing, a tactic where, after losing possession of the ball, the team would immediately attempt to win it back rather than regroup."
+   }
+  ],
   "temperamento": null,
   "nivel": 5,
   "fuentes": [
@@ -45686,12 +46147,19 @@
     "nota": "Calculado: nivel más alto (js/motor/niveles.json) entre los clubes de la v1 que dirigió."
    },
    {
-    "campo": "filosofia,temperamento",
-    "url": null,
+    "campo": "filosofia",
+    "url": "https://en.wikipedia.org/w/index.php?title=Thomas_Tuchel&oldid=1378994172",
     "fecha": "2026-10-11",
-    "nota": "Vacío hasta tener una fuente citable."
+    "nota": "Etiquetas revisadas a mano sobre la sección de estilo o tácticas de Wikipedia; cada una trae la frase que la respalda (cita)."
+   },
+   {
+    "campo": "formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/7471",
+    "fecha": "2026-10-11",
+    "nota": "Formación preferida según Transfermarkt."
    }
   ],
-  "seleccionActual": "England"
+  "seleccionActual": "England",
+  "preferenciasFuente": "top30"
  }
 ]

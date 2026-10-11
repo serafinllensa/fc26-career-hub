@@ -10,3 +10,6 @@ export * from './presidente.js';
 export * from './vestuario.js';
 export * from './negociacion.js';
 export * from './tactica.js';
+export * from './finanzasJuego.js';
+export * from './salidas.js';
+export * from './refuerzos.js';

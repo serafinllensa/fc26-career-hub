@@ -1,4 +1,5 @@
 // Arranque de la app (Frontend FC): rutas, navegación y cambio de pantalla.
+import {mejorarSelects} from './selects.js';
 import {ruta, onCambio, resolver} from './router.js';
 import {pintarNav} from './nav.js';
 import {aplicarClub} from './club.js';
@@ -49,3 +50,4 @@ onCambio(async (nombre, def, params, viejo) => {
   if (!viejo()) vista.focus({preventScroll: true});
 });
 resolver();
+mejorarSelects(document.body);

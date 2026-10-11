@@ -85,9 +85,14 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
 .tarjeta{background:linear-gradient(180deg,rgba(255,255,255,.085),rgba(255,255,255,.035));border:1px solid var(--vidrio-borde);border-radius:var(--r-lg);backdrop-filter:var(--blur);-webkit-backdrop-filter:var(--blur);box-shadow:var(--sombra-1)}
 .tarjeta.brillo{background:linear-gradient(135deg,rgba(255,255,255,.22),rgba(255,255,255,.06) 55%);border-color:var(--vidrio-borde-2)}
 /* Fila / opción elegida "iluminada" (como J. Musiala o Transfer Fee) */
-.sel,.tabla tr.sel td{background:linear-gradient(90deg,rgba(220,255,245,.34),rgba(150,230,215,.14))!important;color:#fff}
+.sel{background:linear-gradient(90deg,rgba(220,255,245,.34),rgba(150,230,215,.14))!important;color:#fff}
+/* Fila elegida: un solo tono parejo en toda la fila, sin cortes entre columnas */
+.tabla tr.sel td{background:rgba(225,255,246,.20)!important;color:#fff;border-left:0!important;border-right:0!important;box-shadow:inset 0 1px 0 rgba(255,255,255,.55),inset 0 -1px 0 rgba(255,255,255,.55)}
+.tabla tr.sel td:first-child{box-shadow:inset 1px 1px 0 rgba(255,255,255,.55),inset 0 -1px 0 rgba(255,255,255,.55)}
+.tabla tr.sel td:last-child{box-shadow:inset -1px 1px 0 rgba(255,255,255,.55),inset 0 -1px 0 rgba(255,255,255,.55)}
 .tabla tr.sel td:first-child{border-radius:10px 0 0 10px}.tabla tr.sel td:last-child{border-radius:0 10px 10px 0}
-.tabla tr.sel{outline:1px solid rgba(255,255,255,.55);outline-offset:-1px;border-radius:10px;box-shadow:0 0 24px rgba(120,255,220,.15)}
+.tabla tr.sel{filter:drop-shadow(0 0 14px rgba(120,255,220,.16))}
+.tabla tr.sel td .ovr-chip,.tabla tr.sel td .num{background-clip:padding-box}
 
 /* ---------- Números grandes ---------- */
 .kpi .valor{font:800 var(--t-3xl)/1 var(--f-display);letter-spacing:-.01em}
@@ -156,9 +161,12 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
 /* Plantilla escritorio: lista + ficha del jugador elegido (como Shortlist) */
 .plantel{display:block}
 .ficha{display:none}
+/* La ficha arranca cerrada: se abre solo al tocar un jugador (.plantel.con-ficha) y se cierra con la X, Esc o tocando afuera */
+.ficha .cerrar{position:absolute;top:12px;right:12px;width:36px;height:36px;border-radius:50%;border:1px solid var(--vidrio-borde-2);background:rgba(255,255,255,.06);color:#fff;font-size:18px;line-height:1;cursor:pointer}
+.ficha .cerrar:hover,.ficha .cerrar:focus-visible{background:rgba(255,255,255,.16);outline:none;box-shadow:0 0 0 2px var(--menta)}
 @media (min-width:960px){
- .plantel{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(320px,1fr);gap:var(--e6);align-items:start}
- .ficha{display:block;position:sticky;top:96px}
+ .plantel.con-ficha{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(320px,1fr);gap:var(--e6);align-items:start}
+ .plantel.con-ficha .ficha{display:block;position:sticky;top:96px;animation:fichaEntra .18s ease}
  .tabla-wrap{background:transparent!important;border:0!important;overflow:visible!important}
 }
 .ficha .cab{display:flex;align-items:flex-end;gap:var(--e4)}
@@ -297,3 +305,62 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
 .copa .veces{position:absolute;top:10px;right:12px;font:800 var(--t-lg)/1 var(--f-display);color:#F3D27A}
 .linea-tiempo{display:grid;gap:6px}
 .temporada{display:grid;grid-template-columns:80px 1fr auto;gap:var(--e3);align-items:center;padding:12px var(--e4);border-radius:12px;background:rgba(255,255,255,.045);border:1px solid var(--linea)}
+
+@keyframes fichaEntra{from{opacity:0;transform:translateX(12px)}to{opacity:1;transform:none}}
+/* En celular la ficha es una hoja de abajo */
+@media (max-width:959px){.plantel.con-ficha .ficha{display:block;position:fixed;left:0;right:0;bottom:0;max-height:85vh;overflow:auto;z-index:60;border-radius:20px 20px 0 0;animation:hojaSube .2s ease}
+ .plantel.con-ficha::after{content:"";position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:55}}
+@keyframes hojaSube{from{transform:translateY(30px);opacity:0}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){.plantel.con-ficha .ficha{animation:none}}
+
+/* ---------- Desplegable propio (reemplaza a <select>) ---------- */
+.desp{position:relative;display:inline-block;min-width:180px}
+.desp-btn{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;min-height:44px;padding:0 14px;border-radius:var(--r-md);border:1px solid var(--vidrio-borde-2);background:rgba(255,255,255,.07);backdrop-filter:var(--blur);color:#fff;font:700 var(--t-sm)/1 var(--f-display);letter-spacing:.02em;cursor:pointer;transition:border-color .15s,background .15s}
+.desp-btn::after{content:"";width:8px;height:8px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translateY(-2px);transition:transform .15s;opacity:.8}
+.desp-btn:hover{background:rgba(255,255,255,.11)}
+.desp-btn:focus-visible{outline:none;border-color:var(--menta);box-shadow:0 0 0 2px color-mix(in srgb,var(--menta) 40%,transparent)}
+.desp[data-abierto] .desp-btn{border-color:var(--menta)}
+.desp[data-abierto] .desp-btn::after{transform:rotate(-135deg) translateY(-2px)}
+.desp-btn small{color:var(--tinta-3);font-weight:600;text-transform:uppercase;letter-spacing:.08em;font-size:10px;margin-right:auto}
+.desp-pop{position:absolute;z-index:70;top:calc(100% + 6px);left:0;min-width:100%;padding:6px;border-radius:14px;border:1px solid var(--vidrio-borde-2);background:rgba(10,30,38,.94);backdrop-filter:var(--blur);box-shadow:0 18px 50px rgba(0,0,0,.5);animation:despAbre .14s ease}
+.desp-pop[hidden]{display:none}
+.desp-lista{max-height:320px;overflow:auto;margin:0;padding:0;list-style:none}
+.desp-buscar{width:100%;min-height:40px;margin-bottom:6px;padding:0 12px;border-radius:10px;border:1px solid var(--vidrio-borde);background:rgba(255,255,255,.06);color:#fff;font:500 var(--t-sm)/1 var(--f-texto)}
+.desp-buscar:focus{outline:none;border-color:var(--menta)}
+.desp-lista li.desp-grupo{min-height:30px;color:var(--tinta-3);font:700 10px/1 var(--f-texto);letter-spacing:.1em;text-transform:uppercase;cursor:default;background:none!important}
+.desp-lista li.desp-vacio{color:var(--tinta-3);cursor:default;background:none!important}
+.desp-lista li small{margin-left:auto;color:var(--tinta-3);font-size:var(--t-xs)}
+.desp-lista li{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:40px;padding:0 12px;border-radius:10px;color:var(--tinta-2);font:600 var(--t-sm)/1.2 var(--f-texto);cursor:pointer;white-space:nowrap}
+.desp-lista li[aria-selected=true]{color:#fff}
+.desp-lista li[aria-selected=true]::after{content:"";width:10px;height:5px;border-left:2px solid var(--menta);border-bottom:2px solid var(--menta);transform:rotate(-45deg) translateY(-2px)}
+.desp-lista li.activo,.desp-lista li:hover{background:rgba(225,255,246,.14);color:#fff}
+@keyframes despAbre{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+/* En celular la lista abre como hoja de abajo */
+@media (max-width:719px){.desp-pop{position:fixed;left:8px;right:8px;top:auto;bottom:8px;border-radius:18px;padding:8px}.desp-lista{max-height:55vh}.desp-lista li{min-height:48px;font-size:var(--t-md)}}
+@media (prefers-reduced-motion:reduce){.desp-pop{animation:none}}
+/* Con la ficha abierta la tabla se achica sin pisarse con la ficha */
+.plantel.con-ficha>*{min-width:0}
+@media (min-width:960px){
+ .plantel.con-ficha .tabla-wrap{overflow-x:auto!important}
+ .plantel.con-ficha .tabla{width:100%}
+ .plantel.con-ficha .tabla th:nth-child(6),.plantel.con-ficha .tabla td:nth-child(6),
+ .plantel.con-ficha .tabla th:nth-child(9),.plantel.con-ficha .tabla td:nth-child(9){display:none}
+}
+.tabla td.der,.tabla td.num{white-space:nowrap}
+.desp-lista:focus{outline:none}
+
+/* ---------- Avisos (toast) y confirmación propia ---------- */
+.avisos{position:fixed;z-index:90;left:50%;bottom:calc(var(--tab-h) + 16px);transform:translateX(-50%);display:flex;flex-direction:column;gap:8px;width:min(92vw,420px);pointer-events:none}
+@media (min-width:960px){.avisos{bottom:24px}}
+.aviso-toast{padding:12px 16px;border-radius:12px;border:1px solid var(--vidrio-borde-2);border-left:4px solid var(--info);background:rgba(10,30,38,.95);backdrop-filter:var(--blur);color:#fff;font:600 var(--t-sm)/1.35 var(--f-texto);box-shadow:0 12px 30px rgba(0,0,0,.45);animation:despAbre .16s ease;transition:opacity .2s}
+.aviso-toast.ok{border-left-color:var(--ok)}.aviso-toast.alerta{border-left-color:var(--alerta)}.aviso-toast.peligro{border-left-color:var(--peligro)}
+.aviso-toast.sale{opacity:0}
+.dialogo-fondo{position:fixed;inset:0;z-index:95;display:grid;place-items:center;padding:16px;background:rgba(0,0,0,.55)}
+.dialogo{width:min(100%,440px);padding:var(--e6)}
+.dialogo .meta{margin:var(--e3) 0 var(--e5)}
+.dialogo-acc{display:flex;gap:var(--e2);justify-content:flex-end;flex-wrap:wrap}.dialogo-acc .btn{flex:1}
+.btn.peligro-txt{background:var(--peligro);color:#fff;border:0}
+.btn.peligro-txt:hover,.btn.peligro-txt:focus-visible{box-shadow:0 0 0 2px rgba(255,90,90,.35),0 0 18px rgba(255,90,90,.4)}
+/* Jugador fuera de posición en la pizarra */
+.ficha-cancha.fuera .ovr-chip{outline:2px solid var(--alerta);outline-offset:2px}
+.chip-fuera{display:inline-block;margin-top:2px;padding:2px 6px;border-radius:999px;background:var(--alerta-bg);color:var(--alerta);font:700 9px/1 var(--f-texto);letter-spacing:.06em;text-transform:uppercase}

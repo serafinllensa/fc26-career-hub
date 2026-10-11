@@ -19,15 +19,19 @@ const BLOQUEO_AUTOMATICO = new Set(['LaLiga', 'Serie A']);
 
 /** Estado financiero de la carrera: lo gastado y lo vendido se lleva en carrera.mercado. */
 export function estadoMercado(carrera, club) {
-  const f = finanzas(club, carrera.dificultad);
-  const m = carrera.mercado || {gastadoM: 0, vendidoM: 0, extraPresupuestoM: 0, extraMasaM: 0, masaAltasM: 0, masaBajasM: 0, altasVentana: 0};
+  const fj = carrera.finanzasJuego;
+  const f = fj ? null : finanzas(club, carrera.dificultad);
+  const m = {gastadoM: 0, vendidoM: 0, extraPresupuestoM: 0, extraMasaM: 0, masaAltasM: 0, masaBajasM: 0, altasVentana: 0, multasM: 0, ...(carrera.mercado || {})};
   const r = REGLAS[carrera.dificultad];
-  const presupuestoBase = f.presupuesto ? f.presupuesto.central : null;
+  const presupuestoBase = fj ? fj.presupuestoM : f.presupuesto ? f.presupuesto.central : null;
+  const masaBase = fj ? fj.masaJuegoM : f.masaActual ? f.masaActual.central : null;
+  const topeBase = fj ? fj.topeM : f.topeSalarial ? f.topeSalarial.central : null;
   const deVentas = r.reinvierteVentas != null ? m.vendidoM * r.reinvierteVentas : m.vendidoM * 0.5;
-  const disponibleM = presupuestoBase == null ? null : +(presupuestoBase + m.extraPresupuestoM + deVentas - m.gastadoM).toFixed(1);
-  const masaM = f.masaActual ? +(f.masaActual.central + m.masaAltasM - m.masaBajasM).toFixed(1) : null;
-  const topeM = f.topeSalarial ? +(f.topeSalarial.central + m.extraMasaM).toFixed(1) : null;
-  return {disponibleM, masaM, topeM, usoMasa: masaM != null && topeM ? +(masaM / topeM).toFixed(3) : null, mercado: m, estimado: true};
+  const disponibleM = presupuestoBase == null ? null : +(presupuestoBase + m.extraPresupuestoM + deVentas - m.gastadoM - (m.multasM || 0)).toFixed(1);
+  const masaM = masaBase == null ? null : +(masaBase + m.masaAltasM - m.masaBajasM).toFixed(1);
+  const topeM = topeBase == null ? null : +(topeBase + m.extraMasaM).toFixed(1);
+  return {disponibleM, masaM, topeM, usoMasa: masaM != null && topeM ? +(masaM / topeM).toFixed(3) : null, mercado: m,
+    estimado: !fj, fuente: fj ? 'juego' : 'estimado', bloqueoInscripciones: !!carrera.bloqueoInscripciones && masaM != null && topeM != null && masaM > topeM};
 }
 
 function voluntad(carrera, club) {
@@ -61,6 +65,9 @@ export function pedirAlPresidente(carrera, club, pedidoOriginal) {
   let monto = pedido.tipo === 'fichaje' ? pedido.precioM : pedido.montoM;
   if (!(monto > 0)) throw new Error('El monto tiene que ser mayor a 0');
 
+  if (pedido.tipo === 'fichaje' && est.bloqueoInscripciones) {
+    return cerrar(carrera, pedido, 'rechaza', 0, 'Estamos sancionados: no podemos inscribir a nadie hasta volver al límite.', ['Sanción de fair play vigente'], est);
+  }
   if (pedido.tipo === 'fichaje' && est.disponibleM != null && est.disponibleM <= 0 && dif !== 'facil') {
     return cerrar(carrera, pedido, 'rechaza', 0, 'No queda un euro. Si querés comprar, primero vendé.', [`Disponible ≈ ${est.disponibleM} M€ (estimado)`], est);
   }
@@ -71,6 +78,7 @@ export function pedirAlPresidente(carrera, club, pedidoOriginal) {
     if (est.disponibleM != null && monto > est.disponibleM) { v -= 20; motivos.push(`Cuesta ${monto} M€ y quedan ≈ ${Math.max(0, est.disponibleM)} M€ (estimado)`); }
     if (perfil === 'ultra' && (pedido.jugador?.valorM ?? 0) >= 50) { v += 10; motivos.push('Al presidente le encantan los nombres grandes'); }
     if ((pedido.jugador?.edad ?? 99) <= 21) { v += 5; motivos.push('Es joven: se puede revalorizar'); }
+    if (pedido.respaldoDT) { v += 5; motivos.push('Lo pidió el DT'); }
   }
   if (pedido.tipo === 'presupuesto') {
     if (est.disponibleM == null) { v -= 20; motivos.push('Sin estimado de presupuesto para este club: decide solo por confianza'); }
@@ -106,9 +114,11 @@ function cerrar(carrera, pedido, decision, aprobadoM, texto, motivos, est) {
   const respuestas = decision === 'contraoferta'
     ? [{id: 'aceptar', texto: 'Acepto lo que me ofrece.', efectos: {presidente: +2}},
        {id: 'insistir', texto: 'Necesito el monto completo, si no no llegamos.', efectos: {presidente: -6}, insistir: true},
-       {id: 'retirar', texto: 'Está bien, lo dejamos para más adelante.', efectos: {presidente: +1}}]
+       {id: 'retirar', texto: 'Está bien, lo dejamos para más adelante.', efectos: {presidente: +1}},
+       {id: 'otra', texto: 'Le propongo otra cosa.', efectos: {presidente: 0}, proponerOtra: true}]
     : decision === 'rechaza'
-      ? [{id: 'aceptar', texto: 'Entendido.', efectos: {presidente: +1}}, {id: 'insistir', texto: 'Le pido que lo reconsidere.', efectos: {presidente: -5}, insistir: true}]
+      ? [{id: 'aceptar', texto: 'Entendido.', efectos: {presidente: +1}}, {id: 'insistir', texto: 'Le pido que lo reconsidere.', efectos: {presidente: -5}, insistir: true},
+         {id: 'otra', texto: 'Le propongo otra cosa.', efectos: {presidente: 0}, proponerOtra: true}]
       : [{id: 'aceptar', texto: 'Gracias, presidente.', efectos: {presidente: 0}}];
   return {decision, aprobadoM, texto, motivos, respuestas, pedido, estado: est, tension: tension(carrera.confianza.presidente)};
 }

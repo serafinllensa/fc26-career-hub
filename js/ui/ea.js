@@ -22,6 +22,7 @@ export const FORMAS = {
   '5-3-2': [...fila(70, ['CAI', 'DFC', 'DFC', 'DFC', 'CAD']), ...fila(50, ['MC', 'MCD', 'MC']), ...fila(20, ['DC', 'DC'])],
   '5-4-1': [...fila(70, ['CAI', 'DFC', 'DFC', 'DFC', 'CAD']), ...fila(48, ['MI', 'MC', 'MC', 'MD']), ...fila(18, ['DC'])],
 };
+export const fueraDePosicion = (j, rol) => !!j && (rol === 'POR') !== (j.pos === 'POR') || (!!j && rol !== 'POR' && j.pos !== rol && !(j.posSec || []).includes(rol) && !(P[rol] || []).includes(j.pos));
 export function onceEA(J, formacion = '4-3-3'){
   const forma = FORMAS[formacion] || FORMAS['4-3-3'];
   const res = [['POR', 50, 92], ...forma].map(([rol, x, y]) => ({rol, x, y, j: null}));

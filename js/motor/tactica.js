@@ -1,6 +1,6 @@
 // Motor FC: charla táctica con el DT. Usa lo que tiene fuente: sus formaciones (Transfermarkt) y su nivel.
 // La filosofía queda vacía en dts.json (sin fuente citable), así que el estilo nunca se inventa: si no hay dato, el DT es neutral.
-import {etiquetasFilosofia} from './dts.js';
+import {preferenciasDT} from './dts.js';
 const clamp = (x, a, b) => Math.round(Math.max(a, Math.min(b, x)) * 10) / 10; // un decimal, sin arrastre de flotantes
 export const ESTILOS = ['posesion', 'presion-alta', 'transiciones', 'contragolpe', 'bloque-bajo', 'juego-directo'];
 
@@ -12,16 +12,20 @@ export function proponerTactica(carrera, dt, {formacion, estilo = null}) {
   if (!formacion) throw new Error('Falta la formación');
   if (estilo && !ESTILOS.includes(estilo)) throw new Error(`Estilo inválido: ${estilo}`);
   const motivos = [];
-  const suyas = (dt?.formaciones || []).map(limpia);
+  const suyas = (dt?.formaciones?.length ? dt.formaciones : dt ? [preferenciasDT(dt).formacion] : []).map(limpia);
   const relacion = carrera.relacionDT ?? 60;
   let puntos = 0;
   if (!suyas.length) motivos.push('No hay formación preferida registrada para este DT');
-  else if (suyas.includes(limpia(formacion))) { puntos += 3; motivos.push(`Es su formación preferida (${dt.formaciones[0]})`); }
-  else if (suyas.some(s => defensas(s) === defensas(formacion))) { puntos += 1; motivos.push(`Misma línea de ${defensas(formacion)} atrás que su ${dt.formaciones[0]}`); }
-  else { puntos -= 2; motivos.push(`Él juega con ${defensas(suyas[0])} atrás (${dt.formaciones[0]}) y le proponés ${defensas(formacion)}`); }
-  const fil = etiquetasFilosofia(dt);
-  if (estilo && fil.length) { if (fil.includes(estilo)) { puntos += 2; motivos.push('El estilo va con su idea'); } else { puntos -= 1; motivos.push('El estilo no es el suyo'); } }
-  else if (estilo) motivos.push('Sin dato de su filosofía: no opina sobre el estilo');
+  else if (suyas.includes(limpia(formacion))) { puntos += 3; motivos.push(`Es su formación preferida (${(dt.formaciones?.[0] ?? suyas[0])})`); }
+  else if (suyas.some(s => defensas(s) === defensas(formacion))) { puntos += 1; motivos.push(`Misma línea de ${defensas(formacion)} atrás que su ${(dt.formaciones?.[0] ?? suyas[0])}`); }
+  else { puntos -= 2; motivos.push(`Él juega con ${defensas(suyas[0])} atrás (${(dt.formaciones?.[0] ?? suyas[0])}) y le proponés ${defensas(formacion)}`); }
+  const pref = dt ? preferenciasDT(dt) : null;
+  const fil = pref?.estilos || [];
+  const marca = pref?.estiloEstimado ? ' (estimado)' : '';
+  if (estilo && fil.length) {
+    if (fil.includes(estilo)) { puntos += 2; motivos.push(`El estilo va con su idea${marca}`); }
+    else { puntos -= pref.estiloEstimado ? 1 : 2; motivos.push(`Su idea es ${fil.join(' y ')}${marca}, no ${estilo}`); }
+  }
   const terco = (dt?.nivel ?? 3) >= 4 ? 1 : 0; // los DTs de élite ceden menos
   puntos += relacion >= 70 ? 1 : relacion < 40 ? -1 : 0;
   puntos -= terco;
@@ -36,13 +40,15 @@ export function proponerTactica(carrera, dt, {formacion, estilo = null}) {
       {id: 'insistir', texto: 'Lo decidí: jugamos así.', efectos: {relacion: reaccion === 'resiste' ? -8 : -3, vestuario: -2}, aplica: 'propuesta'},
       {id: 'probar', texto: 'Probemos 3 partidos y lo evaluamos juntos.', efectos: {relacion: +1, vestuario: 0}, aplica: 'prueba'},
       {id: 'ceder', texto: 'Tenés razón, seguimos con tu idea.', efectos: {relacion: +4, vestuario: +1}, aplica: 'suya'},
+      {id: 'otra', texto: 'Te propongo otra cosa.', efectos: {relacion: 0, vestuario: 0}, aplica: 'nada'},
     ];
-  return {reaccion, texto, motivos, respuestas, propuesta: {formacion, estilo}, formacionDT: dt?.formaciones?.[0] ?? null};
+  return {reaccion, texto, motivos, respuestas, propuesta: {formacion, estilo}, formacionDT: pref?.formacion ?? null, preferencias: pref};
 }
 
 export function cerrarCharlaTactica(carrera, charla, respuestaId) {
   const r = charla.respuestas.find(x => x.id === respuestaId);
   if (!r) throw new Error('Respuesta inexistente');
+  if (r.aplica === 'nada') return {...carrera, relacionDT: carrera.relacionDT ?? 60};
   const tactica = r.aplica === 'suya'
     ? {formacion: charla.formacionDT ?? charla.propuesta.formacion, estilo: charla.propuesta.estilo, acordada: true}
     : r.aplica === 'prueba'

@@ -1,4 +1,5 @@
 // Trofeos e historial: vitrina de la carrera (carrera.trofeos), temporada en curso y el historial REAL del club (clubes.json, Transfermarkt).
+import {aviso} from '../avisos.js';
 import * as motor from '../../motor/index.js';
 import {contextoClub, banda} from '../contexto.js';
 import {esc, estado, cargando, fmtFecha} from '../util.js';
@@ -50,7 +51,7 @@ export default {
       let ef = null;
       try {
         ctx.carrera = actualizar(c => { const viejo = (c.trofeos || []).find(x => (x.comp === id || x.comp === n) && x.temporada === temp); if (viejo) return motor.quitarTrofeo(c, {comp: viejo.comp, temporada: temp}); const r = motor.registrarTrofeo(c, {comp: id, temporada: temp, nombre: n}); ef = r.efectos; return r.carrera; });
-      } catch (err) { alert(err.message); return; }
+      } catch (err) { aviso(err.message, {tipo: 'peligro'}); return; }
       s.aviso = ef ? `¡Campeón de ${n}! Presidente +${ef.presidente ?? 0} · Hinchas +${ef.hinchas ?? 0}` : `Quitado ${n}; la confianza vuelve a como estaba.`;
       pintar();
     };

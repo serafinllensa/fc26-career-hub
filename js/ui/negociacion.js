@@ -22,11 +22,11 @@ export function pedidoDesdeMercado(carreraId, jugador, precioM){
 export function negociacion(carreraId){
   let s = leer(carreraId) || nuevo(carreraId);
   const guardar = () => escribir(s);
-  const textoPedido = () => s.tipo === 'fichaje' ? `Quiero fichar a ${s.jugador?.nombre} por ${fmtM(s.monto)}.` : s.tipo === 'presupuesto' ? `Necesito ${fmtM(s.monto)} más de presupuesto para fichajes.` : `Necesito subir ${fmtM(s.monto)} la masa salarial.`;
+  const textoPedido = () => s.tipo === 'fichaje' ? `Quiero fichar a ${s.jugador?.nombre} por ${fmtM(s.monto)}.${s.jugador?.respaldoDT ? ' Lo pidió el DT.' : ''}` : s.tipo === 'presupuesto' ? `Necesito ${fmtM(s.monto)} más de presupuesto para fichajes.` : `Necesito subir ${fmtM(s.monto)} la masa salarial.`;
   return {
     get estado(){ return s; },
     pedir(carrera, club){
-      const ped = s.tipo === 'fichaje' ? {tipo: 'fichaje', precioM: s.monto, jugador: s.jugador} : {tipo: s.tipo, montoM: s.monto};
+      const ped = s.tipo === 'fichaje' ? {tipo: 'fichaje', precioM: s.monto, jugador: s.jugador, ...(s.jugador?.respaldoDT ? {respaldoDT: true} : {})} : {tipo: s.tipo, montoM: s.monto};
       const n = motor.pedirAlPresidente(carrera, club, ped);
       s.hilo.push({yo: true, t: textoPedido()}, {t: n.texto, dec: n.decision, mot: n.motivos});
       s.neg = n; s.auto = false; guardar();

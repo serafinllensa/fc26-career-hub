@@ -1,0 +1,15 @@
+<!doctype html><html lang="es-AR" data-tema="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><link rel="stylesheet" href="../tokens.css"><link rel="stylesheet" href="../tema-fc26.css"><title>Componentes · FC26 Career Hub</title></head><body><div class="app"><main class="contenido" style="padding-top:40px">
+<h1 class="h1">Componentes</h1><p class="meta">Desplegable con buscador y grupos, aviso y confirmación. Reemplazan datalist, alert y confirm.</p>
+<div style="display:flex;gap:16px;flex-wrap:wrap;margin-top:24px;align-items:flex-start"><div id="d1"></div><button class="btn secundario" id="t">Mostrar aviso</button><button class="btn primario" id="c">Registrar venta</button></div>
+</main></div>
+<script type="module">
+import {desplegable} from '../componentes/desplegable.js'; import {aviso, confirmar} from '../componentes/avisos.js';
+const cl=await (await fetch('../../data/clubes.json')).json(); const L=(cl.clubes||cl).slice().sort((a,b)=>a.liga.localeCompare(b.liga)||a.nombre.localeCompare(b.nombre));
+const d=desplegable({etiqueta:'Destino',buscar:true,placeholder:'Buscar club…',opciones:L.map(c=>({valor:c.id,texto:c.nombre,grupo:c.liga})),alCambiar:v=>aviso('Destino: '+L.find(c=>c.id===v).nombre,{tipo:'ok'})});
+document.getElementById('d1').append(d.el);
+document.getElementById('t').onclick=()=>aviso('Venta registrada: Rodri al Arsenal por 60 M€',{tipo:'ok'});
+document.getElementById('c').onclick=async()=>{const ok=await confirmar({titulo:'Por debajo del mínimo',texto:'Laporta pidió no menos de 60 M€ y vas a registrar 20 M€. Le va a bajar la confianza.',si:'Registrar igual',no:'Cancelar',peligro:true}); aviso(ok?'Venta registrada a 20 M€ · confianza −8':'Venta cancelada',{tipo:ok?'alerta':'info'})};
+const q=new URLSearchParams(location.search);
+if(q.get('ver')==='buscar'){d.el.querySelector('button').click(); const i=d.el.querySelector('input'); i.value='ars'; i.dispatchEvent(new Event('input'));}
+if(q.get('ver')==='confirmar'){document.getElementById('c').click(); document.getElementById('t').click();}
+</script></body></html>

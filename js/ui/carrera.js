@@ -41,3 +41,23 @@ export function importar(texto){
   return guardar(c);
 }
 export const resultado = p => p.gf > p.gc ? 'g' : p.gf === p.gc ? 'e' : 'p';
+
+// Plantel real de la carrera: saca a los vendidos y cedidos, y suma los juveniles que subieron de la cantera.
+export function conCarrera(pl, c){
+  if (!c || !pl) return pl;
+  const ids = Array.isArray(c.plantilla) && c.plantilla.length ? new Set(c.plantilla) : null;
+  const base = ids ? pl.jugadores.filter(j => ids.has(j.id)) : pl.jugadores.slice();
+  const juv = (c.cantera || []).filter(x => !ids || ids.has(x.id)).map(x => ({id: x.id, nombre: x.nombre, pos: x.pos, posSec: [], edad: x.edad, nac: null, valorM: null, dorsal: null, canterano: true, pot: x.pot ?? null, ea: x.ovr != null ? {ovr: x.ovr} : null}));
+  return {...pl, jugadores: [...base, ...juv]};
+}
+// Once de la carrera: el que eligió el jugador en Tácticas para esa formación, o el ideal por media EA.
+export function onceCarrera(J, c, onceEA){
+  const form = c?.tactica?.formacion || '4-3-3', base = onceEA(J, form), guard = c?.alineacion?.[form];
+  if (!Array.isArray(guard) || guard.length !== base.length) return base;
+  const porId = new Map(J.map(j => [j.id, j])), usados = new Set();
+  const res = base.map((slot, i) => { const j = porId.get(guard[i]); if (j && !usados.has(j)) { usados.add(j); return {...slot, j}; } return {...slot, j: null}; });
+  // Si alguien guardado ya no está (vendido o cedido), entra el mejor que encaje y esté libre.
+  base.forEach((slot, i) => { if (!res[i].j && slot.j && !usados.has(slot.j)) { res[i].j = slot.j; usados.add(slot.j); } });
+  res.forEach(r => { if (!r.j) { const j = J.filter(x => !usados.has(x) && (r.rol === 'POR') === (x.pos === 'POR')).sort((a, b) => (b.ea?.ovr || 0) - (a.ea?.ovr || 0))[0]; if (j) { r.j = j; usados.add(j); } } });
+  return res;
+}

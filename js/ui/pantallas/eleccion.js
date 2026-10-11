@@ -1,10 +1,11 @@
 // Nueva carrera · pasos 2 (DT) y 3 (dificultad). Usa el Motor para sugerencias, objetivos y finanzas.
+import {aviso} from '../avisos.js';
 import * as datos from '../datos.js';
 import * as motor from '../../motor/index.js';
 import {href, ir} from '../router.js';
 import {esc, estado, cargando} from '../util.js';
 import {aplicarClub, escudo} from '../club.js';
-import {empezar} from '../carrera.js';
+import {empezar, actualizar} from '../carrera.js';
 import {estrellitas} from '../ea.js';
 
 const cabeza = (paso, titulo, club) => `<header class="cabeza"><div class="etiqueta">Nueva carrera · Paso ${paso} de 3</div>
@@ -115,13 +116,25 @@ export const dificultad = {
     };
     el.innerHTML = cabeza(3, 'Dificultad', club)
       + `<p class="meta">Objetivos de la temporada y límites de la directiva según el nivel del club. Los montos son estimados del Motor.</p>
+         <details class="tarjeta fin-juego" style="margin-bottom:var(--e5)"><summary><span class="h3">Finanzas de tu modo carrera</span><span class="badge neutro">Opcional</span></summary>
+           <p class="meta" style="margin:var(--e2) 0 var(--e3)">EA pone sueldos más bajos que los reales. Si cargás el presupuesto y la masa salarial que te muestra el juego, los límites, las exigencias y las multas salen de esos números, de la dificultad y de la salud del club. Si no, usamos el estimado. Lo podés cambiar después en Mercado y finanzas.</p>
+           <div class="grilla g2">
+             <div><div class="etiqueta">Presupuesto de fichajes (M€)</div><label class="campo" style="margin-top:6px"><input type="number" inputmode="decimal" min="0" step="0.1" data-fj-pres placeholder="Ej. 85"></label></div>
+             <div><div class="etiqueta">Masa salarial</div><div class="fila-h" style="margin-top:6px;gap:var(--e2)"><label class="campo" style="flex:1"><input type="number" inputmode="decimal" min="0" step="0.1" data-fj-masa placeholder="Ej. 320"></label><label class="campo" style="flex:none"><select data-fj-unidad aria-label="Unidad"><option value="anual">M€ por año</option><option value="semanal">mil € por semana</option></select></label></div></div>
+             <div><div class="etiqueta">Salud económica</div><label class="campo" style="margin-top:6px"><select data-fj-salud aria-label="Salud económica"><option value="">Según los datos (${esc(motor.saludClub(club).salud || 'neutral')})</option><option value="sana">Sana</option><option value="ajustada">Ajustada</option><option value="crisis">En crisis</option></select></label></div>
+           </div></details>
          <div class="grilla g2">${motor.DIFICULTADES.map(tarjeta).join('')}</div>
          <p style="margin-top:var(--e6)"><a class="btn fantasma" href="${href('nueva/dt', {club:club.id})}">← Cambiar DT</a></p>`;
     el.addEventListener('click', e => {
       const b = e.target.closest('[data-dif]'); if (!b) return;
+      const n = sel => { const v = el.querySelector(sel)?.value; const x = v === '' || v == null ? NaN : Number(String(v).replace(',', '.')); return Number.isFinite(x) ? x : null; };
+      const pres = n('[data-fj-pres]'), masa0 = n('[data-fj-masa]');
+      if ((pres == null) !== (masa0 == null)) { aviso('Para usar las finanzas del juego cargá el presupuesto y la masa salarial, o dejá los dos vacíos.', {tipo: 'alerta'}); return; }
+      const fin = pres != null ? {presupuestoJuegoM: pres, masaJuegoM: el.querySelector('[data-fj-unidad]').value === 'semanal' ? motor.semanalAAnualM(masa0) : masa0, ...(el.querySelector('[data-fj-salud]').value ? {salud: el.querySelector('[data-fj-salud]').value} : {})} : null;
       b.disabled = true;
       Promise.all([datos.plantilla(club.id).catch(() => ({jugadores: []})), params.dt ? datos.dts().catch(() => []) : []]).then(([pl, lista]) => {
         empezar({club, dt: lista.find?.(d => d.id === params.dt) || null, dificultad: b.dataset.dif, plantilla: pl.jugadores});
+        if (fin) actualizar(c => motor.configurarFinanzas(c, club, fin));
         ir('panel');
       });
     });

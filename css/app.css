@@ -202,3 +202,19 @@ button.ficha-cancha,button.ficha-cancha.sel,button.ficha-cancha:hover{background
 .fila-dt .nom b,.fila-dt .nom small{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .fila-dt .nom small{color:var(--tinta-3);font-size:var(--t-xs)}
 .chip-libre.sel{color:var(--menta);background:color-mix(in srgb,var(--menta) 14%,transparent)}
+.desp-lista li.grupo{min-height:30px;color:var(--tinta-3);font:700 10px/1 var(--f-texto);letter-spacing:.1em;text-transform:uppercase;cursor:default;background:none!important;padding-top:8px}
+.desp[hidden]{display:none}
+/* Tácticas: banco de suplentes y reservas */
+.lista-banco{display:grid;gap:4px;grid-template-columns:repeat(auto-fill,minmax(220px,1fr))}
+.banco-j{display:flex;align-items:center;gap:8px;min-height:44px;padding:6px 10px;border-radius:12px;border:1px solid var(--linea);background:rgba(255,255,255,.04);color:inherit;font:inherit;text-align:left;cursor:pointer}
+.banco-j:hover:not(:disabled),.banco-j:focus-visible{border-color:var(--menta)}
+.banco-j[draggable=true]{cursor:grab}
+.banco-j .pos{width:38px;flex:none}
+.banco-j .nom{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.reservas{margin-top:var(--e3)}.reservas summary{cursor:pointer;list-style:none;min-height:36px;display:flex;align-items:center}.reservas summary::-webkit-details-marker{display:none}
+.reservas summary::after{content:"▾";margin-left:6px;color:var(--tinta-3)}.reservas[open] summary::after{content:"▴"}
+.ficha-cancha.soltar .ovr-chip{outline:2px dashed var(--menta);outline-offset:4px}
+.banco header{display:flex;justify-content:space-between;align-items:center;gap:var(--e3)}
+.fin-juego summary{display:flex;justify-content:space-between;align-items:center;gap:var(--e3);cursor:pointer;list-style:none;min-height:36px}
+.fin-juego summary::-webkit-details-marker{display:none}
+.fin-juego[open] summary{margin-bottom:var(--e2)}

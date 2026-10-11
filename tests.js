@@ -478,9 +478,16 @@ async function t(nombre, fn) { try { await fn(); ok++; console.log('  ✔', nomb
     assert.equal(M.proponerTactica(c, DT, {formacion: '4-3-3 Attacking'}).reaccion, 'discute');
     assert.equal(M.proponerTactica(c, DT, {formacion: '3-5-2 flat'}).reaccion, 'resiste');
   });
-  await t('sin filosofía con fuente, el estilo no se inventa', () => {
-    const r = M.proponerTactica(car(RMc, 'medio'), DT, {formacion: '4-2-3-1', estilo: 'posesion'});
-    assert.ok(r.motivos.some(m => /Sin dato de su filosofía/.test(m)));
+  await t('sin estilo con fuente: el DT tiene uno estimado, marcado y siempre el mismo', () => {
+    const p1 = M.preferenciasDT(DT), p2 = M.preferenciasDT({...DT});
+    assert.equal(p1.estiloEstimado, true); assert.deepEqual(p1.estilos, p2.estilos); assert.ok(p1.estilos.length >= 1);
+    const r = M.proponerTactica(car(RMc, 'medio'), DT, {formacion: '4-2-3-1', estilo: p1.estilos[0]});
+    assert.ok(r.motivos.some(m => /\(estimado\)/.test(m)));
+    const conFuente = {...DT, filosofia: [{valor: 'presion-alta', fuente: 'https://ej.com', fecha: '2026-10-11'}]};
+    assert.deepEqual(M.preferenciasDT(conFuente).estilos, ['presion-alta']);
+    const contra = M.proponerTactica(car(RMc, 'medio'), conFuente, {formacion: '4-2-3-1', estilo: 'bloque-bajo'});
+    assert.ok(contra.motivos.some(m => /Su idea es presion-alta/.test(m)));
+    assert.ok(contra.respuestas.some(x => x.id === 'otra') || contra.reaccion === 'acepta');
   });
   await t('insistir contra un DT que resiste cuesta relación; ceder la mejora y vuelve a su formación', () => {
     const c = car(RMc, 'medio'); const ch = M.proponerTactica(c, DT, {formacion: '3-5-2 flat'});
@@ -631,6 +638,129 @@ async function t(nombre, fn) { try { await fn(); ok++; console.log('  ✔', nomb
     assert.match(M.pedirAlPresidente(c, PREM, {tipo: 'presupuesto', montoM: 60}).texto, /Ya lo hablamos/);
     assert.doesNotMatch(M.pedirAlPresidente(c, PREM, {tipo: 'presupuesto', montoM: 10}).texto, /Ya lo hablamos/);
     assert.doesNotMatch(M.pedirAlPresidente(c, PREM, {tipo: 'masa', montoM: 50}).texto, /Ya lo hablamos/);
+  });
+
+  console.log('Finanzas cargadas desde el juego');
+  const BAR = {id: 'fc-barcelona', nombre: 'Barcelona', liga: 'LaLiga', nivel: 5, valorPlantillaM: 1100};
+  const PL = {id: 'x-prem', nombre: 'Prem', liga: 'Premier League', nivel: 3, valorPlantillaM: 400};
+  await t('los límites salen de lo que cargás, de la dificultad y de la salud del club', () => {
+    const m = M.configurarFinanzas(M.crearCarrera({club: BAR, dificultad: 'medio'}), BAR, {masaJuegoM: 200, presupuestoJuegoM: 80});
+    assert.equal(m.finanzasJuego.presupuestoM, 80); assert.equal(m.finanzasJuego.topeM, 210);
+    const h = M.configurarFinanzas(M.crearCarrera({club: BAR, dificultad: 'hardcore'}), BAR, {masaJuegoM: 200, presupuestoJuegoM: 80});
+    assert.equal(h.finanzasJuego.presupuestoM, 28); assert.equal(h.finanzasJuego.topeM, 180);
+    const om = {id: 'olympique-marseille', nombre: 'OM', liga: 'Ligue 1', nivel: 4};
+    const o = M.configurarFinanzas(M.crearCarrera({club: om, dificultad: 'medio'}), om, {masaJuegoM: 100, presupuestoJuegoM: 40});
+    assert.equal(o.finanzasJuego.salud.salud, 'ajustada'); assert.equal(o.finanzasJuego.presupuestoM, 34);
+    const e = M.estadoMercado(m, BAR); assert.equal(e.fuente, 'juego'); assert.equal(e.estimado, false); assert.equal(e.disponibleM, 80);
+    assert.throws(() => M.configurarFinanzas(m, BAR, {masaJuegoM: 0, presupuestoJuegoM: 10}));
+    assert.equal(M.semanalAAnualM(1000), 52);
+  });
+  await t('fair play: aviso, multa en Premier, bloqueo en LaLiga, puntos en leyenda si reincidís', () => {
+    const exceso = (club, dif) => { let c = M.configurarFinanzas(M.crearCarrera({club, dificultad: dif}), club, {masaJuegoM: 100, presupuestoJuegoM: 50}); return {...c, mercado: {...M.estadoMercado(c, club).mercado, masaAltasM: 30}}; };
+    const f = exceso(PL, 'facil'); assert.equal(M.evaluarFairPlay(f, PL, M.estadoMercado(f, PL)).sancion, null);
+    let p = exceso(PL, 'medio'); const ev = M.evaluarFairPlay(p, PL, M.estadoMercado(p, PL));
+    assert.equal(ev.sancion.multaM, 12.5); assert.equal(ev.sancion.bloqueo, false);
+    const cierre = M.cierreDeVentana(p, PL, M.estadoMercado(p, PL));
+    assert.equal(M.estadoMercado(cierre.carrera, PL).disponibleM, 37.5); assert.ok(cierre.carrera.confianza.presidente < p.confianza.presidente);
+    const l = exceso(BAR, 'medio'); const cl = M.cierreDeVentana(l, BAR, M.estadoMercado(l, BAR)).carrera;
+    assert.equal(M.estadoMercado(cl, BAR).bloqueoInscripciones, true);
+    assert.match(M.pedirAlPresidente(cl, BAR, {tipo: 'fichaje', precioM: 1, jugador: {id: 'z', nombre: 'Z', edad: 22, sueldoM: 0.5}}).texto, /sancionados/);
+    let ley = exceso(PL, 'leyenda'); ley = M.cierreDeVentana(ley, PL, M.estadoMercado(ley, PL)).carrera;
+    const ev2 = M.evaluarFairPlay(ley, PL, M.estadoMercado(ley, PL)); assert.equal(ev2.sancion.puntos, 6); assert.equal(ev2.sancion.sinEuropa, true);
+  });
+
+  console.log('Mercado de salida y cantera');
+  const PLANT = Array.from({length: 15}, (_, i) => ({id: 'j' + i, nombre: 'J' + i, edad: 25, ovr: 85 - i, valorM: 30}));
+  await t('vender a una figura: el DT se opone y el presidente mecenas no quiere', () => {
+    const club = {...PL, presidente: {perfil: 'mecenas'}};
+    const r = M.proponerSalida(car(club, 'medio'), club, {tipo: 'venta', jugador: PLANT[0], plantilla: PLANT});
+    assert.equal(r.dt.opinion, 'en-contra'); assert.equal(r.presidente.decision, 'rechaza');
+    assert.ok(r.respuestas.some(x => x.id === 'insistir') && r.respuestas.some(x => x.id === 'otra'));
+  });
+  await t('ceder a un suplente joven: de acuerdo; en leyenda un canterano ídolo no se vende', () => {
+    const r = M.proponerSalida(car(PL, 'medio'), PL, {tipo: 'cesion', jugador: {...PLANT[14], edad: 20}, plantilla: PLANT});
+    assert.equal(r.presidente.decision, 'acepta'); assert.equal(r.dt.opinion, 'de-acuerdo');
+    const l = M.proponerSalida(car(PL, 'leyenda'), PL, {tipo: 'venta', jugador: {...PLANT[13], canterano: true}, plantilla: PLANT});
+    assert.equal(l.presidente.decision, 'rechaza');
+  });
+  await t('registrar venta y cesión: plata, masa, plantel y vuelta del cedido', () => {
+    let c = {...car(PL, 'medio'), plantilla: ['a', 'b', 'c']};
+    c = M.registrarSalida(c, {tipo: 'venta', jugador: {id: 'a', nombre: 'A', sueldoM: 4}, clubDestino: 'Sevilla', precioM: 25});
+    assert.equal(c.mercado.vendidoM, 25); assert.equal(c.mercado.masaBajasM, 4); assert.deepEqual(c.plantilla, ['b', 'c']);
+    c = M.registrarSalida(c, {tipo: 'cesion', jugador: {id: 'b', nombre: 'B', sueldoM: 2}, clubDestino: 'Girona', meses: 12, sueldoPagaDestinoPct: 50});
+    assert.equal(c.mercado.masaBajasM, 5); assert.equal(c.salidas[1].meses, 12);
+    c = M.volverDeCesion(c, 'b'); assert.ok(c.plantilla.includes('b')); assert.equal(c.mercado.masaBajasM, 4);
+    assert.throws(() => M.registrarSalida(c, {tipo: 'cesion', jugador: {id: 'c', nombre: 'C'}, clubDestino: 'X', meses: 30}));
+  });
+  await t('juvenil de la cantera: suma al plantel, y en un club de cantera suma más con los hinchas', () => {
+    const c0 = car(BAR, 'medio');
+    const a = M.registrarJuvenil(c0, {nombre: 'Pibe', pos: 'MC', edad: 17}, {identidad: ['cantera']});
+    const b = M.registrarJuvenil(c0, {nombre: 'Pibe', pos: 'MC', edad: 17});
+    assert.equal(a.cantera.length, 1); assert.ok(a.plantilla.includes(a.cantera[0].id));
+    assert.ok(a.confianza.hinchas > b.confianza.hinchas);
+    assert.throws(() => M.registrarJuvenil(c0, {nombre: 'Viejo', pos: 'DC', edad: 25}));
+  });
+
+  console.log('El DT pide refuerzos');
+  const once = [{pos: 'POR', ovr: 84}, {pos: 'POR', ovr: 75}, ...['DFC', 'DFC', 'DFC', 'DFC', 'LD', 'LD', 'LI', 'LI'].map(p => ({pos: p, ovr: 84})),
+    ...['MCD', 'MC', 'MC', 'MCO', 'MC', 'MC'].map(p => ({pos: p, ovr: 84})), ...['ED', 'EI', 'ED', 'EI'].map(p => ({pos: p, ovr: 84})), {pos: 'DC', ovr: 74}, {pos: 'DC', ovr: 72}];
+  await t('detecta el puesto flojo (el 9 está 10 abajo del once)', () => {
+    const f = M.detectarFalencias(once, '4-3-3');
+    assert.equal(f.falencias[0].grupo, 'DEL'); assert.equal(f.falencias[0].gravedad, 2);
+  });
+  await t('sugiere refuerzos alcanzables que mejoran el puesto y encajan con su estilo', () => {
+    const c = car(PL, 'medio'), f = M.detectarFalencias(once, '4-3-3');
+    const dtp = {...DT, filosofia: [{valor: 'contragolpe', fuente: 'https://ej.com'}]};
+    const cand = [{id: 'r1', nombre: 'Rápido', pos: 'DC', edad: 25, ovr: 82, pac: 90, sho: 84, valorM: 30, club: 'chico'},
+      {id: 'r2', nombre: 'Lento', pos: 'DC', edad: 25, ovr: 82, pac: 60, sho: 70, valorM: 30, club: 'chico'},
+      {id: 'r3', nombre: 'Estrella', pos: 'DC', edad: 25, ovr: 91, pac: 90, sho: 90, valorM: 30, club: 'grande'},
+      {id: 'r4', nombre: 'Caro', pos: 'DC', edad: 25, ovr: 83, pac: 90, sho: 90, valorM: 500, club: 'chico'},
+      {id: 'r5', nombre: 'Arquero', pos: 'POR', edad: 25, ovr: 88, valorM: 5, club: 'chico'}];
+    const clubes = [{id: 'chico', nivel: 2, liga: 'Ligue 1'}, {id: 'grande', nivel: 5, liga: 'LaLiga'}];
+    const s = M.sugerirRefuerzos(c, dtp, f.falencias[0], cand, {disponibleM: 60, clubes, promedioOnce: f.promedioOnce}).map(x => x.jugador.id);
+    assert.deepEqual(s, ['r1', 'r2']);
+  });
+  await t('le proponés otro: el DT opina, y si dice que no siempre podés insistir o proponer otro', () => {
+    const c = car(PL, 'medio'), f = M.detectarFalencias(once, '4-3-3');
+    const dtp = {...DT, filosofia: [{valor: 'contragolpe', fuente: 'https://ej.com'}]};
+    const si = M.opinarJugador(c, dtp, f.falencias[0], {nombre: 'Bueno', pos: 'DC', edad: 24, ovr: 83, pac: 88, sho: 82});
+    assert.equal(si.opinion, 'de-acuerdo'); assert.equal(si.respaldoDT, true);
+    const no = M.opinarJugador(c, dtp, f.falencias[0], {nombre: 'Central', pos: 'DFC', edad: 24, ovr: 70});
+    assert.equal(no.opinion, 'no'); assert.ok(no.respuestas.some(x => x.id === 'insistir') && no.respuestas.some(x => x.id === 'otra'));
+    const r = M.responderRefuerzo(c, no, 'insistir'); assert.equal(r.pedirAlPresidente, true); assert.ok(r.carrera.relacionDT < 60);
+  });
+  await t('el presidente también deja proponer otra cosa después de un no, y el respaldo del DT pesa', () => {
+    const c = car(PL, 'leyenda', 35);
+    const n = M.pedirAlPresidente(c, PL, {tipo: 'presupuesto', montoM: 15});
+    assert.ok(n.respuestas.some(x => x.id === 'otra'));
+    const sin = M.pedirAlPresidente(car(PL, 'medio', 50), PL, {tipo: 'fichaje', precioM: 5, jugador: {id: 'q', nombre: 'Q', edad: 25}});
+    const con = M.pedirAlPresidente(car(PL, 'medio', 50), PL, {tipo: 'fichaje', precioM: 5, jugador: {id: 'q', nombre: 'Q', edad: 25}, respaldoDT: true});
+    assert.ok(con.motivos.includes('Lo pidió el DT') && !sin.motivos.includes('Lo pidió el DT'));
+  });
+
+  console.log('Bugs QA tanda 2');
+  await t('vender sin sueldo cargado libera el sueldo estimado (10% del valor)', () => {
+    const c = M.registrarSalida({...car(PL, 'medio'), plantilla: ['r']}, {tipo: 'venta', jugador: {id: 'r', nombre: 'Rodri', valorM: 60}, clubDestino: 'City', precioM: 60});
+    assert.equal(c.mercado.masaBajasM, 6); assert.equal(c.salidas[0].sueldoEstimado, true);
+  });
+  await t('vender por debajo del mínimo del presidente avisa y cuesta confianza', () => {
+    let c = car(PL, 'medio', 60);
+    c = {...c, transferibles: {r: {tipo: 'venta', nombre: 'Rodri', precioMinimoM: 60}}};
+    const ctl = M.controlarSalida(c, {tipo: 'venta', jugador: {id: 'r', valorM: 60}, precioM: 20});
+    assert.equal(ctl.ok, false); assert.equal(ctl.costoPresidente, 9); assert.match(ctl.avisos.join(' '), /no menos de 60/);
+    const v = M.registrarSalida(c, {tipo: 'venta', jugador: {id: 'r', nombre: 'Rodri', valorM: 60}, clubDestino: 'City', precioM: 20});
+    assert.equal(v.confianza.presidente, 51); assert.equal(v.salidas[0].bajoMinimo, true);
+    assert.equal(M.controlarSalida(c, {tipo: 'venta', jugador: {id: 'r', valorM: 60}, precioM: 65}).ok, true);
+  });
+  await t('refuerzos: solo puesto principal; si no juega ahí, no compara la media; frases con "estilo"', () => {
+    const c = car(PL, 'medio'), f = {grupo: 'DFC', referenciaOvr: 80, gravedad: 2};
+    const cand = [{id: 'a', nombre: 'Lateral', pos: 'LI', posSec: ['DFC'], edad: 25, ovr: 86, valorM: 20}, {id: 'b', nombre: 'Central', pos: 'DFC', edad: 25, ovr: 84, def: 85, phy: 80, valorM: 20}];
+    assert.deepEqual(M.sugerirRefuerzos(c, {...DT, filosofia: [{valor: 'bloque-bajo', fuente: 'x'}]}, f, cand).map(x => x.jugador.id), ['b']);
+    const r = M.sugerirRefuerzos(c, {...DT, filosofia: [{valor: 'bloque-bajo', fuente: 'x'}]}, f, cand)[0];
+    assert.ok(r.motivos.includes('Encaja con su estilo de bloque bajo'));
+    const mb = M.opinarJugador(c, DT, f, {nombre: 'Mbappé', pos: 'DC', edad: 27, ovr: 91});
+    assert.ok(!mb.motivos.some(m => /Mejora el puesto/.test(m))); assert.equal(mb.opinion, 'no');
+    const sec = M.opinarJugador(c, DT, f, cand[0]); assert.ok(sec.motivos.some(m => /no es su puesto principal/.test(m)));
   });
 
   console.log('Nivel por rendimiento reciente');

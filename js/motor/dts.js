@@ -134,3 +134,24 @@ export function sortearDT(club, dts, rnd = Math.random) {
   if (!top.length) return null;
   return top[Math.floor(rnd() * top.length)].dt;
 }
+
+// ---- Preferencias del DT: formación y estilo. Con fuente si la hay; si no, estimadas con semilla (siempre las mismas para ese DT). ----
+export const ESTILOS_DT = ['posesion', 'presion-alta', 'transiciones', 'contragolpe', 'bloque-bajo', 'juego-directo'];
+const FORMACIONES_COMUNES = ['4-2-3-1', '4-3-3 Attacking', '4-4-2', '3-4-2-1', '3-5-2 flat', '4-1-4-1', '5-3-2', '4-3-3'];
+function semilla(txt) { let h = 2166136261; for (const ch of String(txt)) { h ^= ch.charCodeAt(0); h = Math.imul(h, 16777619); } return h >>> 0; }
+function rnd(seed) { let x = seed || 1; return () => { x ^= x << 13; x ^= x >>> 17; x ^= x << 5; return ((x >>> 0) % 10000) / 10000; }; }
+// Afinidad estilo-formación para que lo estimado sea coherente (línea de 3/5 atrás tira a transiciones y contragolpe).
+const AFIN_LINEA = {3: ['transiciones', 'contragolpe', 'presion-alta', 'juego-directo'], 4: ['posesion', 'presion-alta', 'transiciones', 'contragolpe'], 5: ['bloque-bajo', 'contragolpe', 'juego-directo']};
+export function preferenciasDT(dt) {
+  const conFuente = etiquetasFilosofia(dt).filter(e => ESTILOS_DT.includes(e) || e === 'juveniles');
+  const r = rnd(semilla(dt.id));
+  const formacion = dt.formaciones?.[0] ?? FORMACIONES_COMUNES[Math.floor(r() * FORMACIONES_COMUNES.length)];
+  const formacionEstimada = !dt.formaciones?.length;
+  if (conFuente.length) return {formacion, formacionEstimada, estilos: conFuente, estiloEstimado: false, fuente: 'con fuente'};
+  const linea = parseInt(String(formacion)[0], 10);
+  const pool = AFIN_LINEA[linea] || ESTILOS_DT;
+  const a = pool[Math.floor(r() * pool.length)];
+  const resto = ESTILOS_DT.filter(e => e !== a && !(a === 'posesion' && e === 'bloque-bajo') && !(a === 'bloque-bajo' && e === 'posesion'));
+  const estilos = r() < 0.6 ? [a, resto[Math.floor(r() * resto.length)]] : [a];
+  return {formacion, formacionEstimada, estilos, estiloEstimado: true, fuente: 'estimado'};
+}

@@ -1,4 +1,5 @@
 // Oficina del presidente, formato "negociación": exigencias a la izquierda, reunión con tensión y tres respuestas a la derecha.
+import {aviso} from '../avisos.js';
 // Todo sale del Motor: restricciones, finanzas, paciencia, confianza, tensión y eventos.
 import * as motor from '../../motor/index.js';
 import {contextoClub, banda} from '../contexto.js';
@@ -86,7 +87,7 @@ export default {
         else if (b.dataset.limpiar !== undefined) N.limpiar();
         const enfocar = b.dataset.pedir !== undefined || b.dataset.negR;
         Promise.resolve(this.render(el, params, viejo)).then(() => { if (enfocar && innerWidth < 960) el.querySelector('.hilo')?.lastElementChild?.scrollIntoView({block: 'center', behavior: 'smooth'}); });
-      } catch (err) { alert(err.message); }
+      } catch (err) { aviso(err.message, {tipo: 'peligro'}); }
     };
   }
 };

@@ -74,3 +74,40 @@
 - buscarDTs(dts, {texto, soloLibres, nac}, {clubes}) -> [{dt, categoria, libre}] para "Elegir otro DT" (los 299, ordenados por categoría).
 - categoriaDT(dt, {clubes}) -> 1..5. sortearDT nunca devuelve al DT actual.
 - Manchester United: N4 por decisión de Serafin, en AJUSTES_MANUALES, NIVELES.md y niveles.json.
+
+# Tanda 2 (2026-10-11, pedidos de Serafin)
+
+## Finanzas cargadas desde el juego (finanzasJuego.js)
+- configurarFinanzas(carrera, club, {masaJuegoM, presupuestoJuegoM, salud?}) -> carrera con `finanzasJuego`. Se llama al crear la carrera (paso de dificultad) o desde Mercado y finanzas.
+  presupuesto = presupuesto del juego × dificultad (1 / 1 / 0,7 / 0,35 / 0) × salud (ajustada 0,85, crisis 0,6) × 1,1 si el presidente es mecenas.
+  tope = masa del juego × dificultad (1,15 / 1,05 / 1 / 0,9 / 0,8) × salud (ajustada 0,95, crisis 0,9). `explicacion[]` trae el cálculo en texto.
+  salud: solo con fuente (hoy OM, OL y Monaco, encuadrados por la DNCG) o elegida por el jugador; el resto es neutral.
+- semanalAAnualM(milesPorSemana) -> M€ por año (el juego muestra sueldos semanales).
+- estadoMercado() usa finanzasJuego si existe: `fuente: 'juego'`, `estimado: false`. Si no, sigue con el estimado de siempre.
+- evaluarFairPlay(carrera, club, estado) -> {estado: ok|aviso|excedido|sin-dato, uso, excesoM, sancion, texto}
+  fácil: solo aviso. Medio: multa del 50% del exceso (regla de la app) o bloqueo de inscripciones en LaLiga y Serie A. Difícil: además recorte del tope del 5%. Hardcore: además bloqueo en cualquier liga. Leyenda: además −3 puntos (−6 y sin Europa si reincidís).
+- cierreDeVentana(carrera, club, estado) -> {carrera, fairPlay}. Llamar al cerrar cada ventana: aplica la sanción (multa al disponible, recorte, bloqueo, −8 de confianza) y reinicia las altas. El bloqueo se levanta solo cuando la masa vuelve abajo del tope.
+
+## Preferencias del DT (dts.js)
+- preferenciasDT(dt) -> {formacion, formacionEstimada, estilos[], estiloEstimado, fuente: 'con fuente'|'estimado'}. Sin fuente, el estilo sale al azar con semilla en el id del DT (siempre el mismo) y coherente con su formación. Mostrá "estimado" cuando `estiloEstimado`.
+- La charla táctica las usa: si el estilo no es el suyo, se queja ("Su idea es contragolpe y bloque-bajo, no posesion"), más fuerte si el dato tiene fuente.
+
+## Mercado de salida y cantera (salidas.js)
+- proponerSalida(carrera, club, {tipo: 'venta'|'cesion', jugador, precioPedidoM?, plantilla}) -> {presidente: {decision: acepta|condiciona|rechaza, texto, motivos}, dt: {opinion: de-acuerdo|duda|en-contra, motivos}, precioMinimoM, respuestas}
+- responderSalida(carrera, prop, buscar|insistir|otra|dejar) -> carrera (`transferibles[id]` = en venta o para ceder)
+- registrarSalida(carrera, {tipo, jugador:{id, nombre, sueldoM}, clubDestino, precioM | meses (1..24), sueldoPagaDestinoPct?, opcionCompraM?, fecha?}) -> carrera (suma la venta, libera masa, saca al jugador del plantel, queda en `salidas`)
+- volverDeCesion(carrera, jugadorId, {ejercioCompra?}) -> carrera
+- registrarJuvenil(carrera, {nombre, pos, edad 15..21, ovr?, pot?, sueldoM?}, {identidad}) -> carrera (`cantera[]`, suma al plantel; si el club es de cantera, más confianza)
+
+## El DT pide refuerzos (refuerzos.js)
+- detectarFalencias(plantilla, formacion) -> {promedioOnce, falencias: [{grupo, motivo, gravedad 1..3, referenciaOvr}]}
+- sugerirRefuerzos(carrera, dt, falencia, candidatos, {disponibleM, clubes, promedioOnce}) -> hasta 3 [{jugador, puntaje, motivos}]. Los candidatos son jugadores de data/plantillas con `club`. Solo trae jugadores alcanzables: no vienen de un club más grande ni de un rival directo, su media es como mucho la del once + 4, entran en la plata disponible y cumplen las reglas de la dificultad.
+- opinarJugador(carrera, dt, falencia, jugador, {clubes}) -> {opinion: de-acuerdo|duda|no, motivos, respuestas: pedir | insistir/otra/ceder, respaldoDT}
+- responderRefuerzo(carrera, charla, id) -> {carrera, pedirAlPresidente, respaldoDT}. Si `pedirAlPresidente`, abrí pedirAlPresidente con `respaldoDT` en el pedido (suma "Lo pidió el DT").
+- Todos los "no" (del presidente y del DT) traen ahora también la respuesta `otra` ("Te propongo otra cosa"), sin costo.
+
+## Arreglos QA tanda 2 (2026-10-11)
+- controlarSalida(carrera, {tipo, jugador, precioM}) -> {ok, sueldoM, sueldoEstimado, bajoMinimo, precioMinimoM, costoPresidente, avisos[]}. Llamalo antes de registrar para el `confirmar()`.
+- registrarSalida: sin `sueldoM` estima el 10% del valor por año (`sueldoEstimado: true`). Vender por debajo del mínimo del presidente se puede, pero cuesta confianza (3 + 1 por cada 10% abajo, tope 12) y queda `bajoMinimo: true`.
+- sugerirRefuerzos: solo jugadores cuyo puesto principal es el que falta. opinarJugador: si no juega en ese puesto no compara la media; si es su puesto secundario lo dice.
+- Motivos: "Encaja con su estilo de transiciones" (nombres en castellano: `NOMBRE_ESTILO`).

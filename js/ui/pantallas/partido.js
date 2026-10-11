@@ -1,11 +1,12 @@
 // Cargar resultado estilo "Classic Match": local contra visitante con escudo, nivel y líneas EA.
+import {aviso} from '../avisos.js';
 import * as datos from '../datos.js';
 import {contextoClub} from '../contexto.js';
 import {esc, estado, cargando, lineaDe, fmtFecha} from '../util.js';
 import {href, ir} from '../router.js';
 import {escudo, estiloClub} from '../club.js';
 import {ovr, chipOvr, lineasEA, estrellitas, onceEA} from '../ea.js';
-import {partidos, guardarPartido} from '../carrera.js';
+import {partidos, guardarPartido, conCarrera, onceCarrera} from '../carrera.js';
 import {fixture} from './calendario.js';
 import * as motor from '../../motor/index.js';
 import {cierreCarrera} from '../cierre.js';
@@ -21,11 +22,12 @@ export default {
     if (!fx.length) { el.innerHTML = estado('Sin rivales', 'No hay otros clubes cargados en esta liga.', 'error'); return; }
     const f = fx.find(x => String(x.jornada) === String(params.jornada ?? ''));
     if (!f) { el.innerHTML = estado('Esa jornada no existe', `${esc(club.liga)} tiene jornadas de la 1 a la ${fx.length}. Elegí el partido desde el calendario.`, 'error', `<a class="btn primario" href="${href('calendario', params.club ? {club: params.club} : undefined)}">Ir al calendario</a>`); return; }
-    const [pl, pr] = await Promise.all([datos.plantilla(club.id), datos.plantilla(f.rival.id).catch(() => ({jugadores: []}))]);
+    let [pl, pr] = await Promise.all([datos.plantilla(club.id), datos.plantilla(f.rival.id).catch(() => ({jugadores: []}))]);
     if (viejo()) return;
+    pl = conCarrera(pl, ctx.carrera);
     const previo = ctx.carrera ? partidos().find(p => p.comp === 'liga' && p.jornada === f.jornada) : null;
     const s = {gf: previo?.gf ?? 0, gc: previo?.gc ?? 0, gol: [...(previo?.goleadores || [])],
-      tit: new Set(previo?.titulares || onceEA(pl.jugadores, ctx.carrera?.tactica?.formacion).filter(o => o.j).map(o => o.j.id))};
+      tit: new Set(previo?.titulares || onceCarrera(pl.jugadores, ctx.carrera, onceEA).filter(o => o.j).map(o => o.j.id))};
     const nuestro = {c: club, J: pl.jugadores}, suyo = {c: f.rival, J: pr.jugadores};
     const [loc, vis] = f.local ? [nuestro, suyo] : [suyo, nuestro];
     const golesDe = l => l === nuestro ? 'gf' : 'gc';
@@ -75,7 +77,7 @@ export default {
           const p = partidos().find(x => x.id === `liga-${f.jornada}`);
           const an = motor.analizarPartido({...p, resultadoReal: f.real}, {nivelPropio: club.nivel, nivelRival: f.rival.nivel, partidosPrevios: partidos().filter(x => x.id !== p.id), plantilla: pl.jugadores});
           analisis(an, r);
-        } catch (err) { alert(`No se pudo guardar: ${err.message}`); }
+        } catch (err) { aviso(`No se pudo guardar: ${err.message}`, {tipo: 'peligro'}); }
       }
     });
     // Tarjeta de análisis después de guardar; si el presidente te cita, se pasa desde acá.

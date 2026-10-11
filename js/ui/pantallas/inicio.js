@@ -1,4 +1,5 @@
 import {listar, activa, activar, borrar, exportar, importar} from '../carrera.js';
+import {confirmar} from '../avisos.js';
 import {href, ir} from '../router.js';
 import {esc, fmtFecha} from '../util.js';
 import * as datos from '../datos.js';
@@ -35,7 +36,7 @@ export default {
         const url = URL.createObjectURL(new Blob([exportar(c)], {type: 'application/json'}));
         const a = Object.assign(document.createElement('a'), {href: url, download: `fc26-${c.club?.id}-${(c.temporada || '').replace('/', '-')}.json`});
         a.click(); setTimeout(() => URL.revokeObjectURL(url), 1000);
-      } else if (b.dataset.borrar && confirm(`¿Borrar la carrera con ${c.club?.nombre}? Exportala antes si la querés conservar.`)) { borrar(c.id); this.render(el); }
+      } else if (b.dataset.borrar) confirmar({titulo: `¿Borrar la carrera con ${c.club?.nombre}?`, texto: 'Exportala antes si la querés conservar. No se puede deshacer.', si: 'Borrar', peligro: true}).then(ok => { if (ok) { borrar(c.id); this.render(el); } });
     });
     el.querySelector('[data-importar]').addEventListener('change', async e => {
       const f = e.target.files[0]; if (!f) return;
