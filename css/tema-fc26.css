@@ -235,86 +235,12 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
 .paso{width:44px;height:44px;border-radius:50%;border:1px solid var(--vidrio-borde-2);background:rgba(255,255,255,.06);color:#fff;font:800 22px/1 var(--f-display);cursor:pointer}
 .centro{display:flex;flex-direction:column;justify-content:center;gap:var(--e3);text-align:center}
 .centro .opcion{padding:var(--e3);border-radius:12px;background:rgba(255,255,255,.05);border:1px solid var(--linea)}
-.centro .opcion b{display:block;font:800 var(--t-md)/1.2 var(--f-display);margin-top:4px}
-.goleador{display:flex;align-items:center;gap:var(--e3);padding:10px var(--e3);border-radius:10px;background:rgba(255,255,255,.05);margin-top:6px;text-align:left}
+.centro .opcion b{display:block;margin-top:4px;font:800 var(--t-lg)/1 var(--f-display)}
 
-/* ---- Calendario ---- */
-.jornadas{display:grid;gap:6px}
-.jornada{display:grid;grid-template-columns:64px 1fr auto;align-items:center;gap:var(--e3);padding:12px var(--e4);border-radius:12px;background:rgba(255,255,255,.045);border:1px solid var(--linea)}
-.jornada .fecha{font:800 var(--t-sm)/1.1 var(--f-display);color:var(--tinta-2);text-transform:uppercase}
-.jornada .fecha b{display:block;font-size:var(--t-xl);color:#fff}
-.jornada .partido{display:flex;align-items:center;gap:var(--e3);min-width:0}
-.jornada .partido .escudo-real{width:32px;height:32px}
-.jornada .rival{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.res{display:inline-grid;place-items:center;min-width:64px;height:34px;border-radius:9px;font:800 var(--t-lg)/1 var(--f-display)}
-.res.g{background:rgba(59,224,139,.18);color:var(--ok)}.res.e{background:rgba(255,255,255,.1)}.res.p{background:rgba(255,90,90,.18);color:var(--peligro)}
-.forma{display:flex;gap:4px}.forma span{width:24px;height:24px;border-radius:6px;display:grid;place-items:center;font:800 12px/1 var(--f-display)}
-.forma .g{background:var(--ok);color:#07141B}.forma .e{background:rgba(255,255,255,.3)}.forma .p{background:var(--peligro)}
-.comp{font:800 10px/1 var(--f-display);letter-spacing:.08em;text-transform:uppercase;padding:4px 7px;border-radius:6px;background:rgba(255,255,255,.08);color:var(--tinta-2)}
-.comp.ucl{background:rgba(111,183,255,.18);color:var(--info)}.comp.copa{background:rgba(255,201,77,.16);color:var(--alerta)}
-.jornada.proxima{background:linear-gradient(90deg,rgba(220,255,245,.26),rgba(150,230,215,.08));border-color:rgba(255,255,255,.5)}
-
-/* ---- Pizarra táctica ---- */
-.cancha{position:relative;aspect-ratio:68/80;border-radius:16px;overflow:hidden;background:linear-gradient(180deg,rgba(47,224,181,.16),rgba(47,224,181,.05)),repeating-linear-gradient(180deg,rgba(255,255,255,.03) 0 10%,transparent 10% 20%);border:1px solid var(--vidrio-borde)}
-.cancha::before{content:"";position:absolute;inset:4%;border:2px solid rgba(255,255,255,.18);border-radius:6px}
-.cancha::after{content:"";position:absolute;left:4%;right:4%;top:50%;border-top:2px solid rgba(255,255,255,.18)}
-.ficha-cancha{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:3px;width:84px;text-align:center;z-index:1}
-.ficha-cancha .ovr-chip{box-shadow:0 4px 12px rgba(0,0,0,.35)}
-.ficha-cancha span{font:700 11px/1.15 var(--f-display);text-shadow:0 1px 3px rgba(0,0,0,.6)}
-.ficha-cancha small{font:800 9px/1 var(--f-display);color:var(--menta);letter-spacing:.06em}
-.llamada .avatar{display:grid;place-items:center;font:800 20px/1 var(--f-display)}
-
-/* ---- Objetivos por plazo ---- */
-.plazos{display:grid;gap:var(--e4)}
-@media(min-width:960px){.plazos{grid-template-columns:repeat(3,1fr)}}
-.plazo-cab{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:var(--e3)}
-.plazo-cab b{font:800 var(--t-3xl)/1 var(--f-display)}
-.obj{display:flex;gap:var(--e3);align-items:flex-start;padding:12px;border-radius:12px;background:rgba(255,255,255,.04);border:1px solid var(--linea);margin-top:6px}
-.obj .cat{flex:none;width:34px;height:34px;border-radius:10px;display:grid;place-items:center;font-size:16px;background:rgba(255,255,255,.08)}
-.cat.deportivo{background:rgba(111,183,255,.16)}.cat.cantera{background:rgba(59,224,139,.16)}.cat.economico{background:rgba(255,201,77,.16)}.cat.institucional{background:rgba(200,170,255,.18)}.cat.desarrollo{background:rgba(47,224,181,.16)}
-.obj.principal{background:linear-gradient(90deg,rgba(220,255,245,.24),rgba(150,230,215,.06));border-color:rgba(255,255,255,.45)}
-
-/* ---- Fair play financiero ---- */
-.ffp{position:relative;height:16px;border-radius:99px;background:linear-gradient(90deg,var(--ok) 0 var(--v1,70%),var(--alerta) var(--v1,70%) var(--v2,85%),var(--peligro) var(--v2,85%));opacity:.9;margin:var(--e8) 0 var(--e6)}
-.ffp .aguja{position:absolute;top:-10px;bottom:-10px;width:4px;border-radius:2px;background:#fff;box-shadow:0 0 12px #fff;transform:translateX(-50%)}
-.ffp .aguja b{position:absolute;bottom:calc(100% + 6px);left:50%;transform:translateX(-50%);font:800 var(--t-lg)/1 var(--f-display);white-space:nowrap}
-.ffp .marca{position:absolute;top:100%;transform:translateX(-50%);margin-top:8px;font:700 11px/1.2 var(--f-display);color:var(--tinta-2);text-align:center;white-space:nowrap}
-.ffp .marca::before{content:"";display:block;width:2px;height:8px;background:rgba(255,255,255,.6);margin:0 auto 4px;margin-top:-16px}
-.regla{display:grid;grid-template-columns:auto 1fr;gap:var(--e3);align-items:start;padding:12px 0;border-top:1px solid var(--linea)}
-.regla .badge{margin-top:2px}
-
-/* ---- Mercado (negociación) ---- */
-.jugador-card{position:relative;width:min(100%,360px);padding:var(--e4) var(--e5);border-radius:16px;background:linear-gradient(160deg,rgba(255,255,255,.14),rgba(255,255,255,.04));border:1px solid var(--vidrio-borde-2);text-align:left;overflow:hidden}
-.jugador-card .fondo-pos{position:absolute;right:12px;top:6px;font:800 64px/1 var(--f-display);color:rgba(255,255,255,.08)}
-.jugador-card .ap{font:600 var(--t-xs)/1 var(--f-display);color:var(--tinta-3);text-transform:uppercase;letter-spacing:.08em}
-.jugador-card .nom{font:800 var(--t-2xl)/1 var(--f-display);text-transform:uppercase}
-.jugador-card .fila-dato{padding:8px 0}
-.resumen-pago{margin-top:var(--e6);display:grid;gap:6px}
-.resumen-pago div{display:flex;justify-content:space-between;font-weight:600}
-.resumen-pago div b{font:800 var(--t-md)/1 var(--f-display)}
-
-/* ---- Vitrina ---- */
-.vitrina{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--e3)}
-@media(min-width:720px){.vitrina{grid-template-columns:repeat(4,1fr)}}
-.copa{position:relative;text-align:center;padding:var(--e5) var(--e3);border-radius:16px;background:rgba(255,255,255,.05);border:1px solid var(--linea);overflow:hidden}
-.copa .icono{font-size:46px;line-height:1;filter:grayscale(1) brightness(.6);opacity:.55}
-.copa.ganada{background:radial-gradient(80% 70% at 50% 20%,rgba(243,210,122,.28),transparent 70%),rgba(255,255,255,.06);border-color:rgba(243,210,122,.6)}
-.copa.ganada .icono{filter:drop-shadow(0 0 16px rgba(243,210,122,.7));opacity:1}
-.copa .n{font:800 var(--t-md)/1.15 var(--f-display);margin-top:var(--e3)}
-.copa .t{font-size:var(--t-xs);color:var(--tinta-3);margin-top:4px}
-.copa .veces{position:absolute;top:10px;right:12px;font:800 var(--t-lg)/1 var(--f-display);color:#F3D27A}
-.linea-tiempo{display:grid;gap:6px}
-.temporada{display:grid;grid-template-columns:80px 1fr auto;gap:var(--e3);align-items:center;padding:12px var(--e4);border-radius:12px;background:rgba(255,255,255,.045);border:1px solid var(--linea)}
-
-@keyframes fichaEntra{from{opacity:0;transform:translateX(12px)}to{opacity:1;transform:none}}
-/* En celular la ficha es una hoja de abajo */
-@media (max-width:959px){.plantel.con-ficha .ficha{display:block;position:fixed;left:0;right:0;bottom:0;max-height:85vh;overflow:auto;z-index:60;border-radius:20px 20px 0 0;animation:hojaSube .2s ease}
- .plantel.con-ficha::after{content:"";position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:55}}
-@keyframes hojaSube{from{transform:translateY(30px);opacity:0}to{transform:none;opacity:1}}
-@media (prefers-reduced-motion:reduce){.plantel.con-ficha .ficha{animation:none}}
-
-/* ---------- Desplegable propio (reemplaza a <select>) ---------- */
 .desp{position:relative;display:inline-block;min-width:180px}
+.desp[data-abierto]{z-index:200;position:relative}
+.desp-pop{z-index:300}
+details.fin-juego[open]{position:relative;z-index:100}
 .desp-btn{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;min-height:44px;padding:0 14px;border-radius:var(--r-md);border:1px solid var(--vidrio-borde-2);background:rgba(255,255,255,.07);backdrop-filter:var(--blur);color:#fff;font:700 var(--t-sm)/1 var(--f-display);letter-spacing:.02em;cursor:pointer;transition:border-color .15s,background .15s}
 .desp-btn::after{content:"";width:8px;height:8px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translateY(-2px);transition:transform .15s;opacity:.8}
 .desp-btn:hover{background:rgba(255,255,255,.11)}
@@ -332,8 +258,8 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
 .desp-lista li small{margin-left:auto;color:var(--tinta-3);font-size:var(--t-xs)}
 .desp-lista li{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:40px;padding:0 12px;border-radius:10px;color:var(--tinta-2);font:600 var(--t-sm)/1.2 var(--f-texto);cursor:pointer;white-space:nowrap}
 .desp-lista li[aria-selected=true]{color:#fff}
-.desp-lista li[aria-selected=true]::after{content:"";width:10px;height:5px;border-left:2px solid var(--menta);border-bottom:2px solid var(--menta);transform:rotate(-45deg) translateY(-2px)}
-.desp-lista li.activo,.desp-lista li:hover{background:rgba(225,255,246,.14);color:#fff}
+.desp-lista li[aria-selected=true]::after{content:"";width:10px;height:5px;border-left:2px solid var(--menta);border-bottom:2px solid var(--menta);transform:rotate(-45deg) translateY(-1px)}
+.desp-lista li.activo,.desp-lista li:hover{background:rgba(255,255,255,.08);color:#fff}
 @keyframes despAbre{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
 /* En celular la lista abre como hoja de abajo */
 @media (max-width:719px){.desp-pop{position:fixed;left:8px;right:8px;top:auto;bottom:8px;border-radius:18px;padding:8px}.desp-lista{max-height:55vh}.desp-lista li{min-height:48px;font-size:var(--t-md)}}
