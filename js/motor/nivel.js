@@ -6,6 +6,7 @@ export const CUPOS_NIVEL = {5: 9, 4: 15, 3: 22, 2: 25}; // N1 = el resto (cupos 
 // Ajustes manuales: se aplican DESPUÉS del cálculo, así un recálculo nunca los pisa.
 export const AJUSTES_MANUALES = {
   'borussia-dortmund': {nivel: 4, motivo: 'Decisión de Serafin (2026-10-11)'},
+  'manchester-united': {nivel: 4, motivo: 'Decisión de Serafin (2026-10-11): 3° en la Premier 2025/26'},
 };
 export const PESO_TEMPORADAS = [0.35, 0.25, 0.18, 0.12, 0.10]; // de la más reciente a la más vieja
 export const EQUIPOS_LIGA = {'Premier League': 20, 'LaLiga': 20, 'Serie A': 20, 'Bundesliga': 18, 'Ligue 1': 18};

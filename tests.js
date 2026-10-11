@@ -116,19 +116,20 @@ async function t(nombre, fn) { try { await fn(); ok++; console.log('  ✔', nomb
     {id: 'dt-f', nombre: 'Prueba Medio', clubActual: 'w', clubesDirigidos: [], clubesJugados: [], filosofia: [], nivel: 3},
     {id: 'dt-g', nombre: 'Prueba Otro', clubActual: 'v', clubesDirigidos: [], clubesJugados: [], filosofia: [], nivel: 2},
   ];
-  await t('devuelve 5 y excluye al DT actual del club', () => {
+  await t('el DT actual va primero y marcado; no se rellena con DTs de menos nivel', () => {
     const s = M.sugerirDTs(RM, DTS);
-    assert.equal(s.length, 5);
-    assert.ok(!s.some(x => x.dt.id === 'dt-c'));
+    assert.equal(s.length, 4); assert.ok(s.slice(1).every(x => x.dt.nivel >= 4));
+    assert.equal(s[0].dt.id, 'dt-c'); assert.equal(s[0].actual, true);
+    assert.equal(s.filter(x => x.actual).length, 1);
   });
   await t('haber dirigido pesa más que haber jugado', () => {
-    const s = M.sugerirDTs(RM, DTS).map(x => x.dt.id);
+    const s = M.sugerirDTs(RM, DTS).filter(x => !x.actual).map(x => x.dt.id);
     assert.ok(s.indexOf('dt-a') < s.indexOf('dt-b'));
     assert.equal(s[0], 'dt-a');
   });
   await t('cada sugerencia trae motivos legibles', () => {
     const s = M.sugerirDTs(RM, DTS);
-    assert.ok(s[0].motivos.some(m => /dirigió/.test(m)));
+    assert.ok(s[1].motivos.some(m => /dirigió/.test(m)));
     assert.ok(s.every(x => Array.isArray(x.motivos)));
   });
   await t('al ascendido le sugiere el DT de su nivel y estilo antes que uno de élite', () => {
@@ -553,10 +554,36 @@ async function t(nombre, fn) { try { await fn(); ok++; console.log('  ✔', nomb
     const caro = M.pedirAlPresidente(c, RMc, {tipo: 'fichaje', precioM: 50, jugador: {nombre: 'Z', edad: 25, valorM: 5000}});
     assert.equal(caro.decision, 'rechaza');
   });
-  await t('sugerirDTs puede incluir al DT actual si se pide', () => {
+  await t('el DT actual siempre aparece primero; con incluirActual: false se puede sacar', () => {
     const dts = [{id: 'x', nombre: 'X', nivel: 5, clubActual: 'c', clubesDirigidos: ['c']}];
-    assert.equal(M.sugerirDTs({id: 'c', nombre: 'C', nivel: 5}, dts).length, 0);
-    assert.equal(M.sugerirDTs({id: 'c', nombre: 'C', nivel: 5}, dts, 5, {incluirActual: true}).length, 1);
+    assert.equal(M.sugerirDTs({id: 'c', nombre: 'C', nivel: 5}, dts)[0].actual, true);
+    assert.equal(M.sugerirDTs({id: 'c', nombre: 'C', nivel: 5}, dts, 5, {incluirActual: false}).length, 0);
+  });
+  await t('datos reales: los 96 clubes tienen a su DT actual primero y 5 opciones; Flick en el Barça', () => {
+    const fs = require('node:fs'), path = require('node:path');
+    const cl = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'clubes.json'), 'utf8'));
+    const ligas = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'ligas.json'), 'utf8'));
+    const niv = new Map(M.calcularNiveles(cl, {ligas}).map(x => [x.id, x.nivel]));
+    const clubes = cl.map(c => ({...c, nivel: niv.get(c.id)}));
+    const d = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'dts.json'), 'utf8')); const dts = Array.isArray(d) ? d : d.dts;
+    for (const c of clubes) {
+      const s = M.sugerirDTs(c, dts, 5, {clubes});
+      assert.equal(s.length, 5, c.id); assert.equal(s[0].actual, true, c.id); assert.equal(s[0].dt.clubActual, c.id);
+      for (const x of s.slice(1)) assert.ok(x.categoria >= c.nivel - 1, `${c.id}: ${x.dt.nombre} no tiene el nivel`);
+    }
+    const barca = M.sugerirDTs(clubes.find(c => c.id === 'fc-barcelona'), dts, 5, {clubes}).map(x => x.dt.nombre);
+    assert.equal(barca[0], 'Hansi Flick'); assert.ok(!barca.includes('Quique Setién'));
+    assert.equal(niv.get('manchester-united'), 4);
+  });
+  await t('una etapa corta no da categoría de élite ni vínculo completo', () => {
+    const club = {id: 'grande', nombre: 'Grande', nivel: 5};
+    const corto = {id: 'k', nombre: 'Corto', nivel: 5, clubActual: null, estado: 'libre', clubesDirigidos: ['grande', 'chico'],
+      historialDT: [{club: 'Grande', clubId: 'grande', rol: 'Manager', desde: '19/20 (13/01/2020)', hasta: '20/21 (17/08/2020)'},
+                    {club: 'Chico', clubId: 'chico', rol: 'Manager', desde: '15/16 (01/07/2015)', hasta: '18/19 (30/06/2019)'}]};
+    const opts = {clubes: [club, {id: 'chico', nivel: 3}]};
+    assert.ok(M.categoriaDT(corto, opts) <= 3);
+    assert.equal(M.sugerirDTs(club, [corto], 5, opts).length, 0);
+    assert.ok(M.buscarDTs([corto], {texto: 'cor', soloLibres: true}).length === 1);
   });
 
   console.log('Sin perfil ni datos: nada de NaN ni montos inventados');

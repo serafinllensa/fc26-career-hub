@@ -186,3 +186,19 @@ button.ficha-cancha,button.ficha-cancha.sel,button.ficha-cancha:hover{background
 .opc .ef{flex:none;font:700 var(--t-xs)/1 var(--f-display)}
 .cierre{font-size:var(--t-xs);color:var(--tinta-3);text-align:center;letter-spacing:.06em;text-transform:uppercase}
 .contenido .meta a:not(.btn),.contenido p a:not(.btn){color:var(--menta);font-weight:700;text-decoration:none}
+/* Elegir DT: DT actual primero y hoja "Elegir otro DT" */
+.tarjeta-dt.actual{border-color:var(--menta);box-shadow:0 0 0 1px var(--menta) inset}
+.chip-actual{display:inline-block;margin-left:6px;vertical-align:middle;font:700 10px/1 var(--f-texto);letter-spacing:.08em;text-transform:uppercase;color:var(--menta);border:1px solid var(--menta);border-radius:var(--r-full);padding:4px 8px}
+.chip-libre{flex:none;font:700 10px/1 var(--f-texto);letter-spacing:.08em;text-transform:uppercase;color:var(--ok);background:var(--ok-bg);border-radius:var(--r-full);padding:4px 8px}
+.estrellas-dt{flex:none;color:var(--alerta);letter-spacing:1px;font-size:var(--t-sm);white-space:nowrap}
+.otro-dt{display:flex;flex-direction:column}
+@media(min-width:960px){.otro-dt{width:640px}}
+.filtros-dt{display:flex;gap:var(--e2);margin-top:var(--e3);align-items:center}
+.filtros-dt select{flex:1;min-width:0;min-height:40px}
+.lista-dt{display:grid;gap:4px}
+.fila-dt{display:flex;align-items:center;gap:var(--e3);width:100%;min-height:52px;padding:8px 10px;border-radius:12px;border:1px solid var(--linea);background:transparent;color:inherit;font:inherit;text-align:left;cursor:pointer}
+.fila-dt:hover,.fila-dt:focus-visible{border-color:var(--menta)}
+.fila-dt .nom{flex:1;min-width:0;display:flex;flex-direction:column;gap:2px}
+.fila-dt .nom b,.fila-dt .nom small{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fila-dt .nom small{color:var(--tinta-3);font-size:var(--t-xs)}
+.chip-libre.sel{color:var(--menta);background:color-mix(in srgb,var(--menta) 14%,transparent)}

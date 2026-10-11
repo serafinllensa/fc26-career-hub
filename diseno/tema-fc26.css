@@ -108,7 +108,13 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
 
 /* ---------- Botones ---------- */
 .btn{border-radius:var(--r-md);font-family:var(--f-display);font-weight:700}
-.btn.primario,.btn.club{background:linear-gradient(180deg,#FFFFFF,#E6E9FF);color:#0A1620;border:0;box-shadow:0 0 0 1px rgba(255,255,255,.6),0 0 22px rgba(200,170,255,.55),0 6px 20px rgba(0,0,0,.35)}
+/* Primario: en reposo blanco apagado, sin brillo. Se ilumina con el cursor, el foco del teclado o al tocarlo. */
+.btn.primario,.btn.club{background:linear-gradient(180deg,#D5DAE1,#BCC3CE);color:#0A1620;border:0;box-shadow:0 0 0 1px rgba(255,255,255,.18),0 6px 18px rgba(0,0,0,.30);transition:background .18s ease,box-shadow .18s ease,transform .12s ease}
+@media (hover:hover){.btn.primario:hover,.btn.club:hover{background:linear-gradient(180deg,#FFFFFF,#E6E9FF);box-shadow:0 0 0 1px rgba(255,255,255,.6),0 0 22px rgba(200,170,255,.55),0 6px 20px rgba(0,0,0,.35)}}
+.btn.primario:focus-visible,.btn.club:focus-visible,.btn.primario:active,.btn.club:active{background:linear-gradient(180deg,#FFFFFF,#E6E9FF);box-shadow:0 0 0 1px rgba(255,255,255,.6),0 0 22px rgba(200,170,255,.55),0 6px 20px rgba(0,0,0,.35)}
+.btn.primario:active,.btn.club:active{transform:scale(.98)}
+.btn.primario:disabled,.btn.club:disabled{background:rgba(255,255,255,.22);color:rgba(10,22,32,.55);box-shadow:none;cursor:not-allowed}
+@media (prefers-reduced-motion:reduce){.btn.primario,.btn.club{transition:none}.btn.primario:active,.btn.club:active{transform:none}}
 .btn.secundario{background:rgba(255,255,255,.07);border-color:var(--vidrio-borde-2);color:#fff;backdrop-filter:var(--blur)}
 .btn.fantasma{color:var(--tinta-2)}
 .btn.peligro{background:#E5383B;border:0;color:#fff;border-radius:50%;width:52px;min-height:52px;padding:0;box-shadow:0 6px 20px rgba(229,56,59,.45)}

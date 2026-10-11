@@ -3,7 +3,8 @@
 export function etiquetasFilosofia(dt) {
   return (dt?.filosofia || []).map(f => (typeof f === 'string' ? f : f && (f.fuente || f.url) ? (f.valor ?? f.tag ?? f.id) : null)).filter(Boolean);
 }
-export const esLibre = dt => dt.estado === 'libre' || !dt.clubActual;
+export const esLibre = dt => dt.estado === 'libre' || (!dt.clubActual && dt.estado !== 'seleccion');
+export const esSeleccion = dt => dt.estado === 'seleccion';
 export const PESOS = {dirigio: 40, jugo: 25, nivel: 15, filosofia: 12, liga: 5, libre: 3};
 
 function nivelAfinidad(dtNivel, clubNivel) {
@@ -35,21 +36,101 @@ export function afinidad(dt, club) {
   }
   if (club.ligaClubes && (dt.clubesDirigidos || []).some(id => club.ligaClubes.includes(id) && id !== club.id)) { p += PESOS.liga; motivos.push('Conoce la liga'); }
   if (esLibre(dt)) { p += PESOS.libre; motivos.push('Está libre'); }
+  else if (esSeleccion(dt)) motivos.push(`Dirige una selección${dt.rolActual || dt.seleccion ? '' : ''}`);
   return {puntaje: Math.round(p * 10) / 10, motivos};
 }
 
-/** Top N (por defecto 5). Empates: más nivel, después nombre. No incluye al DT actual del club. */
-export function sugerirDTs(club, dts, n = 5, {incluirActual = false} = {}) {
-  return dts
-    .filter(dt => incluirActual || dt.clubActual !== club.id)
-    .map(dt => ({dt, ...afinidad(dt, club)}))
-    .sort((a, b) => b.puntaje - a.puntaje || (b.dt.nivel || 0) - (a.dt.nivel || 0) || a.dt.nombre.localeCompare(b.dt.nombre))
-    .slice(0, n);
+// ---- Categoría real del DT (no hereda el nivel del club más grande que tocó) ----
+const HOY = new Date('2026-10-11');
+const ROLES_DT = new Set(['Manager', 'Head Coach', 'Player-Coach']);
+function fecha(txt) {
+  const m = /(\d{2})\/(\d{2})\/(\d{4})/.exec(txt || '');
+  return m ? new Date(`${m[3]}-${m[2]}-${m[1]}`) : null;
+}
+/** Etapas como primer entrenador: {clubId, club, desde, hasta, anios, vigente}. */
+export function etapasDT(dt) {
+  return (dt.historialDT || []).filter(h => ROLES_DT.has(h.rol)).map(h => {
+    const desde = fecha(h.desde), vigente = /expected/i.test(h.hasta || '') || !h.hasta;
+    const hasta = vigente ? HOY : fecha(h.hasta);
+    const anios = desde && hasta ? Math.max(0, (hasta - desde) / 31557600000) : null;
+    return {clubId: h.clubId ?? null, club: h.club, desde, hasta, anios, vigente};
+  });
+}
+function nivelesDe(opts) { return opts.niveles ?? (opts.clubes ? new Map(opts.clubes.map(c => [c.id, c.nivel])) : null); }
+const nivelDe = (opts, id) => (id && opts.niveles ? (opts.niveles instanceof Map ? opts.niveles.get(id) : opts.niveles[id]) : null) ?? null;
+/** Nivel de cada etapa: el del club, -2 si duró menos de una temporada, -1 si menos de 1,5; -1 si terminó hace más de 5 años, -2 si más de 10. */
+function nivelEtapa(e, L) {
+  if (L == null || e.anios == null) return null;
+  let n = L - (e.anios < 0.9 ? 2 : e.anios < 1.5 ? 1 : 0);
+  const hace = e.vigente ? 0 : (HOY - e.hasta) / 31557600000;
+  if (hace > 10) n -= 2; else if (hace > 5) n -= 1;
+  return Math.max(1, n);
+}
+export function categoriaDT(dt, opciones = {}) {
+  const opts = {...opciones, niveles: nivelesDe(opciones)};
+  if (!opts.niveles) return dt.nivel ?? null;
+  const ns = etapasDT(dt).map(e => nivelEtapa(e, nivelDe(opts, e.clubId))).filter(n => n != null);
+  return ns.length ? Math.max(...ns) : Math.min(dt.nivel ?? 2, 2);
+}
+
+/**
+ * 5 opciones: primero el DT actual del club (marcado actual: true) y después 4 realistas.
+ * Realista = categoría del DT >= nivel del club - 1, libre o "traíble" (su club actual es de menor nivel), y con vínculo o encaje.
+ * Pasá {clubes} (con su nivel del Motor) para que la categoría se calcule por etapas; sin eso usa dt.nivel.
+ */
+export function sugerirDTs(club, dts, n = 5, opciones = {}) {
+  const opts = {...opciones, niveles: nivelesDe(opciones)};
+  const actual = dts.find(dt => dt.clubActual === club.id) || null;
+  const salida = [];
+  if (actual && opciones.incluirActual !== false) salida.push({dt: actual, puntaje: null, motivos: ['DT actual del club'], actual: true, categoria: categoriaDT(actual, opts)});
+  const resto = dts.filter(dt => dt !== actual).map(dt => {
+    const cat = categoriaDT(dt, opts);
+    const {puntaje, motivos} = afinidad(dt, club);
+    let p = puntaje;
+    // El vínculo de haberlo dirigido solo vale completo si fue una etapa de verdad (1,5 temporadas o más).
+    const etapa = etapasDT(dt).filter(e => e.clubId === club.id).sort((a, b) => (b.anios ?? 0) - (a.anios ?? 0))[0];
+    if (etapa && etapa.anios != null && etapa.anios < 1.5) {
+      p -= PESOS.dirigio * (etapa.anios < 0.9 ? 0.75 : 0.4);
+      const i = motivos.findIndex(m => m.startsWith('Ya dirigió'));
+      if (i >= 0) motivos[i] = `Dirigió al ${club.corto || club.nombre} poco tiempo`;
+    } else if (etapa?.desde) {
+      const i = motivos.findIndex(m => m.startsWith('Ya dirigió'));
+      if (i >= 0) motivos[i] += ` (${etapa.desde.getFullYear()}–${etapa.vigente ? 'hoy' : etapa.hasta.getFullYear()})`;
+    }
+    const nivelSuClub = dt.clubActual ? nivelDe(opts, dt.clubActual) : null;
+    const libre = esLibre(dt);
+    const traible = libre || esSeleccion(dt) || nivelSuClub == null || nivelSuClub < club.nivel;
+    if (!libre && nivelSuClub != null && nivelSuClub === club.nivel) { p -= 15; motivos.push('Difícil de sacar: dirige un club del mismo nivel'); }
+    const nivelOk = cat != null && cat >= club.nivel - 1 && cat <= club.nivel + 1;
+    if (cat != null && cat < club.nivel) p -= 10;
+    const vinculo = (dt.clubesDirigidos || []).includes(club.id) || (dt.clubesJugados || []).includes(club.id);
+    const edadOk = dt.edad == null || dt.edad <= 72; // retirados o casi: quedan en el buscador, no en las sugerencias
+    return {dt, puntaje: Math.round(p * 10) / 10, motivos, actual: false, categoria: cat, traible: traible && edadOk,
+      apto: edadOk && nivelOk && (traible || (nivelSuClub === club.nivel && vinculo))};
+  });
+  const orden = (a, b) => b.puntaje - a.puntaje || (b.categoria || 0) - (a.categoria || 0) || a.dt.nombre.localeCompare(b.dt.nombre);
+  let candidatos = resto.filter(r => r.apto && r.puntaje > 0).sort(orden);
+  if (candidatos.length < n - salida.length) {
+    // Si no alcanzan, se completa con los de nivel justo aunque no tengan vínculo, nunca con los de un club más grande.
+    const extra = resto.filter(r => !candidatos.includes(r) && r.traible && (r.categoria ?? 0) >= club.nivel - 1).sort(orden);
+    candidatos = [...candidatos, ...extra];
+  }
+  return [...salida, ...candidatos.slice(0, n - salida.length)];
+}
+
+/** Buscador para "Elegir otro DT": texto (nombre), soloLibres, nac (código o nombre). Ordena por categoría y nombre. */
+export function buscarDTs(dts, {texto = '', soloLibres = false, nac = null} = {}, opciones = {}) {
+  const opts = {...opciones, niveles: nivelesDe(opciones)};
+  const q = texto.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().trim();
+  return dts.filter(dt => (!q || dt.nombre.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().includes(q))
+      && (!soloLibres || esLibre(dt)) && (!nac || dt.nacCodigo === nac || dt.nac === nac))
+    .map(dt => ({dt, categoria: categoriaDT(dt, opts), libre: esLibre(dt)}))
+    .sort((a, b) => (b.categoria || 0) - (a.categoria || 0) || a.dt.nombre.localeCompare(b.dt.nombre));
 }
 
 /** Sorteo de DT entre los afines (con semilla opcional para reproducir). */
 export function sortearDT(club, dts, rnd = Math.random) {
-  const top = sugerirDTs(club, dts, 10);
+  const top = sugerirDTs(club, dts, 11).filter(s => !s.actual); // sortear = cambiar de DT
   if (!top.length) return null;
   return top[Math.floor(rnd() * top.length)].dt;
 }

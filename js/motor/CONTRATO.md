@@ -66,3 +66,11 @@
 - El bloqueo de 2 partidos ahora cuenta cualquier "no": un rechazo o una contraoferta que se cerró sin plata (insistir o retirar).
 - sugerirDTs(club, dts, n, {incluirActual: true}) incluye al DT actual del club (por defecto queda afuera).
 - (2026-10-11, bug QA) El bloqueo de 2 partidos mira el mismo pedido: en fichajes, el mismo jugador (`jugador.id`, o el nombre si no hay id); en presupuesto y masa, el mismo tipo por un monto igual, mayor o hasta un 20% menor. Pedir otro jugador o mucho menos es un pedido nuevo.
+
+## DTs (2026-10-11, pedido de Serafin)
+- sugerirDTs(club, dts, 5, {clubes}) -> [{dt, puntaje, motivos, actual, categoria}]. El primero es SIEMPRE el DT actual (`actual: true`, `puntaje: null`). Pasá `{clubes}` (la lista con el nivel del Motor) para que la categoría de cada DT se calcule por sus etapas.
+  Las otras 4: categoría del DT >= nivel del club - 1, libres o "traíbles" (su club es de menor nivel; uno del mismo nivel solo si tiene vínculo), 72 años o menos, ordenados por vínculo y encaje.
+  Categoría = la mejor etapa como primer entrenador: nivel del club, -2 si duró menos de una temporada, -1 si menos de 1,5, -1 si terminó hace más de 5 años y -2 si fue hace más de 10. Una etapa corta tampoco cuenta como "Ya dirigió" completo.
+- buscarDTs(dts, {texto, soloLibres, nac}, {clubes}) -> [{dt, categoria, libre}] para "Elegir otro DT" (los 299, ordenados por categoría).
+- categoriaDT(dt, {clubes}) -> 1..5. sortearDT nunca devuelve al DT actual.
+- Manchester United: N4 por decisión de Serafin, en AJUSTES_MANUALES, NIVELES.md y niveles.json.

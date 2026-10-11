@@ -4,6 +4,7 @@ Pesos: rendimiento 5 temporadas 50%, temporada actual 15%, coef. UEFA 10%, ingre
 
 ## Ajustes manuales (no los pisa ningún recálculo; están en AJUSTES_MANUALES de nivel.js)
 - Borussia Dortmund: N4. Decisión de Serafin (2026-10-11).
+- Manchester United: N4 (el cálculo daba N3). Decisión de Serafin (2026-10-11): salió 3° en la Premier 2025/26.
 
 ## N5
 - **Arsenal FC** (Premier League, 0.978): Últimas 5: 5°, 2°, 2°, 2°, 1°; mejor en Europa: Champions final 25/26; hoy 2°; viene en subida.
@@ -18,6 +19,7 @@ Pesos: rendimiento 5 temporadas 50%, temporada actual 15%, coef. UEFA 10%, ingre
 
 ## N4
 - **Borussia Dortmund** (Bundesliga, 0.893): Últimas 5: 2°, 2°, 5°, 4°, 2°; mejor en Europa: Champions final 23/24; hoy 1°. Ajuste manual: Decisión de Serafin (2026-10-11).
+- **Manchester United** (Premier League, 0.725): Últimas 5: 6°, 3°, 8°, 15°, 3°; mejor en Europa: Europa League final 24/25; hoy 12°; viene en caída. Ajuste manual: Decisión de Serafin (2026-10-11): 3° en la Premier 2025/26.
 - **Bayer 04 Leverkusen** (Bundesliga, 0.853): Últimas 5: 3°, 6°, 1°, 2°, 6°; mejor en Europa: Europa League final 23/24; hoy 4° (sin dato de ingresos, no resta).
 - **AS Roma** (Serie A, 0.846): Últimas 5: 6°, 6°, 6°, 5°, 3°; mejor en Europa: Europa League final 22/23; hoy 2°.
 - **Chelsea FC** (Premier League, 0.833): Últimas 5: 3°, 12°, 6°, 4°, 10°; mejor en Europa: Champions cuartos 21/22; hoy 5°; viene en subida.
@@ -34,7 +36,6 @@ Pesos: rendimiento 5 temporadas 50%, temporada actual 15%, coef. UEFA 10%, ingre
 - **Brighton & Hove Albion** (Premier League, 0.726): Últimas 5: 9°, 6°, 11°, 8°, 8°; mejor en Europa: Europa League octavos 23/24; hoy 3°.
 
 ## N3
-- **Manchester United** (Premier League, 0.725): Últimas 5: 6°, 3°, 8°, 15°, 3°; mejor en Europa: Europa League final 24/25; hoy 12°; viene en caída.
 - **Olympique Lyon** (Ligue 1, 0.725): Últimas 5: 8°, 7°, 6°, 6°, 4°; mejor en Europa: Europa League cuartos 21/22; hoy 3°; viene en subida (sin dato de ingresos, no resta).
 - **SC Freiburg** (Bundesliga, 0.715): Últimas 5: 6°, 5°, 10°, 5°, 7°; mejor en Europa: Europa League final 25/26; hoy 3°; viene en subida (sin dato de ingresos, no resta).
 - **SS Lazio** (Serie A, 0.698): Últimas 5: 5°, 2°, 7°, 7°, 9°; mejor en Europa: Champions octavos 23/24; hoy 3°; viene en caída (sin dato de ingresos, no resta).

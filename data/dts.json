@@ -18294,9 +18294,9 @@
   "estado": "libre",
   "otroCargoActual": null,
   "ultimoClubDT": {
-   "club": "Napoli",
-   "clubId": "ssc-napoli",
-   "hasta": "23/24 (30/06/2024)"
+   "club": "Slovakia",
+   "clubId": null,
+   "hasta": "25/26 (21/04/2026)"
   },
   "clubesDirigidos": [
    "ssc-napoli"
@@ -19897,9 +19897,9 @@
   "estado": "libre",
   "otroCargoActual": null,
   "ultimoClubDT": {
-   "club": "Uruguay U23",
+   "club": "Uruguay",
    "clubId": null,
-   "hasta": "23/24 (02/02/2024)"
+   "hasta": "25/26 (30/06/2026)"
   },
   "clubesDirigidos": [
    "leeds-united",
@@ -22340,9 +22340,9 @@
   "estado": "libre",
   "otroCargoActual": "Investor en Como",
   "ultimoClubDT": {
-   "club": "France",
+   "club": "France U21",
    "clubId": null,
-   "hasta": "24/25 (12/08/2024)"
+   "hasta": "24/25 (19/08/2024)"
   },
   "clubesDirigidos": [
    "as-monaco"
@@ -45058,5 +45058,640 @@
     "nota": "Vacío hasta tener una fuente citable."
    }
   ]
+ },
+ {
+  "id": "zinedine-zidane",
+  "tmId": 21284,
+  "nombre": "Zinédine Zidane",
+  "nac": "France",
+  "nacCodigo": "FR",
+  "edad": 54,
+  "clubActual": null,
+  "estado": "seleccion",
+  "otroCargoActual": "DT de la selección de France",
+  "ultimoClubDT": {
+   "club": "France",
+   "clubId": null,
+   "hasta": "expected 31/07/2030"
+  },
+  "clubesDirigidos": [
+   "real-madrid"
+  ],
+  "clubesJugados": [
+   "real-madrid",
+   "juventus-fc"
+  ],
+  "historialDT": [
+   {
+    "club": "France",
+    "tmClubId": 3377,
+    "clubId": null,
+    "rol": "Manager",
+    "desde": "26/27 (01/08/2026)",
+    "hasta": "expected 31/07/2030"
+   },
+   {
+    "club": "Real Madrid",
+    "tmClubId": 418,
+    "clubId": "real-madrid",
+    "rol": "Manager",
+    "desde": "18/19 (11/03/2019)",
+    "hasta": "20/21 (30/06/2021)"
+   },
+   {
+    "club": "Real Madrid",
+    "tmClubId": 418,
+    "clubId": "real-madrid",
+    "rol": "Manager",
+    "desde": "15/16 (04/01/2016)",
+    "hasta": "17/18 (30/06/2018)"
+   },
+   {
+    "club": "RM Castilla",
+    "tmClubId": 6767,
+    "clubId": null,
+    "rol": "Manager",
+    "desde": "14/15 (26/08/2014)",
+    "hasta": "15/16 (04/01/2016)"
+   },
+   {
+    "club": "RM Castilla",
+    "tmClubId": 6767,
+    "clubId": null,
+    "rol": "Assistant Manager",
+    "desde": "14/15 (01/07/2014)",
+    "hasta": "14/15 (25/08/2014)"
+   },
+   {
+    "club": "Real Madrid",
+    "tmClubId": 418,
+    "clubId": "real-madrid",
+    "rol": "Assistant Manager",
+    "desde": "13/14 (01/07/2013)",
+    "hasta": "13/14 (30/06/2014)"
+   },
+   {
+    "club": "Rodez AF",
+    "tmClubId": 11273,
+    "clubId": null,
+    "rol": "Investor",
+    "desde": "12/13 (01/12/2012)",
+    "hasta": "-"
+   },
+   {
+    "club": "Real Madrid U17",
+    "tmClubId": 13711,
+    "clubId": null,
+    "rol": "Manager",
+    "desde": "12/13 (01/07/2012)",
+    "hasta": "12/13 (30/06/2013)"
+   },
+   {
+    "club": "Real Madrid",
+    "tmClubId": 418,
+    "clubId": "real-madrid",
+    "rol": "Sporting Director",
+    "desde": "10/11 (01/05/2011)",
+    "hasta": "11/12 (30/06/2012)"
+   },
+   {
+    "club": "Real Madrid",
+    "tmClubId": 418,
+    "clubId": "real-madrid",
+    "rol": "Advisor of management",
+    "desde": "10/11 (01/11/2010)",
+    "hasta": "10/11 (30/04/2011)"
+   },
+   {
+    "club": "Croix de Savoie",
+    "tmClubId": 14171,
+    "clubId": null,
+    "rol": "Investor",
+    "desde": "08/09 (01/01/2009)",
+    "hasta": "14/15 (23/03/2015)"
+   }
+  ],
+  "formaciones": [
+   "4-3-3 Attacking"
+  ],
+  "filosofia": [],
+  "temperamento": null,
+  "nivel": 5,
+  "fuentes": [
+   {
+    "campo": "nombre,nac,edad,formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/21284",
+    "fecha": "2026-10-11"
+   },
+   {
+    "campo": "historialDT,clubesDirigidos,estado",
+    "url": "https://www.transfermarkt.com/x/stationen/trainer/21284",
+    "fecha": "2026-10-11",
+    "nota": "Hoy dirige una selección nacional (cargo vigente en Transfermarkt). No tiene club. clubesDirigidos solo cuenta Manager o Head Coach."
+   },
+   {
+    "campo": "clubesJugados",
+    "url": "https://www.transfermarkt.com/x/profil/spieler/3111",
+    "fecha": "2026-10-11"
+   },
+   {
+    "campo": "nivel",
+    "url": null,
+    "fecha": "2026-10-11",
+    "nota": "Calculado: nivel más alto (js/motor/niveles.json) entre los clubes de la v1 que dirigió."
+   },
+   {
+    "campo": "filosofia,temperamento",
+    "url": null,
+    "fecha": "2026-10-11",
+    "nota": "Vacío hasta tener una fuente citable."
+   }
+  ],
+  "seleccionActual": "France"
+ },
+ {
+  "id": "carlo-ancelotti",
+  "tmId": 523,
+  "nombre": "Carlo Ancelotti",
+  "nac": "Italy",
+  "nacCodigo": "IT",
+  "edad": 67,
+  "clubActual": null,
+  "estado": "seleccion",
+  "otroCargoActual": "DT de la selección de Brazil",
+  "ultimoClubDT": {
+   "club": "Brazil",
+   "clubId": null,
+   "hasta": "expected 31/07/2030"
+  },
+  "clubesDirigidos": [
+   "real-madrid",
+   "everton-fc",
+   "ssc-napoli",
+   "bayern-munich",
+   "paris-saint-germain",
+   "chelsea-fc",
+   "ac-milan",
+   "juventus-fc",
+   "parma-calcio-1913"
+  ],
+  "clubesJugados": [
+   "ac-milan",
+   "as-roma",
+   "parma-calcio-1913"
+  ],
+  "historialDT": [
+   {
+    "club": "Brazil",
+    "tmClubId": 3439,
+    "clubId": null,
+    "rol": "Manager",
+    "desde": "24/25 (26/05/2025)",
+    "hasta": "expected 31/07/2030"
+   },
+   {
+    "club": "Real Madrid",
+    "tmClubId": 418,
+    "clubId": "real-madrid",
+    "rol": "Manager",
+    "desde": "21/22 (01/07/2021)",
+    "hasta": "24/25 (25/05/2025)"
+   },
+   {
+    "club": "Everton",
+    "tmClubId": 29,
+    "clubId": "everton-fc",
+    "rol": "Manager",
+    "desde": "19/20 (22/12/2019)",
+    "hasta": "20/21 (30/06/2021)"
+   },
+   {
+    "club": "Napoli",
+    "tmClubId": 6195,
+    "clubId": "ssc-napoli",
+    "rol": "Manager",
+    "desde": "18/19 (01/07/2018)",
+    "hasta": "19/20 (10/12/2019)"
+   },
+   {
+    "club": "Bayern Munich",
+    "tmClubId": 27,
+    "clubId": "bayern-munich",
+    "rol": "Manager",
+    "desde": "16/17 (01/07/2016)",
+    "hasta": "17/18 (28/09/2017)"
+   },
+   {
+    "club": "Real Madrid",
+    "tmClubId": 418,
+    "clubId": "real-madrid",
+    "rol": "Manager",
+    "desde": "13/14 (01/07/2013)",
+    "hasta": "14/15 (30/06/2015)"
+   },
+   {
+    "club": "PSG",
+    "tmClubId": 583,
+    "clubId": "paris-saint-germain",
+    "rol": "Manager",
+    "desde": "11/12 (01/01/2012)",
+    "hasta": "12/13 (30/06/2013)"
+   },
+   {
+    "club": "Chelsea",
+    "tmClubId": 631,
+    "clubId": "chelsea-fc",
+    "rol": "Manager",
+    "desde": "09/10 (01/07/2009)",
+    "hasta": "10/11 (30/06/2011)"
+   },
+   {
+    "club": "Milan",
+    "tmClubId": 5,
+    "clubId": "ac-milan",
+    "rol": "Manager",
+    "desde": "01/02 (07/11/2001)",
+    "hasta": "08/09 (30/06/2009)"
+   },
+   {
+    "club": "Juventus",
+    "tmClubId": 506,
+    "clubId": "juventus-fc",
+    "rol": "Manager",
+    "desde": "98/99 (07/02/1999)",
+    "hasta": "00/01 (30/06/2001)"
+   },
+   {
+    "club": "AC Parma",
+    "tmClubId": 130,
+    "clubId": "parma-calcio-1913",
+    "rol": "Manager",
+    "desde": "96/97 (01/07/1996)",
+    "hasta": "97/98 (30/06/1998)"
+   },
+   {
+    "club": "Reggiana",
+    "tmClubId": 5621,
+    "clubId": null,
+    "rol": "Manager",
+    "desde": "95/96 (01/07/1995)",
+    "hasta": "95/96 (30/06/1996)"
+   },
+   {
+    "club": "Italy",
+    "tmClubId": 3376,
+    "clubId": null,
+    "rol": "Assistant Manager",
+    "desde": "92/93 (01/07/1992)",
+    "hasta": "94/95 (30/06/1995)"
+   }
+  ],
+  "formaciones": [
+   "4-2-3-1"
+  ],
+  "filosofia": [],
+  "temperamento": null,
+  "nivel": 5,
+  "fuentes": [
+   {
+    "campo": "nombre,nac,edad,formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/523",
+    "fecha": "2026-10-11"
+   },
+   {
+    "campo": "historialDT,clubesDirigidos,estado",
+    "url": "https://www.transfermarkt.com/x/stationen/trainer/523",
+    "fecha": "2026-10-11",
+    "nota": "Hoy dirige una selección nacional (cargo vigente en Transfermarkt). No tiene club. clubesDirigidos solo cuenta Manager o Head Coach."
+   },
+   {
+    "campo": "clubesJugados",
+    "url": "https://www.transfermarkt.com/x/profil/spieler/116679",
+    "fecha": "2026-10-11"
+   },
+   {
+    "campo": "nivel",
+    "url": null,
+    "fecha": "2026-10-11",
+    "nota": "Calculado: nivel más alto (js/motor/niveles.json) entre los clubes de la v1 que dirigió."
+   },
+   {
+    "campo": "filosofia,temperamento",
+    "url": null,
+    "fecha": "2026-10-11",
+    "nota": "Vacío hasta tener una fuente citable."
+   }
+  ],
+  "seleccionActual": "Brazil"
+ },
+ {
+  "id": "jurgen-klopp",
+  "tmId": 118,
+  "nombre": "Jürgen Klopp",
+  "nac": "Germany",
+  "nacCodigo": "DE",
+  "edad": 59,
+  "clubActual": null,
+  "estado": "seleccion",
+  "otroCargoActual": "DT de la selección de Germany",
+  "ultimoClubDT": {
+   "club": "Germany",
+   "clubId": null,
+   "hasta": "expected 31/07/2030"
+  },
+  "clubesDirigidos": [
+   "liverpool-fc",
+   "borussia-dortmund",
+   "1-fsv-mainz-05"
+  ],
+  "clubesJugados": [
+   "1-fsv-mainz-05"
+  ],
+  "historialDT": [
+   {
+    "club": "Germany",
+    "tmClubId": 3262,
+    "clubId": null,
+    "rol": "Manager",
+    "desde": "26/27 (15/08/2026)",
+    "hasta": "expected 31/07/2030"
+   },
+   {
+    "club": "Leipzig",
+    "tmClubId": 23826,
+    "clubId": "rb-leipzig",
+    "rol": "Global Sports Director",
+    "desde": "24/25 (01/01/2025)",
+    "hasta": "26/27 (14/08/2026)"
+   },
+   {
+    "club": "RB Bragantino",
+    "tmClubId": 8793,
+    "clubId": null,
+    "rol": "Global Sports Director",
+    "desde": "24/25 (01/01/2025)",
+    "hasta": "26/27 (14/08/2026)"
+   },
+   {
+    "club": "New York",
+    "tmClubId": 623,
+    "clubId": null,
+    "rol": "Global Sports Director",
+    "desde": "24/25 (01/01/2025)",
+    "hasta": "26/27 (14/08/2026)"
+   },
+   {
+    "club": "RB Omiya",
+    "tmClubId": 7452,
+    "clubId": null,
+    "rol": "Global Sports Director",
+    "desde": "24/25 (01/01/2025)",
+    "hasta": "26/27 (14/08/2026)"
+   },
+   {
+    "club": "Leeds",
+    "tmClubId": 399,
+    "clubId": "leeds-united",
+    "rol": "Global Sports Director",
+    "desde": "24/25 (01/01/2025)",
+    "hasta": "26/27 (14/08/2026)"
+   },
+   {
+    "club": "Paris FC",
+    "tmClubId": 10004,
+    "clubId": "paris-fc",
+    "rol": "Global Sports Director",
+    "desde": "24/25 (01/01/2025)",
+    "hasta": "26/27 (14/08/2026)"
+   },
+   {
+    "club": "Liverpool",
+    "tmClubId": 31,
+    "clubId": "liverpool-fc",
+    "rol": "Manager",
+    "desde": "15/16 (08/10/2015)",
+    "hasta": "23/24 (30/06/2024)"
+   },
+   {
+    "club": "Dortmund",
+    "tmClubId": 16,
+    "clubId": "borussia-dortmund",
+    "rol": "Manager",
+    "desde": "08/09 (01/07/2008)",
+    "hasta": "14/15 (30/06/2015)"
+   },
+   {
+    "club": "Mainz",
+    "tmClubId": 39,
+    "clubId": "1-fsv-mainz-05",
+    "rol": "Manager",
+    "desde": "00/01 (28/02/2001)",
+    "hasta": "07/08 (30/06/2008)"
+   },
+   {
+    "club": "Frankfurt Yth.",
+    "tmClubId": 12016,
+    "clubId": null,
+    "rol": "Manager",
+    "desde": "87/88 (01/07/1987)",
+    "hasta": "87/88 (30/06/1988)"
+   }
+  ],
+  "formaciones": [
+   "4-2-3-1"
+  ],
+  "filosofia": [],
+  "temperamento": null,
+  "nivel": 5,
+  "fuentes": [
+   {
+    "campo": "nombre,nac,edad,formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/118",
+    "fecha": "2026-10-11"
+   },
+   {
+    "campo": "historialDT,clubesDirigidos,estado",
+    "url": "https://www.transfermarkt.com/x/stationen/trainer/118",
+    "fecha": "2026-10-11",
+    "nota": "Hoy dirige una selección nacional (cargo vigente en Transfermarkt). No tiene club. clubesDirigidos solo cuenta Manager o Head Coach."
+   },
+   {
+    "campo": "clubesJugados",
+    "url": "https://www.transfermarkt.com/x/profil/spieler/1041",
+    "fecha": "2026-10-11"
+   },
+   {
+    "campo": "nivel",
+    "url": null,
+    "fecha": "2026-10-11",
+    "nota": "Calculado: nivel más alto (js/motor/niveles.json) entre los clubes de la v1 que dirigió."
+   },
+   {
+    "campo": "filosofia,temperamento",
+    "url": null,
+    "fecha": "2026-10-11",
+    "nota": "Vacío hasta tener una fuente citable."
+   }
+  ],
+  "seleccionActual": "Germany"
+ },
+ {
+  "id": "thomas-tuchel",
+  "tmId": 7471,
+  "nombre": "Thomas Tuchel",
+  "nac": "Germany",
+  "nacCodigo": "DE",
+  "edad": 53,
+  "clubActual": null,
+  "estado": "seleccion",
+  "otroCargoActual": "DT de la selección de England",
+  "ultimoClubDT": {
+   "club": "England",
+   "clubId": null,
+   "hasta": "expected 31/07/2028"
+  },
+  "clubesDirigidos": [
+   "bayern-munich",
+   "chelsea-fc",
+   "paris-saint-germain",
+   "borussia-dortmund",
+   "1-fsv-mainz-05"
+  ],
+  "clubesJugados": [],
+  "historialDT": [
+   {
+    "club": "England",
+    "tmClubId": 3299,
+    "clubId": null,
+    "rol": "Manager",
+    "desde": "24/25 (01/01/2025)",
+    "hasta": "expected 31/07/2028"
+   },
+   {
+    "club": "Bayern Munich",
+    "tmClubId": 27,
+    "clubId": "bayern-munich",
+    "rol": "Manager",
+    "desde": "22/23 (24/03/2023)",
+    "hasta": "23/24 (30/06/2024)"
+   },
+   {
+    "club": "Chelsea",
+    "tmClubId": 631,
+    "clubId": "chelsea-fc",
+    "rol": "Manager",
+    "desde": "20/21 (26/01/2021)",
+    "hasta": "22/23 (07/09/2022)"
+   },
+   {
+    "club": "PSG",
+    "tmClubId": 583,
+    "clubId": "paris-saint-germain",
+    "rol": "Manager",
+    "desde": "18/19 (01/07/2018)",
+    "hasta": "20/21 (29/12/2020)"
+   },
+   {
+    "club": "Dortmund",
+    "tmClubId": 16,
+    "clubId": "borussia-dortmund",
+    "rol": "Manager",
+    "desde": "15/16 (01/07/2015)",
+    "hasta": "16/17 (30/06/2017)"
+   },
+   {
+    "club": "Mainz",
+    "tmClubId": 39,
+    "clubId": "1-fsv-mainz-05",
+    "rol": "Manager",
+    "desde": "09/10 (04/08/2009)",
+    "hasta": "13/14 (30/06/2014)"
+   },
+   {
+    "club": "Mainz 05 U19",
+    "tmClubId": 5369,
+    "clubId": null,
+    "rol": "Manager",
+    "desde": "08/09 (01/07/2008)",
+    "hasta": "09/10 (03/08/2009)"
+   },
+   {
+    "club": "FC Augsburg II",
+    "tmClubId": 5379,
+    "clubId": null,
+    "rol": "Manager",
+    "desde": "06/07 (01/01/2007)",
+    "hasta": "07/08 (30/06/2008)"
+   },
+   {
+    "club": "Augsburg",
+    "tmClubId": 167,
+    "clubId": "fc-augsburg",
+    "rol": "Academy manager",
+    "desde": "05/06 (01/07/2005)",
+    "hasta": "07/08 (30/06/2008)"
+   },
+   {
+    "club": "FC Augsburg U19",
+    "tmClubId": 4780,
+    "clubId": null,
+    "rol": "Manager",
+    "desde": "05/06 (01/07/2005)",
+    "hasta": "06/07 (31/12/2006)"
+   },
+   {
+    "club": "Stuttgart U19",
+    "tmClubId": 2517,
+    "clubId": null,
+    "rol": "Assistant Manager",
+    "desde": "04/05 (01/07/2004)",
+    "hasta": "04/05 (30/06/2005)"
+   },
+   {
+    "club": "Stuttgart Yth.",
+    "tmClubId": 19210,
+    "clubId": null,
+    "rol": "Manager",
+    "desde": "00/01 (01/07/2000)",
+    "hasta": "03/04 (30/06/2004)"
+   }
+  ],
+  "formaciones": [
+   "4-2-3-1"
+  ],
+  "filosofia": [],
+  "temperamento": null,
+  "nivel": 5,
+  "fuentes": [
+   {
+    "campo": "nombre,nac,edad,formaciones",
+    "url": "https://www.transfermarkt.com/x/profil/trainer/7471",
+    "fecha": "2026-10-11"
+   },
+   {
+    "campo": "historialDT,clubesDirigidos,estado",
+    "url": "https://www.transfermarkt.com/x/stationen/trainer/7471",
+    "fecha": "2026-10-11",
+    "nota": "Hoy dirige una selección nacional (cargo vigente en Transfermarkt). No tiene club. clubesDirigidos solo cuenta Manager o Head Coach."
+   },
+   {
+    "campo": "clubesJugados",
+    "url": "https://www.transfermarkt.com/x/profil/spieler/122791",
+    "fecha": "2026-10-11"
+   },
+   {
+    "campo": "nivel",
+    "url": null,
+    "fecha": "2026-10-11",
+    "nota": "Calculado: nivel más alto (js/motor/niveles.json) entre los clubes de la v1 que dirigió."
+   },
+   {
+    "campo": "filosofia,temperamento",
+    "url": null,
+    "fecha": "2026-10-11",
+    "nota": "Vacío hasta tener una fuente citable."
+   }
+  ],
+  "seleccionActual": "England"
  }
 ]
