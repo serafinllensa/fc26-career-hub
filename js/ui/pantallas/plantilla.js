@@ -5,7 +5,7 @@ import {esc, estado, cargando, ICONO, lineaDe, ORDEN, NOMBRE_LINEA, fmtM, fmtNum
 import {href} from '../router.js';
 import {chipOvr, estrellitas, ovr} from '../ea.js';
 import * as motor from '../../motor/index.js';
-import {aviso, confirmar} from '../avisos.js';
+import {aviso, confirmar, cartel} from '../avisos.js';
 
 const POS = ['POR', 'DFC', 'LI', 'LD', 'CAI', 'CAD', 'MCD', 'MC', 'MCO', 'MI', 'MD', 'EI', 'ED', 'DC'];
 let CATALOGO = null;
@@ -198,7 +198,11 @@ export default {
           if (acc.dataset.preguntar !== undefined && sel && ctx.carrera) {
             const dt = ctx.carrera.dt ? dts.find(d => d.id === ctx.carrera.dt.id) : null;
             opinion = {...motor.opinionRenovacion({dt, jugador: sel, actual: ctx.carrera.rendimiento?.[tempAct]?.[sel.id] || null, anterior: tempAnt ? (ctx.carrera.rendimiento?.[tempAnt]?.[sel.id] || null) : null, sueldoM: sel.sueldoM ?? null}), id: sel.id};
-            pintar(); return;
+            pintar();
+            const tonoC = d => d === 'renovar' ? 'ok' : d === 'no' ? 'peligro' : 'alerta';
+            if (opinion.dt) await cartel({cargo: 'Director técnico', quien: ctx.carrera.dt?.nombre || 'Director técnico', texto: opinion.dt.texto, tono: tonoC(opinion.dt.decision)});
+            if (opinion.presidente) await cartel({cargo: 'Presidente', quien: ctx.club.presidente?.nombre || 'Presidente', texto: opinion.presidente.texto, tono: tonoC(opinion.presidente.decision)});
+            return;
           }
           if (acc.dataset.sacar !== undefined && sel && ctx.carrera) {
             const ok = await confirmar({titulo: `Sacar a ${sel.nombre}`, texto: 'Deja de estar en tu plantel, en la táctica y en el mercado. Lo podés volver a sumar.', si: 'Sacar', peligro: true});
