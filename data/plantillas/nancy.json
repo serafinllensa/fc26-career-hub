@@ -1,0 +1,621 @@
+{
+ "clubId": "nancy",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/AS_Nancy_Lorraine",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-nancy-enzo-basilio",
+   "nombre": "Enzo Basilio",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 32,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1994-10-03",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Enzo_Basilio"
+  },
+  {
+   "id": "wiki-nancy-heliohdino-tavares",
+   "nombre": "Héliohdino Tavares",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-nancy-nehemiah-fernandez",
+   "nombre": "Nehemiah Fernandez",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Nehemiah_Fernandez"
+  },
+  {
+   "id": "wiki-nancy-pape-meissa-ba",
+   "nombre": "Pape Meïssa Ba",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-07-04",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Pape_Me%C3%AFssa_Ba"
+  },
+  {
+   "id": "wiki-nancy-kouroufia-kebe",
+   "nombre": "Kouroufia Kébé",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-nancy-zakaria-fdaouch",
+   "nombre": "Zakaria Fdaouch",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-nancy-walid-bouabdeli",
+   "nombre": "Walid Bouabdeli",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-nancy-ilyes-housni",
+   "nombre": "Ilyes Housni",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Morocco",
+   "nacCodigo": "MA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-05-14",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Ilyes_Housni"
+  },
+  {
+   "id": "wiki-nancy-adrian-dabasse",
+   "nombre": "Adrian Dabasse",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-07-27",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Adrian_Dabasse"
+  },
+  {
+   "id": "wiki-nancy-sidi-cisse",
+   "nombre": "Sidi Cissé",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Sidi_Ciss%C3%A9"
+  },
+  {
+   "id": "wiki-nancy-el-hadary-raheriniaina",
+   "nombre": "El Hadary Raheriniaina",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Madagascar",
+   "nacCodigo": "MG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-08-19",
+   "posWiki": "FW",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/El_Hadary_Raheriniaina"
+  },
+  {
+   "id": "wiki-nancy-nicolas-saint-ruf",
+   "nombre": "Nicolas Saint-Ruf",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "GLP",
+   "nacCodigo": "GLP",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1992-10-24",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Nicolas_Saint-Ruf"
+  },
+  {
+   "id": "wiki-nancy-mamadou-fofana",
+   "nombre": "Mamadou Fofana",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Mauritania",
+   "nacCodigo": "MR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-09-17",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Mamadou_Fofana_(footballer%2C_born_2000)"
+  },
+  {
+   "id": "wiki-nancy-hugo-barbier",
+   "nombre": "Hugo Barbier",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-nancy-thierno-balde",
+   "nombre": "Thierno Baldé",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-06-10",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Thierno_Bald%C3%A9"
+  },
+  {
+   "id": "wiki-nancy-elydjah-mendy",
+   "nombre": "Elydjah Mendy",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "GNB",
+   "nacCodigo": "GNB",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-03-14",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Elydjah_Mendy"
+  },
+  {
+   "id": "wiki-nancy-logan-ndenbe",
+   "nombre": "Logan Ndenbe",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Belgium",
+   "nacCodigo": "BE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-02-09",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Logan_Ndenbe"
+  },
+  {
+   "id": "wiki-nancy-yanis-delaveau",
+   "nombre": "Yanis Delaveau",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Algeria",
+   "nacCodigo": "DZ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-nancy-jeremy-gelin",
+   "nombre": "Jérémy Gelin",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-04-24",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/J%C3%A9r%C3%A9my_Gelin"
+  },
+  {
+   "id": "wiki-nancy-zakaria-ztouti",
+   "nombre": "Zakaria Ztouti",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-nancy-issam-bouaoune",
+   "nombre": "Issam Bouaoune",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Algeria",
+   "nacCodigo": "DZ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-nancy-noam-obougou",
+   "nombre": "Noam Obougou",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-03-15",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Noam_Obougou"
+  },
+  {
+   "id": "wiki-nancy-geoffrey-lembet",
+   "nombre": "Geoffrey Lembet",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 38,
+   "nac": "Central African Republic",
+   "nacCodigo": "CF",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1988-09-23",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Geoffrey_Lembet"
+  },
+  {
+   "id": "wiki-nancy-yanis-kouini",
+   "nombre": "Yanis Kouini",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Morocco",
+   "nacCodigo": "MA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 40,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-nancy-enzo-tacafred",
+   "nombre": "Enzo Tacafred",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 44,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-nancy-chafik-el-hansar",
+   "nombre": "Chafik El Hansar",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 45,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-nancy-kenzo-noel",
+   "nombre": "Kenzo Noël",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 60,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-nancy-nordine-kandil",
+   "nombre": "Nordine Kandil",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Morocco",
+   "nacCodigo": "MA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 70,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Nordine_Kandil"
+  },
+  {
+   "id": "wiki-nancy-yannis-nahounou",
+   "nombre": "Yannis Nahounou",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 77,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-nancy-joel-emmanuel-coulibaly",
+   "nombre": "Joël-Emmanuel Coulibaly",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 88,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  }
+ ]
+}

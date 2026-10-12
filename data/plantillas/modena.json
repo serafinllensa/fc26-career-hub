@@ -1,0 +1,644 @@
+{
+ "clubId": "modena",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Modena_FC_2018",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-modena-leandro-chichizola",
+   "nombre": "Leandro Chichizola",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 36,
+   "nac": "Argentina",
+   "nacCodigo": "AR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1990-03-27",
+   "posWiki": "GK",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Leandro_Chichizola"
+  },
+  {
+   "id": "wiki-modena-alessandro-sersanti",
+   "nombre": "Alessandro Sersanti",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-02-16",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Alessandro_Sersanti"
+  },
+  {
+   "id": "wiki-modena-francesco-zampano",
+   "nombre": "Francesco Zampano",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-09-30",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Francesco_Zampano"
+  },
+  {
+   "id": "wiki-modena-simone-santoro",
+   "nombre": "Simone Santoro",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-09-20",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Simone_Santoro"
+  },
+  {
+   "id": "wiki-modena-daniele-montevago",
+   "nombre": "Daniele Montevago",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-03-18",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Daniele_Montevago"
+  },
+  {
+   "id": "wiki-modena-giuseppe-caso",
+   "nombre": "Giuseppe Caso",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-12-09",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Giuseppe_Caso"
+  },
+  {
+   "id": "wiki-modena-andrea-belotti",
+   "nombre": "Andrea Belotti",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-12-20",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Andrea_Belotti"
+  },
+  {
+   "id": "wiki-modena-andrea-maran",
+   "nombre": "Andrea Maran",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-modena-tito-fabbri",
+   "nombre": "Tito Fabbri",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Tito_Fabbri"
+  },
+  {
+   "id": "wiki-modena-martino-odero",
+   "nombre": "Martino Odero",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-modena-gaston-brugman",
+   "nombre": "Gastón Brugman",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 34,
+   "nac": "Uruguay",
+   "nacCodigo": "UY",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1992-09-07",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Gast%C3%B3n_Brugman"
+  },
+  {
+   "id": "wiki-modena-kleis-bozhanaj",
+   "nombre": "Kleis Bozhanaj",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Albania",
+   "nacCodigo": "AL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-03-01",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Kleis_Bozhanaj"
+  },
+  {
+   "id": "wiki-modena-joris-manquant",
+   "nombre": "Joris Manquant",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-modena-steven-nador",
+   "nombre": "Steven Nador",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Togo",
+   "nacCodigo": "TG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-06-23",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Steven_Nador"
+  },
+  {
+   "id": "wiki-modena-bryant-nieling",
+   "nombre": "Bryant Nieling",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Netherlands",
+   "nacCodigo": "NL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-10-31",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Bryant_Nieling"
+  },
+  {
+   "id": "wiki-modena-leonardo-consiglio",
+   "nombre": "Leonardo Consiglio",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-modena-francesco-folino",
+   "nombre": "Francesco Folino",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-01-23",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Francesco_Folino"
+  },
+  {
+   "id": "wiki-modena-abdullah-laidani",
+   "nombre": "Abdullah Laidani",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Switzerland",
+   "nacCodigo": "CH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-modena-antonio-imputato",
+   "nombre": "Antonio Imputato",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-modena-paulo-azzi",
+   "nombre": "Paulo Azzi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Brazil",
+   "nacCodigo": "BR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-07-15",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Paulo_Azzi"
+  },
+  {
+   "id": "wiki-modena-davide-adorni",
+   "nombre": "Davide Adorni",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 34,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1992-08-09",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Davide_Adorni"
+  },
+  {
+   "id": "wiki-modena-luca-bacchin",
+   "nombre": "Luca Bacchin",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-modena-wisdom-acquah",
+   "nombre": "Wisdom Acquah",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-modena-stenio",
+   "nombre": "Stênio",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Brazil",
+   "nacCodigo": "BR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-04-05",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/St%C3%AAnio_(footballer%2C_born_2003)"
+  },
+  {
+   "id": "wiki-modena-diego-ronco",
+   "nombre": "Diego Ronco",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 34,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-modena-treasure-egharevba",
+   "nombre": "Treasure Egharevba",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 37,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-modena-alessandro-bianco",
+   "nombre": "Alessandro Bianco",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 42,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-10-01",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Alessandro_Bianco"
+  },
+  {
+   "id": "wiki-modena-giuseppe-ambrosino",
+   "nombre": "Giuseppe Ambrosino",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 70,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-09-10",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Giuseppe_Ambrosino"
+  },
+  {
+   "id": "wiki-modena-giacomo-olzer",
+   "nombre": "Giacomo Olzer",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 72,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-04-14",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Giacomo_Olzer"
+  },
+  {
+   "id": "wiki-modena-pietro-arnaboldi",
+   "nombre": "Pietro Arnaboldi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 73,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-modena-daniel-tonoli",
+   "nombre": "Daniel Tonoli",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 77,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  }
+ ]
+}

@@ -1,0 +1,577 @@
+{
+ "clubId": "dijon",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Dijon_FCO",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-dijon-mickael-barreto",
+   "nombre": "Mickaël Barreto",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 35,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1991-01-18",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Micka%C3%ABl_Barreto"
+  },
+  {
+   "id": "wiki-dijon-quentin-bernard",
+   "nombre": "Quentin Bernard",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 37,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1989-07-07",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Quentin_Bernard"
+  },
+  {
+   "id": "wiki-dijon-waly-diouf",
+   "nombre": "Waly Diouf",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-dijon-ben-chayeel-hamada",
+   "nombre": "Ben-Chayeel Hamada",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Comoros",
+   "nacCodigo": "KM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-05-05",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Ben-Chayeel_Hamada"
+  },
+  {
+   "id": "wiki-dijon-paul-bellon",
+   "nombre": "Paul Bellon",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-dijon-tyris-dong",
+   "nombre": "Tyris Dong",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-dijon-yanis-barka",
+   "nombre": "Yanis Barka",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-04-18",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Yanis_Barka"
+  },
+  {
+   "id": "wiki-dijon-julio-tavares",
+   "nombre": "Júlio Tavares",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 37,
+   "nac": "Cape Verde",
+   "nacCodigo": "CV",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1988-11-19",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/J%C3%BAlio_Tavares"
+  },
+  {
+   "id": "wiki-dijon-jordan-marie",
+   "nombre": "Jordan Marié",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 35,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1991-09-29",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Jordan_Mari%C3%A9"
+  },
+  {
+   "id": "wiki-dijon-axel-bargain",
+   "nombre": "Axel Bargain",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-dijon-paul-delecroix",
+   "nombre": "Paul Delecroix",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 37,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1988-10-14",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Paul_Delecroix"
+  },
+  {
+   "id": "wiki-dijon-adel-lembezat",
+   "nombre": "Adel Lembezat",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-04-02",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Adel_Lembezat"
+  },
+  {
+   "id": "wiki-dijon-brandon-ndezi",
+   "nombre": "Brandon Ndezi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "DRC",
+   "nacCodigo": "DRC",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-dijon-cesar-obongo",
+   "nombre": "César Obongo",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-dijon-hugo-vargas-rios",
+   "nombre": "Hugo Vargas-Rios",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-dijon-samy-chouchane",
+   "nombre": "Samy Chouchane",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Tunisia",
+   "nacCodigo": "TN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-09-05",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Samy_Chouchane"
+  },
+  {
+   "id": "wiki-dijon-lenny-lacroix",
+   "nombre": "Lenny Lacroix",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-02-06",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Lenny_Lacroix"
+  },
+  {
+   "id": "wiki-dijon-alexis-ntamack",
+   "nombre": "Alexis Ntamack",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-dijon-hatem-mimoune",
+   "nombre": "Hatem Mimoune",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-dijon-moussa-faty",
+   "nombre": "Moussa Faty",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 31,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-dijon-florian-rombogouera",
+   "nombre": "Florian Rombogouera",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-dijon-abdelmajid-djae",
+   "nombre": "Abdelmajid Djae",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Comoros",
+   "nacCodigo": "KM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 37,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-06-03",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Abdelmajid_Djae"
+  },
+  {
+   "id": "wiki-dijon-ylan-aka",
+   "nombre": "Ylan Aka",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 42,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-dijon-ylann-marie-rose",
+   "nombre": "Ylann Marie-Rose",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 46,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-dijon-enzo-ketterle",
+   "nombre": "Enzo Ketterle",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 71,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-dijon-ange-lago",
+   "nombre": "Ange Lago",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Ivory Coast",
+   "nacCodigo": "CI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 90,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-12-27",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Ange_Lago"
+  },
+  {
+   "id": "wiki-dijon-ismail-bouleghcha",
+   "nombre": "Ismaïl Bouleghcha",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Morocco",
+   "nacCodigo": "MA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 93,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-dijon-anass-benyahya",
+   "nombre": "Anass Benyahya",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Morocco",
+   "nacCodigo": "MA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": null,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  }
+ ]
+}

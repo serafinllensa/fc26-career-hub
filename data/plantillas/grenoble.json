@@ -1,0 +1,604 @@
+{
+ "clubId": "grenoble",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Grenoble_Foot_38",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-grenoble-alexandre-olliero",
+   "nombre": "Alexandre Olliero",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 30,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1996-02-15",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Alexandre_Olliero"
+  },
+  {
+   "id": "wiki-grenoble-moussa-djitte",
+   "nombre": "Moussa Djitté",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-10-04",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Moussa_Djitt%C3%A9"
+  },
+  {
+   "id": "wiki-grenoble-farouq-limouri",
+   "nombre": "Farouq Limouri",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Netherlands",
+   "nacCodigo": "NL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-03-15",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Farouq_Limouri"
+  },
+  {
+   "id": "wiki-grenoble-clement-vidal",
+   "nombre": "Clément Vidal",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-06-18",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Cl%C3%A9ment_Vidal"
+  },
+  {
+   "id": "wiki-grenoble-yohann-magnin",
+   "nombre": "Yohann Magnin",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-06-21",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Yohann_Magnin"
+  },
+  {
+   "id": "wiki-grenoble-lucas-bernadou",
+   "nombre": "Lucas Bernadou",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-09-24",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Lucas_Bernadou"
+  },
+  {
+   "id": "wiki-grenoble-arthur-lallias",
+   "nombre": "Arthur Lallias",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-grenoble-baptiste-mouazan",
+   "nombre": "Baptiste Mouazan",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-09-27",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Baptiste_Mouazan"
+  },
+  {
+   "id": "wiki-grenoble-mamady-bangre",
+   "nombre": "Mamady Bangré",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "BFA",
+   "nacCodigo": "BFA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-06-29",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Mamady_Bangr%C3%A9"
+  },
+  {
+   "id": "wiki-grenoble-ugo-bonnet",
+   "nombre": "Ugo Bonnet",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-09-17",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Ugo_Bonnet"
+  },
+  {
+   "id": "wiki-grenoble-mael-corboz",
+   "nombre": "Mael Corboz",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "United States",
+   "nacCodigo": "US",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-09-06",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Mael_Corboz"
+  },
+  {
+   "id": "wiki-grenoble-bobby-allain",
+   "nombre": "Bobby Allain",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 34,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1991-11-28",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Bobby_Allain"
+  },
+  {
+   "id": "wiki-grenoble-leonardo-cerri",
+   "nombre": "Leonardo Cerri",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-03-04",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Leonardo_Cerri"
+  },
+  {
+   "id": "wiki-grenoble-nesta-zahui",
+   "nombre": "Nesta Zahui",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-grenoble-owen-kouassi",
+   "nombre": "Owen Kouassi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Ivory Coast",
+   "nacCodigo": "CI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-04-15",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Owen_Kouassi"
+  },
+  {
+   "id": "wiki-grenoble-ange-loic-ngatta",
+   "nombre": "Ange-Loïc N'Gatta",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Ivory Coast",
+   "nacCodigo": "CI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-12-11",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Ange-Lo%C3%AFc_N%27Gatta"
+  },
+  {
+   "id": "wiki-grenoble-dillon-hoogewerf",
+   "nombre": "Dillon Hoogewerf",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Netherlands",
+   "nacCodigo": "NL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-02-27",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Dillon_Hoogewerf"
+  },
+  {
+   "id": "wiki-grenoble-theo-borne",
+   "nombre": "Théo Borne",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Th%C3%A9o_Borne"
+  },
+  {
+   "id": "wiki-grenoble-mattheo-xantippe",
+   "nombre": "Matthéo Xantippe",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Matth%C3%A9o_Xantippe"
+  },
+  {
+   "id": "wiki-grenoble-samba-lele-diba",
+   "nombre": "Samba Lélé Diba",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-12-24",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Samba_L%C3%A9l%C3%A9_Diba"
+  },
+  {
+   "id": "wiki-grenoble-ze-leite",
+   "nombre": "Zé Leite",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Portugal",
+   "nacCodigo": "PT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 34,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-grenoble-mohamed-bechikh",
+   "nombre": "Mohamed Bechikh",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 37,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-grenoble-aurelien-pelon",
+   "nombre": "Aurélien Pelon",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 43,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-grenoble-owen-martinez-jullien",
+   "nombre": "Owen Martinez-Jullien",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 44,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-grenoble-jules-mouton",
+   "nombre": "Jules Mouton",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 46,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-grenoble-kyliann-fofana",
+   "nombre": "Kyliann Fofana",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 47,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-grenoble-sakhalou-niakate",
+   "nombre": "Sakhalou Niakaté",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 48,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-grenoble-jean-guy-akpa-akpro",
+   "nombre": "Jean-Guy Akpa Akpro",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 92,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-grenoble-yvann-macon",
+   "nombre": "Yvann Maçon",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "GLP",
+   "nacCodigo": "GLP",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 97,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-10-01",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Yvann_Ma%C3%A7on"
+  }
+ ]
+}

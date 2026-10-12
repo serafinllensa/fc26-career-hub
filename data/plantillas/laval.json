@@ -1,0 +1,519 @@
+{
+ "clubId": "laval",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Stade_Lavallois",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-laval-maxime-hautbois",
+   "nombre": "Maxime Hautbois",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 35,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1991-01-03",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Maxime_Hautbois"
+  },
+  {
+   "id": "wiki-laval-william-bianda",
+   "nombre": "William Bianda",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-04-30",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/William_Bianda"
+  },
+  {
+   "id": "wiki-laval-julien-maggiotti",
+   "nombre": "Julien Maggiotti",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-09-09",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Julien_Maggiotti"
+  },
+  {
+   "id": "wiki-laval-sam-sanna",
+   "nombre": "Sam Sanna",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-03-08",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Sam_Sanna"
+  },
+  {
+   "id": "wiki-laval-chafik-gourichy",
+   "nombre": "Chafik Gourichy",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-laval-teddy-bouriaud",
+   "nombre": "Teddy Bouriaud",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-laval-trevis-dago",
+   "nombre": "Trévis Dago",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-01-21",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Tr%C3%A9vis_Dago"
+  },
+  {
+   "id": "wiki-laval-matteo-commaret",
+   "nombre": "Mattéo Commaret",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-laval-francis-coquelin",
+   "nombre": "Francis Coquelin",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 35,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1991-05-13",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Francis_Coquelin"
+  },
+  {
+   "id": "wiki-laval-cyril-mandouki",
+   "nombre": "Cyril Mandouki",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 35,
+   "nac": "MTQ",
+   "nacCodigo": "MTQ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1991-08-21",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Cyril_Mandouki"
+  },
+  {
+   "id": "wiki-laval-corentin-fatou",
+   "nombre": "Corentin Fatou",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-laval-aboubacar-lo",
+   "nombre": "Aboubacar Lô",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-01-02",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Aboubacar_L%C3%B4"
+  },
+  {
+   "id": "wiki-laval-ethan-clavreul",
+   "nombre": "Ethan Clavreul",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-06-29",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Ethan_Clavreul"
+  },
+  {
+   "id": "wiki-laval-alessio-beaudouin",
+   "nombre": "Alessio Beaudouin",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-laval-jules-gaudin",
+   "nombre": "Jules Gaudin",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-05-09",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Jules_Gaudin"
+  },
+  {
+   "id": "wiki-laval-esteban-mouton",
+   "nombre": "Esteban Mouton",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-laval-sidi-bane",
+   "nombre": "Sidi Bane",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-01-14",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Sidi_Bane"
+  },
+  {
+   "id": "wiki-laval-hermann-esmel",
+   "nombre": "Hermann Esmel",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-laval-alpha-diallo",
+   "nombre": "Alpha Diallo",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-laval-aboubakary-kante",
+   "nombre": "Aboubakary Kanté",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Gambia",
+   "nacCodigo": "GM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-08-11",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Aboubakary_Kant%C3%A9"
+  },
+  {
+   "id": "wiki-laval-mamadou-sidibe",
+   "nombre": "Mamadou Sidibé",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Guinea",
+   "nacCodigo": "GN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-laval-mamadou-samassa",
+   "nombre": "Mamadou Samassa",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 36,
+   "nac": "Mali",
+   "nacCodigo": "ML",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1990-02-16",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Mamadou_Samassa_(footballer%2C_born_1990)"
+  },
+  {
+   "id": "wiki-laval-mathys-houdayer",
+   "nombre": "Mathys Houdayer",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 31,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-laval-yanis-court",
+   "nombre": "Yanis Court",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-laval-layousse-samb",
+   "nombre": "Layousse Samb",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 35,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  }
+ ]
+}

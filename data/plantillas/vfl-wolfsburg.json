@@ -1,0 +1,611 @@
+{
+ "clubId": "vfl-wolfsburg",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/VfL_Wolfsburg",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-vfl-wolfsburg-timon-wellenreuther",
+   "nombre": "Timon Wellenreuther",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1995-12-03",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Timon_Wellenreuther"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-kilian-fischer",
+   "nombre": "Kilian Fischer",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-10-12",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Kilian_Fischer"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-vini-souza",
+   "nombre": "Vini Souza",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Brazil",
+   "nacCodigo": "BR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-06-17",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Vin%C3%ADcius_Souza"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-hauke-wahl",
+   "nombre": "Hauke Wahl",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-04-15",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Hauke_Wahl"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-kento-shiogai",
+   "nombre": "Kento Shiogai",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Japan",
+   "nacCodigo": "JP",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-03-26",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Kento_Shiogai"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-bence-dardai",
+   "nombre": "Bence Dárdai",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Hungary",
+   "nacCodigo": "HU",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-01-24",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Bence_D%C3%A1rdai"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-fraser-hornby",
+   "nombre": "Fraser Hornby",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Scotland",
+   "nacCodigo": "GB-SCT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-09-13",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Fraser_Hornby"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-fabian-reese",
+   "nombre": "Fabian Reese",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-11-29",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Fabian_Reese"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-pavao-pervan",
+   "nombre": "Pavao Pervan",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 38,
+   "nac": "Austria",
+   "nacCodigo": "AT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1987-11-13",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Pavao_Pervan"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-rogerio",
+   "nombre": "Rogério",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Brazil",
+   "nacCodigo": "BR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-01-13",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Rog%C3%A9rio_(footballer%2C_born_1998)"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-pharell-hensel",
+   "nombre": "Pharell Hensel",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-alexander-bernhardsson",
+   "nombre": "Alexander Bernhardsson",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Sweden",
+   "nacCodigo": "SE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-09-08",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Alexander_Bernhardsson"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-jonas-adjetey",
+   "nombre": "Jonas Adjetey",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Ghana",
+   "nacCodigo": "GH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-12-13",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Jonas_Adjetey"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-robert-glatzel",
+   "nombre": "Robert Glatzel",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-01-08",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Robert_Glatzel"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-muhammed-damar",
+   "nombre": "Muhammed Damar",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-04-09",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Muhammed_Damar"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-joakim-m-hle",
+   "nombre": "Joakim Mæhle",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Denmark",
+   "nacCodigo": "DK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-05-20",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Joakim_M%C3%A6hle"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-mathys-angely",
+   "nombre": "Mathys Angély",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Mathys_Ang%C3%A9ly"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-alessio-besio",
+   "nombre": "Alessio Besio",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Switzerland",
+   "nacCodigo": "CH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-03-18",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Alessio_Besio"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-aaron-zehnter",
+   "nombre": "Aaron Zehnter",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-10-31",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Aaron_Zehnter"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-sael-kumbedi",
+   "nombre": "Saël Kumbedi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-03-26",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Sa%C3%ABl_Kumbedi"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-maximilian-arnold",
+   "nombre": "Maximilian Arnold",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-05-27",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Maximilian_Arnold"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-jakub-zielinski",
+   "nombre": "Jakub Zieliński",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 18,
+   "nac": "Poland",
+   "nacCodigo": "PL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2008-02-21",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Jakub_Zieli%C5%84ski"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-yannick-gerhardt",
+   "nombre": "Yannick Gerhardt",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 31,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-03-13",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Yannick_Gerhardt"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-mattias-svanberg",
+   "nombre": "Mattias Svanberg",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Sweden",
+   "nacCodigo": "SE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-01-05",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Mattias_Svanberg"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-cleiton",
+   "nombre": "Cleiton",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Brazil",
+   "nacCodigo": "BR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-04-25",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Cleiton_(footballer%2C_born_2003)"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-aster-vranckx",
+   "nombre": "Aster Vranckx",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Belgium",
+   "nacCodigo": "BE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 36,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-10-04",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Aster_Vranckx"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-elvis-rexhbecaj",
+   "nombre": "Elvis Rexhbeçaj",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Kosovo",
+   "nacCodigo": "XK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 37,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-11-01",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Elvis_Rexhbe%C3%A7aj"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-bruno-katz",
+   "nombre": "Bruno Katz",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Finland",
+   "nacCodigo": "FI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 42,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-vfl-wolfsburg-trevor-benedict",
+   "nombre": "Trevor Benedict",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 43,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  }
+ ]
+}

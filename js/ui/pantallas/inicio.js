@@ -28,7 +28,7 @@ export default {
         <p>Tu centro de control al lado de la consola: plantilla real, objetivos, directiva y vestuario.</p></header>
       <div class="entre"><h2 class="h2">Carreras guardadas</h2><div class="fila-h"><label class="btn secundario" style="cursor:pointer">Importar<input type="file" accept=".json,application/json" data-importar hidden></label><a class="btn primario" href="${href('nueva')}">Nueva carrera</a></div></div>
       <div data-aviso></div>
-      <div class="grilla">${lista.length ? lista.map(tarjeta).join('') : `<div class="vacio"><h2 class="h2">Todavía no hay carreras</h2><p>Elegí o sorteá uno de los 96 clubes de las 5 grandes ligas y arrancá.</p><a class="btn primario" href="${href('nueva')}">Empezar</a></div>`}</div>`;
+      <div class="grilla">${lista.length ? lista.map(tarjeta).join('') : `<div class="vacio"><h2 class="h2">Todavía no hay carreras</h2><p>Elegí o sorteá un club de las cinco ligas, en primera o en segunda, y arrancá.</p><a class="btn primario" href="${href('nueva')}">Empezar</a></div>`}</div>`;
     };
     const aviso = (t, tipo = 'error') => { const box = el.querySelector('[data-aviso]'); if (box) box.innerHTML = `<p class="badge ${tipo === 'error' ? 'peligro' : 'ok'}" role="${tipo === 'error' ? 'alert' : 'status'}" style="margin-bottom:var(--e3)">${esc(t)}</p>`; };
     pintar();

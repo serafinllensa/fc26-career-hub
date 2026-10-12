@@ -1,0 +1,528 @@
+{
+ "clubId": "red-star",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Red_Star_FC",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-red-star-yanis-benchaouch",
+   "nombre": "Yanis Benchaouch",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Morocco",
+   "nacCodigo": "MA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-red-star-theo-magnin",
+   "nombre": "Théo Magnin",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Switzerland",
+   "nacCodigo": "CH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-08-09",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Th%C3%A9o_Magnin"
+  },
+  {
+   "id": "wiki-red-star-matthieu-huard",
+   "nombre": "Matthieu Huard",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-05-09",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Matthieu_Huard"
+  },
+  {
+   "id": "wiki-red-star-elyaz-zidane",
+   "nombre": "Elyaz Zidane",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-12-26",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Elyaz_Zidane"
+  },
+  {
+   "id": "wiki-red-star-josue-escartin",
+   "nombre": "Josué Escartin",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-03-21",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Josu%C3%A9_Escartin"
+  },
+  {
+   "id": "wiki-red-star-bradley-danger",
+   "nombre": "Bradley Danger",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-01-29",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Bradley_Danger"
+  },
+  {
+   "id": "wiki-red-star-damien-durand",
+   "nombre": "Damien Durand",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-09-16",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Damien_Durand"
+  },
+  {
+   "id": "wiki-red-star-guillaume-trani",
+   "nombre": "Guillaume Trani",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-12-17",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Guillaume_Trani"
+  },
+  {
+   "id": "wiki-red-star-ilija-despotovic",
+   "nombre": "Ilija Despotovic",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Switzerland",
+   "nacCodigo": "CH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-red-star-saif-eddine-khaoui",
+   "nombre": "Saîf-Eddine Khaoui",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Tunisia",
+   "nacCodigo": "TN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-04-27",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Sa%C3%AEf-Eddine_Khaoui"
+  },
+  {
+   "id": "wiki-red-star-kemo-cisse",
+   "nombre": "Kémo Cissé",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-12-15",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/K%C3%A9mo_Ciss%C3%A9"
+  },
+  {
+   "id": "wiki-red-star-sekou-guindo",
+   "nombre": "Sékou Guindo",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Mali",
+   "nacCodigo": "ML",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-red-star-mahamadou-diawara",
+   "nombre": "Mahamadou Diawara",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-02-17",
+   "posWiki": "MF",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Mahamadou_Diawara"
+  },
+  {
+   "id": "wiki-red-star-gaetan-poussin",
+   "nombre": "Gaëtan Poussin",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 27,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1999-01-13",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Ga%C3%ABtan_Poussin"
+  },
+  {
+   "id": "wiki-red-star-samuel-renel",
+   "nombre": "Samuel Renel",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "MTQ",
+   "nacCodigo": "MTQ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-11-03",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Samuel_Renel"
+  },
+  {
+   "id": "wiki-red-star-islam-halifa",
+   "nombre": "Islam Halifa",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-12-20",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Islam_Halifa"
+  },
+  {
+   "id": "wiki-red-star-dylan-durivaux",
+   "nombre": "Dylan Durivaux",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-06-18",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Dylan_Durivaux"
+  },
+  {
+   "id": "wiki-red-star-idrissa-sabaly",
+   "nombre": "Idrissa Sabaly",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF",
+   "cedido": true
+  },
+  {
+   "id": "wiki-red-star-jovany-ikanga",
+   "nombre": "Jovany Ikanga",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-03-24",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Jovany_Ikanga"
+  },
+  {
+   "id": "wiki-red-star-pierre-lemonnier",
+   "nombre": "Pierre Lemonnier",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Pierre_Lemonnier_(footballer)"
+  },
+  {
+   "id": "wiki-red-star-leonardo-buta",
+   "nombre": "Leonardo Buta",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Portugal",
+   "nacCodigo": "PT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-06-05",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Leonardo_Buta"
+  },
+  {
+   "id": "wiki-red-star-godson-kyeremeh",
+   "nombre": "Godson Kyeremeh",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-06-14",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Godson_Kyeremeh"
+  },
+  {
+   "id": "wiki-red-star-cheick-konate",
+   "nombre": "Cheick Konaté",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Ivory Coast",
+   "nacCodigo": "CI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 45,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-red-star-come-bianay-balcot",
+   "nombre": "Côme Bianay Balcot",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 80,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "cedido": true
+  },
+  {
+   "id": "wiki-red-star-kevin-cabral",
+   "nombre": "Kévin Cabral",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 91,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-07-10",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/K%C3%A9vin_Cabral"
+  }
+ ]
+}

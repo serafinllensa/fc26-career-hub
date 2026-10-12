@@ -7,7 +7,13 @@ import {href} from '../router.js';
 import {actualizar} from '../carrera.js';
 import {cierreCarrera} from '../cierre.js';
 
-const COPAS = {'LaLiga': ['Copa del Rey', 'Supercopa de España'], 'Premier League': ['FA Cup', 'EFL Cup'], 'Serie A': ['Coppa Italia', 'Supercoppa Italiana'], 'Bundesliga': ['DFB-Pokal', 'DFL-Supercup'], 'Ligue 1': ['Coupe de France', 'Trophée des Champions']};
+const COPAS = {
+  'LaLiga': ['Copa del Rey', 'Supercopa de España'], 'Premier League': ['FA Cup', 'EFL Cup'],
+  'Serie A': ['Coppa Italia', 'Supercoppa Italiana'], 'Bundesliga': ['DFB-Pokal', 'DFL-Supercup'],
+  'Ligue 1': ['Coupe de France', 'Trophée des Champions'],
+  'Championship': ['FA Cup', 'EFL Cup'], 'Segunda División': ['Copa del Rey'],
+  'Serie B': ['Coppa Italia'], '2. Bundesliga': ['DFB-Pokal'], 'Ligue 2': ['Coupe de France'],
+};
 const EURO = {ucl: 'Champions', uel: 'Europa League', uecl: 'Conference'};
 const RONDA = {fase: 'fase de liga', previa: 'previa', playoff: 'playoff', octavos: 'octavos', cuartos: 'cuartos', semis: 'semis', final: 'final', campeon: 'campeón'};
 const europa = l => (l || []).filter(x => !/previa/.test(x)).map(x => { const [c, r] = x.split(':'); return r === 'campeon' ? `Campeón de ${EURO[c] || c}` : `${RONDA[r] || r} de ${EURO[c] || c}`; }).join(' · ');
@@ -25,7 +31,8 @@ export default {
     const s = {aviso: null};
     const pintar = () => {
       const c = ctx.carrera, temp = c?.temporada || '2026/27';
-      const comps = [club.liga, ...(COPAS[club.liga] || []), 'Champions League', 'Europa League', 'Conference League'];
+      const euro = club.division === 2 ? [] : ['Champions League', 'Europa League', 'Conference League'];
+      const comps = [club.liga, ...(COPAS[club.liga] || COPAS[club.ligaPadre] || []), ...euro];
       const tro = c?.trofeos || [], es = (t, n) => t.comp === idComp(n, club.liga) || t.comp === n, veces = n => tro.filter(t => es(t, n)).length, esta = n => tro.some(t => es(t, n) && t.temporada === temp);
       const R = c ? motor.resumen(c.partidos || [], 'liga') : null;
       const hist = [...(club.historial || [])].reverse();

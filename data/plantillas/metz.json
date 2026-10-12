@@ -1,0 +1,670 @@
+{
+ "clubId": "metz",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/FC_Metz",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-metz-jonathan-fischer",
+   "nombre": "Jonathan Fischer",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Denmark",
+   "nacCodigo": "DK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2001-11-09",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Jonathan_Fischer"
+  },
+  {
+   "id": "wiki-metz-maxime-colin",
+   "nombre": "Maxime Colin",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 34,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1991-11-15",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Maxime_Colin"
+  },
+  {
+   "id": "wiki-metz-florian-miguel",
+   "nombre": "Florian Miguel",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-09-01",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Florian_Miguel"
+  },
+  {
+   "id": "wiki-metz-urie-michel-mboula",
+   "nombre": "Urie-Michel Mboula",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Gabon",
+   "nacCodigo": "GA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-04-30",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Urie-Michel_Mboula"
+  },
+  {
+   "id": "wiki-metz-jean-ruiz",
+   "nombre": "Jean Ruiz",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-04-06",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Jean_Ruiz"
+  },
+  {
+   "id": "wiki-metz-nampalys-mendy",
+   "nombre": "Nampalys Mendy",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 34,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1992-06-23",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Nampalys_Mendy"
+  },
+  {
+   "id": "wiki-metz-ibou-sane",
+   "nombre": "Ibou Sané",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-03-28",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Ibou_San%C3%A9"
+  },
+  {
+   "id": "wiki-metz-jessy-deminguet",
+   "nombre": "Jessy Deminguet",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-01-07",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Jessy_Deminguet"
+  },
+  {
+   "id": "wiki-metz-giorgi-abuashvili",
+   "nombre": "Giorgi Abuashvili",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Georgia",
+   "nacCodigo": "GE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-02-08",
+   "posWiki": "FW",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Giorgi_Abuashvili"
+  },
+  {
+   "id": "wiki-metz-teji-savanier",
+   "nombre": "Téji Savanier",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 34,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1991-12-22",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/T%C3%A9ji_Savanier"
+  },
+  {
+   "id": "wiki-metz-pape-moussa-fall",
+   "nombre": "Pape Moussa Fall",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-07-04",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Pape_Moussa_Fall"
+  },
+  {
+   "id": "wiki-metz-alpha-toure",
+   "nombre": "Alpha Touré",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-01-25",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Alpha_Tour%C3%A9"
+  },
+  {
+   "id": "wiki-metz-vincent-gomis",
+   "nombre": "Vincent Gomis",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-metz-joseph-mangondo",
+   "nombre": "Joseph Mangondo",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-08-06",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Joseph_Mangondo"
+  },
+  {
+   "id": "wiki-metz-believe-munongo",
+   "nombre": "Believe Munongo",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 16,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2009-11-23",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Believe_Munongo"
+  },
+  {
+   "id": "wiki-metz-morgan-bokele",
+   "nombre": "Morgan Bokele",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Cameroon",
+   "nacCodigo": "CM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-03-13",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Morgan_Bokele"
+  },
+  {
+   "id": "wiki-metz-jahyann-pandore",
+   "nombre": "Jahyann Pandore",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 18,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-11-25",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Jahyann_Pandore"
+  },
+  {
+   "id": "wiki-metz-nathan-mbala",
+   "nombre": "Nathan Mbala",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 18,
+   "nac": "DRC",
+   "nacCodigo": "DRC",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2008-02-19",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Nathan_Mbala"
+  },
+  {
+   "id": "wiki-metz-diego-duarte",
+   "nombre": "Diego Duarte",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Luxembourg",
+   "nacCodigo": "LU",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-05-03",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Diego_Duarte_(footballer%2C_born_2006)"
+  },
+  {
+   "id": "wiki-metz-abdoulaye-nassoko",
+   "nombre": "Abdoulaye Nassoko",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-metz-alassane-sy",
+   "nombre": "Alassane Sy",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-metz-tahirys-dos-santos",
+   "nombre": "Tahirys dos Santos",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-metz-adam-marchal",
+   "nombre": "Adam Marchal",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-metz-abdourahmane-mbodj",
+   "nombre": "Abdourahmane Mbodj",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 18,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2008-04-22",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Abdourahmane_Mbodj"
+  },
+  {
+   "id": "wiki-metz-hamza-kadamani",
+   "nombre": "Hamza Kadamani",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 17,
+   "nac": "Luxembourg",
+   "nacCodigo": "LU",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 38,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2009-09-13",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Hamza_Kadamani"
+  },
+  {
+   "id": "wiki-metz-bryan-song",
+   "nombre": "Bryan Song",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Cameroon",
+   "nacCodigo": "CM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 39,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-metz-ousmane-ba",
+   "nombre": "Ousmane Ba",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 40,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2002-06-06",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Ousmane_Ba"
+  },
+  {
+   "id": "wiki-metz-cristian-devenish",
+   "nombre": "Cristian Devenish",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Colombia",
+   "nacCodigo": "CO",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 42,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-01-25",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Cristian_Devenish"
+  },
+  {
+   "id": "wiki-metz-pape-sy",
+   "nombre": "Pape Sy",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 61,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Pape_Sy_(footballer)"
+  },
+  {
+   "id": "wiki-metz-bouna-sarr",
+   "nombre": "Bouna Sarr",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 34,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 70,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1992-01-31",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Bouna_Sarr"
+  },
+  {
+   "id": "wiki-metz-abdoulaye-agne-ba",
+   "nombre": "Abdoulaye Agne-Ba",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 77,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-metz-idris-mohamed",
+   "nombre": "Idris Mohamed",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Comoros",
+   "nacCodigo": "KM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 98,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-11-25",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Idris_Mohamed"
+  }
+ ]
+}

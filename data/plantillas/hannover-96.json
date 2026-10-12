@@ -1,0 +1,630 @@
+{
+ "clubId": "hannover-96",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Hannover_96",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-hannover-96-pascal-loretz",
+   "nombre": "Pascal Loretz",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Switzerland",
+   "nacCodigo": "CH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2003-06-01",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Pascal_Loretz"
+  },
+  {
+   "id": "wiki-hannover-96-boris-tomiak",
+   "nombre": "Boris Tomiak",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Boris_Tomiak"
+  },
+  {
+   "id": "wiki-hannover-96-jean-hugonet",
+   "nombre": "Jean Hugonet",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-11-24",
+   "posWiki": "DF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Jean_Hugonet"
+  },
+  {
+   "id": "wiki-hannover-96-virgil-ghita",
+   "nombre": "Virgil Ghiță",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Romania",
+   "nacCodigo": "RO",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-06-04",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Virgil_Ghi%C8%9B%C4%83"
+  },
+  {
+   "id": "wiki-hannover-96-mustapha-bundu",
+   "nombre": "Mustapha Bundu",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "SLE",
+   "nacCodigo": "SLE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-02-28",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Mustapha_Bundu"
+  },
+  {
+   "id": "wiki-hannover-96-waniss-taibi",
+   "nombre": "Waniss Taïbi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-03-07",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Waniss_Ta%C3%AFbi"
+  },
+  {
+   "id": "wiki-hannover-96-benjamin-kallman",
+   "nombre": "Benjamin Källman",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Finland",
+   "nacCodigo": "FI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-06-17",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Benjamin_K%C3%A4llman"
+  },
+  {
+   "id": "wiki-hannover-96-marcel-hartel",
+   "nombre": "Marcel Hartel",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-01-19",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Marcel_Hartel"
+  },
+  {
+   "id": "wiki-hannover-96-benedikt-pichler",
+   "nombre": "Benedikt Pichler",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Austria",
+   "nacCodigo": "AT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-07-20",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Benedikt_Pichler"
+  },
+  {
+   "id": "wiki-hannover-96-franz-roggow",
+   "nombre": "Franz Roggow",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-07-14",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Franz_Roggow"
+  },
+  {
+   "id": "wiki-hannover-96-husseyn-chakroun",
+   "nombre": "Husseyn Chakroun",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Lebanon",
+   "nacCodigo": "LB",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-11-10",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Husseyn_Chakroun"
+  },
+  {
+   "id": "wiki-hannover-96-karl-steinmann",
+   "nombre": "Karl Steinmann",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "cedido": true
+  },
+  {
+   "id": "wiki-hannover-96-bastian-allgeier",
+   "nombre": "Bastian Allgeier",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-02-18",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Bastian_Allgeier"
+  },
+  {
+   "id": "wiki-hannover-96-ime-okon",
+   "nombre": "Ime Okon",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "South Africa",
+   "nacCodigo": "ZA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-02-20",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Ime_Okon"
+  },
+  {
+   "id": "wiki-hannover-96-mwisho-mhango",
+   "nombre": "Mwisho Mhango",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "MWI",
+   "nacCodigo": "MWI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-09-15",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Mwisho_Mhango"
+  },
+  {
+   "id": "wiki-hannover-96-noah-engelbreth",
+   "nombre": "Noah Engelbreth",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-hannover-96-stefan-teitur-or-arson",
+   "nombre": "Stefán Teitur Þórðarson",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Iceland",
+   "nacCodigo": "IS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-10-16",
+   "posWiki": "MF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Stef%C3%A1n_Teitur_%C3%9E%C3%B3r%C3%B0arson"
+  },
+  {
+   "id": "wiki-hannover-96-yunus-unal",
+   "nombre": "Yunus Ünal",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-hannover-96-lars-gindorf",
+   "nombre": "Lars Gindorf",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-08-13",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Lars_Gindorf"
+  },
+  {
+   "id": "wiki-hannover-96-tom-hobrecht",
+   "nombre": "Tom Hobrecht",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-hannover-96-hayate-matsuda",
+   "nombre": "Hayate Matsuda",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Japan",
+   "nacCodigo": "JP",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-10-02",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Hayate_Matsuda"
+  },
+  {
+   "id": "wiki-hannover-96-taycan-etcibas",
+   "nombre": "Taycan Etçibaşı",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-hannover-96-kolja-oudenne",
+   "nombre": "Kolja Oudenne",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Sweden",
+   "nacCodigo": "SE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-11-11",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Kolja_Oudenne"
+  },
+  {
+   "id": "wiki-hannover-96-leo-weinkauf",
+   "nombre": "Leo Weinkauf",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1996-07-07",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Leo_Weinkauf"
+  },
+  {
+   "id": "wiki-hannover-96-maurice-neubauer",
+   "nombre": "Maurice Neubauer",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-04-29",
+   "posWiki": "DF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Maurice_Neubauer"
+  },
+  {
+   "id": "wiki-hannover-96-joschua-siewert",
+   "nombre": "Joschua Siewert",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 35,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-hannover-96-alexander-vogel",
+   "nombre": "Alexander Vogel",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 37,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-hannover-96-taycan-kurt",
+   "nombre": "Taycan Kurt",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Turkey",
+   "nacCodigo": "TR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 39,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-hannover-96-jonas-schwanke",
+   "nombre": "Jonas Schwanke",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 40,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-hannover-96-emir-sahiti",
+   "nombre": "Emir Sahiti",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Kosovo",
+   "nacCodigo": "XK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 44,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-11-29",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Emir_Sahiti"
+  }
+ ]
+}

@@ -1,0 +1,793 @@
+{
+ "clubId": "avellino",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/US_Avellino_1912",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-avellino-antony-iannarilli",
+   "nombre": "Antony Iannarilli",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 35,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1990-12-18",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Antony_Iannarilli"
+  },
+  {
+   "id": "wiki-avellino-filippo-missori",
+   "nombre": "Filippo Missori",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-03-24",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Filippo_Missori"
+  },
+  {
+   "id": "wiki-avellino-marco-sala",
+   "nombre": "Marco Sala",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-06-04",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Marco_Sala_(footballer%2C_born_1999)"
+  },
+  {
+   "id": "wiki-avellino-armando-izzo",
+   "nombre": "Armando Izzo",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 34,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1992-03-02",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Armando_Izzo"
+  },
+  {
+   "id": "wiki-avellino-alessandro-di-bitonto",
+   "nombre": "Alessandro Di Bitonto",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-avellino-luca-palmiero",
+   "nombre": "Luca Palmiero",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-05-01",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Palmiero"
+  },
+  {
+   "id": "wiki-avellino-luca-pandolfi",
+   "nombre": "Luca Pandolfi",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-03-14",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Pandolfi"
+  },
+  {
+   "id": "wiki-avellino-luca-di-maggio",
+   "nombre": "Luca Di Maggio",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-03-31",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Di_Maggio"
+  },
+  {
+   "id": "wiki-avellino-walid-cheddira",
+   "nombre": "Walid Cheddira",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Morocco",
+   "nacCodigo": "MA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-01-22",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Walid_Cheddira"
+  },
+  {
+   "id": "wiki-avellino-raffaele-russo",
+   "nombre": "Raffaele Russo",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-02-25",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Raffaele_Russo"
+  },
+  {
+   "id": "wiki-avellino-daniel-fila",
+   "nombre": "Daniel Fila",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Czech Republic",
+   "nacCodigo": "CZ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-08-21",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Daniel_Fila"
+  },
+  {
+   "id": "wiki-avellino-tommaso-biasci",
+   "nombre": "Tommaso Biasci",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-11-10",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Tommaso_Biasci"
+  },
+  {
+   "id": "wiki-avellino-giacomo-faticanti",
+   "nombre": "Giacomo Faticanti",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Giacomo_Faticanti"
+  },
+  {
+   "id": "wiki-avellino-thomas-berenbruch",
+   "nombre": "Thomas Berenbruch",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-05-31",
+   "posWiki": "MF",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Thomas_Berenbruch"
+  },
+  {
+   "id": "wiki-avellino-martin-palumbo",
+   "nombre": "Martin Palumbo",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Norway",
+   "nacCodigo": "NO",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-03-05",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Martin_Palumbo"
+  },
+  {
+   "id": "wiki-avellino-jacopo-sassi",
+   "nombre": "Jacopo Sassi",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-avellino-michael-venturi",
+   "nombre": "Michael Venturi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-01-23",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Michael_Venturi"
+  },
+  {
+   "id": "wiki-avellino-dimitris-sounas",
+   "nombre": "Dimitris Sounas",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Greece",
+   "nacCodigo": "GR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-08-12",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Dimitris_Sounas"
+  },
+  {
+   "id": "wiki-avellino-brando-moruzzi",
+   "nombre": "Brando Moruzzi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Brando_Moruzzi"
+  },
+  {
+   "id": "wiki-avellino-tommaso-cancellotti",
+   "nombre": "Tommaso Cancellotti",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 34,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1992-05-22",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Tommaso_Cancellotti"
+  },
+  {
+   "id": "wiki-avellino-emanuele-adamo",
+   "nombre": "Emanuele Adamo",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-avellino-michele-besaggio",
+   "nombre": "Michele Besaggio",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 39,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-04-28",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Michele_Besaggio"
+  },
+  {
+   "id": "wiki-avellino-lorenco-simic",
+   "nombre": "Lorenco Šimić",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Croatia",
+   "nacCodigo": "HR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 44,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-07-15",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Lorenco_%C5%A0imi%C4%87"
+  },
+  {
+   "id": "wiki-avellino-tommaso-martinelli",
+   "nombre": "Tommaso Martinelli",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 50,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2006-01-06",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Tommaso_Martinelli_(footballer)"
+  },
+  {
+   "id": "wiki-avellino-patrick-enrici",
+   "nombre": "Patrick Enrici",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 56,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-05-02",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Patrick_Enrici"
+  },
+  {
+   "id": "wiki-avellino-sebastiano-di-paolo",
+   "nombre": "Sebastiano Di Paolo",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 77,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-avellino-andrea-favilli",
+   "nombre": "Andrea Favilli",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 99,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-05-17",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Andrea_Favilli_(footballer)"
+  },
+  {
+   "id": "wiki-avellino-alessandro-fontanarosa",
+   "nombre": "Alessandro Fontanarosa",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": null,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-02-07",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Alessandro_Fontanarosa"
+  },
+  {
+   "id": "wiki-avellino-vittorio-gambardella",
+   "nombre": "Vittorio Gambardella",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": null,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-avellino-matteo-marchisano",
+   "nombre": "Matteo Marchisano",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": null,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-avellino-carlo-mellino",
+   "nombre": "Carlo Mellino",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": null,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-avellino-antonio-de-cristofaro",
+   "nombre": "Antonio De Cristofaro",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": null,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-avellino-alessio-tribuzzi",
+   "nombre": "Alessio Tribuzzi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": null,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-11-19",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Alessio_Tribuzzi"
+  },
+  {
+   "id": "wiki-avellino-matteo-vignoli",
+   "nombre": "Matteo Vignoli",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": null,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-avellino-michele-dausilio",
+   "nombre": "Michele D'Ausilio",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": null,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-09-03",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Michele_D%27Ausilio"
+  },
+  {
+   "id": "wiki-avellino-saverio-donofrio",
+   "nombre": "Saverio D'Onofrio",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": null,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-avellino-filippo-scotti",
+   "nombre": "Filippo Scotti",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": null,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-11-11",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Filippo_Scotti_(footballer)"
+  },
+  {
+   "id": "wiki-avellino-arthur-spadoni",
+   "nombre": "Arthur Spadoni",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "DR Congo",
+   "nacCodigo": "CD",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": null,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  }
+ ]
+}

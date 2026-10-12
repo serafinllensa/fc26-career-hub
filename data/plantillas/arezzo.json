@@ -1,0 +1,624 @@
+{
+ "clubId": "arezzo",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/SS_Arezzo",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-arezzo-luca-trombini",
+   "nombre": "Luca Trombini",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-arezzo-marlon-mena",
+   "nombre": "Marlon Mena",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Dominican Republic",
+   "nacCodigo": "DO",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-10-05",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Marlon_Mena"
+  },
+  {
+   "id": "wiki-arezzo-mauro-coppolaro",
+   "nombre": "Mauro Coppolaro",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-03-10",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Mauro_Coppolaro"
+  },
+  {
+   "id": "wiki-arezzo-julian-illanes",
+   "nombre": "Julián Illanes",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Argentina",
+   "nacCodigo": "AR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-03-10",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Juli%C3%A1n_Illanes"
+  },
+  {
+   "id": "wiki-arezzo-alessandro-renzi",
+   "nombre": "Alessandro Renzi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-arezzo-kevin-leone",
+   "nombre": "Kevin Leone",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-arezzo-shaka-mawuli",
+   "nombre": "Shaka Mawuli",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Ghana",
+   "nacCodigo": "GH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-05-16",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Shaka_Mawuli"
+  },
+  {
+   "id": "wiki-arezzo-alberto-cerri",
+   "nombre": "Alberto Cerri",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-04-16",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Alberto_Cerri"
+  },
+  {
+   "id": "wiki-arezzo-emiliano-pattarello",
+   "nombre": "Emiliano Pattarello",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-07-30",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Emiliano_Pattarello"
+  },
+  {
+   "id": "wiki-arezzo-leonardo-mancuso",
+   "nombre": "Leonardo Mancuso",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 34,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1992-05-26",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Leonardo_Mancuso"
+  },
+  {
+   "id": "wiki-arezzo-matteo-gilli",
+   "nombre": "Matteo Gilli",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-arezzo-alessandro-nunziante",
+   "nombre": "Alessandro Nunziante",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2007-03-14",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Alessandro_Nunziante_(footballer)"
+  },
+  {
+   "id": "wiki-arezzo-mattia-sala",
+   "nombre": "Mattia Sala",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-arezzo-artur-ionita",
+   "nombre": "Artur Ioniță",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 36,
+   "nac": "Moldova",
+   "nacCodigo": "MD",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1990-08-17",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Artur_Ioni%C8%9B%C4%83"
+  },
+  {
+   "id": "wiki-arezzo-marco-chiosa",
+   "nombre": "Marco Chiosa",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-11-19",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Marco_Chiosa"
+  },
+  {
+   "id": "wiki-arezzo-camillo-tavernelli",
+   "nombre": "Camillo Tavernelli",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-07-10",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Camillo_Tavernelli"
+  },
+  {
+   "id": "wiki-arezzo-francesco-serban",
+   "nombre": "Francesco Șerban",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Romania",
+   "nacCodigo": "RO",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-arezzo-mattia-viviani",
+   "nombre": "Mattia Viviani",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-09-04",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Mattia_Viviani"
+  },
+  {
+   "id": "wiki-arezzo-luca-chierico",
+   "nombre": "Luca Chierico",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-09-26",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Chierico"
+  },
+  {
+   "id": "wiki-arezzo-filippo-de-col",
+   "nombre": "Filippo De Col",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-10-28",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Filippo_De_Col"
+  },
+  {
+   "id": "wiki-arezzo-alessandro-arena",
+   "nombre": "Alessandro Arena",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-arezzo-andrea-cagnano",
+   "nombre": "Andrea Cagnano",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-06-17",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Andrea_Cagnano"
+  },
+  {
+   "id": "wiki-arezzo-davide-mancini",
+   "nombre": "Davide Mancini",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-arezzo-samuele-righetti",
+   "nombre": "Samuele Righetti",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 37,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-10-10",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Samuele_Righetti"
+  },
+  {
+   "id": "wiki-arezzo-aleandro-manes",
+   "nombre": "Aleandro Manes",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 47,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-arezzo-gian-marco-ferrari",
+   "nombre": "Gian Marco Ferrari",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 34,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 67,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1992-02-15",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Gian_Marco_Ferrari"
+  },
+  {
+   "id": "wiki-arezzo-pietro-cianci",
+   "nombre": "Pietro Cianci",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 71,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-02-02",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Pietro_Cianci"
+  },
+  {
+   "id": "wiki-arezzo-gennaro-iaccarino",
+   "nombre": "Gennaro Iaccarino",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 78,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-arezzo-andrea-seculin",
+   "nombre": "Andrea Seculin",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 36,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 90,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1990-07-14",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Andrea_Seculin"
+  },
+  {
+   "id": "wiki-arezzo-marco-olivieri",
+   "nombre": "Marco Olivieri",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 99,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-06-30",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Marco_Olivieri"
+  }
+ ]
+}

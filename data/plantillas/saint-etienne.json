@@ -1,0 +1,529 @@
+{
+ "clubId": "saint-etienne",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/AS_Saint-%C3%89tienne",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-saint-etienne-mamour-ndiaye",
+   "nombre": "Mamour Ndiaye",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2005-10-22",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Mamour_Ndiaye"
+  },
+  {
+   "id": "wiki-saint-etienne-strahinja-stojkovic",
+   "nombre": "Strahinja Stojković",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Serbia",
+   "nacCodigo": "RS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-03-08",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Strahinja_Stojkovi%C4%87"
+  },
+  {
+   "id": "wiki-saint-etienne-mahmoud-jaber",
+   "nombre": "Mahmoud Jaber",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Israel",
+   "nacCodigo": "IL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-10-05",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Mahmoud_Jaber"
+  },
+  {
+   "id": "wiki-saint-etienne-maxime-bernauer",
+   "nombre": "Maxime Bernauer",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Maxime_Bernauer"
+  },
+  {
+   "id": "wiki-saint-etienne-irvin-cardona",
+   "nombre": "Irvin Cardona",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Malta",
+   "nacCodigo": "MT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-08-08",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Irvin_Cardona"
+  },
+  {
+   "id": "wiki-saint-etienne-thierno-ballo",
+   "nombre": "Thierno Ballo",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Austria",
+   "nacCodigo": "AT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-02-02",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Thierno_Ballo"
+  },
+  {
+   "id": "wiki-saint-etienne-jakob-breum",
+   "nombre": "Jakob Breum",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Denmark",
+   "nacCodigo": "DK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-11-17",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Jakob_Breum"
+  },
+  {
+   "id": "wiki-saint-etienne-ben-old",
+   "nombre": "Ben Old",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "New Zealand",
+   "nacCodigo": "NZ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-08-13",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Ben_Old"
+  },
+  {
+   "id": "wiki-saint-etienne-joao-ferreira",
+   "nombre": "João Ferreira",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Portugal",
+   "nacCodigo": "PT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Jo%C3%A3o_Ferreira_(footballer)"
+  },
+  {
+   "id": "wiki-saint-etienne-aron-csongvai",
+   "nombre": "Áron Csongvai",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Hungary",
+   "nacCodigo": "HU",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-10-31",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/%C3%81ron_Csongvai"
+  },
+  {
+   "id": "wiki-saint-etienne-chico-lamba",
+   "nombre": "Chico Lamba",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Portugal",
+   "nacCodigo": "PT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-03-10",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Chico_Lamba"
+  },
+  {
+   "id": "wiki-saint-etienne-tamar-svetlin",
+   "nombre": "Tamar Svetlin",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "SLO",
+   "nacCodigo": "SLO",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-07-30",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Tamar_Svetlin"
+  },
+  {
+   "id": "wiki-saint-etienne-joshua-duffus",
+   "nombre": "Joshua Duffus",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-12-15",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Joshua_Duffus"
+  },
+  {
+   "id": "wiki-saint-etienne-sohaib-nair",
+   "nombre": "Sohaib Naïr",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Algeria",
+   "nacCodigo": "DZ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-04-23",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Sohaib_Na%C3%AFr"
+  },
+  {
+   "id": "wiki-saint-etienne-augustine-boakye",
+   "nombre": "Augustine Boakye",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Ghana",
+   "nacCodigo": "GH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-11-03",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Augustine_Boakye"
+  },
+  {
+   "id": "wiki-saint-etienne-paul-eymard",
+   "nombre": "Paul Eymard",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-saint-etienne-zuriko-davitashvili",
+   "nombre": "Zuriko Davitashvili",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Georgia",
+   "nacCodigo": "GE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-02-15",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Zuriko_Davitashvili"
+  },
+  {
+   "id": "wiki-saint-etienne-kevin-pedro",
+   "nombre": "Kévin Pedro",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "DRC",
+   "nacCodigo": "DRC",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-02-21",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/K%C3%A9vin_Pedro"
+  },
+  {
+   "id": "wiki-saint-etienne-julien-le-cardinal",
+   "nombre": "Julien Le Cardinal",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-08-03",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Julien_Le_Cardinal"
+  },
+  {
+   "id": "wiki-saint-etienne-gautier-larsonneur",
+   "nombre": "Gautier Larsonneur",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 29,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1997-02-23",
+   "posWiki": "GK",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Gautier_Larsonneur"
+  },
+  {
+   "id": "wiki-saint-etienne-nadir-el-jamali",
+   "nombre": "Nadir El Jamali",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 31,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-04-17",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Nadir_El_Jamali"
+  },
+  {
+   "id": "wiki-saint-etienne-adam-baallal",
+   "nombre": "Adam Baallal",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Morocco",
+   "nacCodigo": "MA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-saint-etienne-marten-paalberg",
+   "nombre": "Marten Paalberg",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 18,
+   "nac": "Estonia",
+   "nacCodigo": "EE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2008-10-08",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Marten_Paalberg"
+  },
+  {
+   "id": "wiki-saint-etienne-lassana-traore",
+   "nombre": "Lassana Traoré",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 34,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-05-06",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Lassana_Traor%C3%A9_(footballer)"
+  },
+  {
+   "id": "wiki-saint-etienne-lucas-lavallee",
+   "nombre": "Lucas Lavallée",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 40,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Lucas_Lavall%C3%A9e"
+  }
+ ]
+}

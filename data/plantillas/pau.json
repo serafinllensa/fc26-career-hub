@@ -1,0 +1,545 @@
+{
+ "clubId": "pau",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Pau_FC",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-pau-brice-maubleu",
+   "nombre": "Brice Maubleu",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 36,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1989-12-01",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Brice_Maubleu"
+  },
+  {
+   "id": "wiki-pau-tom-pouilly",
+   "nombre": "Tom Pouilly",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-06-18",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Tom_Pouilly"
+  },
+  {
+   "id": "wiki-pau-axel-dodote",
+   "nombre": "Axel Dodote",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-pau-lorenzo-rajot",
+   "nombre": "Lorenzo Rajot",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-10-13",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Lorenzo_Rajot"
+  },
+  {
+   "id": "wiki-pau-cheikh-fall",
+   "nombre": "Cheikh Fall",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-02-25",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Cheikh_Fall_(footballer%2C_born_2004)"
+  },
+  {
+   "id": "wiki-pau-hacene-benali",
+   "nombre": "Hacène Benali",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Algeria",
+   "nacCodigo": "DZ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-10-14",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Hac%C3%A8ne_Benali"
+  },
+  {
+   "id": "wiki-pau-souleymane-basse",
+   "nombre": "Souleymane Basse",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-pau-babacar-leye",
+   "nombre": "Babacar Leye",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-pau-alexis-lefebvre",
+   "nombre": "Alexis Lefebvre",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-05-21",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Alexis_Lefebvre"
+  },
+  {
+   "id": "wiki-pau-royce-openda",
+   "nombre": "Royce Openda",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Gabon",
+   "nacCodigo": "GA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-04-21",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Royce_Openda"
+  },
+  {
+   "id": "wiki-pau-maxime-adam",
+   "nombre": "Maxime Adam",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-pau-bilal-brahimi",
+   "nombre": "Bilal Brahimi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-03-28",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Bilal_Brahimi"
+  },
+  {
+   "id": "wiki-pau-jeremy-sebas",
+   "nombre": "Jérémy Sebas",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "MTQ",
+   "nacCodigo": "MTQ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-04-14",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/J%C3%A9r%C3%A9my_Sebas"
+  },
+  {
+   "id": "wiki-pau-tom-saettel",
+   "nombre": "Tom Saettel",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-06-19",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Tom_Saettel"
+  },
+  {
+   "id": "wiki-pau-jessy-benet",
+   "nombre": "Jessy Benet",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-06-24",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Jessy_Benet"
+  },
+  {
+   "id": "wiki-pau-rony-mimb-baheng",
+   "nombre": "Rony Mimb Baheng",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Cameroon",
+   "nacCodigo": "CM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-pau-anthony-briancon",
+   "nombre": "Anthony Briançon",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-11-28",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Anthony_Brian%C3%A7on"
+  },
+  {
+   "id": "wiki-pau-quentin-daubin",
+   "nombre": "Quentin Daubin",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-07-03",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Quentin_Daubin"
+  },
+  {
+   "id": "wiki-pau-luan-gadegbeku",
+   "nombre": "Luan Gadegbeku",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-03-13",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Luan_Gadegbeku"
+  },
+  {
+   "id": "wiki-pau-gaetan-paquiez",
+   "nombre": "Gaëtan Paquiez",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-02-15",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Ga%C3%ABtan_Paquiez"
+  },
+  {
+   "id": "wiki-pau-esteban-salles",
+   "nombre": "Esteban Salles",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 32,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1994-03-02",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Esteban_Salles"
+  },
+  {
+   "id": "wiki-pau-mathys-tourraine",
+   "nombre": "Mathys Tourraine",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Morocco",
+   "nacCodigo": "MA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 39,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Mathys_Tourraine"
+  },
+  {
+   "id": "wiki-pau-abdoulaye-mbaye",
+   "nombre": "Abdoulaye Mbaye",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 56,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-pau-axel-bamba",
+   "nombre": "Axel Bamba",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Ivory Coast",
+   "nacCodigo": "CI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 88,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-07-06",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Axel_Bamba"
+  },
+  {
+   "id": "wiki-pau-kyllian-gasnier",
+   "nombre": "Kyllian Gasnier",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 90,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-06-30",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Kyllian_Gasnier"
+  },
+  {
+   "id": "wiki-pau-akim-abdallah",
+   "nombre": "Akim Abdallah",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Comoros",
+   "nacCodigo": "KM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 97,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-08-18",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Abdel-Hakim_Abdallah"
+  }
+ ]
+}

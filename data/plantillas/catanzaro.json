@@ -1,0 +1,623 @@
+{
+ "clubId": "catanzaro",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/US_Catanzaro_1929",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-catanzaro-christian-marietta",
+   "nombre": "Christian Marietta",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-catanzaro-marco-imperiale",
+   "nombre": "Marco Imperiale",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-05-01",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Marco_Imperiale"
+  },
+  {
+   "id": "wiki-catanzaro-matias-antonini",
+   "nombre": "Matias Antonini",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Brazil",
+   "nacCodigo": "BR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-04-09",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Matias_Antonini"
+  },
+  {
+   "id": "wiki-catanzaro-niccolo-postiglione",
+   "nombre": "Niccolò Postiglione",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-catanzaro-nicolo-buso",
+   "nombre": "Nicolò Buso",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-catanzaro-andrej-pogacar",
+   "nombre": "Andrej Pogačar",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Slovenia",
+   "nacCodigo": "SI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-catanzaro-pietro-iemmello",
+   "nombre": "Pietro Iemmello",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 34,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1992-03-06",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Pietro_Iemmello"
+  },
+  {
+   "id": "wiki-catanzaro-jacopo-petriccione",
+   "nombre": "Jacopo Petriccione",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-02-22",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Jacopo_Petriccione"
+  },
+  {
+   "id": "wiki-catanzaro-samuel-giovane",
+   "nombre": "Samuel Giovane",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-03-28",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Samuel_Giovane"
+  },
+  {
+   "id": "wiki-catanzaro-alejo-garnica",
+   "nombre": "Alejo Garnica",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Argentina",
+   "nacCodigo": "AR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-catanzaro-ndri-philippe-koffi",
+   "nombre": "N'dri Philippe Koffi",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Ivory Coast",
+   "nacCodigo": "CI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/N%27dri_Philippe_Koffi"
+  },
+  {
+   "id": "wiki-catanzaro-simone-pafundi",
+   "nombre": "Simone Pafundi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-03-14",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Simone_Pafundi"
+  },
+  {
+   "id": "wiki-catanzaro-federico-cassa",
+   "nombre": "Federico Cassa",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-02-01",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Federico_Cassa"
+  },
+  {
+   "id": "wiki-catanzaro-mirko-pigliacelli",
+   "nombre": "Mirko Pigliacelli",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1993-06-30",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Mirko_Pigliacelli"
+  },
+  {
+   "id": "wiki-catanzaro-marco-ruggero",
+   "nombre": "Marco Ruggero",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-catanzaro-franck-tchaouna",
+   "nombre": "Franck Tchaouna",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "CHA",
+   "nacCodigo": "CHA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-09-09",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Franck_Tchaouna"
+  },
+  {
+   "id": "wiki-catanzaro-bruno-verrengia",
+   "nombre": "Bruno Verrengia",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-catanzaro-antonio-candela",
+   "nombre": "Antonio Candela",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-04-27",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Antonio_Candela"
+  },
+  {
+   "id": "wiki-catanzaro-franky-tchaouna",
+   "nombre": "Franky Tchaouna",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "CHA",
+   "nacCodigo": "CHA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Franky_Tchaouna"
+  },
+  {
+   "id": "wiki-catanzaro-federico-di-francesco",
+   "nombre": "Federico Di Francesco",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-06-14",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Federico_Di_Francesco"
+  },
+  {
+   "id": "wiki-catanzaro-gabriele-alesi",
+   "nombre": "Gabriele Alesi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-catanzaro-emanuele-pecorino",
+   "nombre": "Emanuele Pecorino",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 31,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-07-15",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Emanuele_Pecorino"
+  },
+  {
+   "id": "wiki-catanzaro-solomon-loubao",
+   "nombre": "Solomon Loubao",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 44,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-12-03",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Solomon_Loubao"
+  },
+  {
+   "id": "wiki-catanzaro-ruggero-frosinini",
+   "nombre": "Ruggero Frosinini",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 62,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-catanzaro-marco-dalessandro",
+   "nombre": "Marco D'Alessandro",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 35,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 77,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1991-02-17",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Marco_D%27Alessandro"
+  },
+  {
+   "id": "wiki-catanzaro-francesco-reita",
+   "nombre": "Francesco Reita",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 80,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-catanzaro-gabriel-arditi",
+   "nombre": "Gabriel Arditi",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 91,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-catanzaro-mehdi-dorval",
+   "nombre": "Mehdi Dorval",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Algeria",
+   "nacCodigo": "DZ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 93,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-02-09",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Mehdi_Dorval"
+  },
+  {
+   "id": "wiki-catanzaro-nicola-mosti",
+   "nombre": "Nicola Mosti",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 98,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-02-07",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Nicola_Mosti"
+  },
+  {
+   "id": "wiki-catanzaro-edoardo-borrelli",
+   "nombre": "Edoardo Borrelli",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 99,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  }
+ ]
+}

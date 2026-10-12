@@ -1,0 +1,565 @@
+{
+ "clubId": "hertha-bsc",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Hertha_BSC",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-hertha-bsc-julian-eitschberger",
+   "nombre": "Julian Eitschberger",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-03-05",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Julian_Eitschberger"
+  },
+  {
+   "id": "wiki-hertha-bsc-josip-brekalo",
+   "nombre": "Josip Brekalo",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Croatia",
+   "nacCodigo": "HR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-06-23",
+   "posWiki": "FW",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Josip_Brekalo"
+  },
+  {
+   "id": "wiki-hertha-bsc-kevin-sessa",
+   "nombre": "Kevin Sessa",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-07-06",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Kevin_Sessa"
+  },
+  {
+   "id": "wiki-hertha-bsc-gustaf-nilsson",
+   "nombre": "Gustaf Nilsson",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Sweden",
+   "nacCodigo": "SE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-05-23",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Gustaf_Nilsson_(footballer%2C_born_1997)"
+  },
+  {
+   "id": "wiki-hertha-bsc-konstantin-heide",
+   "nombre": "Konstantin Heide",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2006-01-27",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Konstantin_Heide"
+  },
+  {
+   "id": "wiki-hertha-bsc-sebastian-gr-nning",
+   "nombre": "Sebastian Grønning",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Denmark",
+   "nacCodigo": "DK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-02-03",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Sebastian_Gr%C3%B8nning"
+  },
+  {
+   "id": "wiki-hertha-bsc-luca-schuler",
+   "nombre": "Luca Schuler",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-03-22",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Schuler_(footballer)"
+  },
+  {
+   "id": "wiki-hertha-bsc-oluwaseun-adewumi",
+   "nombre": "Oluwaseun Adewumi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Austria",
+   "nacCodigo": "AT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-02-23",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Oluwaseun_Adewumi"
+  },
+  {
+   "id": "wiki-hertha-bsc-farid-alfa-ruprecht",
+   "nombre": "Farid Alfa-Ruprecht",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-03-28",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Farid_Alfa-Ruprecht"
+  },
+  {
+   "id": "wiki-hertha-bsc-boris-mamuzah-lum",
+   "nombre": "Boris Mamuzah Lum",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-hertha-bsc-mads-pedersen",
+   "nombre": "Mads Pedersen",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Denmark",
+   "nacCodigo": "DK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-09-01",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Mads_Valentin"
+  },
+  {
+   "id": "wiki-hertha-bsc-jon-dagur-orsteinsson",
+   "nombre": "Jón Dagur Þorsteinsson",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Iceland",
+   "nacCodigo": "IS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-11-26",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/J%C3%B3n_Dagur_%C3%9Eorsteinsson"
+  },
+  {
+   "id": "wiki-hertha-bsc-niklas-hildebrandt",
+   "nombre": "Niklas Hildebrandt",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-hertha-bsc-niklas-kolbe",
+   "nombre": "Niklas Kolbe",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-hertha-bsc-jelani-ndi",
+   "nombre": "Jelani Ndi",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-hertha-bsc-jerome-diallo",
+   "nombre": "Jerome Diallo",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-hertha-bsc-paul-seguin",
+   "nombre": "Paul Seguin",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-03-29",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Paul_Seguin"
+  },
+  {
+   "id": "wiki-hertha-bsc-marton-dardai",
+   "nombre": "Márton Dárdai",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Hungary",
+   "nacCodigo": "HU",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 31,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-02-12",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/M%C3%A1rton_D%C3%A1rdai"
+  },
+  {
+   "id": "wiki-hertha-bsc-soufian-gouram",
+   "nombre": "Soufian Gouram",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Estonia",
+   "nacCodigo": "EE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-05-01",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Soufian_Gouram"
+  },
+  {
+   "id": "wiki-hertha-bsc-mayson-grothe",
+   "nombre": "Mayson Grothe",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 34,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-hertha-bsc-marius-gersbeck",
+   "nombre": "Marius Gersbeck",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 35,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1995-06-20",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Marius_Gersbeck"
+  },
+  {
+   "id": "wiki-hertha-bsc-kian-todorovic",
+   "nombre": "Kian Todorović",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Turkey",
+   "nacCodigo": "TR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 36,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-hertha-bsc-pascal-klemens",
+   "nombre": "Pascal Klemens",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 41,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-02-23",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Pascal_Klemens"
+  },
+  {
+   "id": "wiki-hertha-bsc-deyovaisio-zeefuik",
+   "nombre": "Deyovaisio Zeefuik",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Suriname",
+   "nacCodigo": "SR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 42,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-03-11",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Deyovaisio_Zeefuik"
+  },
+  {
+   "id": "wiki-hertha-bsc-tim-goller",
+   "nombre": "Tim Goller",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 43,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-hertha-bsc-linus-gechter",
+   "nombre": "Linus Gechter",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 44,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-02-27",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Linus_Gechter"
+  },
+  {
+   "id": "wiki-hertha-bsc-selim-telib",
+   "nombre": "Selim Telib",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Egypt",
+   "nacCodigo": "EG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 47,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-03-14",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Selim_Telib"
+  }
+ ]
+}

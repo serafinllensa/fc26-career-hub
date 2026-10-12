@@ -1,0 +1,569 @@
+{
+ "clubId": "nantes",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/FC_Nantes",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-nantes-maxime-dupe",
+   "nombre": "Maxime Dupé",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 33,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1993-03-04",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Maxime_Dup%C3%A9"
+  },
+  {
+   "id": "wiki-nantes-saidou-sow",
+   "nombre": "Saïdou Sow",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Guinea",
+   "nacCodigo": "GN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-07-04",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Sa%C3%AFdou_Sow"
+  },
+  {
+   "id": "wiki-nantes-lucas-perrin",
+   "nombre": "Lucas Perrin",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-11-19",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Lucas_Perrin"
+  },
+  {
+   "id": "wiki-nantes-antoine-joujou",
+   "nombre": "Antoine Joujou",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-03-12",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Antoine_Joujou"
+  },
+  {
+   "id": "wiki-nantes-johann-lepenant",
+   "nombre": "Johann Lepenant",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-10-22",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Johann_Lepenant"
+  },
+  {
+   "id": "wiki-nantes-killian-corredor",
+   "nombre": "Killian Corredor",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-11-04",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Killian_Corredor"
+  },
+  {
+   "id": "wiki-nantes-fode-doucoure",
+   "nombre": "Fodé Doucouré",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Mali",
+   "nacCodigo": "ML",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-02-03",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Fod%C3%A9_Doucour%C3%A9"
+  },
+  {
+   "id": "wiki-nantes-lamine-diack",
+   "nombre": "Lamine Diack",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-11-15",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Lamine_Diack_(footballer)"
+  },
+  {
+   "id": "wiki-nantes-alexis-mirbach",
+   "nombre": "Alexis Mirbach",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-nantes-dehmaine-tabibou",
+   "nombre": "Dehmaine Tabibou",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-04-17",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Dehmaine_Tabibou"
+  },
+  {
+   "id": "wiki-nantes-fabien-centonze",
+   "nombre": "Fabien Centonze",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-01-16",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Fabien_Centonze"
+  },
+  {
+   "id": "wiki-nantes-louis-leroux",
+   "nombre": "Louis Leroux",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-01-23",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Louis_Leroux"
+  },
+  {
+   "id": "wiki-nantes-mathieu-cafaro",
+   "nombre": "Mathieu Cafaro",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-03-25",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Mathieu_Cafaro"
+  },
+  {
+   "id": "wiki-nantes-wilitty-younoussa",
+   "nombre": "Wilitty Younoussa",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Cameroon",
+   "nacCodigo": "CM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-09-09",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Wilitty_Younoussa"
+  },
+  {
+   "id": "wiki-nantes-frederic-guilbert",
+   "nombre": "Frédéric Guilbert",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-12-24",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Guilbert"
+  },
+  {
+   "id": "wiki-nantes-ryad-hachem",
+   "nombre": "Ryad Hachem",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-05-26",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Ryad_Hachem"
+  },
+  {
+   "id": "wiki-nantes-thomas-robinet",
+   "nombre": "Thomas Robinet",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-08-18",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Thomas_Robinet"
+  },
+  {
+   "id": "wiki-nantes-ibrahima-sissoko",
+   "nombre": "Ibrahima Sissoko",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Mali",
+   "nacCodigo": "ML",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-10-27",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Ibrahima_Sissoko"
+  },
+  {
+   "id": "wiki-nantes-ignatius-ganago",
+   "nombre": "Ignatius Ganago",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Cameroon",
+   "nacCodigo": "CM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 37,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-02-16",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Ignatius_Ganago"
+  },
+  {
+   "id": "wiki-nantes-yanel-zeze",
+   "nombre": "Yanel Zézé",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 40,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-nantes-balthazar-pierret",
+   "nombre": "Balthazar Pierret",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 44,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-05-15",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Balthazar_Pierret"
+  },
+  {
+   "id": "wiki-nantes-malang-gomes",
+   "nombre": "Malang Gomes",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 67,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-nantes-sacha-ziani",
+   "nombre": "Sacha Ziani",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 69,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-nantes-sekou-doucoure",
+   "nombre": "Sékou Doucouré",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Mali",
+   "nacCodigo": "ML",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 72,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-04-26",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/S%C3%A9kou_Doucour%C3%A9"
+  },
+  {
+   "id": "wiki-nantes-amin-cherni",
+   "nombre": "Amin Cherni",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Tunisia",
+   "nacCodigo": "TN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 75,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-07-07",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Amin_Cherni"
+  },
+  {
+   "id": "wiki-nantes-tylel-tati",
+   "nombre": "Tylel Tati",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 18,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 78,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2008-01-19",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Tylel_Tati"
+  },
+  {
+   "id": "wiki-nantes-kelvin-amian",
+   "nombre": "Kelvin Amian",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 98,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-02-08",
+   "posWiki": "DF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Kelvin_Amian"
+  }
+ ]
+}

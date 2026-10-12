@@ -1,0 +1,587 @@
+{
+ "clubId": "greuther-furth",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/SpVgg_Greuther_F%C3%BCrth",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-greuther-furth-florian-hellstern",
+   "nombre": "Florian Hellstern",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK",
+   "cedido": true
+  },
+  {
+   "id": "wiki-greuther-furth-lukas-reich",
+   "nombre": "Lukas Reich",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-10-24",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Lukas_Reich"
+  },
+  {
+   "id": "wiki-greuther-furth-elias-benkara",
+   "nombre": "Elias Benkara",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Algeria",
+   "nacCodigo": "DZ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-04-29",
+   "posWiki": "DF",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Elias_Benkara"
+  },
+  {
+   "id": "wiki-greuther-furth-maxim-dal",
+   "nombre": "Maxim Dal",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-greuther-furth-sacha-banse",
+   "nombre": "Sacha Bansé",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "BFA",
+   "nacCodigo": "BFA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-03-16",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Sacha_Bans%C3%A9"
+  },
+  {
+   "id": "wiki-greuther-furth-dennis-srbeny",
+   "nombre": "Dennis Srbeny",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-05-05",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Dennis_Srbeny"
+  },
+  {
+   "id": "wiki-greuther-furth-shinta-appelkamp",
+   "nombre": "Shinta Appelkamp",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-11-01",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Shinta_Appelkamp"
+  },
+  {
+   "id": "wiki-greuther-furth-jordan-pefok",
+   "nombre": "Jordan Pefok",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "United States",
+   "nacCodigo": "US",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-04-26",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Jordan_Pefok"
+  },
+  {
+   "id": "wiki-greuther-furth-ole-pohlmann",
+   "nombre": "Ole Pohlmann",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-04-05",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Ole_Pohlmann"
+  },
+  {
+   "id": "wiki-greuther-furth-aaron-keller",
+   "nombre": "Aaron Keller",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Switzerland",
+   "nacCodigo": "CH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-05-15",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Aaron_Keller_(footballer)"
+  },
+  {
+   "id": "wiki-greuther-furth-paul-will",
+   "nombre": "Paul Will",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-03-01",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Paul_Will"
+  },
+  {
+   "id": "wiki-greuther-furth-omar-megeed",
+   "nombre": "Omar Megeed",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Egypt",
+   "nacCodigo": "EG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-08-19",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Omar_Megeed"
+  },
+  {
+   "id": "wiki-greuther-furth-benjamin-zank",
+   "nombre": "Benjamin Zank",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-greuther-furth-loris-giandomenico",
+   "nombre": "Loris Giandomenico",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Switzerland",
+   "nacCodigo": "CH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-greuther-furth-mika-wallentowitz",
+   "nombre": "Mika Wallentowitz",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 18,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-12-28",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Mika_Wallentowitz"
+  },
+  {
+   "id": "wiki-greuther-furth-jannis-heuer",
+   "nombre": "Jannis Heuer",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-07-29",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Jannis_Heuer"
+  },
+  {
+   "id": "wiki-greuther-furth-jannik-dehm",
+   "nombre": "Jannik Dehm",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-05-02",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Jannik_Dehm"
+  },
+  {
+   "id": "wiki-greuther-furth-luca-itter",
+   "nombre": "Luca Itter",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-01-05",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Itter"
+  },
+  {
+   "id": "wiki-greuther-furth-doni-arifi",
+   "nombre": "Doni Arifi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Finland",
+   "nacCodigo": "FI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-04-11",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Doni_Arifi"
+  },
+  {
+   "id": "wiki-greuther-furth-krisztian-keresztes",
+   "nombre": "Krisztián Keresztes",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Hungary",
+   "nacCodigo": "HU",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-01-04",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Kriszti%C3%A1n_Keresztes"
+  },
+  {
+   "id": "wiki-greuther-furth-felix-klaus",
+   "nombre": "Felix Klaus",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 34,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1992-09-13",
+   "posWiki": "MF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Felix_Klaus"
+  },
+  {
+   "id": "wiki-greuther-furth-hendry-blank",
+   "nombre": "Hendry Blank",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 34,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-08-21",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Hendry_Blank"
+  },
+  {
+   "id": "wiki-greuther-furth-philipp-muller",
+   "nombre": "Philipp Müller",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 36,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-greuther-furth-faton-ademi",
+   "nombre": "Faton Ademi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Kosovo",
+   "nacCodigo": "XK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 37,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-05-19",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Faton_Ademi"
+  },
+  {
+   "id": "wiki-greuther-furth-christian-ortag",
+   "nombre": "Christian Ortag",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 39,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-greuther-furth-omar-sillah",
+   "nombre": "Omar Sillah",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 42,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-greuther-furth-silas-prufrock",
+   "nombre": "Silas Prüfrock",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 43,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-greuther-furth-mehmet-avlayici",
+   "nombre": "Mehmet Avlayici",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 44,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  }
+ ]
+}

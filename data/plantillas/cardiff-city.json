@@ -1,0 +1,553 @@
+{
+ "clubId": "cardiff-city",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Cardiff_City_F.C.",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-cardiff-city-nathan-trott",
+   "nombre": "Nathan Trott",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 27,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1998-11-21",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Nathan_Trott"
+  },
+  {
+   "id": "wiki-cardiff-city-will-fish",
+   "nombre": "Will Fish",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-02-17",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Will_Fish"
+  },
+  {
+   "id": "wiki-cardiff-city-joel-bagan",
+   "nombre": "Joel Bagan",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Ireland",
+   "nacCodigo": "IE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-09-03",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Joel_Bagan"
+  },
+  {
+   "id": "wiki-cardiff-city-gabriel-osho",
+   "nombre": "Gabriel Osho",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Nigeria",
+   "nacCodigo": "NG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-08-14",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Gabriel_Osho"
+  },
+  {
+   "id": "wiki-cardiff-city-krystian-bielik",
+   "nombre": "Krystian Bielik",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Poland",
+   "nacCodigo": "PL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-01-04",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Krystian_Bielik"
+  },
+  {
+   "id": "wiki-cardiff-city-jack-moylan",
+   "nombre": "Jack Moylan",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Ireland",
+   "nacCodigo": "IE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-09-01",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Jack_Moylan"
+  },
+  {
+   "id": "wiki-cardiff-city-yousef-salech",
+   "nombre": "Yousef Salech",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Denmark",
+   "nacCodigo": "DK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-01-17",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Yousef_Salech"
+  },
+  {
+   "id": "wiki-cardiff-city-rubin-colwill",
+   "nombre": "Rubin Colwill",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Wales",
+   "nacCodigo": "GB-WLS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-04-27",
+   "posWiki": "MF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Rubin_Colwill"
+  },
+  {
+   "id": "wiki-cardiff-city-ollie-tanner",
+   "nombre": "Ollie Tanner",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-05-13",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Ollie_Tanner"
+  },
+  {
+   "id": "wiki-cardiff-city-calum-chambers",
+   "nombre": "Calum Chambers",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-01-20",
+   "posWiki": "DF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Calum_Chambers"
+  },
+  {
+   "id": "wiki-cardiff-city-david-turnbull",
+   "nombre": "David Turnbull",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Scotland",
+   "nacCodigo": "GB-SCT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-07-10",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/David_Turnbull_(footballer)"
+  },
+  {
+   "id": "wiki-cardiff-city-chris-willock",
+   "nombre": "Chris Willock",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-01-31",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Chris_Willock"
+  },
+  {
+   "id": "wiki-cardiff-city-alex-robertson",
+   "nombre": "Alex Robertson",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Australia",
+   "nacCodigo": "AU",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-04-17",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Alexander_Robertson_(footballer%2C_born_2003)"
+  },
+  {
+   "id": "wiki-cardiff-city-calum-scanlon",
+   "nombre": "Calum Scanlon",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-02-14",
+   "posWiki": "DF",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Calum_Scanlon"
+  },
+  {
+   "id": "wiki-cardiff-city-joel-colwill",
+   "nombre": "Joel Colwill",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Wales",
+   "nacCodigo": "GB-WLS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-10-27",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Joel_Colwill"
+  },
+  {
+   "id": "wiki-cardiff-city-harry-tyrer",
+   "nombre": "Harry Tyrer",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Harry_Tyrer_(footballer%2C_born_2001)"
+  },
+  {
+   "id": "wiki-cardiff-city-rob-tankiewicz",
+   "nombre": "Rob Tankiewicz",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 17,
+   "nac": "Wales",
+   "nacCodigo": "GB-WLS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2009-06-12",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Rob_Tankiewicz"
+  },
+  {
+   "id": "wiki-cardiff-city-perry-ng",
+   "nombre": "Perry Ng",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "SGP",
+   "nacCodigo": "SGP",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 38,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-04-27",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Perry_Ng"
+  },
+  {
+   "id": "wiki-cardiff-city-isaak-davies",
+   "nombre": "Isaak Davies",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Wales",
+   "nacCodigo": "GB-WLS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 39,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-09-25",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Isaak_Davies"
+  },
+  {
+   "id": "wiki-cardiff-city-noah-anyadike",
+   "nombre": "Noah Anyadike",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 15,
+   "nac": "Wales",
+   "nacCodigo": "GB-WLS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 40,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2011-05-19",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Noah_Anyadike"
+  },
+  {
+   "id": "wiki-cardiff-city-matthew-turner",
+   "nombre": "Matthew Turner",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Wales",
+   "nacCodigo": "GB-WLS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 41,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2002-03-27",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Matthew_Turner_(footballer%2C_born_2002)"
+  },
+  {
+   "id": "wiki-cardiff-city-paul-moreno",
+   "nombre": "Paul Moreno",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Wales",
+   "nacCodigo": "GB-WLS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 43,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-cardiff-city-ronan-kpakio",
+   "nombre": "Ronan Kpakio",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Wales",
+   "nacCodigo": "GB-WLS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 44,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-05-25",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Ronan_Kpakio"
+  },
+  {
+   "id": "wiki-cardiff-city-cian-ashford",
+   "nombre": "Cian Ashford",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Wales",
+   "nacCodigo": "GB-WLS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 45,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-09-24",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Cian_Ashford"
+  },
+  {
+   "id": "wiki-cardiff-city-callum-robinson",
+   "nombre": "Callum Robinson",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Ireland",
+   "nacCodigo": "IE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 47,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-02-02",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Callum_Robinson"
+  },
+  {
+   "id": "wiki-cardiff-city-dylan-lawlor",
+   "nombre": "Dylan Lawlor",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Wales",
+   "nacCodigo": "GB-WLS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 48,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-01-01",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Dylan_Lawlor"
+  }
+ ]
+}

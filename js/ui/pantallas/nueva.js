@@ -26,26 +26,28 @@ export default {
       return;
     }
     if (viejo()) return;
-    const deLiga = liga => todos.filter(c => c.liga === liga).sort((a, b) => (b.nivel || 0) - (a.nivel || 0) || a.nombre.localeCompare(b.nombre, 'es'));
+    const deLiga = (liga) => todos.filter(c => c.liga === liga).sort((a, b) => (b.nivel || 0) - (a.nivel || 0) || (a.actual?.posicion ?? 99) - (b.actual?.posicion ?? 99) || a.nombre.localeCompare(b.nombre, 'es'));
     let iPais = Math.max(0, PAISES.findIndex(p => p.liga === params.liga));
     let iClub = 0;
-    let iDiv = 1;
-    const clubActual = () => (iDiv === 1 ? deLiga(PAISES[iPais].liga)[iClub] : null);
+    let iDiv = params.div === '2' ? 2 : 1;
+    const listaActual = () => deLiga(iDiv === 2 ? PAISES[iPais].segunda : PAISES[iPais].liga);
     const pintar = () => {
       const pais = PAISES[iPais];
-      const lista = deLiga(pais.liga);
+      const lista = listaActual();
+      const nombreLiga = iDiv === 2 ? pais.segunda : pais.liga;
       if (iClub >= lista.length) iClub = 0;
-      const c = iDiv === 1 ? lista[iClub] : null;
+      const c = lista[iClub] || null;
       const n = c?.nivel || 0;
       const paises = PAISES.map((p, i) => `<button type="button" class="picker-pais ${i === iPais ? 'on' : ''}" data-ir-pais="${i}" aria-pressed="${i === iPais}"><span class="picker-bandera" aria-hidden="true">${p.bandera}</span><b>${esc(p.pais)}</b></button>`).join('');
-      const carta = iDiv === 2
-        ? `<div class="picker-carta vacia" aria-live="polite"><div class="picker-liga">${esc(pais.segunda)}</div><p>La 2ª división llega más adelante.</p><div class="picker-nombre">Pronto</div></div>`
-        : c ? `<a class="picker-carta" href="${href('nueva/dt', {club: c.id})}" style="--pick:${esc((c.colores?.principal) || '#1f6f5b')}">
-            <div class="picker-liga">${esc(pais.liga)}</div>
+      const lugar = c ? [c.ciudad, c.estadio].filter(Boolean).join(' · ') : '';
+      const tabla = c?.actual?.posicion ? `${c.actual.posicion}º` : '';
+      const carta = c ? `<a class="picker-carta" href="${href('nueva/dt', {club: c.id})}" style="--pick:${esc((c.colores?.principal) || '#1f6f5b')}">
+            <div class="picker-liga">${esc(nombreLiga)}</div>
             <div class="picker-escudo">${escudo(c, 'lg')}</div>
             <div class="picker-nombre">${esc(c.nombre)}</div>
             <div class="picker-stars" aria-label="Nivel ${n} de 5">${'★'.repeat(n)}<span>${'★'.repeat(Math.max(0, 5 - n))}</span></div>
-            <div class="picker-cuenta">${iClub + 1} / ${lista.length}</div>
+            ${lugar ? `<div class="picker-lugar">${esc(lugar)}</div>` : ''}
+            <div class="picker-cuenta">${tabla ? tabla + ' · ' : ''}${iClub + 1} / ${lista.length}</div>
           </a>` : `<div class="picker-carta vacia"><p>No hay clubes de esta liga.</p></div>`;
       el.innerHTML = `<div class="picker">
         <div class="picker-top">
@@ -54,22 +56,22 @@ export default {
           <button type="button" class="picker-flecha" data-pais="1" aria-label="País siguiente">›</button>
         </div>
         <div class="picker-medio">
-          <button type="button" class="picker-flecha grande" data-club="-1" aria-label="Club anterior" ${iDiv !== 1 || lista.length < 2 ? 'disabled' : ''}>‹</button>
+          <button type="button" class="picker-flecha grande" data-club="-1" aria-label="Club anterior" ${lista.length < 2 ? 'disabled' : ''}>‹</button>
           ${carta}
-          <button type="button" class="picker-flecha grande" data-club="1" aria-label="Club siguiente" ${iDiv !== 1 || lista.length < 2 ? 'disabled' : ''}>›</button>
+          <button type="button" class="picker-flecha grande" data-club="1" aria-label="Club siguiente" ${lista.length < 2 ? 'disabled' : ''}>›</button>
         </div>
         <div class="picker-div" role="group" aria-label="División">
           <button type="button" class="picker-div-btn ${iDiv === 1 ? 'on' : ''}" data-div="1" aria-pressed="${iDiv === 1}">1ª división</button>
           <button type="button" class="picker-div-btn ${iDiv === 2 ? 'on' : ''}" data-div="2" aria-pressed="${iDiv === 2}">2ª división</button>
         </div>
-        <p class="picker-nota">${iDiv === 2 ? 'Por ahora se juega la primera. El hueco de abajo queda listo para cuando sumemos la segunda.' : 'Deslizá el escudo o usá las flechas. Un club por vez, como en el juego.'}</p>
+        <p class="picker-nota">${c?.formato ? esc(c.formato) : 'Deslizá el escudo o usá las flechas. Un club por vez, como en el juego.'}</p>
         <div class="picker-acciones">
           ${c ? `<a class="btn primario" href="${href('nueva/dt', {club: c.id})}">Elegir ${esc(c.corto || c.nombre)}</a>` : ''}
-          <button type="button" class="btn secundario" data-sortear ${iDiv === 1 && lista.length ? '' : 'disabled'}>Sortear</button>
+          <button type="button" class="btn secundario" data-sortear ${lista.length ? '' : 'disabled'}>Sortear</button>
         </div>
         <p class="picker-volver"><a class="btn fantasma" href="${href('inicio', {quedate: 1})}">← Volver</a></p>
       </div>`;
-      history.replaceState(null, '', href('nueva', {liga: pais.liga}));
+      history.replaceState(null, '', href('nueva', {liga: pais.liga, ...(iDiv === 2 ? {div: 2} : {})}));
       el.querySelector('.picker-pais.on')?.scrollIntoView({inline: 'center', block: 'nearest', behavior: 'smooth'});
     };
     const mover = (deltaPais, deltaClub) => {
@@ -77,8 +79,8 @@ export default {
         iPais = (iPais + deltaPais + PAISES.length) % PAISES.length;
         iClub = 0;
       }
-      if (deltaClub && iDiv === 1) {
-        const n = deLiga(PAISES[iPais].liga).length || 1;
+      if (deltaClub) {
+        const n = listaActual().length || 1;
         iClub = (iClub + deltaClub + n) % n;
       }
       pintar();
@@ -90,8 +92,8 @@ export default {
       else if (b.dataset.club) mover(0, Number(b.dataset.club));
       else if (b.dataset.div) { iDiv = Number(b.dataset.div) === 2 ? 2 : 1; pintar(); }
       else if (b.dataset.sortear !== undefined) {
-        const lista = deLiga(PAISES[iPais].liga);
-        if (iDiv !== 1 || !lista.length) { aviso('No hay clubes para sortear en esta división.', {tipo: 'alerta'}); return; }
+        const lista = listaActual();
+        if (!lista.length) { aviso('No hay clubes para sortear en esta división.', {tipo: 'alerta'}); return; }
         ir('nueva/dt', {club: lista[Math.floor(Math.random() * lista.length)].id, sorteo: 1});
       }
     });

@@ -1,0 +1,591 @@
+{
+ "clubId": "cremonese",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/US_Cremonese",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-cremonese-andrea-fulignati",
+   "nombre": "Andrea Fulignati",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1994-10-31",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Andrea_Fulignati"
+  },
+  {
+   "id": "wiki-cremonese-morten-thorsby",
+   "nombre": "Morten Thorsby",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Norway",
+   "nacCodigo": "NO",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-05-05",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Morten_Thorsby"
+  },
+  {
+   "id": "wiki-cremonese-giuseppe-pezzella",
+   "nombre": "Giuseppe Pezzella",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-11-29",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Giuseppe_Pezzella"
+  },
+  {
+   "id": "wiki-cremonese-tommaso-barbieri",
+   "nombre": "Tommaso Barbieri",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-08-26",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Tommaso_Barbieri"
+  },
+  {
+   "id": "wiki-cremonese-sebastiano-luperto",
+   "nombre": "Sebastiano Luperto",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-09-06",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Sebastiano_Luperto"
+  },
+  {
+   "id": "wiki-cremonese-federico-baschirotto",
+   "nombre": "Federico Baschirotto",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-09-20",
+   "posWiki": "DF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Federico_Baschirotto"
+  },
+  {
+   "id": "wiki-cremonese-david-stuckler",
+   "nombre": "David Stückler",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Denmark",
+   "nacCodigo": "DK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-10-07",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/David_St%C3%BCckler"
+  },
+  {
+   "id": "wiki-cremonese-simone-lottici-tessadri",
+   "nombre": "Simone Lottici Tessadri",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-cremonese-manuel-de-luca",
+   "nombre": "Manuel De Luca",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-07-17",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Manuel_De_Luca"
+  },
+  {
+   "id": "wiki-cremonese-adin-licina",
+   "nombre": "Adin Ličina",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-01-06",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Adin_Li%C4%8Dina"
+  },
+  {
+   "id": "wiki-cremonese-milan-uric",
+   "nombre": "Milan Đurić",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 36,
+   "nac": "Bosnia and Herzegovina",
+   "nacCodigo": "BA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1990-05-22",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Milan_%C4%90uri%C4%87_(footballer%2C_born_1990)"
+  },
+  {
+   "id": "wiki-cremonese-marco-festa",
+   "nombre": "Marco Festa",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 34,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1992-06-06",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Marco_Festa"
+  },
+  {
+   "id": "wiki-cremonese-fellipe-jack",
+   "nombre": "Fellipe Jack",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-01-12",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Fellipe_Jack"
+  },
+  {
+   "id": "wiki-cremonese-tommaso-berti",
+   "nombre": "Tommaso Berti",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-03-07",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Tommaso_Berti"
+  },
+  {
+   "id": "wiki-cremonese-matteo-bianchetti",
+   "nombre": "Matteo Bianchetti",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-03-17",
+   "posWiki": "DF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Matteo_Bianchetti"
+  },
+  {
+   "id": "wiki-cremonese-fabio-gerli",
+   "nombre": "Fabio Gerli",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-12-23",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Fabio_Gerli"
+  },
+  {
+   "id": "wiki-cremonese-adrian-lickunas",
+   "nombre": "Adrian Lickūnas",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Lithuania",
+   "nacCodigo": "LT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-cremonese-michele-collocolo",
+   "nombre": "Michele Collocolo",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-11-08",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Michele_Collocolo"
+  },
+  {
+   "id": "wiki-cremonese-marco-nasti",
+   "nombre": "Marco Nasti",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-09-17",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Marco_Nasti"
+  },
+  {
+   "id": "wiki-cremonese-simone-pontisso",
+   "nombre": "Simone Pontisso",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-03-20",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Simone_Pontisso"
+  },
+  {
+   "id": "wiki-cremonese-yuri-rocchetti",
+   "nombre": "Yuri Rocchetti",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-cremonese-federico-agazzi",
+   "nombre": "Federico Agazzi",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-cremonese-dachi-lordkipanidze",
+   "nombre": "Dachi Lordkipanidze",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Georgia",
+   "nacCodigo": "GE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-03-08",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Dachi_Lordkipanidze"
+  },
+  {
+   "id": "wiki-cremonese-jari-vandeputte",
+   "nombre": "Jari Vandeputte",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Belgium",
+   "nacCodigo": "BE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-02-14",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Jari_Vandeputte"
+  },
+  {
+   "id": "wiki-cremonese-alberto-grassi",
+   "nombre": "Alberto Grassi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-03-07",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Alberto_Grassi"
+  },
+  {
+   "id": "wiki-cremonese-alessandro-vogliacco",
+   "nombre": "Alessandro Vogliacco",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 38,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-09-14",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Alessandro_Vogliacco"
+  },
+  {
+   "id": "wiki-cremonese-salvatore-elia",
+   "nombre": "Salvatore Elia",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 71,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-06-30",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Salvatore_Elia"
+  },
+  {
+   "id": "wiki-cremonese-federico-bonazzoli",
+   "nombre": "Federico Bonazzoli",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 90,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-05-21",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Federico_Bonazzoli"
+  }
+ ]
+}

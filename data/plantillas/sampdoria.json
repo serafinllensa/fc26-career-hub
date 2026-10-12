@@ -1,0 +1,592 @@
+{
+ "clubId": "sampdoria",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/UC_Sampdoria",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-sampdoria-peter-vindahl",
+   "nombre": "Peter Vindahl",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Denmark",
+   "nacCodigo": "DK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1998-02-16",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Peter_Vindahl"
+  },
+  {
+   "id": "wiki-sampdoria-mattia-viti",
+   "nombre": "Mattia Viti",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-01-24",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Mattia_Viti"
+  },
+  {
+   "id": "wiki-sampdoria-stefan-gartenmann",
+   "nombre": "Stefan Gartenmann",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Switzerland",
+   "nacCodigo": "CH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-02-02",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Stefan_Gartenmann"
+  },
+  {
+   "id": "wiki-sampdoria-bjorn-meijer",
+   "nombre": "Bjorn Meijer",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Netherlands",
+   "nacCodigo": "NL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-03-18",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Bjorn_Meijer"
+  },
+  {
+   "id": "wiki-sampdoria-liam-henderson",
+   "nombre": "Liam Henderson",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Scotland",
+   "nacCodigo": "GB-SCT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-04-25",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Liam_Henderson"
+  },
+  {
+   "id": "wiki-sampdoria-manuel-cicconi",
+   "nombre": "Manuel Cicconi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-06-27",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Manuel_Cicconi"
+  },
+  {
+   "id": "wiki-sampdoria-tobias-lauritsen",
+   "nombre": "Tobias Lauritsen",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Norway",
+   "nacCodigo": "NO",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-08-30",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Tobias_Lauritsen"
+  },
+  {
+   "id": "wiki-sampdoria-lorenzo-insigne",
+   "nombre": "Lorenzo Insigne",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 35,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1991-06-04",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Lorenzo_Insigne"
+  },
+  {
+   "id": "wiki-sampdoria-tjas-begic",
+   "nombre": "Tjaš Begić",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Slovenia",
+   "nacCodigo": "SI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-06-30",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Tja%C5%A1_Begi%C4%87"
+  },
+  {
+   "id": "wiki-sampdoria-andrey-krastev",
+   "nombre": "Andrey Krastev",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Bulgaria",
+   "nacCodigo": "BG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-sampdoria-luca-ravanelli",
+   "nombre": "Luca Ravanelli",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-01-16",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Ravanelli"
+  },
+  {
+   "id": "wiki-sampdoria-yann-karamoh",
+   "nombre": "Yann Karamoh",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-07-08",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Yann_Karamoh"
+  },
+  {
+   "id": "wiki-sampdoria-filippo-delli-carri",
+   "nombre": "Filippo Delli Carri",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-05-03",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Filippo_Delli_Carri"
+  },
+  {
+   "id": "wiki-sampdoria-yari-verschaeren",
+   "nombre": "Yari Verschaeren",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Belgium",
+   "nacCodigo": "BE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-07-12",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Yari_Verschaeren"
+  },
+  {
+   "id": "wiki-sampdoria-nikola-sekulov",
+   "nombre": "Nikola Sekulov",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-02-18",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Nikola_Sekulov"
+  },
+  {
+   "id": "wiki-sampdoria-danel-sinani",
+   "nombre": "Danel Sinani",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Luxembourg",
+   "nacCodigo": "LU",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-04-05",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Danel_Sinani"
+  },
+  {
+   "id": "wiki-sampdoria-fabio-depaoli",
+   "nombre": "Fabio Depaoli",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-04-24",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Fabio_Depaoli"
+  },
+  {
+   "id": "wiki-sampdoria-alex-ferrari",
+   "nombre": "Alex Ferrari",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-07-01",
+   "posWiki": "DF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Alex_Ferrari_(footballer)"
+  },
+  {
+   "id": "wiki-sampdoria-oliver-abildgaard",
+   "nombre": "Oliver Abildgaard",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Denmark",
+   "nacCodigo": "DK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-06-10",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Oliver_Abildgaard"
+  },
+  {
+   "id": "wiki-sampdoria-alessandro-di-pardo",
+   "nombre": "Alessandro Di Pardo",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-07-18",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Alessandro_Di_Pardo"
+  },
+  {
+   "id": "wiki-sampdoria-francesco-conti",
+   "nombre": "Francesco Conti",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-sampdoria-karim-diop",
+   "nombre": "Karim Diop",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 38,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-sampdoria-lorenzo-mezzotero",
+   "nombre": "Lorenzo Mezzotero",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 18,
+   "nac": "Azerbaijan",
+   "nacCodigo": "AZ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 39,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2008-08-16",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Lorenzo_Mezzotero"
+  },
+  {
+   "id": "wiki-sampdoria-kevin-mbabu",
+   "nombre": "Kevin Mbabu",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Switzerland",
+   "nacCodigo": "CH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 43,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-04-19",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Kevin_Mbabu"
+  },
+  {
+   "id": "wiki-sampdoria-antoine-makoumbou",
+   "nombre": "Antoine Makoumbou",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Congo",
+   "nacCodigo": "CG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 45,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-07-18",
+   "posWiki": "MF",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Antoine_Makoumbou"
+  },
+  {
+   "id": "wiki-sampdoria-salvatore-esposito",
+   "nombre": "Salvatore Esposito",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 94,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-10-07",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Salvatore_Esposito_(footballer%2C_born_2000)"
+  },
+  {
+   "id": "wiki-sampdoria-samuele-massolo",
+   "nombre": "Samuele Massolo",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 96,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1996-05-04",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Samuele_Massolo"
+  },
+  {
+   "id": "wiki-sampdoria-gennaro-tutino",
+   "nombre": "Gennaro Tutino",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 99,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-08-20",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Gennaro_Tutino"
+  }
+ ]
+}

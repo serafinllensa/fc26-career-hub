@@ -1,0 +1,553 @@
+{
+ "clubId": "queens-park-rangers",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Queens_Park_Rangers_F.C.",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-queens-park-rangers-pierce-charles",
+   "nombre": "Pierce Charles",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Northern Ireland",
+   "nacCodigo": "GB-NIR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2005-07-21",
+   "posWiki": "GK",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Pierce_Charles"
+  },
+  {
+   "id": "wiki-queens-park-rangers-kealey-adamson",
+   "nombre": "Kealey Adamson",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Australia",
+   "nacCodigo": "AU",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-03-09",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Kealey_Adamson"
+  },
+  {
+   "id": "wiki-queens-park-rangers-jimmy-dunne",
+   "nombre": "Jimmy Dunne",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Ireland",
+   "nacCodigo": "IE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-10-19",
+   "posWiki": "DF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Jimmy_Dunne_(footballer%2C_born_1997)"
+  },
+  {
+   "id": "wiki-queens-park-rangers-liam-morrison",
+   "nombre": "Liam Morrison",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Scotland",
+   "nacCodigo": "GB-SCT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-04-07",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Liam_Morrison"
+  },
+  {
+   "id": "wiki-queens-park-rangers-ronnie-edwards",
+   "nombre": "Ronnie Edwards",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-03-28",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Ronnie_Edwards_(footballer)"
+  },
+  {
+   "id": "wiki-queens-park-rangers-jake-clarke-salter",
+   "nombre": "Jake Clarke-Salter",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-09-22",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Jake_Clarke-Salter"
+  },
+  {
+   "id": "wiki-queens-park-rangers-karamoko-dembele",
+   "nombre": "Karamoko Dembélé",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-02-22",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Karamoko_Demb%C3%A9l%C3%A9"
+  },
+  {
+   "id": "wiki-queens-park-rangers-ilias-chair",
+   "nombre": "Ilias Chair",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Morocco",
+   "nacCodigo": "MA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-10-30",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Ilias_Chair"
+  },
+  {
+   "id": "wiki-queens-park-rangers-paul-smyth",
+   "nombre": "Paul Smyth",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Northern Ireland",
+   "nacCodigo": "GB-NIR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-09-10",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Paul_Smyth_(footballer)"
+  },
+  {
+   "id": "wiki-queens-park-rangers-boy-kemper",
+   "nombre": "Boy Kemper",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Netherlands",
+   "nacCodigo": "NL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-06-21",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Boy_Kemper"
+  },
+  {
+   "id": "wiki-queens-park-rangers-calum-ward",
+   "nombre": "Calum Ward",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 25,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2000-10-17",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Calum_Ward"
+  },
+  {
+   "id": "wiki-queens-park-rangers-koki-saito",
+   "nombre": "Kōki Saitō",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Japan",
+   "nacCodigo": "JP",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-08-10",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/K%C5%8Dki_Sait%C5%8D_(footballer)"
+  },
+  {
+   "id": "wiki-queens-park-rangers-alfie-lloyd",
+   "nombre": "Alfie Lloyd",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-04-30",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Alfie_Lloyd"
+  },
+  {
+   "id": "wiki-queens-park-rangers-rumarn-burrell",
+   "nombre": "Rumarn Burrell",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Jamaica",
+   "nacCodigo": "JM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-12-16",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Rumarn_Burrell"
+  },
+  {
+   "id": "wiki-queens-park-rangers-kwame-poku",
+   "nombre": "Kwame Poku",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Ghana",
+   "nacCodigo": "GH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-08-11",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Kwame_Poku"
+  },
+  {
+   "id": "wiki-queens-park-rangers-glen-kamara",
+   "nombre": "Glen Kamara",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Finland",
+   "nacCodigo": "FI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-10-28",
+   "posWiki": "MF",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Glen_Kamara"
+  },
+  {
+   "id": "wiki-queens-park-rangers-dennis-cirkin",
+   "nombre": "Dennis Cirkin",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "LVA",
+   "nacCodigo": "LVA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-04-06",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Dennis_Cirkin"
+  },
+  {
+   "id": "wiki-queens-park-rangers-harvey-vale",
+   "nombre": "Harvey Vale",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Ireland",
+   "nacCodigo": "IE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-09-11",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Harvey_Vale"
+  },
+  {
+   "id": "wiki-queens-park-rangers-richard-kone",
+   "nombre": "Richard Kone",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Ivory Coast",
+   "nacCodigo": "CI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-07-15",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Richard_Kone"
+  },
+  {
+   "id": "wiki-queens-park-rangers-nicolas-madsen",
+   "nombre": "Nicolas Madsen",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Denmark",
+   "nacCodigo": "DK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-03-17",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Nicolas_Madsen"
+  },
+  {
+   "id": "wiki-queens-park-rangers-justin-obikwu",
+   "nombre": "Justin Obikwu",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Trinidad and Tobago",
+   "nacCodigo": "TT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-02-08",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Justin_Obikwu"
+  },
+  {
+   "id": "wiki-queens-park-rangers-rayan-kolli",
+   "nombre": "Rayan Kolli",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Algeria",
+   "nacCodigo": "DZ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-02-10",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Rayan_Kolli"
+  },
+  {
+   "id": "wiki-queens-park-rangers-amadou-mbengue",
+   "nombre": "Amadou Mbengue",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Amadou_Mbengue"
+  },
+  {
+   "id": "wiki-queens-park-rangers-matteo-salamon",
+   "nombre": "Matteo Salamon",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-queens-park-rangers-jonathan-varane",
+   "nombre": "Jonathan Varane",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "MTQ",
+   "nacCodigo": "MTQ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 40,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-09-09",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Jonathan_Varane"
+  },
+  {
+   "id": "wiki-queens-park-rangers-tariq-lamptey",
+   "nombre": "Tariq Lamptey",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Ghana",
+   "nacCodigo": "GH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 48,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-09-30",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Tariq_Lamptey"
+  }
+ ]
+}

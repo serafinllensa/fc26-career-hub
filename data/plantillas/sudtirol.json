@@ -1,0 +1,547 @@
+{
+ "clubId": "sudtirol",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/FC_S%C3%BCdtirol",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-sudtirol-davide-veroli",
+   "nombre": "Davide Veroli",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-01-29",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Davide_Veroli"
+  },
+  {
+   "id": "wiki-sudtirol-riccardo-stivanello",
+   "nombre": "Riccardo Stivanello",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Riccardo_Stivanello"
+  },
+  {
+   "id": "wiki-sudtirol-simone-tronchin",
+   "nombre": "Simone Tronchin",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-10-17",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Simone_Tronchin"
+  },
+  {
+   "id": "wiki-sudtirol-niklas-pyyhtia",
+   "nombre": "Niklas Pyyhtiä",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Finland",
+   "nacCodigo": "FI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-09-25",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Niklas_Pyyhti%C3%A4"
+  },
+  {
+   "id": "wiki-sudtirol-rares-burnete",
+   "nombre": "Rareș Burnete",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "ROM",
+   "nacCodigo": "ROM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-01-31",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Rare%C8%99_Burnete"
+  },
+  {
+   "id": "wiki-sudtirol-fabio-rispoli",
+   "nombre": "Fabio Rispoli",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-09-28",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Fabio_Rispoli"
+  },
+  {
+   "id": "wiki-sudtirol-vasco-lopes",
+   "nombre": "Vasco Lopes",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Cape Verde",
+   "nacCodigo": "CV",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-09-02",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Vasco_Lopes"
+  },
+  {
+   "id": "wiki-sudtirol-rok-vadjunec",
+   "nombre": "Rok Vadjunec",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "SLO",
+   "nacCodigo": "SLO",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-sudtirol-marco-varnier",
+   "nombre": "Marco Varnier",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-06-08",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Marco_Varnier"
+  },
+  {
+   "id": "wiki-sudtirol-aljosa-vasic",
+   "nombre": "Aljoša Vasić",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Serbia",
+   "nacCodigo": "RS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-04-21",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Aljo%C5%A1a_Vasi%C4%87"
+  },
+  {
+   "id": "wiki-sudtirol-lorenzo-anghele",
+   "nombre": "Lorenzo Anghelè",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-02-26",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Lorenzo_Anghel%C3%A8"
+  },
+  {
+   "id": "wiki-sudtirol-kevin-zeroli",
+   "nombre": "Kevin Zeroli",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-01-11",
+   "posWiki": "MF",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Kevin_Zeroli"
+  },
+  {
+   "id": "wiki-sudtirol-mattia-pellini",
+   "nombre": "Mattia Pellini",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-sudtirol-bjarki-bjarkason",
+   "nombre": "Bjarki Bjarkason",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Iceland",
+   "nacCodigo": "IS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-05-11",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Bjarki_Steinn_Bjarkason"
+  },
+  {
+   "id": "wiki-sudtirol-fabian-tait",
+   "nombre": "Fabian Tait",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-02-10",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Fabian_Tait"
+  },
+  {
+   "id": "wiki-sudtirol-alessandro-plizzari",
+   "nombre": "Alessandro Plizzari",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2000-03-12",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Alessandro_Plizzari"
+  },
+  {
+   "id": "wiki-sudtirol-federico-davi",
+   "nombre": "Federico Davi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-sudtirol-simone-davi",
+   "nombre": "Simone Davi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-09-16",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Simone_Davi"
+  },
+  {
+   "id": "wiki-sudtirol-kenny-mixtur",
+   "nombre": "Kenny Mixtur",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "GLP",
+   "nacCodigo": "GLP",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-10-09",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Kenny_Mixtur"
+  },
+  {
+   "id": "wiki-sudtirol-giacomo-stabile",
+   "nombre": "Giacomo Stabile",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-04-18",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Giacomo_Stabile"
+  },
+  {
+   "id": "wiki-sudtirol-dhirar-brik",
+   "nombre": "Dhirar Brik",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Tunisia",
+   "nacCodigo": "TN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 46,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-sudtirol-andrea-giorgini",
+   "nombre": "Andrea Giorgini",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 55,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-sudtirol-salvatore-molina",
+   "nombre": "Salvatore Molina",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 34,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 79,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1992-01-01",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Salvatore_Molina"
+  },
+  {
+   "id": "wiki-sudtirol-elias-schrott",
+   "nombre": "Elias Schrott",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 80,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-sudtirol-alvin-okoro",
+   "nombre": "Alvin Okoro",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 90,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-03-26",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Alvin_Okoro"
+  },
+  {
+   "id": "wiki-sudtirol-hamza-el-kaouakibi",
+   "nombre": "Hamza El Kaouakibi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Morocco",
+   "nacCodigo": "MA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 94,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-05-22",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Hamza_El_Kaouakibi"
+  }
+ ]
+}

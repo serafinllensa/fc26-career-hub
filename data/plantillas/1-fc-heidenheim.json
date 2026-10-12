@@ -1,0 +1,545 @@
+{
+ "clubId": "1-fc-heidenheim",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/1._FC_Heidenheim",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-1-fc-heidenheim-frank-feller",
+   "nombre": "Frank Feller",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Frank_Feller_(footballer)"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-marnon-busch",
+   "nombre": "Marnon Busch",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-12-08",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Marnon_Busch"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-jan-schoppner",
+   "nombre": "Jan Schöppner",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-06-12",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Jan_Sch%C3%B6ppner"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-tim-siersleben",
+   "nombre": "Tim Siersleben",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-03-09",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Tim_Siersleben"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-patrick-mainka",
+   "nombre": "Patrick Mainka",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-11-06",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Patrick_Mainka"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-paul-hennrich",
+   "nombre": "Paul Hennrich",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-christian-conteh",
+   "nombre": "Christian Conteh",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-08-27",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Christian_Conteh"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-budu-zivzivadze",
+   "nombre": "Budu Zivzivadze",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Georgia",
+   "nacCodigo": "GE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-03-10",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Budu_Zivzivadze"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-maximilian-breunig",
+   "nombre": "Maximilian Breunig",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-08-14",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Maximilian_Breunig"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-julian-niehues",
+   "nombre": "Julian Niehues",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Julian_Niehues"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-mathias-honsak",
+   "nombre": "Mathias Honsak",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Austria",
+   "nacCodigo": "AT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-12-20",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Mathias_Honsak"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-alessandro-vogt",
+   "nombre": "Alessandro Vogt",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Switzerland",
+   "nacCodigo": "CH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-02-03",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Alessandro_Vogt"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-jonas-fohrenbach",
+   "nombre": "Jonas Föhrenbach",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-01-26",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Jonas_F%C3%B6hrenbach"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-luca-kerber",
+   "nombre": "Luca Kerber",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-03-10",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Kerber"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-oualid-mhamdi",
+   "nombre": "Oualid Mhamdi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Morocco",
+   "nacCodigo": "MA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-05-20",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Oualid_Mhamdi"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-leart-pacarada",
+   "nombre": "Leart Paçarada",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Kosovo",
+   "nacCodigo": "XK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-10-08",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Leart_Paqarada"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-marcel-costly",
+   "nombre": "Marcel Costly",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-11-20",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Marcel_Costly"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-michael-heule",
+   "nombre": "Michael Heule",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Switzerland",
+   "nacCodigo": "CH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-04-27",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Michael_Heule"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-adam-kolle",
+   "nombre": "Adam Kölle",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-04-28",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Adam_K%C3%B6lle"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-mikkel-kaufmann",
+   "nombre": "Mikkel Kaufmann",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Denmark",
+   "nacCodigo": "DK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-01-03",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Mikkel_Kaufmann"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-sirlord-conteh",
+   "nombre": "Sirlord Conteh",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 31,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-07-09",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Sirlord_Conteh"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-thomas-dahne",
+   "nombre": "Thomas Dähne",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1994-01-04",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Thomas_D%C3%A4hne"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-paul-tschernuth",
+   "nombre": "Paul Tschernuth",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Austria",
+   "nacCodigo": "AT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 34,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-yannik-wagner",
+   "nombre": "Yannik Wagner",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 38,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-felix-mark",
+   "nombre": "Felix Mark",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 40,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-1-fc-heidenheim-marko-zrilic",
+   "nombre": "Marko Zrilić",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Croatia",
+   "nacCodigo": "HR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 41,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  }
+ ]
+}

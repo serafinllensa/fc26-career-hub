@@ -27,6 +27,60 @@ const EXTRA = {
 const COPA_NACIONAL = {
   'Premier League': 'FA Cup', 'LaLiga': 'Copa del Rey', 'Serie A': 'Coppa Italia',
   'Bundesliga': 'DFB-Pokal', 'Ligue 1': 'Coupe de France',
+  'Championship': 'FA Cup', 'Segunda División': 'Copa del Rey', 'Serie B': 'Coppa Italia',
+  '2. Bundesliga': 'DFB-Pokal', 'Ligue 2': 'Coupe de France',
+};
+
+// Escalera de segunda: no hay Champions. Los textos salen del formato real de cada liga (Wikipedia, 2026/27).
+const ESCALONES_D2 = [
+  {id: 'permanencia', texto: 'Salvarse del descenso'},
+  {id: 'mitad', texto: 'Terminar en la mitad alta'},
+  {id: 'playoff', texto: 'Entrar al playoff de ascenso'},
+  {id: 'ascenso', texto: 'Ascender de categoría'},
+  {id: 'titulo', texto: 'Ganar la liga y ascender'},
+];
+const BASE_D2 = {1: 0, 2: 1, 3: 2, 4: 3, 5: 4};
+const TEXTO_D2 = {
+  'Championship': {
+    permanencia: 'Salvarse del descenso a League One',
+    mitad: 'Terminar en la mitad alta del Championship',
+    playoff: 'Entrar al playoff de ascenso (3º a 8º)',
+    ascenso: 'Ascender a la Premier League',
+    titulo: 'Ganar el Championship',
+  },
+  'Segunda División': {
+    permanencia: 'Salvarse del descenso a Primera Federación',
+    mitad: 'Terminar en la mitad alta de Segunda',
+    playoff: 'Entrar al playoff de ascenso (3º a 6º)',
+    ascenso: 'Ascender a LaLiga',
+    titulo: 'Ganar la Segunda División',
+  },
+  'Serie B': {
+    permanencia: 'Salvarse del descenso a la Serie C',
+    mitad: 'Terminar en la mitad alta de la Serie B',
+    playoff: 'Entrar al playoff de ascenso (3º a 8º)',
+    ascenso: 'Ascender a la Serie A',
+    titulo: 'Ganar la Serie B',
+  },
+  '2. Bundesliga': {
+    permanencia: 'Salvarse del descenso a la 3. Liga',
+    mitad: 'Terminar en la mitad alta de la 2. Bundesliga',
+    playoff: 'Llegar al repechaje de ascenso (3º)',
+    ascenso: 'Ascender a la Bundesliga',
+    titulo: 'Ganar la 2. Bundesliga',
+  },
+  'Ligue 2': {
+    permanencia: 'Salvarse del descenso a la Ligue 3',
+    mitad: 'Terminar en la mitad alta de la Ligue 2',
+    playoff: 'Entrar al playoff de ascenso (3º a 5º)',
+    ascenso: 'Ascender a la Ligue 1',
+    titulo: 'Ganar la Ligue 2',
+  },
+};
+const TEXTO_FILIAL = {
+  playoff: 'Quedar en zona alta (un filial no puede ascender)',
+  ascenso: 'Pelear arriba: este filial no puede subir a primera',
+  titulo: 'Terminar primero, sabiendo que un filial no asciende',
 };
 
 export const REGLAS = {
@@ -65,6 +119,16 @@ export function objetivos(club, dificultad) {
   const nivel = club.nivel;
   validar(nivel, dificultad);
   const r = REGLAS[dificultad];
+  if (club.division === 2) {
+    let idx = Math.max(0, Math.min(ESCALONES_D2.length - 1, BASE_D2[nivel] + r.escalon));
+    const textos = TEXTO_D2[club.liga] || {};
+    const paso = ESCALONES_D2[idx];
+    const texto = (club.reserva && TEXTO_FILIAL[paso.id]) || textos[paso.id] || paso.texto;
+    const lista = [{tipo: 'liga', principal: true, id: paso.id, texto, puestoMax: paso.puestoMax ?? null}];
+    const copa = objetivoCopa(club, dificultad);
+    if (copa) lista.push(copa);
+    return lista;
+  }
   let idx = Math.max(0, Math.min(ESCALONES_LIGA.length - 1, BASE_LIGA[nivel] + r.escalon));
   if (nivel === 1 && dificultad === 'leyenda') idx = 2; // N1 leyenda: top 10 y nada más (ajuste Donato)
   const lista = [{tipo: 'liga', principal: true, ...ESCALONES_LIGA[idx]}];

@@ -1,0 +1,585 @@
+{
+ "clubId": "energie-cottbus",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/FC_Energie_Cottbus",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-energie-cottbus-marcel-lotka",
+   "nombre": "Marcel Lotka",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Poland",
+   "nacCodigo": "PL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2001-05-25",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Marcel_Lotka"
+  },
+  {
+   "id": "wiki-energie-cottbus-king-manu",
+   "nombre": "King Manu",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-energie-cottbus-henry-rorig",
+   "nombre": "Henry Rorig",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-03-03",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Henry_Rorig"
+  },
+  {
+   "id": "wiki-energie-cottbus-tim-campulka",
+   "nombre": "Tim Campulka",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-04-28",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Tim_Campulka"
+  },
+  {
+   "id": "wiki-energie-cottbus-dominik-pelivan",
+   "nombre": "Dominik Pelivan",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-06-08",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Dominik_Pelivan"
+  },
+  {
+   "id": "wiki-energie-cottbus-jonas-hofmann",
+   "nombre": "Jonas Hofmann",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-02-07",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Jonas_Hofmann_(footballer%2C_born_1997)"
+  },
+  {
+   "id": "wiki-energie-cottbus-christian-kinsombi",
+   "nombre": "Christian Kinsombi",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-08-24",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Christian_Kinsombi"
+  },
+  {
+   "id": "wiki-energie-cottbus-lukas-michelbrink",
+   "nombre": "Lukas Michelbrink",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Lithuania",
+   "nacCodigo": "LT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-04-15",
+   "posWiki": "MF",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Lukas_Michelbrink"
+  },
+  {
+   "id": "wiki-energie-cottbus-lucas-copado",
+   "nombre": "Lucas Copado",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-01-10",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Lucas_Copado"
+  },
+  {
+   "id": "wiki-energie-cottbus-tolcay-cigerci",
+   "nombre": "Tolcay Ciğerci",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Turkey",
+   "nacCodigo": "TR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-01-24",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Tolcay_Ci%C4%9Ferci"
+  },
+  {
+   "id": "wiki-energie-cottbus-moritz-hannemann",
+   "nombre": "Moritz Hannemann",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-energie-cottbus-dmytro-bohdanov",
+   "nombre": "Dmytro Bohdanov",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Ukraine",
+   "nacCodigo": "UA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-03-06",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Dmytro_Bohdanov"
+  },
+  {
+   "id": "wiki-energie-cottbus-ryan-malone",
+   "nombre": "Ryan Malone",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 34,
+   "nac": "United States",
+   "nacCodigo": "US",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1992-08-11",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Ryan_Malone_(soccer)"
+  },
+  {
+   "id": "wiki-energie-cottbus-julian-guttau",
+   "nombre": "Julian Guttau",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-10-29",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Julian_Guttau"
+  },
+  {
+   "id": "wiki-energie-cottbus-erik-engelhardt",
+   "nombre": "Erik Engelhardt",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-04-18",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Erik_Engelhardt"
+  },
+  {
+   "id": "wiki-energie-cottbus-jannis-boziaris",
+   "nombre": "Jannis Boziaris",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-energie-cottbus-axel-borgmann",
+   "nombre": "Axel Borgmann",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-07-08",
+   "posWiki": "MF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Axel_Borgmann"
+  },
+  {
+   "id": "wiki-energie-cottbus-luca-erlein",
+   "nombre": "Luca Erlein",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-07-05",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Erlein"
+  },
+  {
+   "id": "wiki-energie-cottbus-fousseny-doumbia",
+   "nombre": "Fousseny Doumbia",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Mali",
+   "nacCodigo": "ML",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "cedido": true
+  },
+  {
+   "id": "wiki-energie-cottbus-anderson-lucoqui",
+   "nombre": "Anderson Lucoqui",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Angola",
+   "nacCodigo": "AO",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-07-06",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Anderson_Lucoqui"
+  },
+  {
+   "id": "wiki-energie-cottbus-kevin-kratzsch",
+   "nombre": "Kevin Kratzsch",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-energie-cottbus-max-bohnke",
+   "nombre": "Max Böhnke",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-energie-cottbus-justin-butler",
+   "nombre": "Justin Butler",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "United States",
+   "nacCodigo": "US",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 31,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-03-23",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Justin_Butler"
+  },
+  {
+   "id": "wiki-energie-cottbus-leonardo-bittencourt",
+   "nombre": "Leonardo Bittencourt",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-12-19",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Leonardo_Bittencourt"
+  },
+  {
+   "id": "wiki-energie-cottbus-malte-wilke",
+   "nombre": "Malte Wilke",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 40,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-energie-cottbus-jannis-zaydan",
+   "nombre": "Jannis Zaydan",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 42,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-energie-cottbus-aaron-reschke",
+   "nombre": "Aaron Reschke",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 43,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-energie-cottbus-joey-taubeneck",
+   "nombre": "Joey Taubeneck",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 47,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  }
+ ]
+}

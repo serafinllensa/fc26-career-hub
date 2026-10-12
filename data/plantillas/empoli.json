@@ -1,0 +1,522 @@
+{
+ "clubId": "empoli",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Empoli_FC",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-empoli-samuele-perisan",
+   "nombre": "Samuele Perisan",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1997-08-21",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Samuele_Perisan"
+  },
+  {
+   "id": "wiki-empoli-duccio-degli-innocenti",
+   "nombre": "Duccio Degli Innocenti",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-04-28",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Duccio_Degli_Innocenti"
+  },
+  {
+   "id": "wiki-empoli-simone-romagnoli",
+   "nombre": "Simone Romagnoli",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 36,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1990-02-09",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Simone_Romagnoli"
+  },
+  {
+   "id": "wiki-empoli-luca-magnino",
+   "nombre": "Luca Magnino",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-08-13",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Magnino"
+  },
+  {
+   "id": "wiki-empoli-edoardo-saporiti",
+   "nombre": "Edoardo Saporiti",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-empoli-stiven-shpendi",
+   "nombre": "Stiven Shpendi",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Albania",
+   "nacCodigo": "AL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-05-19",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Stiven_Shpendi"
+  },
+  {
+   "id": "wiki-empoli-jacopo-seghetti",
+   "nombre": "Jacopo Seghetti",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-empoli-emiliano-filippis",
+   "nombre": "Emiliano Filippis",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-empoli-joseph-ceesay",
+   "nombre": "Joseph Ceesay",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Gambia",
+   "nacCodigo": "GM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-06-03",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Joseph_Ceesay"
+  },
+  {
+   "id": "wiki-empoli-salvatore-monaco",
+   "nombre": "Salvatore Monaco",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-empoli-filippo-distefano",
+   "nombre": "Filippo Distefano",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-08-28",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Filippo_Distefano"
+  },
+  {
+   "id": "wiki-empoli-gerard-yepes",
+   "nombre": "Gerard Yepes",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Spain",
+   "nacCodigo": "ES",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-08-25",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Gerard_Yepes"
+  },
+  {
+   "id": "wiki-empoli-filippo-bandinelli",
+   "nombre": "Filippo Bandinelli",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-03-29",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Filippo_Bandinelli"
+  },
+  {
+   "id": "wiki-empoli-marco-curto",
+   "nombre": "Marco Curto",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-01-05",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Marco_Curto"
+  },
+  {
+   "id": "wiki-empoli-gabriele-indragoli",
+   "nombre": "Gabriele Indragoli",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-empoli-cristian-cauz",
+   "nombre": "Cristian Cauz",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-08-15",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Cristian_Cauz"
+  },
+  {
+   "id": "wiki-empoli-matteo-egan",
+   "nombre": "Matteo Egan",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Ireland",
+   "nacCodigo": "IE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 35,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Matteo_Egan"
+  },
+  {
+   "id": "wiki-empoli-edoardo-biondini",
+   "nombre": "Edoardo Biondini",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 17,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 39,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2009-01-01",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Edoardo_Biondini"
+  },
+  {
+   "id": "wiki-empoli-roberto-berizzi",
+   "nombre": "Roberto Berizzi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 40,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-empoli-lapo-deli",
+   "nombre": "Lapo Deli",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 44,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-empoli-andrea-orlandi",
+   "nombre": "Andrea Orlandi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 45,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-empoli-luca-belardinelli",
+   "nombre": "Luca Belardinelli",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 57,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-03-14",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Belardinelli"
+  },
+  {
+   "id": "wiki-empoli-bohdan-popov",
+   "nombre": "Bohdan Popov",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Ukraine",
+   "nacCodigo": "UA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 77,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-04-04",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Bohdan_Popov"
+  },
+  {
+   "id": "wiki-empoli-niccolo-corrado",
+   "nombre": "Niccolò Corrado",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 91,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-03-19",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Niccol%C3%B2_Corrado"
+  },
+  {
+   "id": "wiki-empoli-karim-zedadka",
+   "nombre": "Karim Zedadka",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Algeria",
+   "nacCodigo": "DZ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 98,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-06-09",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Karim_Zedadka"
+  }
+ ]
+}

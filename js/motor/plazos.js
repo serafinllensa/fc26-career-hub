@@ -12,6 +12,12 @@ export const REGLA_LIGA = {
   'Serie A': {id: 'cla-seriea', tope: 0.7, texto: 'Mantener el costo del trabajo por debajo del 70% de los ingresos (sin bloqueo de mercado)'},
   'Bundesliga': {id: 'kaderkosten', tope: 0.7, texto: 'Cumplir la regla de costo de plantilla de la DFL (70%)'},
   'Ligue 1': {id: 'dncg', tope: null, texto: 'Pasar el control de la DNCG sin encuadramiento de la masa salarial'},
+  // Segunda: misma familia de control, sin un porcentaje que la fuente no dé para esta categoría.
+  'Championship': {id: 'efl-psr', tope: null, texto: 'Pasar el control de rentabilidad y sostenibilidad de la EFL (sin un porcentaje cargado para el Championship)'},
+  'Segunda División': {id: 'lcpd-2', tope: null, texto: 'Mantenerse dentro del control económico de LaLiga en Segunda (el límite de este club no está cargado)'},
+  'Serie B': {id: 'figc-b', tope: null, texto: 'Pasar el control económico de la FIGC en Serie B (sin un tope numérico cargado)'},
+  '2. Bundesliga': {id: 'dfl-2', tope: null, texto: 'Cumplir la licencia y el control de la DFL en la 2. Bundesliga (sin un porcentaje inventado)'},
+  'Ligue 2': {id: 'dncg-2', tope: null, texto: 'Pasar el control de la DNCG en Ligue 2 (sin un tope numérico cargado)'},
 };
 const UEFA = {id: 'scr-uefa', tope: 0.7, texto: 'Cumplir el tope de 70% de la UEFA (costo de plantilla sobre ingresos)'};
 
@@ -39,8 +45,12 @@ export function objetivosPlazos(club, dificultad) {
   const id = new Set(club.identidad || []);
   const d = DUREZA[dificultad], nivel = club.nivel, r = REGLAS[dificultad];
   const corto = objetivos(club, dificultad).map(x => ({categoria: 'deportivo', ...x}));
-  const mediano = [o('deportivo', MED[nivel].id, MED[nivel].texto(m))];
-  const largo = [o('deportivo', LAR[nivel].id, LAR[nivel].texto(l))];
+  const mediano = club.division === 2
+    ? [o('deportivo', club.reserva ? 'med-filial' : 'med-ascenso', club.reserva ? `Seguir siendo competitivo en ${m} temporadas: un filial no asciende` : `Ascender a primera en ${m} temporadas`)]
+    : [o('deportivo', MED[nivel].id, MED[nivel].texto(m))];
+  const largo = club.division === 2
+    ? [o('deportivo', club.reserva ? 'lar-filial' : 'lar-primera', club.reserva ? `Mantener al filial en la categoría en ${l} temporadas` : `Afirmarse en primera en ${l} temporadas`)]
+    : [o('deportivo', LAR[nivel].id, LAR[nivel].texto(l))];
 
   // Cantera
   const cantera = CANTERA_NOMBRE[club.id] || 'la cantera';
@@ -54,7 +64,7 @@ export function objetivosPlazos(club, dificultad) {
   // Económico (desde medio la regla de la liga es objetivo, no solo aviso)
   const regla = REGLA_LIGA[club.liga];
   if (regla && d >= 1) corto.push(o('economico', regla.id, regla.texto, {tope: regla.tope}));
-  if (d >= 1 && nivel >= 3) mediano.push(o('economico', UEFA.id, UEFA.texto, {tope: UEFA.tope}));
+  if (d >= 1 && nivel >= 3 && club.division !== 2) mediano.push(o('economico', UEFA.id, UEFA.texto, {tope: UEFA.tope}));
   if (id.has('vendedor')) {
     corto.push(o('economico', 'saldo-ventas', 'Cerrar la temporada con más ventas que compras'));
     mediano.push(o('desarrollo', 'revalorizar', `Subir ${20 + d * 5}% el valor de la plantilla en ${m} temporadas`, {pct: 20 + d * 5}));

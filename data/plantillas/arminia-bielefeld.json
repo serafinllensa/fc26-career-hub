@@ -1,0 +1,587 @@
+{
+ "clubId": "arminia-bielefeld",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Arminia_Bielefeld",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-arminia-bielefeld-jonas-kersken",
+   "nombre": "Jonas Kersken",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2000-09-01",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Jonas_Kersken"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-felix-hagmann",
+   "nombre": "Felix Hagmann",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-01-29",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Felix_Hagmann"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-joel-felix",
+   "nombre": "Joel Felix",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "DNK",
+   "nacCodigo": "DNK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-01-13",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Joel_Felix_(footballer)"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-maximilian-bauer",
+   "nombre": "Maximilian Bauer",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-02-09",
+   "posWiki": "DF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Maximilian_Bauer_(footballer%2C_born_2000)"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-marvin-mehlem",
+   "nombre": "Marvin Mehlem",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-09-11",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Marvin_Mehlem"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-henri-koudossou",
+   "nombre": "Henri Koudossou",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-09-03",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Henri_Koudossou"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-sam-schreck",
+   "nombre": "Sam Schreck",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-01-29",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Sam_Schreck"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-david-min",
+   "nombre": "David Min",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Netherlands",
+   "nacCodigo": "NL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-06-23",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/David_Min_(footballer)"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-jannik-rochelt",
+   "nombre": "Jannik Rochelt",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-09-27",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Jannik_Rochelt"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-joel-grodowski",
+   "nombre": "Joel Grodowski",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-11-30",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Joel_Grodowski"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-lukas-kunze",
+   "nombre": "Lukas Kunze",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-06-14",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Lukas_Kunze"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-thaddaus-monju-momuluh",
+   "nombre": "Thaddäus-Monju Momuluh",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-02-18",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Thadd%C3%A4us-Monju_Momuluh"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-arne-sicker",
+   "nombre": "Arne Sicker",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-04-17",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Arne_Sicker"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-leo-oppermann",
+   "nombre": "Leo Oppermann",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-maximilian-gro-er",
+   "nombre": "Maximilian Großer",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-07-23",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Maximilian_Gro%C3%9Fer"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-stefano-russo",
+   "nombre": "Stefano Russo",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-06-29",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Stefano_Russo_(footballer%2C_born_2000)"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-leon-schneider",
+   "nombre": "Leon Schneider",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-06-19",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Leon_Schneider"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-benjamin-boakye",
+   "nombre": "Benjamin Boakye",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-03-07",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Benjamin_Boakye"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-roberts-uldrikis",
+   "nombre": "Roberts Uldriķis",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "LVA",
+   "nacCodigo": "LVA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-04-03",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Roberts_Uldri%C4%B7is"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-tim-handwerker",
+   "nombre": "Tim Handwerker",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-05-19",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Tim_Handwerker"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-isaiah-young",
+   "nombre": "Isaiah Young",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "United States",
+   "nacCodigo": "US",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-03-30",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Isaiah_Young"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-leon-jensen",
+   "nombre": "Leon Jensen",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 31,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-05-19",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Leon_Jensen"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-marius-worl",
+   "nombre": "Marius Wörl",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 38,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-04-05",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Marius_W%C3%B6rl"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-till-wegener",
+   "nombre": "Till Wegener",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 42,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-daniel-richter",
+   "nombre": "Daniel Richter",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 43,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-eyyub-yasar",
+   "nombre": "Eyyüb Yasar",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Turkey",
+   "nacCodigo": "TR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 44,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-philip-hildesheim",
+   "nombre": "Philip Hildesheim",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 47,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-arminia-bielefeld-mino-jager",
+   "nombre": "Mino Jäger",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 50,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  }
+ ]
+}

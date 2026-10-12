@@ -1,0 +1,666 @@
+{
+ "clubId": "benevento",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Benevento_Calcio",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-benevento-antonio-prisco",
+   "nombre": "Antonio Prisco",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-benevento-luca-caldirola",
+   "nombre": "Luca Caldirola",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 35,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1991-02-01",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Caldirola"
+  },
+  {
+   "id": "wiki-benevento-antonis-siatounis",
+   "nombre": "Antonis Siatounis",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Greece",
+   "nacCodigo": "GR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-08-26",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Antonis_Siatounis"
+  },
+  {
+   "id": "wiki-benevento-mattia-maita",
+   "nombre": "Mattia Maita",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-08-29",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Mattia_Maita"
+  },
+  {
+   "id": "wiki-benevento-francesco-salvemini",
+   "nombre": "Francesco Salvemini",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Francesco_Salvemini"
+  },
+  {
+   "id": "wiki-benevento-luigi-cherubini",
+   "nombre": "Luigi Cherubini",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-01-15",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Luigi_Cherubini_(footballer)"
+  },
+  {
+   "id": "wiki-benevento-davide-lamesta",
+   "nombre": "Davide Lamesta",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-04-19",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Davide_Lamesta"
+  },
+  {
+   "id": "wiki-benevento-raffaele-celia",
+   "nombre": "Raffaele Celia",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-03-04",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Raffaele_Celia"
+  },
+  {
+   "id": "wiki-benevento-stefano-scognamillo",
+   "nombre": "Stefano Scognamillo",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-05-04",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Stefano_Scognamillo"
+  },
+  {
+   "id": "wiki-benevento-christian-dalle-mura",
+   "nombre": "Christian Dalle Mura",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-02-02",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Christian_Dalle_Mura"
+  },
+  {
+   "id": "wiki-benevento-mattia-mannini",
+   "nombre": "Mattia Mannini",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-07-08",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Mattia_Mannini"
+  },
+  {
+   "id": "wiki-benevento-leonardo-sernicola",
+   "nombre": "Leonardo Sernicola",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-07-30",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Leonardo_Sernicola"
+  },
+  {
+   "id": "wiki-benevento-pier-luigi-simonetti",
+   "nombre": "Pier Luigi Simonetti",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-01-04",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Pier_Luigi_Simonetti"
+  },
+  {
+   "id": "wiki-benevento-vincenzo-battista",
+   "nombre": "Vincenzo Battista",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-benevento-pietro-beruatto",
+   "nombre": "Pietro Beruatto",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-12-21",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Pietro_Beruatto"
+  },
+  {
+   "id": "wiki-benevento-emanuele-schimmenti",
+   "nombre": "Emanuele Schimmenti",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-benevento-manuel-esposito",
+   "nombre": "Manuel Esposito",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-benevento-pietro-saio",
+   "nombre": "Pietro Saio",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-benevento-raffaele-romano",
+   "nombre": "Raffaele Romano",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-benevento-gianmarco-vannucchi",
+   "nombre": "Gianmarco Vannucchi",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1995-07-30",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Gianmarco_Vannucchi"
+  },
+  {
+   "id": "wiki-benevento-christian-kouan",
+   "nombre": "Christian Kouan",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Ivory Coast",
+   "nacCodigo": "CI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-01-01",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Christian_Kouan"
+  },
+  {
+   "id": "wiki-benevento-david-okereke",
+   "nombre": "David Okereke",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "NGR",
+   "nacCodigo": "NGR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-08-29",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/David_Okereke"
+  },
+  {
+   "id": "wiki-benevento-logan",
+   "nombre": "Logan",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Brazil",
+   "nacCodigo": "BR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-benevento-giacomo-ricci",
+   "nombre": "Giacomo Ricci",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 31,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-09-02",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Giacomo_Ricci_(footballer)"
+  },
+  {
+   "id": "wiki-benevento-guglielmo-mignani",
+   "nombre": "Guglielmo Mignani",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-benevento-angelo-talia",
+   "nombre": "Angelo Talia",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 38,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-03-10",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Angelo_Talia"
+  },
+  {
+   "id": "wiki-benevento-edoardo-pierozzi",
+   "nombre": "Edoardo Pierozzi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 77,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-09-12",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Edoardo_Pierozzi"
+  },
+  {
+   "id": "wiki-benevento-matteo-donatiello",
+   "nombre": "Matteo Donatiello",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 80,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-benevento-matteo-del-gaudio",
+   "nombre": "Matteo Del Gaudio",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 82,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-benevento-simone-verdi",
+   "nombre": "Simone Verdi",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 34,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 90,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1992-07-12",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Simone_Verdi"
+  },
+  {
+   "id": "wiki-benevento-marco-tumminello",
+   "nombre": "Marco Tumminello",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 93,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-11-06",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Marco_Tumminello"
+  },
+  {
+   "id": "wiki-benevento-alioune-sylla",
+   "nombre": "Alioune Sylla",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 96,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  }
+ ]
+}

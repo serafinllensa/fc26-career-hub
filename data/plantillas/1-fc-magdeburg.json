@@ -1,0 +1,1005 @@
+{
+ "clubId": "1-fc-magdeburg",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/1._FC_Magdeburg",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-1-fc-magdeburg-dominik-reimann",
+   "nombre": "Dominik Reimann",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1997-06-18",
+   "posWiki": "GK",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Dominik_Reimann"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-anselmo-garcia-macnulty",
+   "nombre": "Anselmo García MacNulty",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Ireland",
+   "nacCodigo": "IE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-02-19",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Anselmo_Garc%C3%ADa_MacNulty"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-eldin-dzogovic",
+   "nombre": "Eldin Džogović",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Luxembourg",
+   "nacCodigo": "LU",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-06-08",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Eldin_D%C5%BEogovi%C4%87"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-tobias-muller",
+   "nombre": "Tobias Müller",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-07-08",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Tobias_M%C3%BCller_(footballer%2C_born_1994)"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-paul-jaeckel",
+   "nombre": "Paul Jaeckel",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-07-22",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Paul_Jaeckel"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-herbert-bockhorn",
+   "nombre": "Herbert Bockhorn",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Uganda",
+   "nacCodigo": "UG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-01-31",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Herbert_Bockhorn"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-emmanuel-iyoha",
+   "nombre": "Emmanuel Iyoha",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-10-11",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Emmanuel_Iyoha"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-roko-simic",
+   "nombre": "Roko Šimić",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Croatia",
+   "nacCodigo": "HR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-09-10",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Roko_%C5%A0imi%C4%87"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-moritz-broni-kwarteng",
+   "nombre": "Moritz-Broni Kwarteng",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-04-28",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Moritz_Kwarteng"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-felipe-chavez",
+   "nombre": "Felipe Chávez",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Peru",
+   "nacCodigo": "PE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-04-10",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Felipe_Ch%C3%A1vez"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-tony-reitz",
+   "nombre": "Tony Reitz",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-daniel-heber",
+   "nombre": "Daniel Heber",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-alexander-nollenberger",
+   "nombre": "Alexander Nollenberger",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-06-04",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Alexander_Nollenberger"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-lee-chung-hyun",
+   "nombre": "Lee Chung-hyun",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "South Korea",
+   "nacCodigo": "KR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW",
+   "cedido": true
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-lubambo-musonda",
+   "nombre": "Lubambo Musonda",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Zambia",
+   "nacCodigo": "ZM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-03-01",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Lubambo_Musonda"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-kevin-manthey",
+   "nombre": "Kevin Manthey",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-falko-michel",
+   "nombre": "Falko Michel",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-mateusz-zukowski",
+   "nombre": "Mateusz Żukowski",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Poland",
+   "nacCodigo": "PL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-11-23",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Mateusz_%C5%BBukowski"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-bar-s-atik",
+   "nombre": "Barış Atik",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Turkey",
+   "nacCodigo": "TR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-01-09",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Bar%C4%B1%C5%9F_Atik"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-torben-musel",
+   "nombre": "Torben Müsel",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-07-25",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Torben_M%C3%BCsel"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-yoon-do-young",
+   "nombre": "Yoon Do-young",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "South Korea",
+   "nacCodigo": "KR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-10-28",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Yoon_Do-young"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-pierre-nadjombe",
+   "nombre": "Pierre Nadjombe",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "TGO",
+   "nacCodigo": "TGO",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-05-10",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Pierre_Nadjombe"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-richmond-tachie",
+   "nombre": "Richmond Tachie",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-04-21",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Richmond_Tachie"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-noah-kruth",
+   "nombre": "Noah Kruth",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-leon-mergner",
+   "nombre": "Leon Mergner",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-tarek-chahed",
+   "nombre": "Tarek Chahed",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 34,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-06-23",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Tarek_Chahed"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-magnus-baars",
+   "nombre": "Magnus Baars",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 35,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-luka-hyrylainen",
+   "nombre": "Luka Hyryläinen",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Finland",
+   "nacCodigo": "FI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 38,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-08-25",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Luka_Hyryl%C3%A4inen"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-robert-kampa",
+   "nombre": "Robert Kampa",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 40,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-tom-schlitter",
+   "nombre": "Tom Schlitter",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-rick-lemke",
+   "nombre": "Rick Lemke",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-batuhan-deliboyraz",
+   "nombre": "Batuhan Deliboyraz",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Turkey",
+   "nacCodigo": "TR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-timo-birk",
+   "nombre": "Timo Birk",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-elisio-widmann",
+   "nombre": "Elisio Widmann",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-mathis-froberg",
+   "nombre": "Mathis Froberg",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-luc-elsner",
+   "nombre": "Luc Elsner",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-stefan-korsch",
+   "nombre": "Stefan Korsch",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-luis-trus",
+   "nombre": "Luis Trus",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-jeremie-niklaus",
+   "nombre": "Jeremie Niklaus",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-nick-meier",
+   "nombre": "Nick Meier",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-gennaro-mewes",
+   "nombre": "Gennaro Mewes",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-philipp-flemming",
+   "nombre": "Philipp Flemming",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-steven-probst",
+   "nombre": "Steven Probst",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-mihailo-trkulja",
+   "nombre": "Mihailo Trkulja",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Bosnia and Herzegovina",
+   "nacCodigo": "BA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-marcel-zajusch",
+   "nombre": "Marcel Zajusch",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Poland",
+   "nacCodigo": "PL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-cornelius-braunling",
+   "nombre": "Cornelius Bräunling",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-leander-beimborn",
+   "nombre": "Leander Beimborn",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 34,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-armin-sivic",
+   "nombre": "Armin Sivic",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 39,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-1-fc-magdeburg-marvin-pohl",
+   "nombre": "Marvin Pohl",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": null,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  }
+ ]
+}

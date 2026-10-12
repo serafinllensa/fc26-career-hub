@@ -1,0 +1,568 @@
+{
+ "clubId": "montpellier",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Montpellier_HSC",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-montpellier-mathieu-michel",
+   "nombre": "Mathieu Michel",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 35,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1991-09-04",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Mathieu_Michel_(footballer)"
+  },
+  {
+   "id": "wiki-montpellier-naoufel-el-hannach",
+   "nombre": "Naoufel El Hannach",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Morocco",
+   "nacCodigo": "MA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-12-07",
+   "posWiki": "DF",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Naoufel_El_Hannach"
+  },
+  {
+   "id": "wiki-montpellier-florian-tardieu",
+   "nombre": "Florian Tardieu",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 34,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1992-04-22",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Florian_Tardieu"
+  },
+  {
+   "id": "wiki-montpellier-yael-mouanga",
+   "nombre": "Yaël Mouanga",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-07-23",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Ya%C3%ABl_Mouanga"
+  },
+  {
+   "id": "wiki-montpellier-lacine-megnan-pave",
+   "nombre": "Laciné Megnan-Pavé",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 16,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2010-03-07",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Lacin%C3%A9_Megnan-Pav%C3%A9"
+  },
+  {
+   "id": "wiki-montpellier-yassine-benhattab",
+   "nombre": "Yassine Benhattab",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-11-18",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Yassine_Benhattab"
+  },
+  {
+   "id": "wiki-montpellier-mamadou-camara",
+   "nombre": "Mamadou Camara",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Mali",
+   "nacCodigo": "ML",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-02-07",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Mamadou_Camara_(footballer%2C_born_7_February_2001)"
+  },
+  {
+   "id": "wiki-montpellier-oscar-etoundi",
+   "nombre": "Oscar Etoundi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Cameroon",
+   "nacCodigo": "CM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-montpellier-julien-laporte",
+   "nombre": "Julien Laporte",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-11-04",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Julien_Laporte"
+  },
+  {
+   "id": "wiki-montpellier-theo-sainte-luce",
+   "nombre": "Théo Sainte-Luce",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-10-20",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Th%C3%A9o_Sainte-Luce"
+  },
+  {
+   "id": "wiki-montpellier-nicolas-pays",
+   "nombre": "Nicolas Pays",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-07-07",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Nicolas_Pays"
+  },
+  {
+   "id": "wiki-montpellier-nordan-mukiele",
+   "nombre": "Nordan Mukiele",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-02-12",
+   "posWiki": "FW",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Nordan_Mukiele"
+  },
+  {
+   "id": "wiki-montpellier-nabil-homssa",
+   "nombre": "Nabil Homssa",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-montpellier-axel-gueguin",
+   "nombre": "Axel Gueguin",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-03-24",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Axel_Gueguin"
+  },
+  {
+   "id": "wiki-montpellier-daryll-benlahlou",
+   "nombre": "Daryll Benlahlou",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Algeria",
+   "nacCodigo": "DZ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW",
+   "cedido": true
+  },
+  {
+   "id": "wiki-montpellier-wilfried-ndollo-bille",
+   "nombre": "Wilfried Ndollo Bille",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Cameroon",
+   "nacCodigo": "CM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-04-15",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Wilfried_Ndollo_Bille"
+  },
+  {
+   "id": "wiki-montpellier-yvan-djemba-mbappe",
+   "nombre": "Yvan Djemba Mbappé",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Cameroon",
+   "nacCodigo": "CM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-montpellier-daylam-meddah",
+   "nombre": "Daylam Meddah",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-10-06",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Daylam_Meddah"
+  },
+  {
+   "id": "wiki-montpellier-yanis-zouaoui",
+   "nombre": "Yanis Zouaoui",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Yanis_Zouaoui"
+  },
+  {
+   "id": "wiki-montpellier-simon-ngapandouetnbu",
+   "nombre": "Simon Ngapandouetnbu",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Cameroon",
+   "nacCodigo": "CM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 31,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2003-04-12",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Simon_Ngapandouetnbu"
+  },
+  {
+   "id": "wiki-montpellier-jeremy-hatchi",
+   "nombre": "Jérémy Hatchi",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 39,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW",
+   "cedido": true
+  },
+  {
+   "id": "wiki-montpellier-theo-chennahi",
+   "nombre": "Théo Chennahi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 44,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-07-06",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Th%C3%A9o_Chennahi"
+  },
+  {
+   "id": "wiki-montpellier-viktor-dzodic",
+   "nombre": "Viktor Džodić",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Serbia",
+   "nacCodigo": "RS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 50,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2006-11-15",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Viktor_D%C5%BEodi%C4%87"
+  },
+  {
+   "id": "wiki-montpellier-alpha-sissoko",
+   "nombre": "Alpha Sissoko",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 58,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-03-07",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Alpha_Sissoko"
+  },
+  {
+   "id": "wiki-montpellier-kevin-kamdem",
+   "nombre": "Kevin Kamdem",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Cameroon",
+   "nacCodigo": "CM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 60,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-montpellier-everson-junior",
+   "nombre": "Everson Junior",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 77,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-11-07",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Everson_Junior"
+  },
+  {
+   "id": "wiki-montpellier-gregory-ayem",
+   "nombre": "Grégory Ayem",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 90,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  }
+ ]
+}

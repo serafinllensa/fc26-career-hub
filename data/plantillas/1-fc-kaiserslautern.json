@@ -1,0 +1,605 @@
+{
+ "clubId": "1-fc-kaiserslautern",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/1._FC_Kaiserslautern",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-1-fc-kaiserslautern-julian-krahl",
+   "nombre": "Julian Krahl",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2000-01-22",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Julian_Krahl"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-simon-asta",
+   "nombre": "Simon Asta",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-01-25",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Simon_Asta"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-alex-murphy",
+   "nombre": "Alex Murphy",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Ireland",
+   "nacCodigo": "IE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-06-25",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Alex_Murphy_(footballer)"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-maxwell-gyamfi",
+   "nombre": "Maxwell Gyamfi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-01-18",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Maxwell_Gyamfi"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-kelven-frees",
+   "nombre": "Kelven Frees",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-fabian-kunze",
+   "nombre": "Fabian Kunze",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-06-14",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Fabian_Kunze"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-marlon-ritter",
+   "nombre": "Marlon Ritter",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-10-15",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Marlon_Ritter"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-semih-sahin",
+   "nombre": "Semih Şahin",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-12-22",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Semih_%C5%9Eahin"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-ivan-prtajin",
+   "nombre": "Ivan Prtajin",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Croatia",
+   "nacCodigo": "HR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-05-14",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Ivan_Prtajin"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-ibrahim-kanate",
+   "nombre": "Ibrahim Kanaté",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Mali",
+   "nacCodigo": "ML",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-10-23",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Ibrahim_Kanat%C3%A9"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-jacob-rasmussen",
+   "nombre": "Jacob Rasmussen",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Denmark",
+   "nacCodigo": "DK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-05-28",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Jacob_Rasmussen"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-naatan-skytta",
+   "nombre": "Naatan Skyttä",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Finland",
+   "nacCodigo": "FI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-05-07",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Naatan_Skytt%C3%A4"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-erencan-yard-mc",
+   "nombre": "Erencan Yardımcı",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Turkey",
+   "nacCodigo": "TR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-02-04",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Erencan_Yard%C4%B1mc%C4%B1"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-mergim-berisha",
+   "nombre": "Mërgim Berisha",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-05-11",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/M%C3%ABrgim_Berisha"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-mario-sauer",
+   "nombre": "Mário Sauer",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Slovakia",
+   "nacCodigo": "SK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-05-15",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/M%C3%A1rio_Sauer"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-mika-haas",
+   "nombre": "Mika Haas",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-08-11",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Mika_Haas"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-paul-joly",
+   "nombre": "Paul Joly",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-06-07",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Paul_Joly"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-jan-elvedi",
+   "nombre": "Jan Elvedi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Switzerland",
+   "nacCodigo": "CH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-09-30",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Jan_Elvedi"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-yannick-onohiol",
+   "nombre": "Yannick Onohiol",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 34,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-leon-robinson",
+   "nombre": "Leon Robinson",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 37,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-07-11",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Leon_Robinson_(footballer)"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-thierry-tazemeta",
+   "nombre": "Thierry Tazemeta",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Austria",
+   "nacCodigo": "AT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 39,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-enis-kamga",
+   "nombre": "Enis Kamga",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 40,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-david-schramm",
+   "nombre": "David Schramm",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 41,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-erik-muller",
+   "nombre": "Erik Müller",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 42,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-owen-gibs",
+   "nombre": "Owen Gibs",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 43,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-dion-hofmeister",
+   "nombre": "Dion Hofmeister",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 17,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 44,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2009-07-11",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Dion_Hofmeister"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-milos-lukovic",
+   "nombre": "Miloš Luković",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "SER",
+   "nacCodigo": "SER",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 45,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-11-18",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Milo%C5%A1_Lukovi%C4%87"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-kian-scheer",
+   "nombre": "Kian Scheer",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 46,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-1-fc-kaiserslautern-ben-jungfleisch",
+   "nombre": "Ben Jungfleisch",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 47,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  }
+ ]
+}

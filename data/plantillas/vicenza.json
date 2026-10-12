@@ -1,0 +1,567 @@
+{
+ "clubId": "vicenza",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/LR_Vicenza",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-vicenza-fabrizio-bagheria",
+   "nombre": "Fabrizio Bagheria",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2001-04-05",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Fabrizio_Bagheria"
+  },
+  {
+   "id": "wiki-vicenza-marco-carraro",
+   "nombre": "Marco Carraro",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-01-09",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Marco_Carraro"
+  },
+  {
+   "id": "wiki-vicenza-riccardo-marchizza",
+   "nombre": "Riccardo Marchizza",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-03-26",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Riccardo_Marchizza"
+  },
+  {
+   "id": "wiki-vicenza-maxime-leverbe",
+   "nombre": "Maxime Leverbe",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-02-15",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Maxime_Leverbe"
+  },
+  {
+   "id": "wiki-vicenza-nicola-rauti",
+   "nombre": "Nicola Rauti",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-04-17",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Nicola_Rauti"
+  },
+  {
+   "id": "wiki-vicenza-alessandro-bellemo",
+   "nombre": "Alessandro Bellemo",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-08-07",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Alessandro_Bellemo"
+  },
+  {
+   "id": "wiki-vicenza-claudio-morra",
+   "nombre": "Claudio Morra",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-01-22",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Claudio_Morra"
+  },
+  {
+   "id": "wiki-vicenza-mattia-valoti",
+   "nombre": "Mattia Valoti",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-09-06",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Mattia_Valoti"
+  },
+  {
+   "id": "wiki-vicenza-gabriele-moncini",
+   "nombre": "Gabriele Moncini",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-04-26",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Gabriele_Moncini"
+  },
+  {
+   "id": "wiki-vicenza-giuseppe-cuomo",
+   "nombre": "Giuseppe Cuomo",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-02-02",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Giuseppe_Cuomo"
+  },
+  {
+   "id": "wiki-vicenza-riccardo-gagno",
+   "nombre": "Riccardo Gagno",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1997-07-26",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Riccardo_Gagno"
+  },
+  {
+   "id": "wiki-vicenza-tommaso-corazza",
+   "nombre": "Tommaso Corazza",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-06-29",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Tommaso_Corazza"
+  },
+  {
+   "id": "wiki-vicenza-nicolo-brighenti",
+   "nombre": "Nicolò Brighenti",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 37,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1989-08-01",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Nicol%C3%B2_Brighenti"
+  },
+  {
+   "id": "wiki-vicenza-filippo-alessio",
+   "nombre": "Filippo Alessio",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-12-24",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Filippo_Alessio"
+  },
+  {
+   "id": "wiki-vicenza-giulio-pellizzari",
+   "nombre": "Giulio Pellizzari",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-vicenza-thomas-sandon",
+   "nombre": "Thomas Sandon",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Thomas_Sandon"
+  },
+  {
+   "id": "wiki-vicenza-lorenzo-caferri",
+   "nombre": "Lorenzo Caferri",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-vicenza-loris-zonta",
+   "nombre": "Loris Zonta",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-05-22",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Loris_Zonta"
+  },
+  {
+   "id": "wiki-vicenza-matteo-vescovi",
+   "nombre": "Matteo Vescovi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-vicenza-filippo-costa",
+   "nombre": "Filippo Costa",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-05-21",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Filippo_Costa"
+  },
+  {
+   "id": "wiki-vicenza-silvio-merkaj",
+   "nombre": "Silvio Merkaj",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Albania",
+   "nacCodigo": "AL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Silvio_Merkaj"
+  },
+  {
+   "id": "wiki-vicenza-raul-talarico",
+   "nombre": "Raul Talarico",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 44,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-vicenza-andrea-papetti",
+   "nombre": "Andrea Papetti",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 66,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-07-03",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Andrea_Papetti"
+  },
+  {
+   "id": "wiki-vicenza-elia-tantalocchi",
+   "nombre": "Elia Tantalocchi",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 68,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-vicenza-frank-tsadjout",
+   "nombre": "Frank Tsadjout",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 74,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-07-28",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Frank_Tsadjout"
+  },
+  {
+   "id": "wiki-vicenza-armand-rada",
+   "nombre": "Armand Rada",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Albania",
+   "nacCodigo": "AL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 77,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-vicenza-alessandro-pietrelli",
+   "nombre": "Alessandro Pietrelli",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 99,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-01-05",
+   "posWiki": "MF",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Alessandro_Pietrelli"
+  }
+ ]
+}

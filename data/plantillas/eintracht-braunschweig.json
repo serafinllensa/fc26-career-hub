@@ -1,0 +1,569 @@
+{
+ "clubId": "eintracht-braunschweig",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Eintracht_Braunschweig",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-eintracht-braunschweig-ron-thorben-hoffmann",
+   "nombre": "Ron-Thorben Hoffmann",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1999-04-04",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Ron-Thorben_Hoffmann"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-noah-katterbach",
+   "nombre": "Noah Katterbach",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-04-13",
+   "posWiki": "DF",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Noah_Katterbach"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-andi-hoti",
+   "nombre": "Andi Hoti",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "KVX",
+   "nacCodigo": "KVX",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-03-02",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Andi_Hoti"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-frederik-jakel",
+   "nombre": "Frederik Jäkel",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-03-07",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Frederik_J%C3%A4kel"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-florian-flick",
+   "nombre": "Florian Flick",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-05-01",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Florian_Flick"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-yann-sturm",
+   "nombre": "Yann Sturm",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-mehmet-ayd-n",
+   "nombre": "Mehmet Aydın",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Turkey",
+   "nacCodigo": "TR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-02-09",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Mehmet-Can_Ayd%C4%B1n"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-maximilian-entrup",
+   "nombre": "Maximilian Entrup",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Austria",
+   "nacCodigo": "AT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-07-25",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Maximilian_Entrup"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-samuele-di-benedetto",
+   "nombre": "Samuele Di Benedetto",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-07-16",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Samuele_Di_Benedetto"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-jovan-mijatovic",
+   "nombre": "Jovan Mijatović",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Serbia",
+   "nacCodigo": "RS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-07-11",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Jovan_Mijatovi%C4%87"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-max-marie",
+   "nombre": "Max Marie",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-aaron-opoku",
+   "nombre": "Aaron Opoku",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-03-28",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Aaron_Opoku"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-arlet-junior-ze",
+   "nombre": "Arlet Junior Zé",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Switzerland",
+   "nacCodigo": "CH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-03-22",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Arlet_Junior_Z%C3%A9"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-lino-tempelmann",
+   "nombre": "Lino Tempelmann",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-02-02",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Lino_Tempelmann"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-kevin-ehlers",
+   "nombre": "Kevin Ehlers",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-01-23",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Kevin_Ehlers"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-fabio-di-michele-sanchez",
+   "nombre": "Fabio Di Michele Sanchez",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-03-14",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Fabio_Di_Michele_Sanchez"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-isidoros-koutsidis",
+   "nombre": "Isidoros Koutsidis",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Greece",
+   "nacCodigo": "GR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-12-23",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Isidoros_Koutsidis"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-sidi-sane",
+   "nombre": "Sidi Sané",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-04-21",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Sidi_San%C3%A9"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-sanoussy-ba",
+   "nombre": "Sanoussy Ba",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Sanoussy_Ba"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-tristan-wagner",
+   "nombre": "Tristan Wagner",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-jan-urbich",
+   "nombre": "Jan Urbich",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-06-23",
+   "posWiki": "FW",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Jan_Urbich"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-lukas-frenkert",
+   "nombre": "Lukas Frenkert",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-07-19",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Lukas_Frenkert"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-robin-heu-er",
+   "nombre": "Robin Heußer",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-05-23",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Robin_Heu%C3%9Fer"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-benjamin-uphoff",
+   "nombre": "Benjamin Uphoff",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1993-08-08",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Benjamin_Uphoff"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-nick-bodon",
+   "nombre": "Nick Bodon",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-sidney-raebiger",
+   "nombre": "Sidney Raebiger",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 37,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-04-17",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Sidney_Raebiger"
+  },
+  {
+   "id": "wiki-eintracht-braunschweig-damjan-kovacevic",
+   "nombre": "Damjan Kovacevic",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Austria",
+   "nacCodigo": "AT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 43,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  }
+ ]
+}

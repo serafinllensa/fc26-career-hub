@@ -1,0 +1,547 @@
+{
+ "clubId": "karlsruher-sc",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Karlsruher_SC",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-karlsruher-sc-hans-christian-bernat",
+   "nombre": "Hans Christian Bernat",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Denmark",
+   "nacCodigo": "DK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2000-11-13",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Hans_Christian_Bernat"
+  },
+  {
+   "id": "wiki-karlsruher-sc-sebastian-jung",
+   "nombre": "Sebastian Jung",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 36,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1990-06-22",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Sebastian_Jung"
+  },
+  {
+   "id": "wiki-karlsruher-sc-deniz-ofli",
+   "nombre": "Deniz Ofli",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Turkey",
+   "nacCodigo": "TR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-03-29",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Deniz_Ofli"
+  },
+  {
+   "id": "wiki-karlsruher-sc-heliton",
+   "nombre": "Héliton",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Brazil",
+   "nacCodigo": "BR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-11-13",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/H%C3%A9liton"
+  },
+  {
+   "id": "wiki-karlsruher-sc-kwon-hyeok-kyu",
+   "nombre": "Kwon Hyeok-kyu",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "South Korea",
+   "nacCodigo": "KR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-03-13",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Kwon_Hyeok-kyu"
+  },
+  {
+   "id": "wiki-karlsruher-sc-santeri-vaananen",
+   "nombre": "Santeri Väänänen",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Finland",
+   "nacCodigo": "FI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-01-01",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Santeri_V%C3%A4%C3%A4n%C3%A4nen"
+  },
+  {
+   "id": "wiki-karlsruher-sc-kevin-wiethaup",
+   "nombre": "Kevin Wiethaup",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-karlsruher-sc-moritz-broschinski",
+   "nombre": "Moritz Broschinski",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-09-23",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Moritz_Broschinski"
+  },
+  {
+   "id": "wiki-karlsruher-sc-marvin-wanitzek",
+   "nombre": "Marvin Wanitzek",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-05-07",
+   "posWiki": "MF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Marvin_Wanitzek"
+  },
+  {
+   "id": "wiki-karlsruher-sc-noel-eichinger",
+   "nombre": "Noel Eichinger",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-08-02",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Noel_Eichinger"
+  },
+  {
+   "id": "wiki-karlsruher-sc-shio-fukuda",
+   "nombre": "Shiō Fukuda",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Japan",
+   "nacCodigo": "JP",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-04-08",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Shi%C5%8D_Fukuda"
+  },
+  {
+   "id": "wiki-karlsruher-sc-paul-scholl",
+   "nombre": "Paul Scholl",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-07-23",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Paul_Scholl"
+  },
+  {
+   "id": "wiki-karlsruher-sc-eymen-laghrissi",
+   "nombre": "Eymen Laghrissi",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-karlsruher-sc-ferdinand-gebert",
+   "nombre": "Ferdinand Gebert",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-karlsruher-sc-louey-ben-farhat",
+   "nombre": "Louey Ben Farhat",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-07-19",
+   "posWiki": "FW",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Louey_Ben_Farhat"
+  },
+  {
+   "id": "wiki-karlsruher-sc-christoph-kobald",
+   "nombre": "Christoph Kobald",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Austria",
+   "nacCodigo": "AT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-08-18",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Christoph_Kobald"
+  },
+  {
+   "id": "wiki-karlsruher-sc-tim-civeja",
+   "nombre": "Tim Civeja",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Albania",
+   "nacCodigo": "AL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-01-04",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Tim_Civeja"
+  },
+  {
+   "id": "wiki-karlsruher-sc-sandro-tremoulet",
+   "nombre": "Sandro Trémoulet",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Madagascar",
+   "nacCodigo": "MG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-11-18",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Sandro_Tr%C3%A9moulet"
+  },
+  {
+   "id": "wiki-karlsruher-sc-lilian-egloff",
+   "nombre": "Lilian Egloff",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-08-20",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Lilian_Egloff"
+  },
+  {
+   "id": "wiki-karlsruher-sc-danyal-zor",
+   "nombre": "Danyal Zor",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-karlsruher-sc-john-davis-meyer",
+   "nombre": "John Davis Meyer",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-karlsruher-sc-marcel-franke",
+   "nombre": "Marcel Franke",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-04-05",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Marcel_Franke"
+  },
+  {
+   "id": "wiki-karlsruher-sc-robin-himmelmann",
+   "nombre": "Robin Himmelmann",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 37,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1989-02-05",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Robin_Himmelmann"
+  },
+  {
+   "id": "wiki-karlsruher-sc-viktor-bergh",
+   "nombre": "Viktor Bergh",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Sweden",
+   "nacCodigo": "SE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-07-26",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Viktor_Bergh"
+  },
+  {
+   "id": "wiki-karlsruher-sc-rafael-pinto-pedrosa",
+   "nombre": "Rafael Pinto Pedrosa",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 36,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-09-30",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Rafael_Pinto_Pedrosa"
+  },
+  {
+   "id": "wiki-karlsruher-sc-jason-ponente-ramirez",
+   "nombre": "Jason Ponente-Ramirez",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 37,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  }
+ ]
+}

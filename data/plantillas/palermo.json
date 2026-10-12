@@ -1,0 +1,548 @@
+{
+ "clubId": "palermo",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Palermo_FC",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-palermo-mattia-perin",
+   "nombre": "Mattia Perin",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1992-11-10",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Mattia_Perin"
+  },
+  {
+   "id": "wiki-palermo-tommaso-augello",
+   "nombre": "Tommaso Augello",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-08-30",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Tommaso_Augello"
+  },
+  {
+   "id": "wiki-palermo-antonio-palumbo",
+   "nombre": "Antonio Palumbo",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-08-06",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Antonio_Palumbo"
+  },
+  {
+   "id": "wiki-palermo-claudio-gomes",
+   "nombre": "Claudio Gomes",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-07-23",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Claudio_Gomes"
+  },
+  {
+   "id": "wiki-palermo-gabriel-strefezza",
+   "nombre": "Gabriel Strefezza",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Brazil",
+   "nacCodigo": "BR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-04-18",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Gabriel_Strefezza"
+  },
+  {
+   "id": "wiki-palermo-jacopo-segre",
+   "nombre": "Jacopo Segre",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-02-17",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Jacopo_Segre"
+  },
+  {
+   "id": "wiki-palermo-dominic-vavassori",
+   "nombre": "Dominic Vavassori",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-12-09",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Dominic_Vavassori"
+  },
+  {
+   "id": "wiki-palermo-filippo-ranocchia",
+   "nombre": "Filippo Ranocchia",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-05-14",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Filippo_Ranocchia"
+  },
+  {
+   "id": "wiki-palermo-emanuel-gyasi",
+   "nombre": "Emanuel Gyasi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Ghana",
+   "nacCodigo": "GH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-01-11",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Emanuel_Gyasi"
+  },
+  {
+   "id": "wiki-palermo-manfredi-nespola",
+   "nombre": "Manfredi Nespola",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-palermo-mattia-bani",
+   "nombre": "Mattia Bani",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-12-10",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Mattia_Bani"
+  },
+  {
+   "id": "wiki-palermo-mattia-fortin",
+   "nombre": "Mattia Fortin",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2003-07-08",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Mattia_Fortin"
+  },
+  {
+   "id": "wiki-palermo-dennis-johnsen",
+   "nombre": "Dennis Johnsen",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Norway",
+   "nacCodigo": "NO",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-02-17",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Dennis_Johnsen"
+  },
+  {
+   "id": "wiki-palermo-joel-pohjanpalo",
+   "nombre": "Joel Pohjanpalo",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Finland",
+   "nacCodigo": "FI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-09-13",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Joel_Pohjanpalo"
+  },
+  {
+   "id": "wiki-palermo-hernani",
+   "nombre": "Hernani",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Brazil",
+   "nacCodigo": "BR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-03-27",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Hernani_(footballer%2C_born_1994)"
+  },
+  {
+   "id": "wiki-palermo-nahuel-estevez",
+   "nombre": "Nahuel Estévez",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Argentina",
+   "nacCodigo": "AR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-11-14",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Nahuel_Est%C3%A9vez"
+  },
+  {
+   "id": "wiki-palermo-niccolo-pierozzi",
+   "nombre": "Niccolò Pierozzi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-09-12",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Niccol%C3%B2_Pierozzi"
+  },
+  {
+   "id": "wiki-palermo-patryk-peda",
+   "nombre": "Patryk Peda",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Poland",
+   "nacCodigo": "PL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Patryk_Peda"
+  },
+  {
+   "id": "wiki-palermo-pietro-ceccaroni",
+   "nombre": "Pietro Ceccaroni",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-12-21",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Pietro_Ceccaroni"
+  },
+  {
+   "id": "wiki-palermo-andrea-bozzolan",
+   "nombre": "Andrea Bozzolan",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-palermo-luca-mazzitelli",
+   "nombre": "Luca Mazzitelli",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 36,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-11-15",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Mazzitelli"
+  },
+  {
+   "id": "wiki-palermo-jesse-joronen",
+   "nombre": "Jesse Joronen",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Finland",
+   "nacCodigo": "FI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 66,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1993-03-21",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Jesse_Joronen"
+  },
+  {
+   "id": "wiki-palermo-tommaso-cassandro",
+   "nombre": "Tommaso Cassandro",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 84,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-01-09",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Tommaso_Cassandro"
+  },
+  {
+   "id": "wiki-palermo-federico-barba",
+   "nombre": "Federico Barba",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 93,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-09-01",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Federico_Barba"
+  },
+  {
+   "id": "wiki-palermo-giangiacomo-magnani",
+   "nombre": "Giangiacomo Magnani",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 96,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-10-04",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Giangiacomo_Magnani"
+  },
+  {
+   "id": "wiki-palermo-alessandro-gabrielloni",
+   "nombre": "Alessandro Gabrielloni",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 99,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-07-10",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Alessandro_Gabrielloni"
+  }
+ ]
+}

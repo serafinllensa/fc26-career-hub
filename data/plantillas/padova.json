@@ -1,0 +1,608 @@
+{
+ "clubId": "padova",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Calcio_Padova",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-padova-louis-mouquet",
+   "nombre": "Louis Mouquet",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Portugal",
+   "nacCodigo": "PT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Louis_Mouquet"
+  },
+  {
+   "id": "wiki-padova-antonio-barreca",
+   "nombre": "Antonio Barreca",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-03-25",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Antonio_Barreca"
+  },
+  {
+   "id": "wiki-padova-matteo-lovato",
+   "nombre": "Matteo Lovato",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-02-14",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Matteo_Lovato"
+  },
+  {
+   "id": "wiki-padova-giovanni-giunti",
+   "nombre": "Giovanni Giunti",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-padova-kevin-varas",
+   "nombre": "Kevin Varas",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Ecuador",
+   "nacCodigo": "EC",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-05-26",
+   "posWiki": "MF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Kevin_Varas"
+  },
+  {
+   "id": "wiki-padova-pietro-fusi",
+   "nombre": "Pietro Fusi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-padova-luca-moro",
+   "nombre": "Luca Moro",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-01-25",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Moro_(footballer)"
+  },
+  {
+   "id": "wiki-padova-gianluca-caprari",
+   "nombre": "Gianluca Caprari",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-07-30",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Gianluca_Caprari"
+  },
+  {
+   "id": "wiki-padova-alessandro-seghetti",
+   "nombre": "Alessandro Seghetti",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-padova-simone-scaglia",
+   "nombre": "Simone Scaglia",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-padova-marco-pompetti",
+   "nombre": "Marco Pompetti",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-05-22",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Marco_Pompetti"
+  },
+  {
+   "id": "wiki-padova-kevin-lasagna",
+   "nombre": "Kevin Lasagna",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 34,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1992-08-10",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Kevin_Lasagna"
+  },
+  {
+   "id": "wiki-padova-alessandro-capelli",
+   "nombre": "Alessandro Capelli",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-padova-enrico-silletti",
+   "nombre": "Enrico Silletti",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-padova-mattia-bortolussi",
+   "nombre": "Mattia Bortolussi",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-05-02",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Mattia_Bortolussi"
+  },
+  {
+   "id": "wiki-padova-emanuele-zuelli",
+   "nombre": "Emanuele Zuelli",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-11-22",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Emanuele_Zuelli"
+  },
+  {
+   "id": "wiki-padova-alessandro-sorrentino",
+   "nombre": "Alessandro Sorrentino",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2002-04-03",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Alessandro_Sorrentino"
+  },
+  {
+   "id": "wiki-padova-francesco-di-mariano",
+   "nombre": "Francesco Di Mariano",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-04-20",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Francesco_Di_Mariano"
+  },
+  {
+   "id": "wiki-padova-lorenzo-carissoni",
+   "nombre": "Lorenzo Carissoni",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-02-07",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Lorenzo_Carissoni"
+  },
+  {
+   "id": "wiki-padova-nicolas-galazzi",
+   "nombre": "Nicolas Galazzi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-12-18",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Nicolas_Galazzi"
+  },
+  {
+   "id": "wiki-padova-alessandro-dellavalle",
+   "nombre": "Alessandro Dellavalle",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-05-11",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Alessandro_Dellavalle"
+  },
+  {
+   "id": "wiki-padova-filippo-sgarbi",
+   "nombre": "Filippo Sgarbi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-12-29",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Filippo_Sgarbi"
+  },
+  {
+   "id": "wiki-padova-matteo-cocchi",
+   "nombre": "Matteo Cocchi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 34,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-02-01",
+   "posWiki": "DF",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Matteo_Cocchi"
+  },
+  {
+   "id": "wiki-padova-christian-pastina",
+   "nombre": "Christian Pastina",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 58,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-02-15",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Christian_Pastina"
+  },
+  {
+   "id": "wiki-padova-carlo-faedo",
+   "nombre": "Carlo Faedo",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 72,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-padova-diego-marcolini",
+   "nombre": "Diego Marcolini",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 74,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-padova-gabriele-artistico",
+   "nombre": "Gabriele Artistico",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 90,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-07-14",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Gabriele_Artistico"
+  },
+  {
+   "id": "wiki-padova-cristian-buonaiuto",
+   "nombre": "Cristian Buonaiuto",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 92,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1992-12-29",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Cristian_Buonaiuto"
+  },
+  {
+   "id": "wiki-padova-luca-zanimacchia",
+   "nombre": "Luca Zanimacchia",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 98,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-07-19",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Zanimacchia"
+  }
+ ]
+}

@@ -1,0 +1,554 @@
+{
+ "clubId": "boulogne",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/US_Boulogne",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-boulogne-xavier-lenogue",
+   "nombre": "Xavier Lenogue",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 29,
+   "nac": "MTQ",
+   "nacCodigo": "MTQ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1996-12-27",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Xavier_Lenogue"
+  },
+  {
+   "id": "wiki-boulogne-jonathan-kapenga",
+   "nombre": "Jonathan Kapenga",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-boulogne-aymane-nassiri",
+   "nombre": "Aymane Nassiri",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-boulogne-jonas-martin",
+   "nombre": "Jonas Martin",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 36,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1990-04-09",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Jonas_Martin"
+  },
+  {
+   "id": "wiki-boulogne-martin-lecolier",
+   "nombre": "Martin Lecolier",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-boulogne-abdel-hbouch",
+   "nombre": "Abdel Hbouch",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-boulogne-noah-fatar",
+   "nombre": "Noah Fatar",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-02-15",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Noah_Fatar"
+  },
+  {
+   "id": "wiki-boulogne-julien-boyer",
+   "nombre": "Julien Boyer",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-04-10",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Julien_Boyer"
+  },
+  {
+   "id": "wiki-boulogne-luderic-etonde",
+   "nombre": "Ludéric Etonde",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-08-30",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Lud%C3%A9ric_Etonde"
+  },
+  {
+   "id": "wiki-boulogne-joffrey-bultel",
+   "nombre": "Joffrey Bultel",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-boulogne-adrien-pinot",
+   "nombre": "Adrien Pinot",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-05-06",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Adrien_Pinot"
+  },
+  {
+   "id": "wiki-boulogne-ibrahim-kone",
+   "nombre": "Ibrahim Koné",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 36,
+   "nac": "Guinea",
+   "nacCodigo": "GN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1989-12-05",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Ibrahim_Kon%C3%A9_(footballer%2C_born_1989)"
+  },
+  {
+   "id": "wiki-boulogne-benjamin-besic",
+   "nombre": "Benjamin Bešić",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Bosnia and Herzegovina",
+   "nacCodigo": "BA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-boulogne-demba-thiam",
+   "nombre": "Demba Thiam",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 36,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1989-12-02",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Demba_Thiam_(footballer%2C_born_1989)"
+  },
+  {
+   "id": "wiki-boulogne-nolan-binet",
+   "nombre": "Nolan Binet",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-boulogne-theo-brusco",
+   "nombre": "Théo Brusco",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-boulogne-aurelien-platret",
+   "nombre": "Aurélien Platret",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-boulogne-sonny-duflos",
+   "nombre": "Sonny Duflos",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-boulogne-louis-siliadin",
+   "nombre": "Louis Siliadin",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-boulogne-antoine-kerriou",
+   "nombre": "Antoine Kerriou",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-boulogne-oscar-lenne",
+   "nombre": "Oscar Lenne",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-boulogne-sohan-paillard",
+   "nombre": "Sohan Paillard",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-boulogne-mathieu-mion",
+   "nombre": "Mathieu Mion",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-boulogne-azamat-uriev",
+   "nombre": "Azamat Uriev",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-boulogne-theo-epailly",
+   "nombre": "Théo Epailly",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 64,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-boulogne-zoran-moco",
+   "nombre": "Zoran Moco",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "GLP",
+   "nacCodigo": "GLP",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 97,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-06-27",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Zoran_Moco"
+  },
+  {
+   "id": "wiki-boulogne-blondy-nna-noukeu",
+   "nombre": "Blondy Nna Noukeu",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Cameroon",
+   "nacCodigo": "CM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 99,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2001-09-17",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Blondy_Nna_Noukeu"
+  }
+ ]
+}

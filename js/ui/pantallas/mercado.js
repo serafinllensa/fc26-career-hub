@@ -48,7 +48,8 @@ export default {
         <div class="fila-dato"><span>Margen de masa salarial</span><span>${em.topeM != null && em.masaM != null ? '≈ ' + fmtM(Math.max(0, +(em.topeM - em.masaM).toFixed(1))) : 'Sin estimado'}</span></div>
         ${club.liga === 'LaLiga' ? `<div class="regla"><span class="badge info">LaLiga</span><div><b>Límite de coste de plantilla: ${l ? l[0].toLocaleString('es-AR') + ' M€' : '<span class="sin-verificar">Sin dato</span>'}</b><div class="meta">Dentro del límite fichás con la regla 1:1. Sin margen no podés inscribir.${l ? ` Fuente: ${l[1]}.` : ''}</div></div></div>` : ''}
         ${club.liga === 'Serie A' ? '<div class="regla"><span class="badge info">Serie A</span><div><b>Indicador de coste 0,7</b><div class="meta">Si te pasás, bloqueo del mercado desde Medio.</div></div></div>' : ''}
-        <div class="regla"><span class="badge neutro">UEFA</span><div><b>Tope 70%</b><div class="meta">Costo de plantilla sobre ingresos. Si te pasás, multa; si te pasás mucho, menos altas en la lista.</div></div></div></section>`;
+        ${club.division === 2 && motor.REGLA_LIGA[club.liga] ? `<div class="regla"><span class="badge info">${esc(club.liga)}</span><div><b>${esc(motor.REGLA_LIGA[club.liga].texto)}</b><div class="meta">No hay un número cargado para esta categoría: no se inventó un tope.</div></div></div>` : ''}
+        ${club.division === 2 ? '' : '<div class="regla"><span class="badge neutro">UEFA</span><div><b>Tope 70%</b><div class="meta">Costo de plantilla sobre ingresos. Si te pasás, multa; si te pasás mucho, menos altas en la lista.</div></div></div>'}</section>`;
     };
 
     const pintarBase = () => {

@@ -1,0 +1,577 @@
+{
+ "clubId": "annecy",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/FC_Annecy",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-annecy-florian-escales",
+   "nombre": "Florian Escales",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 30,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1996-02-03",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Florian_Escales"
+  },
+  {
+   "id": "wiki-annecy-sacha-lima",
+   "nombre": "Sacha Lima",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-annecy-ahmed-kashi",
+   "nombre": "Ahmed Kashi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 37,
+   "nac": "Algeria",
+   "nacCodigo": "DZ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1988-11-18",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Ahmed_Kashi"
+  },
+  {
+   "id": "wiki-annecy-francois-lajugie",
+   "nombre": "François Lajugie",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-05-31",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Lajugie"
+  },
+  {
+   "id": "wiki-annecy-alan-mondesir",
+   "nombre": "Alan Mondesir",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-annecy-alexis-casadei",
+   "nombre": "Alexis Casadei",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-annecy-thibault-rambaud",
+   "nombre": "Thibault Rambaud",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-04-19",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Thibault_Rambaud"
+  },
+  {
+   "id": "wiki-annecy-souleymane-fofana",
+   "nombre": "Souleymane Fofana",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Ivory Coast",
+   "nacCodigo": "CI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-annecy-kadan-young",
+   "nombre": "Kadan Young",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-01-19",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Kadan_Young"
+  },
+  {
+   "id": "wiki-annecy-mohamed-kone",
+   "nombre": "Mohamed Koné",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Ivory Coast",
+   "nacCodigo": "CI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-annecy-pascal-mozie",
+   "nombre": "Pascal Mozie",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Poland",
+   "nacCodigo": "PL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-annecy-thomas-callens",
+   "nombre": "Thomas Callens",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 28,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1998-09-06",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Thomas_Callens"
+  },
+  {
+   "id": "wiki-annecy-zepiqueno-redmond",
+   "nombre": "Zépiqueno Redmond",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Netherlands",
+   "nacCodigo": "NL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-06-22",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Z%C3%A9piqueno_Redmond"
+  },
+  {
+   "id": "wiki-annecy-kilyan-jusseron-veniere",
+   "nombre": "Kilyan Jusseron-Veniere",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-annecy-adam-yahi",
+   "nombre": "Adam Yahi",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-annecy-esteban-marre",
+   "nombre": "Esteban Marre",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-annecy-clement-billemaz",
+   "nombre": "Clément Billemaz",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-09-22",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Cl%C3%A9ment_Billemaz"
+  },
+  {
+   "id": "wiki-annecy-matteo-veillon",
+   "nombre": "Mattéo Veillon",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-annecy-nolan-ferro",
+   "nombre": "Nolan Ferro",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-annecy-paul-venot",
+   "nombre": "Paul Venot",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-annecy-jonathan-do-marcolino",
+   "nombre": "Jonathan Do Marcolino",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Gabon",
+   "nacCodigo": "GA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-05-10",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Jonathan_Do_Marcolino"
+  },
+  {
+   "id": "wiki-annecy-julien-kouadio",
+   "nombre": "Julien Kouadio",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Central African Republic",
+   "nacCodigo": "CF",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-09-22",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Julien_Kouadio"
+  },
+  {
+   "id": "wiki-annecy-antoine-larose",
+   "nombre": "Antoine Larose",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-annecy-mateo-gonzalez",
+   "nombre": "Matéo Gonzalez",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-annecy-david-oduro",
+   "nombre": "David Oduro",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Ghana",
+   "nacCodigo": "GH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/David_Oduro"
+  },
+  {
+   "id": "wiki-annecy-esteban-riou",
+   "nombre": "Esteban Riou",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 34,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-annecy-thibault-delphis",
+   "nombre": "Thibault Delphis",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 41,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-annecy-moise-sahi-dion",
+   "nombre": "Moïse Sahi Dion",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Ivory Coast",
+   "nacCodigo": "CI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 80,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-12-20",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Mo%C3%AFse_Sahi_Dion"
+  }
+ ]
+}

@@ -9,7 +9,10 @@ export const AJUSTES_MANUALES = {
   'manchester-united': {nivel: 4, motivo: 'Decisión de Serafin (2026-10-11): 3° en la Premier 2025/26'},
 };
 export const PESO_TEMPORADAS = [0.35, 0.25, 0.18, 0.12, 0.10]; // de la más reciente a la más vieja
-export const EQUIPOS_LIGA = {'Premier League': 20, 'LaLiga': 20, 'Serie A': 20, 'Bundesliga': 18, 'Ligue 1': 18};
+export const EQUIPOS_LIGA = {
+  'Premier League': 20, 'LaLiga': 20, 'Serie A': 20, 'Bundesliga': 18, 'Ligue 1': 18,
+  'Championship': 24, 'Segunda División': 22, 'Serie B': 20, '2. Bundesliga': 18, 'Ligue 2': 18,
+};
 export const PREMIO_EUROPA = {ucl: {campeon: 0.25, final: 0.2, semis: 0.15, cuartos: 0.11, octavos: 0.08, playoff: 0.05, fase: 0.03},
   uel: {campeon: 0.12, final: 0.1, semis: 0.08, cuartos: 0.06, octavos: 0.04, playoff: 0.03, fase: 0.02},
   uecl: {campeon: 0.07, final: 0.06, semis: 0.05, cuartos: 0.04, octavos: 0.03, playoff: 0.02, fase: 0.01}};
@@ -66,7 +69,13 @@ export function puntajesNivel(clubes, {ligas = null} = {}) {
   const N = clubes.length, fuerza = fuerzaLigas(ligas);
   const rend = new Map(clubes.map(c => [c.id, rendimiento(c, fuerza)]));
   const pr = percentiles(clubes, c => rend.get(c.id).valor);
-  const pa = percentiles(clubes, c => (c.actual?.posicion == null ? null : (1 - (c.actual.posicion - 1) / ((EQUIPOS_LIGA[c.liga] || 20) - 1)) * (fuerza[c.liga] ?? 1)));
+  const pa = percentiles(clubes, c => {
+    if (c.actual?.posicion == null) return null;
+    const n = (c.actual.equipos || EQUIPOS_LIGA[c.liga] || 20) - 1;
+    const puesto = (1 - (c.actual.posicion - 1) / (n || 1)) * (fuerza[c.liga] ?? 1);
+    // Segunda: el liderato no vale como un liderato de primera (misma idea que puntoTemporada).
+    return c.division === 2 ? 0.2 * puesto : puesto;
+  });
   const pu = percentiles(clubes, c => c.coefUEFA ?? 0); // null = no jugó en Europa (verificado) = 0
   const pv = percentiles(clubes, c => c.valorPlantillaM);
   // Ingresos: Deloitte solo publica a los que más facturan, así que esos van en la parte alta de la escala de 96.
@@ -107,9 +116,10 @@ export function motivoNivel(club, p) {
   return t + '.';
 }
 
-export function calcularNiveles(clubes, opciones = {}) {
+function nivelesPrimera(clubes, opciones = {}) {
   const p = puntajesNivel(clubes, opciones).sort((a, b) => (b.puntaje ?? -1) - (a.puntaje ?? -1));
   const by = new Map(clubes.map(c => [c.id, c]));
+  // La escala sigue siendo sobre los 96 de primera: sumar la segunda no les cambia las estrellas.
   const escala = clubes.length / 96, cortes = [];
   let acc = 0;
   for (const n of [5, 4, 3, 2]) { acc += Math.round(CUPOS_NIVEL[n] * escala); cortes.push([n, acc]); }
@@ -120,4 +130,31 @@ export function calcularNiveles(clubes, opciones = {}) {
     return {...c, nivel: aj ? aj.nivel : calculado, nivelCalculado: calculado, ajuste: aj ? aj.motivo : null,
       motivo: motivoNivel(by.get(c.id), c) + (aj ? ` Ajuste manual: ${aj.motivo}.` : '')};
   });
+}
+
+/** Segunda: tope 3. Descendido parte de 3, el resto de 2. La zona de descenso baja uno; pelear el ascenso (si no bajó este año) sube a 3. Un filial no pasa de 2. */
+function nivelSegunda(club) {
+  const n = EQUIPOS_LIGA[club.liga] || club.actual?.equipos || 22;
+  const pos = club.actual?.posicion ?? null;
+  const directo = club.ascensoDirecto ?? 2;
+  const playoff = club.playoffHasta ?? directo;
+  const desde = club.descensoDesde ?? (n - 2);
+  let nivel = club.origenDivision === 'descenso' ? 3 : 2;
+  if (pos != null) {
+    if (club.origenDivision !== 'descenso' && pos <= playoff) nivel = Math.min(3, nivel + 1);
+    if (pos >= desde) nivel = Math.max(1, nivel - 1);
+  }
+  if (club.reserva) nivel = Math.min(nivel, 2);
+  const porque = club.origenDivision === 'descenso' ? 'descendió de primera' : club.origenDivision === 'ascenso' ? 'acaba de subir' : 'ya estaba en la categoría';
+  const hoy = pos != null ? `; hoy ${pos}°` : '';
+  const fil = club.reserva ? ' Filial: no puede ascender.' : '';
+  return {id: club.id, nivel, nivelCalculado: nivel, ajuste: null, puntaje: null, tendencia: 0,
+    partes: {}, estimados: ['valor', 'ingresos', 'coeficiente'],
+    motivo: `Segunda división (${porque}${hoy}).${fil}`};
+}
+
+export function calcularNiveles(clubes, opciones = {}) {
+  const segunda = clubes.filter(c => c.division === 2);
+  const primera = clubes.filter(c => c.division !== 2);
+  return [...nivelesPrimera(primera, opciones), ...segunda.map(nivelSegunda)];
 }

@@ -1,0 +1,604 @@
+{
+ "clubId": "ascoli",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Ascoli_Calcio_1898_FC",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-ascoli-samuele-vitale",
+   "nombre": "Samuele Vitale",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-ascoli-manuel-nicoletti",
+   "nombre": "Manuel Nicoletti",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-12-09",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Manuel_Nicoletti"
+  },
+  {
+   "id": "wiki-ascoli-samuele-damiani",
+   "nombre": "Samuele Damiani",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-01-30",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Samuele_Damiani"
+  },
+  {
+   "id": "wiki-ascoli-lorenzo-venuti",
+   "nombre": "Lorenzo Venuti",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-04-12",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Lorenzo_Venuti"
+  },
+  {
+   "id": "wiki-ascoli-andrea-silipo",
+   "nombre": "Andrea Silipo",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-04-17",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Andrea_Silipo"
+  },
+  {
+   "id": "wiki-ascoli-giovanni-corradini",
+   "nombre": "Giovanni Corradini",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-ascoli-mohammed-chakir",
+   "nombre": "Mohammed Chakir",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-10-29",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Mohammed_Chakir"
+  },
+  {
+   "id": "wiki-ascoli-sergiu-perciun",
+   "nombre": "Sergiu Perciun",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Moldova",
+   "nacCodigo": "MD",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-04-23",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Sergiu_Perciun"
+  },
+  {
+   "id": "wiki-ascoli-gennaro-acampora",
+   "nombre": "Gennaro Acampora",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-03-29",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Gennaro_Acampora"
+  },
+  {
+   "id": "wiki-ascoli-andrea-oliveri",
+   "nombre": "Andrea Oliveri",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-01-14",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Andrea_Oliveri"
+  },
+  {
+   "id": "wiki-ascoli-simone-duffizi",
+   "nombre": "Simone D'Uffizi",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Simone_D%27Uffizi"
+  },
+  {
+   "id": "wiki-ascoli-antonio-russo",
+   "nombre": "Antonio Russo",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-ascoli-luca-lo-scalzo",
+   "nombre": "Luca Lo Scalzo",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-ascoli-abdoul-guiebre",
+   "nombre": "Abdoul Guiebre",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "BFA",
+   "nacCodigo": "BFA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-07-17",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Abdoul_Guiebre"
+  },
+  {
+   "id": "wiki-ascoli-giacomo-de-pieri",
+   "nombre": "Giacomo De Pieri",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-12-29",
+   "posWiki": "FW",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Giacomo_De_Pieri"
+  },
+  {
+   "id": "wiki-ascoli-manuel-alagna",
+   "nombre": "Manuel Alagna",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-ascoli-matteo-ricci",
+   "nombre": "Matteo Ricci",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-05-27",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Matteo_Ricci_(footballer%2C_born_May_1994)"
+  },
+  {
+   "id": "wiki-ascoli-marcos-curado",
+   "nombre": "Marcos Curado",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Argentina",
+   "nacCodigo": "AR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-05-09",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Marcos_Curado"
+  },
+  {
+   "id": "wiki-ascoli-federico-gattoni",
+   "nombre": "Federico Gattoni",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Argentina",
+   "nacCodigo": "AR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-02-16",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Federico_Gattoni"
+  },
+  {
+   "id": "wiki-ascoli-nicholas-rizzo",
+   "nombre": "Nicholas Rizzo",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-03-11",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Nicholas_Rizzo"
+  },
+  {
+   "id": "wiki-ascoli-gabriele-gori",
+   "nombre": "Gabriele Gori",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 35,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-02-13",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Gabriele_Gori"
+  },
+  {
+   "id": "wiki-ascoli-rok-brzan",
+   "nombre": "Rok Bržan",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Slovenia",
+   "nacCodigo": "SI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 41,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-ascoli-gian-marco-crespi",
+   "nombre": "Gian Marco Crespi",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 45,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2001-06-28",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Gian_Marco_Crespi"
+  },
+  {
+   "id": "wiki-ascoli-davide-barosi",
+   "nombre": "Davide Barosi",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 46,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-ascoli-tommaso-milanese",
+   "nombre": "Tommaso Milanese",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 62,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-07-31",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Tommaso_Milanese"
+  },
+  {
+   "id": "wiki-ascoli-don-bolsius",
+   "nombre": "Don Bolsius",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Netherlands",
+   "nacCodigo": "NL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 77,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-11-29",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Don_Bolsius"
+  },
+  {
+   "id": "wiki-ascoli-matteo-brunori",
+   "nombre": "Matteo Brunori",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 99,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-11-01",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Matteo_Brunori"
+  },
+  {
+   "id": "wiki-ascoli-matteo-raffaelli",
+   "nombre": "Matteo Raffaelli",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": null,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-ascoli-damiano-menna",
+   "nombre": "Damiano Menna",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": null,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  }
+ ]
+}

@@ -12,7 +12,7 @@ export function crearCarrera({club, dt = null, dificultad, plantilla = [], tempo
   const pac = paciencia(dificultad);
   return {
     version: VERSION, id: `c${Date.now().toString(36)}`, creada: new Date().toISOString(),
-    club: {id: club.id, nombre: club.nombre, nivel: club.nivel, liga: club.liga},
+    club: {id: club.id, nombre: club.nombre, nivel: club.nivel, liga: club.liga, ...(club.division === 2 ? {division: 2, reserva: !!club.reserva} : {})},
     dt: dt ? {id: dt.id, nombre: dt.nombre} : null,
     dificultad, temporada, plantilla: plantilla.map(j => j.id ?? j),
     partidos: [], finanzas: finanzas(club, dificultad),

@@ -1,0 +1,604 @@
+{
+ "clubId": "sochaux",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/FC_Sochaux-Montb%C3%A9liard",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-sochaux-mohamed-toure",
+   "nombre": "Mohamed Touré",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Guinea",
+   "nacCodigo": "GN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-sochaux-dalangunypole-gomis",
+   "nombre": "Dalangunypole Gomis",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "cedido": true
+  },
+  {
+   "id": "wiki-sochaux-arthur-vitelli",
+   "nombre": "Arthur Vitelli",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-04-04",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Arthur_Vitelli"
+  },
+  {
+   "id": "wiki-sochaux-samy-baghdadi",
+   "nombre": "Samy Baghdadi",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-07-11",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Samy_Baghdadi"
+  },
+  {
+   "id": "wiki-sochaux-benjamin-gomel",
+   "nombre": "Benjamin Gomel",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-05-14",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Benjamin_Gomel"
+  },
+  {
+   "id": "wiki-sochaux-honore-bayanginisa",
+   "nombre": "Honoré Bayanginisa",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "DR Congo",
+   "nacCodigo": "CD",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-sochaux-kapit-djoco",
+   "nombre": "Kapit Djoco",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-09-09",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Kapit_Djoco"
+  },
+  {
+   "id": "wiki-sochaux-boubacar-fofana",
+   "nombre": "Boubacar Fofana",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-09-07",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Boubacar_Fofana_(footballer%2C_born_1998)"
+  },
+  {
+   "id": "wiki-sochaux-louicius-deedson",
+   "nombre": "Louicius Deedson",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Haiti",
+   "nacCodigo": "HT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-02-11",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Louicius_Deedson"
+  },
+  {
+   "id": "wiki-sochaux-mathieu-peybernes",
+   "nombre": "Mathieu Peybernes",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 35,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1990-10-21",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Mathieu_Peybernes"
+  },
+  {
+   "id": "wiki-sochaux-jonathan-mexique",
+   "nombre": "Jonathan Mexique",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "MTQ",
+   "nacCodigo": "MTQ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-03-10",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Jonathan_Mexique"
+  },
+  {
+   "id": "wiki-sochaux-matthis-schubler-lecart",
+   "nombre": "Matthis Schübler-Lecart",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-sochaux-benjaloud-youssouf",
+   "nombre": "Benjaloud Youssouf",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Comoros",
+   "nacCodigo": "KM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-02-11",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Benjaloud_Youssouf"
+  },
+  {
+   "id": "wiki-sochaux-victor-lobry",
+   "nombre": "Victor Lobry",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-06-16",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Victor_Lobry"
+  },
+  {
+   "id": "wiki-sochaux-bakary-diawara",
+   "nombre": "Bakary Diawara",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Spain",
+   "nacCodigo": "ES",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-sochaux-julien-masson",
+   "nombre": "Julien Masson",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-06-18",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Julien_Masson"
+  },
+  {
+   "id": "wiki-sochaux-yohan-demoncy",
+   "nombre": "Yohan Demoncy",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-04-07",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Yohan_Demoncy"
+  },
+  {
+   "id": "wiki-sochaux-pape-yatma-diop",
+   "nombre": "Pape Yatma Diop",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-sochaux-elie-ngatta",
+   "nombre": "Élie N'Gatta",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-sochaux-ethan-cortes",
+   "nombre": "Ethan Cortes",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-sochaux-alexandre-pierre",
+   "nombre": "Alexandre Pierre",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Haiti",
+   "nacCodigo": "HT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2001-02-25",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Alexandre_Pierre"
+  },
+  {
+   "id": "wiki-sochaux-mehdi-jeannin",
+   "nombre": "Mehdi Jeannin",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 35,
+   "nac": "Algeria",
+   "nacCodigo": "DZ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 40,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1991-04-20",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Mehdi_Jeannin"
+  },
+  {
+   "id": "wiki-sochaux-dylan-tavares",
+   "nombre": "Dylan Tavares",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Cape Verde",
+   "nacCodigo": "CV",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 42,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-08-30",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Dylan_Tavares"
+  },
+  {
+   "id": "wiki-sochaux-noa-kotto-kotto",
+   "nombre": "Noa Kotto Kotto",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 44,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-sochaux-julien-vetro",
+   "nombre": "Julien Vetro",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 47,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-02-23",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Julien_Vetro"
+  },
+  {
+   "id": "wiki-sochaux-landry-nomel",
+   "nombre": "Landry Nomel",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Ivory Coast",
+   "nacCodigo": "CI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 77,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-sochaux-mathis-clairicia",
+   "nombre": "Mathis Clairicia",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 91,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-08-30",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Mathis_Clairicia"
+  },
+  {
+   "id": "wiki-sochaux-victor-monthieu",
+   "nombre": "Victor Monthieu",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 92,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-sochaux-saad-agouzoul",
+   "nombre": "Saad Agouzoul",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Morocco",
+   "nacCodigo": "MA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 97,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-08-10",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Saad_Agouzoul"
+  }
+ ]
+}

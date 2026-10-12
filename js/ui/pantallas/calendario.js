@@ -10,7 +10,7 @@ import * as motor from '../../motor/index.js';
 import {cierreCarrera} from '../cierre.js';
 import {aviso, confirmar} from '../avisos.js';
 
-const COPA = {'Premier League': 'FA Cup', LaLiga: 'Copa del Rey', 'Serie A': 'Coppa Italia', Bundesliga: 'DFB-Pokal', 'Ligue 1': 'Coupe de France'};
+const COPA = {'Premier League': 'FA Cup', LaLiga: 'Copa del Rey', 'Serie A': 'Coppa Italia', Bundesliga: 'DFB-Pokal', 'Ligue 1': 'Coupe de France', Championship: 'FA Cup', 'Segunda División': 'Copa del Rey', 'Serie B': 'Coppa Italia', '2. Bundesliga': 'DFB-Pokal', 'Ligue 2': 'Coupe de France'};
 export function nombreComp(id, liga){
   if (id === 'liga') return liga || 'Liga';
   if (id === 'copa') return COPA[liga] || 'Copa';

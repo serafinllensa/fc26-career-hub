@@ -1,0 +1,601 @@
+{
+ "clubId": "clermont",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Clermont_Foot_63",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-clermont-abdellah-baallal",
+   "nombre": "Abdellah Baallal",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Morocco",
+   "nacCodigo": "MA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-11-07",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Abdellah_Baallal"
+  },
+  {
+   "id": "wiki-clermont-andy-pelmard",
+   "nombre": "Andy Pelmard",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Madagascar",
+   "nacCodigo": "MG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-03-12",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Andy_Pelmard"
+  },
+  {
+   "id": "wiki-clermont-ethan-kena-kabeya",
+   "nombre": "Ethan Kena Kabeya",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "DR Congo",
+   "nacCodigo": "CD",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-clermont-jean-grillot",
+   "nombre": "Jean Grillot",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-clermont-el-hadj-kone",
+   "nombre": "El Hadj Koné",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-clermont-florian-bianchini",
+   "nombre": "Florian Bianchini",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-06-25",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Florian_Bianchini"
+  },
+  {
+   "id": "wiki-clermont-yuliwes-bellache",
+   "nombre": "Yuliwes Bellache",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Algeria",
+   "nacCodigo": "DZ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-12-15",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Yuliwes_Bellache"
+  },
+  {
+   "id": "wiki-clermont-luis-semedo",
+   "nombre": "Luís Semedo",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Portugal",
+   "nacCodigo": "PT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-08-11",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Lu%C3%ADs_Semedo"
+  },
+  {
+   "id": "wiki-clermont-junior-sambia",
+   "nombre": "Junior Sambia",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Central African Republic",
+   "nacCodigo": "CF",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-09-07",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Junior_Sambia"
+  },
+  {
+   "id": "wiki-clermont-maidine-douane",
+   "nombre": "Maïdine Douane",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Algeria",
+   "nacCodigo": "DZ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-08-23",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Ma%C3%AFdine_Douane"
+  },
+  {
+   "id": "wiki-clermont-vital-nsimba",
+   "nombre": "Vital Nsimba",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "DR Congo",
+   "nacCodigo": "CD",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-07-08",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Vital_Nsimba"
+  },
+  {
+   "id": "wiki-clermont-julien-astic",
+   "nombre": "Julien Astic",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-clermont-massamba-ndiaye",
+   "nombre": "Massamba Ndiaye",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2001-10-08",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Massamba_Ndiaye"
+  },
+  {
+   "id": "wiki-clermont-ousmane-diop",
+   "nombre": "Ousmane Diop",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-clermont-noam-strotz",
+   "nombre": "Noam Strotz",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-clermont-mohamed-amine-bouchenna",
+   "nombre": "Mohamed-Amine Bouchenna",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-clermont-yoann-salmier",
+   "nombre": "Yoann Salmier",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "GUF",
+   "nacCodigo": "GUF",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1992-11-21",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Yoann_Salmier"
+  },
+  {
+   "id": "wiki-clermont-adrien-hunou",
+   "nombre": "Adrien Hunou",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-01-19",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Adrien_Hunou"
+  },
+  {
+   "id": "wiki-clermont-rominigue-kouame",
+   "nombre": "Rominigue Kouamé",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Mali",
+   "nacCodigo": "ML",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-12-17",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Rominigue_Kouam%C3%A9"
+  },
+  {
+   "id": "wiki-clermont-ivan-mbahia",
+   "nombre": "Ivan M'Bahia",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Ivory Coast",
+   "nacCodigo": "CI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-clermont-arthur-saintorens",
+   "nombre": "Arthur Saintorens",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-clermont-theo-guivarch",
+   "nombre": "Théo Guivarch",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 30,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1995-11-17",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Th%C3%A9o_Guivarch"
+  },
+  {
+   "id": "wiki-clermont-jean-nyindong-tsamouna",
+   "nombre": "Jean Nyindong Tsamouna",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 39,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-clermont-allan-ackra",
+   "nombre": "Allan Ackra",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 44,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-clermont-matys-donavin",
+   "nombre": "Matys Donavin",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 45,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-clermont-enzo-cantero",
+   "nombre": "Enzo Cantero",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 77,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-clermont-christ-okou",
+   "nombre": "Christ Okou",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 90,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW",
+   "cedido": true
+  },
+  {
+   "id": "wiki-clermont-ibrahim-coulibaly",
+   "nombre": "Ibrahim Coulibaly",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 93,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-clermont-kenji-van-boto",
+   "nombre": "Kenji-Van Boto",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Madagascar",
+   "nacCodigo": "MG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 97,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-03-07",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Kenji-Van_Boto"
+  }
+ ]
+}

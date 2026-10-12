@@ -1,0 +1,672 @@
+{
+ "clubId": "darmstadt-98",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/SV_Darmstadt_98",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-darmstadt-98-marcel-schuhen",
+   "nombre": "Marcel Schuhen",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1993-01-13",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Marcel_Schuhen"
+  },
+  {
+   "id": "wiki-darmstadt-98-florian-kleinhansl",
+   "nombre": "Florian Kleinhansl",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-08-11",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Florian_Kleinhansl"
+  },
+  {
+   "id": "wiki-darmstadt-98-grayson-dettoni",
+   "nombre": "Grayson Dettoni",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "United States",
+   "nacCodigo": "US",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-06-29",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Grayson_Dettoni"
+  },
+  {
+   "id": "wiki-darmstadt-98-marco-richter",
+   "nombre": "Marco Richter",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-11-24",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Marco_Richter"
+  },
+  {
+   "id": "wiki-darmstadt-98-patric-pfeiffer",
+   "nombre": "Patric Pfeiffer",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Ghana",
+   "nacCodigo": "GH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-08-20",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Patric_Pfeiffer"
+  },
+  {
+   "id": "wiki-darmstadt-98-noah-wei-haupt",
+   "nombre": "Noah Weißhaupt",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Noah_Wei%C3%9Fhaupt"
+  },
+  {
+   "id": "wiki-darmstadt-98-luca-marseiler",
+   "nombre": "Luca Marseiler",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-02-18",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Marseiler"
+  },
+  {
+   "id": "wiki-darmstadt-98-lee-ho-jae",
+   "nombre": "Lee Ho-jae",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "South Korea",
+   "nacCodigo": "KR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-10-14",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Lee_Ho-jae_(footballer)"
+  },
+  {
+   "id": "wiki-darmstadt-98-nicolas-verkooijen",
+   "nombre": "Nicolas Verkooijen",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Belgium",
+   "nacCodigo": "BE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-darmstadt-98-ibrahim-el-kadiri",
+   "nombre": "Ibrahim El Kadiri",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Morocco",
+   "nacCodigo": "MA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-01-23",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Ibrahim_El_Kadiri"
+  },
+  {
+   "id": "wiki-darmstadt-98-meldin-dreskovic",
+   "nombre": "Meldin Drešković",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Montenegro",
+   "nacCodigo": "ME",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-03-26",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Meldin_Dre%C5%A1kovi%C4%87"
+  },
+  {
+   "id": "wiki-darmstadt-98-fabian-nurnberger",
+   "nombre": "Fabian Nürnberger",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Bulgaria",
+   "nacCodigo": "BG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-07-28",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Fabian_N%C3%BCrnberger"
+  },
+  {
+   "id": "wiki-darmstadt-98-hiroki-akiyama",
+   "nombre": "Hiroki Akiyama",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Japan",
+   "nacCodigo": "JP",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Hiroki_Akiyama"
+  },
+  {
+   "id": "wiki-darmstadt-98-kai-klefisch",
+   "nombre": "Kai Klefisch",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-12-03",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Kai_Klefisch"
+  },
+  {
+   "id": "wiki-darmstadt-98-raoul-petretta",
+   "nombre": "Raoul Petretta",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-03-24",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Raoul_Petretta"
+  },
+  {
+   "id": "wiki-darmstadt-98-fynn-lakenmacher",
+   "nombre": "Fynn Lakenmacher",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-05-10",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Fynn_Lakenmacher"
+  },
+  {
+   "id": "wiki-darmstadt-98-aleksandar-vukotic",
+   "nombre": "Aleksandar Vukotić",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Serbia",
+   "nacCodigo": "RS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-07-22",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Aleksandar_Vukoti%C4%87"
+  },
+  {
+   "id": "wiki-darmstadt-98-merveille-papela",
+   "nombre": "Merveille Papela",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-01-18",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Merveille_Papela"
+  },
+  {
+   "id": "wiki-darmstadt-98-lars-kehl",
+   "nombre": "Lars Kehl",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Lars_Kehl"
+  },
+  {
+   "id": "wiki-darmstadt-98-carlo-sickinger",
+   "nombre": "Carlo Sickinger",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-07-29",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Carlo_Sickinger"
+  },
+  {
+   "id": "wiki-darmstadt-98-benedikt-borner",
+   "nombre": "Benedikt Börner",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-darmstadt-98-william-mikelbrencis",
+   "nombre": "William Mikelbrencis",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/William_Mikelbrencis"
+  },
+  {
+   "id": "wiki-darmstadt-98-matthias-bader",
+   "nombre": "Matthias Bader",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-06-17",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Matthias_Bader"
+  },
+  {
+   "id": "wiki-darmstadt-98-christopher-lannert",
+   "nombre": "Christopher Lannert",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-06-08",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Christopher_Lannert"
+  },
+  {
+   "id": "wiki-darmstadt-98-alexander-brunst",
+   "nombre": "Alexander Brunst",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1995-07-07",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Alexander_Brunst"
+  },
+  {
+   "id": "wiki-darmstadt-98-milan-smit",
+   "nombre": "Milan Smit",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Netherlands",
+   "nacCodigo": "NL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 36,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-02-13",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Milan_Smit"
+  },
+  {
+   "id": "wiki-darmstadt-98-lance-duijvestijn",
+   "nombre": "Lance Duijvestijn",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Netherlands",
+   "nacCodigo": "NL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 41,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-01-15",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Lance_Duijvestijn"
+  },
+  {
+   "id": "wiki-darmstadt-98-yosuke-furukawa",
+   "nombre": "Yosuke Furukawa",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "JAP",
+   "nacCodigo": "JAP",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 44,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-07-16",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Yosuke_Furukawa"
+  },
+  {
+   "id": "wiki-darmstadt-98-max-pfister",
+   "nombre": "Max Pfister",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 45,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-darmstadt-98-milian-herbst",
+   "nombre": "Milian Herbst",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 47,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-darmstadt-98-manolo-merx",
+   "nombre": "Manolo Merx",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 48,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-darmstadt-98-yannik-luhrs",
+   "nombre": "Yannik Lührs",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 49,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-09-09",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Yannik_L%C3%BChrs"
+  }
+ ]
+}

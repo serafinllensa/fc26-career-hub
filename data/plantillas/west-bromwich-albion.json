@@ -1,0 +1,469 @@
+{
+ "clubId": "west-bromwich-albion",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/West_Bromwich_Albion_F.C.",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-west-bromwich-albion-max-oleary",
+   "nombre": "Max O'Leary",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Ireland",
+   "nacCodigo": "IE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1996-10-10",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Max_O%27Leary"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-chris-mepham",
+   "nombre": "Chris Mepham",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Wales",
+   "nacCodigo": "GB-WLS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-11-05",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Chris_Mepham"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-nat-phillips",
+   "nombre": "Nat Phillips",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-03-21",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Nat_Phillips"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-callum-styles",
+   "nombre": "Callum Styles",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Hungary",
+   "nacCodigo": "HU",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-03-27",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Callum_Styles"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-george-campbell",
+   "nombre": "George Campbell",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "United States",
+   "nacCodigo": "US",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-06-22",
+   "posWiki": "DF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/George_Campbell_(soccer)"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-felix-horn-myhre",
+   "nombre": "Felix Horn Myhre",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Norway",
+   "nacCodigo": "NO",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-03-04",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Felix_Horn_Myhre"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-jayson-molumby",
+   "nombre": "Jayson Molumby",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Ireland",
+   "nacCodigo": "IE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-08-06",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Jayson_Molumby"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-barney-stewart",
+   "nombre": "Barney Stewart",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Scotland",
+   "nacCodigo": "GB-SCT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-04-07",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Barney_Stewart"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-mikey-johnston",
+   "nombre": "Mikey Johnston",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Ireland",
+   "nacCodigo": "IE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-04-19",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Mikey_Johnston"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-jimmy-jay-morgan",
+   "nombre": "Jimmy-Jay Morgan",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-01-21",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Jimmy-Jay_Morgan"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-matt-ingram",
+   "nombre": "Matt Ingram",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 32,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1993-12-18",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Matt_Ingram"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-toby-collyer",
+   "nombre": "Toby Collyer",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-01-03",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Toby_Collyer"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-ousmane-diakite",
+   "nombre": "Ousmane Diakité",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Mali",
+   "nacCodigo": "ML",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-07-25",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Ousmane_Diakit%C3%A9"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-brayann-pereira",
+   "nombre": "Brayann Pereira",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-05-21",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Brayann_Pereira"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-aune-heggeb",
+   "nombre": "Aune Heggebø",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Norway",
+   "nacCodigo": "NO",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-07-29",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Aune_Heggeb%C3%B8"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-rabby-nzingoula",
+   "nombre": "Rabby Nzingoula",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-11-25",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Rabby_Nzingoula"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-isaac-price",
+   "nombre": "Isaac Price",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Northern Ireland",
+   "nacCodigo": "GB-NIR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-09-26",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Isaac_Price"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-conor-townsend",
+   "nombre": "Conor Townsend",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-03-04",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Conor_Townsend"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-tammer-bany",
+   "nombre": "Tammer Bany",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Jordan",
+   "nacCodigo": "JO",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-10-19",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Tammer_Bany"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-nolan-galves",
+   "nombre": "Nolan Galves",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Nolan_Galves"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-kareem-tunde",
+   "nombre": "Kareem Tunde",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Spain",
+   "nacCodigo": "ES",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-08-19",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Kareem_Tunde"
+  },
+  {
+   "id": "wiki-west-bromwich-albion-harry-whitwell",
+   "nombre": "Harry Whitwell",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-11-16",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Harry_Whitwell"
+  }
+ ]
+}

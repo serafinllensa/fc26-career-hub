@@ -1,0 +1,590 @@
+{
+ "clubId": "dynamo-dresden",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Dynamo_Dresden",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-dynamo-dresden-tim-schreiber",
+   "nombre": "Tim Schreiber",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2002-04-24",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Tim_Schreiber"
+  },
+  {
+   "id": "wiki-dynamo-dresden-kenneth-schmidt",
+   "nombre": "Kenneth Schmidt",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-06-03",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Kenneth_Schmidt"
+  },
+  {
+   "id": "wiki-dynamo-dresden-nicolai-rapp",
+   "nombre": "Nicolai Rapp",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-12-13",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Nicolai_Rapp"
+  },
+  {
+   "id": "wiki-dynamo-dresden-kennedy-okpala",
+   "nombre": "Kennedy Okpala",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-12-17",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Kennedy_Okpala"
+  },
+  {
+   "id": "wiki-dynamo-dresden-luca-herrmann",
+   "nombre": "Luca Herrmann",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-02-20",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Herrmann"
+  },
+  {
+   "id": "wiki-dynamo-dresden-vincent-vermeij",
+   "nombre": "Vincent Vermeij",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Netherlands",
+   "nacCodigo": "NL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-08-09",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Vincent_Vermeij"
+  },
+  {
+   "id": "wiki-dynamo-dresden-jakob-lemmer",
+   "nombre": "Jakob Lemmer",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-04-26",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Jakob_Lemmer"
+  },
+  {
+   "id": "wiki-dynamo-dresden-kaan-inanoglu",
+   "nombre": "Kaan İnanoğlu",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Turkey",
+   "nacCodigo": "TR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-dynamo-dresden-brooklyn-ezeh",
+   "nombre": "Brooklyn Ezeh",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-06-23",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Brooklyn_Ezeh"
+  },
+  {
+   "id": "wiki-dynamo-dresden-nils-froling",
+   "nombre": "Nils Fröling",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Sweden",
+   "nacCodigo": "SE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-04-20",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Nils_Fr%C3%B6ling"
+  },
+  {
+   "id": "wiki-dynamo-dresden-ahmet-muhamedbegovic",
+   "nombre": "Ahmet Muhamedbegović",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Austria",
+   "nacCodigo": "AT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-10-30",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Ahmet_Muhamedbegovi%C4%87"
+  },
+  {
+   "id": "wiki-dynamo-dresden-robert-wagner",
+   "nombre": "Robert Wagner",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-07-14",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Robert_Wagner_(footballer)"
+  },
+  {
+   "id": "wiki-dynamo-dresden-alexander-rossipal",
+   "nombre": "Alexander Rossipal",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-06-06",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Alexander_Rossipal"
+  },
+  {
+   "id": "wiki-dynamo-dresden-ben-bobzien",
+   "nombre": "Ben Bobzien",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-04-29",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Ben_Bobzien"
+  },
+  {
+   "id": "wiki-dynamo-dresden-tobias-raschl",
+   "nombre": "Tobias Raschl",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-02-21",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Tobias_Raschl"
+  },
+  {
+   "id": "wiki-dynamo-dresden-lennart-grill",
+   "nombre": "Lennart Grill",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1999-01-25",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Lennart_Grill"
+  },
+  {
+   "id": "wiki-dynamo-dresden-lars-bunning",
+   "nombre": "Lars Bünning",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-02-27",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Lars_B%C3%BCnning"
+  },
+  {
+   "id": "wiki-dynamo-dresden-patrice-covic",
+   "nombre": "Patrice Čović",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Croatia",
+   "nacCodigo": "HR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-06-25",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Patrice_%C4%8Covi%C4%87"
+  },
+  {
+   "id": "wiki-dynamo-dresden-niklas-hauptmann",
+   "nombre": "Niklas Hauptmann",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-06-27",
+   "posWiki": "MF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Niklas_Hauptmann"
+  },
+  {
+   "id": "wiki-dynamo-dresden-lukas-boeder",
+   "nombre": "Lukas Boeder",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-04-18",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Lukas_Boeder"
+  },
+  {
+   "id": "wiki-dynamo-dresden-jonas-sterner",
+   "nombre": "Jonas Sterner",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-05-13",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Jonas_Sterner"
+  },
+  {
+   "id": "wiki-dynamo-dresden-christoph-daferner",
+   "nombre": "Christoph Daferner",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-01-12",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Christoph_Daferner"
+  },
+  {
+   "id": "wiki-dynamo-dresden-till-neininger",
+   "nombre": "Till Neininger",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 34,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "cedido": true
+  },
+  {
+   "id": "wiki-dynamo-dresden-daniel-mesenholer",
+   "nombre": "Daniel Mesenhöler",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 37,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1995-07-24",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Daniel_Mesenh%C3%B6ler"
+  },
+  {
+   "id": "wiki-dynamo-dresden-thomas-keller",
+   "nombre": "Thomas Keller",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 39,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Thomas_Keller_(footballer)"
+  },
+  {
+   "id": "wiki-dynamo-dresden-elias-bethke",
+   "nombre": "Elias Bethke",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 40,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-dynamo-dresden-friedrich-muller",
+   "nombre": "Friedrich Müller",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 42,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-dynamo-dresden-simon-straudi",
+   "nombre": "Simon Straudi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 44,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-01-27",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Simon_Straudi"
+  }
+ ]
+}

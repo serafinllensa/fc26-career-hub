@@ -1,0 +1,613 @@
+{
+ "clubId": "wrexham",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Wrexham_A.F.C.",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-wrexham-callum-doyle",
+   "nombre": "Callum Doyle",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-10-03",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Callum_Doyle"
+  },
+  {
+   "id": "wiki-wrexham-jacques-ekomie",
+   "nombre": "Jacques Ekomié",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Gabon",
+   "nacCodigo": "GA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-08-19",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Jacques_Ekomi%C3%A9"
+  },
+  {
+   "id": "wiki-wrexham-max-cleworth",
+   "nombre": "Max Cleworth",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-08-09",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Max_Cleworth"
+  },
+  {
+   "id": "wiki-wrexham-dominic-hyam",
+   "nombre": "Dominic Hyam",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Scotland",
+   "nacCodigo": "GB-SCT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-12-20",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Dominic_Hyam"
+  },
+  {
+   "id": "wiki-wrexham-joe-worrall",
+   "nombre": "Joe Worrall",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-01-10",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Joe_Worrall_(footballer)"
+  },
+  {
+   "id": "wiki-wrexham-ben-whiteman",
+   "nombre": "Ben Whiteman",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-06-17",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Ben_Whiteman_(footballer)"
+  },
+  {
+   "id": "wiki-wrexham-josh-windass",
+   "nombre": "Josh Windass",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-01-09",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Josh_Windass"
+  },
+  {
+   "id": "wiki-wrexham-bailey-cadamarteri",
+   "nombre": "Bailey Cadamarteri",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Jamaica",
+   "nacCodigo": "JM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-05-09",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Bailey_Cadamarteri"
+  },
+  {
+   "id": "wiki-wrexham-issa-kabore",
+   "nombre": "Issa Kaboré",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "BFA",
+   "nacCodigo": "BFA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-05-12",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Issa_Kabor%C3%A9"
+  },
+  {
+   "id": "wiki-wrexham-liberato-cacace",
+   "nombre": "Liberato Cacace",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "New Zealand",
+   "nacCodigo": "NZ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-09-27",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Liberato_Cacace"
+  },
+  {
+   "id": "wiki-wrexham-george-thomason",
+   "nombre": "George Thomason",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-01-12",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/George_Thomason_(footballer)"
+  },
+  {
+   "id": "wiki-wrexham-george-dobson",
+   "nombre": "George Dobson",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-11-15",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/George_Dobson_(footballer%2C_born_1997)"
+  },
+  {
+   "id": "wiki-wrexham-callum-ohare",
+   "nombre": "Callum O'Hare",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-05-01",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Callum_O%27Hare"
+  },
+  {
+   "id": "wiki-wrexham-ben-sheaf",
+   "nombre": "Ben Sheaf",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-02-05",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Ben_Sheaf"
+  },
+  {
+   "id": "wiki-wrexham-kieffer-moore",
+   "nombre": "Kieffer Moore",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 34,
+   "nac": "Wales",
+   "nacCodigo": "GB-WLS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1992-08-08",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Kieffer_Moore"
+  },
+  {
+   "id": "wiki-wrexham-ollie-rathbone",
+   "nombre": "Ollie Rathbone",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-10-10",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Ollie_Rathbone"
+  },
+  {
+   "id": "wiki-wrexham-danny-ward",
+   "nombre": "Danny Ward",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Wales",
+   "nacCodigo": "GB-WLS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1993-06-22",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Danny_Ward_(Welsh_footballer)"
+  },
+  {
+   "id": "wiki-wrexham-anthony-patterson",
+   "nombre": "Anthony Patterson",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 26,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2000-05-10",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Anthony_Patterson"
+  },
+  {
+   "id": "wiki-wrexham-sebastian-revan",
+   "nombre": "Sebastian Revan",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-07-14",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Sebastian_Revan"
+  },
+  {
+   "id": "wiki-wrexham-callum-burton",
+   "nombre": "Callum Burton",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 30,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1996-08-15",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Callum_Burton"
+  },
+  {
+   "id": "wiki-wrexham-zak-vyner",
+   "nombre": "Zak Vyner",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Kenya",
+   "nacCodigo": "KE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-05-14",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Zak_Vyner"
+  },
+  {
+   "id": "wiki-wrexham-lewis-obrien",
+   "nombre": "Lewis O'Brien",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-10-14",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Lewis_O%27Brien_(footballer)"
+  },
+  {
+   "id": "wiki-wrexham-sam-smith",
+   "nombre": "Sam Smith",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-03-08",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Sam_Smith_(footballer%2C_born_1998)"
+  },
+  {
+   "id": "wiki-wrexham-danny-imray",
+   "nombre": "Danny Imray",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-07-27",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Danny_Imray"
+  },
+  {
+   "id": "wiki-wrexham-nathan-broadhead",
+   "nombre": "Nathan Broadhead",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Wales",
+   "nacCodigo": "GB-WLS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-04-05",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Nathan_Broadhead"
+  },
+  {
+   "id": "wiki-wrexham-aaron-james",
+   "nombre": "Aaron James",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 34,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-06-30",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Aaron_James_(English_footballer)"
+  },
+  {
+   "id": "wiki-wrexham-matty-james",
+   "nombre": "Matty James",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 35,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 37,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1991-07-22",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Matty_James"
+  },
+  {
+   "id": "wiki-wrexham-ryan-longman",
+   "nombre": "Ryan Longman",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 47,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-11-06",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Ryan_Longman"
+  },
+  {
+   "id": "wiki-wrexham-samuel-chesworth",
+   "nombre": "Samuel Chesworth",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Philippines",
+   "nacCodigo": "PH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 50,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  }
+ ]
+}

@@ -440,6 +440,7 @@ button.cal-dia .punto{width:5px;height:5px;border-radius:50%;background:var(--me
 .picker-stars{font:700 18px/1 var(--f-display);letter-spacing:3px;color:#f3d27a}
 .picker-stars span{opacity:.28}
 .picker-cuenta{font:700 12px/1 var(--f-display);letter-spacing:.14em;opacity:.7}
+.picker-lugar{font:600 11px/1.3 var(--f-texto);letter-spacing:.02em;opacity:.72;max-width:100%}
 .picker-div{display:flex;gap:4px;padding:4px;border-radius:999px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14)}
 .picker-div-btn{min-height:44px;padding:0 22px;border:0;border-radius:999px;background:transparent;color:rgba(255,255,255,.62);font:700 14px/1 var(--f-display);cursor:pointer}
 .picker-div-btn.on{background:#fff;color:#07141b}

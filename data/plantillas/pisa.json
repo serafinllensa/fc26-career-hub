@@ -1,0 +1,612 @@
+{
+ "clubId": "pisa",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Pisa_SC",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-pisa-simone-scuffet",
+   "nombre": "Simone Scuffet",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1996-05-31",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Simone_Scuffet"
+  },
+  {
+   "id": "wiki-pisa-rosen-bozhinov",
+   "nombre": "Rosen Bozhinov",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Bulgaria",
+   "nacCodigo": "BG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-01-23",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Rosen_Bozhinov"
+  },
+  {
+   "id": "wiki-pisa-samuele-angori",
+   "nombre": "Samuele Angori",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-10-07",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Samuele_Angori"
+  },
+  {
+   "id": "wiki-pisa-antonio-caracciolo",
+   "nombre": "Antonio Caracciolo",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 36,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1990-06-30",
+   "posWiki": "DF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Antonio_Caracciolo"
+  },
+  {
+   "id": "wiki-pisa-simone-canestrelli",
+   "nombre": "Simone Canestrelli",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-09-11",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Simone_Canestrelli"
+  },
+  {
+   "id": "wiki-pisa-mehdi-leris",
+   "nombre": "Mehdi Léris",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Algeria",
+   "nacCodigo": "DZ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-05-23",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Mehdi_L%C3%A9ris"
+  },
+  {
+   "id": "wiki-pisa-filippo-pittarello",
+   "nombre": "Filippo Pittarello",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-10-09",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Filippo_Pittarello"
+  },
+  {
+   "id": "wiki-pisa-matteo-tramoni",
+   "nombre": "Mattéo Tramoni",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-01-20",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Matt%C3%A9o_Tramoni"
+  },
+  {
+   "id": "wiki-pisa-ichem-ferrah",
+   "nombre": "Ichem Ferrah",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-09-23",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Ichem_Ferrah"
+  },
+  {
+   "id": "wiki-pisa-andrea-primasso",
+   "nombre": "Andrea Primasso",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-pisa-felipe-loyola",
+   "nombre": "Felipe Loyola",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Chile",
+   "nacCodigo": "CL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-11-09",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Felipe_Loyola"
+  },
+  {
+   "id": "wiki-pisa-louis-buffon",
+   "nombre": "Louis Buffon",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 18,
+   "nac": "Czech Republic",
+   "nacCodigo": "CZ",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-12-28",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Louis_Buffon"
+  },
+  {
+   "id": "wiki-pisa-emanuele-rao",
+   "nombre": "Emanuele Rao",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Emanuele_Rao"
+  },
+  {
+   "id": "wiki-pisa-tomas-esteves",
+   "nombre": "Tomás Esteves",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Portugal",
+   "nacCodigo": "PT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-04-03",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Tom%C3%A1s_Esteves"
+  },
+  {
+   "id": "wiki-pisa-isak-vural",
+   "nombre": "İsak Vural",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Turkey",
+   "nacCodigo": "TR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-05-28",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/%C4%B0sak_Vural"
+  },
+  {
+   "id": "wiki-pisa-leonardo-loria",
+   "nombre": "Leonardo Loria",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1999-03-28",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Leonardo_Loria"
+  },
+  {
+   "id": "wiki-pisa-tommaso-marras",
+   "nombre": "Tommaso Marras",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-pisa-francesco-coppola",
+   "nombre": "Francesco Coppola",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-04-11",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Francesco_Coppola_(footballer)"
+  },
+  {
+   "id": "wiki-pisa-omar-correia",
+   "nombre": "Omar Correia",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-pisa-stefano-moreo",
+   "nombre": "Stefano Moreo",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-06-30",
+   "posWiki": "FW",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Stefano_Moreo"
+  },
+  {
+   "id": "wiki-pisa-arturo-calabresi",
+   "nombre": "Arturo Calabresi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-03-17",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Arturo_Calabresi"
+  },
+  {
+   "id": "wiki-pisa-gabriele-piccinini",
+   "nombre": "Gabriele Piccinini",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 36,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Gabriele_Piccinini"
+  },
+  {
+   "id": "wiki-pisa-andrea-petagna",
+   "nombre": "Andrea Petagna",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 37,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-06-30",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Andrea_Petagna"
+  },
+  {
+   "id": "wiki-pisa-daniel-denoon",
+   "nombre": "Daniel Denoon",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Switzerland",
+   "nacCodigo": "CH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 44,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-01-28",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Daniel_Denoon"
+  },
+  {
+   "id": "wiki-pisa-mateus-lusuardi",
+   "nombre": "Mateus Lusuardi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Brazil",
+   "nacCodigo": "BR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 47,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-01-08",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Mateus_Lusuardi"
+  },
+  {
+   "id": "wiki-pisa-giuseppe-leone",
+   "nombre": "Giuseppe Leone",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 55,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-05-05",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Giuseppe_Leone"
+  },
+  {
+   "id": "wiki-pisa-simone-zanon",
+   "nombre": "Simone Zanon",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 72,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-pisa-elia-giani",
+   "nombre": "Elia Giani",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 73,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-12-20",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Elia_Giani"
+  },
+  {
+   "id": "wiki-pisa-alessandro-confente",
+   "nombre": "Alessandro Confente",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 98,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1998-06-07",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Alessandro_Confente"
+  }
+ ]
+}

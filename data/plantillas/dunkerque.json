@@ -1,0 +1,541 @@
+{
+ "clubId": "dunkerque",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/USL_Dunkerque",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-dunkerque-ousmane-toure",
+   "nombre": "Ousmane Touré",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-02-18",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Ousmane_Tour%C3%A9_(footballer)"
+  },
+  {
+   "id": "wiki-dunkerque-bram-lagae",
+   "nombre": "Bram Lagae",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Belgium",
+   "nacCodigo": "BE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-01-14",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Bram_Lagae"
+  },
+  {
+   "id": "wiki-dunkerque-jordan-morel",
+   "nombre": "Jordan Morel",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-dunkerque-khalil-ayari",
+   "nombre": "Khalil Ayari",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Tunisia",
+   "nacCodigo": "TN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-02-02",
+   "posWiki": "MF",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Khalil_Ayari"
+  },
+  {
+   "id": "wiki-dunkerque-gaetan-robail",
+   "nombre": "Gaëtan Robail",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-01-09",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Ga%C3%ABtan_Robail"
+  },
+  {
+   "id": "wiki-dunkerque-adrien-lebeau",
+   "nombre": "Adrien Lebeau",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-07-08",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Adrien_Lebeau"
+  },
+  {
+   "id": "wiki-dunkerque-yegor-prutsev",
+   "nombre": "Yegor Prutsev",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Russia",
+   "nacCodigo": "RU",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-12-23",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Yegor_Prutsev"
+  },
+  {
+   "id": "wiki-dunkerque-steven-nzonzi",
+   "nombre": "Steven Nzonzi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 37,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1988-12-15",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Steven_Nzonzi"
+  },
+  {
+   "id": "wiki-dunkerque-maxence-prevot",
+   "nombre": "Maxence Prévot",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 29,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1997-04-09",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Maxence_Pr%C3%A9vot"
+  },
+  {
+   "id": "wiki-dunkerque-pape-malick-dieng",
+   "nombre": "Pape Malick Dieng",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-dunkerque-thena-massock",
+   "nombre": "Théna Massock",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-dunkerque-souleymane-keita",
+   "nombre": "Souleymane Keita",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-dunkerque-lenny-dziki-loussilaho",
+   "nombre": "Lenny Dziki Loussilaho",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Congo",
+   "nacCodigo": "CG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-dunkerque-victor-mayela",
+   "nombre": "Victor Mayela",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "DR Congo",
+   "nacCodigo": "CD",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-dunkerque-arthylio-nade",
+   "nombre": "Arthylio Nadé",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Ivory Coast",
+   "nacCodigo": "CI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-dunkerque-lenny-vallier",
+   "nombre": "Lenny Vallier",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-04-24",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Lenny_Vallier"
+  },
+  {
+   "id": "wiki-dunkerque-franck-atoen",
+   "nombre": "Franck Atoen",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Cameroon",
+   "nacCodigo": "CM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF",
+   "cedido": true
+  },
+  {
+   "id": "wiki-dunkerque-opa-sangante",
+   "nombre": "Opa Sanganté",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 35,
+   "nac": "GNB",
+   "nacCodigo": "GNB",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1991-02-01",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Opa_Sangant%C3%A9"
+  },
+  {
+   "id": "wiki-dunkerque-allan-linguet",
+   "nombre": "Allan Linguet",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-08-17",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Allan_Linguet"
+  },
+  {
+   "id": "wiki-dunkerque-abner",
+   "nombre": "Abner",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Brazil",
+   "nacCodigo": "BR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-05-30",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Abner_Felipe"
+  },
+  {
+   "id": "wiki-dunkerque-mouhamed-sissokho",
+   "nombre": "Mouhamed Sissokho",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 36,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-dunkerque-maedine-makhloufi",
+   "nombre": "Maedine Makhloufi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 42,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-dunkerque-moha-ramos",
+   "nombre": "Moha Ramos",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Spain",
+   "nacCodigo": "ES",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 73,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2000-04-13",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Moha_Ramos"
+  },
+  {
+   "id": "wiki-dunkerque-alex-daho",
+   "nombre": "Alex Daho",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 93,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-dunkerque-enzo-mayilla",
+   "nombre": "Enzo Mayilla",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 94,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-dunkerque-mbaye-niang",
+   "nombre": "M'Baye Niang",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 99,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-12-19",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/M%27Baye_Niang"
+  }
+ ]
+}

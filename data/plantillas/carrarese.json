@@ -1,0 +1,648 @@
+{
+ "clubId": "carrarese",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Carrarese_Calcio_1908",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-carrarese-semuel-pizzignacco",
+   "nombre": "Semuel Pizzignacco",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Semuel_Pizzignacco"
+  },
+  {
+   "id": "wiki-carrarese-colin-dagba",
+   "nombre": "Colin Dagba",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-09-09",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Colin_Dagba"
+  },
+  {
+   "id": "wiki-carrarese-david-vujevic",
+   "nombre": "David Vujević",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Croatia",
+   "nacCodigo": "HR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-carrarese-tommaso-macchioni",
+   "nombre": "Tommaso Macchioni",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-carrarese-filippo-oliana",
+   "nombre": "Filippo Oliana",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-06-30",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Filippo_Oliana"
+  },
+  {
+   "id": "wiki-carrarese-niccolo-belloni",
+   "nombre": "Niccolò Belloni",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-07-10",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Niccol%C3%B2_Belloni"
+  },
+  {
+   "id": "wiki-carrarese-yanis-khafi",
+   "nombre": "Yanis Khafi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Morocco",
+   "nacCodigo": "MA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-carrarese-fabio-abiuso",
+   "nombre": "Fabio Abiuso",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-02-02",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Fabio_Abiuso"
+  },
+  {
+   "id": "wiki-carrarese-tommaso-rubino",
+   "nombre": "Tommaso Rubino",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-11-10",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Tommaso_Rubino"
+  },
+  {
+   "id": "wiki-carrarese-moustapha-cisse",
+   "nombre": "Moustapha Cissé",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Guinea",
+   "nacCodigo": "GN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-09-14",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Moustapha_Ciss%C3%A9"
+  },
+  {
+   "id": "wiki-carrarese-giovanni-garofani",
+   "nombre": "Giovanni Garofani",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Giovanni_Garofani"
+  },
+  {
+   "id": "wiki-carrarese-fabio-andrea-ruggeri",
+   "nombre": "Fabio Andrea Ruggeri",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-carrarese-luka-topalovic",
+   "nombre": "Luka Topalović",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Slovenia",
+   "nacCodigo": "SI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-02-23",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Luka_Topalovi%C4%87"
+  },
+  {
+   "id": "wiki-carrarese-nicolas-schiavi",
+   "nombre": "Nicolás Schiavi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Argentina",
+   "nacCodigo": "AR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-02-01",
+   "posWiki": "MF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Schiavi"
+  },
+  {
+   "id": "wiki-carrarese-goncalo-esteves",
+   "nombre": "Gonçalo Esteves",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Portugal",
+   "nacCodigo": "PT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-02-27",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Gon%C3%A7alo_Esteves"
+  },
+  {
+   "id": "wiki-carrarese-nicholas-bonfanti",
+   "nombre": "Nicholas Bonfanti",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-03-28",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Nicholas_Bonfanti"
+  },
+  {
+   "id": "wiki-carrarese-matthias-braunoder",
+   "nombre": "Matthias Braunöder",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Austria",
+   "nacCodigo": "AT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-03-27",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Matthias_Braun%C3%B6der"
+  },
+  {
+   "id": "wiki-carrarese-giulio-cianti",
+   "nombre": "Giulio Cianti",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-carrarese-jacopo-martini",
+   "nombre": "Jacopo Martini",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-12-28",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Jacopo_Martini"
+  },
+  {
+   "id": "wiki-carrarese-nicola-ravaglia",
+   "nombre": "Nicola Ravaglia",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 37,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1988-12-12",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Nicola_Ravaglia"
+  },
+  {
+   "id": "wiki-carrarese-mattia-finotto",
+   "nombre": "Mattia Finotto",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1992-12-28",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Mattia_Finotto"
+  },
+  {
+   "id": "wiki-carrarese-filippo-reale",
+   "nombre": "Filippo Reale",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-carrarese-lorenzo-romani",
+   "nombre": "Lorenzo Romani",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 41,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-carrarese-pietro-pinelli",
+   "nombre": "Pietro Pinelli",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 66,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-carrarese-nicolo-cudrig",
+   "nombre": "Nicolò Cudrig",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 70,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Nicol%C3%B2_Cudrig"
+  },
+  {
+   "id": "wiki-carrarese-giulio-baroncelli",
+   "nombre": "Giulio Baroncelli",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 71,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-carrarese-jonas-rouhi",
+   "nombre": "Jonas Rouhi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Sweden",
+   "nacCodigo": "SE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 73,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-01-07",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Jonas_Rouhi"
+  },
+  {
+   "id": "wiki-carrarese-gabriele-parlanti",
+   "nombre": "Gabriele Parlanti",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 77,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-01-28",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Gabriele_Parlanti"
+  },
+  {
+   "id": "wiki-carrarese-tommaso-guercio",
+   "nombre": "Tommaso Guercio",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Poland",
+   "nacCodigo": "PL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 78,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Tommaso_Guercio"
+  },
+  {
+   "id": "wiki-carrarese-stefano-mazzini",
+   "nombre": "Stefano Mazzini",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 87,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1998-12-06",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Stefano_Mazzini"
+  },
+  {
+   "id": "wiki-carrarese-giacomo-marconi",
+   "nombre": "Giacomo Marconi",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 91,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  }
+ ]
+}

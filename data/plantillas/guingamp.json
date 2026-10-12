@@ -1,0 +1,539 @@
+{
+ "clubId": "guingamp",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/En_Avant_Guingamp",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-guingamp-teddy-bartouche",
+   "nombre": "Teddy Bartouche",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 29,
+   "nac": "GLP",
+   "nacCodigo": "GLP",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1997-06-05",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Teddy_Bartouche"
+  },
+  {
+   "id": "wiki-guingamp-erwin-koffi",
+   "nombre": "Erwin Koffi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-01-10",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Erwin_Koffi"
+  },
+  {
+   "id": "wiki-guingamp-jeremie-matumona",
+   "nombre": "Jérémie Matumona",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-guingamp-dylan-louiserre",
+   "nombre": "Dylan Louiserre",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-02-02",
+   "posWiki": "MF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Dylan_Louiserre"
+  },
+  {
+   "id": "wiki-guingamp-tuomas-ollila",
+   "nombre": "Tuomas Ollila",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Finland",
+   "nacCodigo": "FI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Tuomas_Ollila"
+  },
+  {
+   "id": "wiki-guingamp-darly-nlandu",
+   "nombre": "Darly Nlandu",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-07-14",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Darly_Nlandu"
+  },
+  {
+   "id": "wiki-guingamp-donatien-gomis",
+   "nombre": "Donatien Gomis",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-11-07",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Donatien_Gomis"
+  },
+  {
+   "id": "wiki-guingamp-florent-sanchez-da-silva",
+   "nombre": "Florent Sanchez Da Silva",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-04-02",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Florent_Sanchez_Da_Silva"
+  },
+  {
+   "id": "wiki-guingamp-amine-hemia",
+   "nombre": "Amine Hemia",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-01-22",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Amine_Hemia"
+  },
+  {
+   "id": "wiki-guingamp-teddy-averlant",
+   "nombre": "Teddy Averlant",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Gabon",
+   "nacCodigo": "GA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-10-02",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Teddy_Averlant"
+  },
+  {
+   "id": "wiki-guingamp-adrian-ortola",
+   "nombre": "Adrián Ortolá",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Spain",
+   "nacCodigo": "ES",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1993-08-20",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Adri%C3%A1n_Ortol%C3%A1"
+  },
+  {
+   "id": "wiki-guingamp-amadou-samoura",
+   "nombre": "Amadou Samoura",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Amadou_Samoura"
+  },
+  {
+   "id": "wiki-guingamp-stanislas-kielt",
+   "nombre": "Stanislas Kielt",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-guingamp-samir-ben-brahim",
+   "nombre": "Samir Ben Brahim",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-guingamp-tanguy-ahile",
+   "nombre": "Tanguy Ahile",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-guingamp-brandon-bokangu",
+   "nombre": "Brandon Bokangu",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "DR Congo",
+   "nacCodigo": "CD",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-guingamp-jasser-chamakh",
+   "nombre": "Jasser Chamakh",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-guingamp-jeovanni-dianganga",
+   "nombre": "Jeovanni Dianganga",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Belgium",
+   "nacCodigo": "BE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-guingamp-tom-ducrocq",
+   "nombre": "Tom Ducrocq",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-08-25",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Tom_Ducrocq"
+  },
+  {
+   "id": "wiki-guingamp-gautier-ott",
+   "nombre": "Gautier Ott",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-01-07",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Gautier_Ott"
+  },
+  {
+   "id": "wiki-guingamp-joel-matondo",
+   "nombre": "Joël Matondo",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 31,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-guingamp-ibrahima-diakite",
+   "nombre": "Ibrahima Diakité",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-guingamp-nathan-fondja",
+   "nombre": "Nathan Fondja",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 35,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-guingamp-albin-demouchy",
+   "nombre": "Albin Demouchy",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 36,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-guingamp-vimoj-muntu-wa-mungu",
+   "nombre": "Vimoj Muntu Wa Mungu",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 39,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-guingamp-noah-marec",
+   "nombre": "Noah Marec",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 40,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  }
+ ]
+}

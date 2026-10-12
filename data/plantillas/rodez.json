@@ -1,0 +1,519 @@
+{
+ "clubId": "rodez",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Rodez_AF",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-rodez-quentin-braat",
+   "nombre": "Quentin Braat",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 29,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1997-07-06",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Quentin_Braat"
+  },
+  {
+   "id": "wiki-rodez-raphael-lipinski",
+   "nombre": "Raphaël Lipinski",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-07-30",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Rapha%C3%ABl_Lipinski"
+  },
+  {
+   "id": "wiki-rodez-mathis-magnin",
+   "nombre": "Mathis Magnin",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "SWI",
+   "nacCodigo": "SWI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-rodez-mohamed-sylla",
+   "nombre": "Mohamed Sylla",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-rodez-jordan-mendes",
+   "nombre": "Jordan Mendes",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Cape Verde",
+   "nacCodigo": "CV",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-03-07",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Jordan_Mendes"
+  },
+  {
+   "id": "wiki-rodez-kenny-nagera",
+   "nombre": "Kenny Nagera",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-02-21",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Kenny_Nagera"
+  },
+  {
+   "id": "wiki-rodez-damjan-pavlovic",
+   "nombre": "Damjan Pavlović",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Serbia",
+   "nacCodigo": "RS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-07-09",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Damjan_Pavlovi%C4%87"
+  },
+  {
+   "id": "wiki-rodez-nachon-nsingi",
+   "nombre": "Nachon Nsingi",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Belgium",
+   "nacCodigo": "BE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-04-24",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Nachon_Nsingi"
+  },
+  {
+   "id": "wiki-rodez-mathis-saka",
+   "nombre": "Mathis Saka",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-09-20",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Mathis_Saka"
+  },
+  {
+   "id": "wiki-rodez-mathis-touho",
+   "nombre": "Mathis Touho",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-11-24",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Mathis_Touho"
+  },
+  {
+   "id": "wiki-rodez-corentin-issanchou",
+   "nombre": "Corentin Issanchou",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-rodez-jean-lambert-evans",
+   "nombre": "Jean Lambert Evans",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-01-01",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Jean_Lambert_Evans"
+  },
+  {
+   "id": "wiki-rodez-lucas-margueron",
+   "nombre": "Lucas Margueron",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-rodez-dylan-vangi",
+   "nombre": "Dylan Vangi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-rodez-hermann-tebily",
+   "nombre": "Hermann Tebily",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-01-24",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Hermann_Tebily"
+  },
+  {
+   "id": "wiki-rodez-ryan-ponti",
+   "nombre": "Ryan Ponti",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Madagascar",
+   "nacCodigo": "MG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-06-22",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Ryan_Ponti"
+  },
+  {
+   "id": "wiki-rodez-kelian-nsona",
+   "nombre": "Kélian Nsona",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-05-11",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/K%C3%A9lian_Nsona"
+  },
+  {
+   "id": "wiki-rodez-octave-joly",
+   "nombre": "Octave Joly",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-rodez-cheick-doumbia",
+   "nombre": "Cheick Doumbia",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Mali",
+   "nacCodigo": "ML",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-rodez-loni-laurent",
+   "nombre": "Loni Laurent",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-rodez-marco-essimi",
+   "nombre": "Marco Essimi",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-02-18",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Marco_Essimi"
+  },
+  {
+   "id": "wiki-rodez-steven-luyambula",
+   "nombre": "Steven Luyambula",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-rodez-antonin-cartillier",
+   "nombre": "Antonin Cartillier",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-06-23",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Antonin_Cartillier"
+  },
+  {
+   "id": "wiki-rodez-enzo-crombez",
+   "nombre": "Enzo Crombez",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-rodez-yanis-dahalani",
+   "nombre": "Yanis Dahalani",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 34,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  }
+ ]
+}

@@ -1,0 +1,587 @@
+{
+ "clubId": "vfl-bochum",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/VfL_Bochum",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-vfl-bochum-timo-horn",
+   "nombre": "Timo Horn",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1993-05-12",
+   "posWiki": "GK",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Timo_Horn"
+  },
+  {
+   "id": "wiki-vfl-bochum-sean-klaiber",
+   "nombre": "Sean Klaiber",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Suriname",
+   "nacCodigo": "SR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-07-31",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Sean_Klaiber"
+  },
+  {
+   "id": "wiki-vfl-bochum-philipp-strompf",
+   "nombre": "Philipp Strompf",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-04-23",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Philipp_Strompf"
+  },
+  {
+   "id": "wiki-vfl-bochum-yigit-karademir",
+   "nombre": "Yiğit Karademir",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Turkey",
+   "nacCodigo": "TR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-vfl-bochum-karol-mets",
+   "nombre": "Karol Mets",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Estonia",
+   "nacCodigo": "EE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-05-16",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Karol_Mets"
+  },
+  {
+   "id": "wiki-vfl-bochum-enis-cokaj",
+   "nombre": "Enis Çokaj",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Albania",
+   "nacCodigo": "AL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-02-23",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Enis_%C3%87okaj"
+  },
+  {
+   "id": "wiki-vfl-bochum-christian-rasmussen",
+   "nombre": "Christian Rasmussen",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Denmark",
+   "nacCodigo": "DK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-01-19",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Christian_Rasmussen_(footballer)"
+  },
+  {
+   "id": "wiki-vfl-bochum-jean-manuel-mbom",
+   "nombre": "Jean-Manuel Mbom",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-02-24",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Jean-Manuel_Mbom"
+  },
+  {
+   "id": "wiki-vfl-bochum-berkan-taz",
+   "nombre": "Berkan Taz",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-12-19",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Berkan_Taz"
+  },
+  {
+   "id": "wiki-vfl-bochum-oliver-olsen",
+   "nombre": "Oliver Olsen",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Denmark",
+   "nacCodigo": "DK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-08-13",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Oliver_Olsen"
+  },
+  {
+   "id": "wiki-vfl-bochum-jarne-steuckers",
+   "nombre": "Jarne Steuckers",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Belgium",
+   "nacCodigo": "BE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-02-04",
+   "posWiki": "FW",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Jarne_Steuckers"
+  },
+  {
+   "id": "wiki-vfl-bochum-michael-steinwender",
+   "nombre": "Michael Steinwender",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Austria",
+   "nacCodigo": "AT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-05-04",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Michael_Steinwender"
+  },
+  {
+   "id": "wiki-vfl-bochum-tino-casali",
+   "nombre": "Tino Casali",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Austria",
+   "nacCodigo": "AT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1995-11-14",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Tino_Casali"
+  },
+  {
+   "id": "wiki-vfl-bochum-gerrit-holtmann",
+   "nombre": "Gerrit Holtmann",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Philippines",
+   "nacCodigo": "PH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-03-25",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Gerrit_Holtmann"
+  },
+  {
+   "id": "wiki-vfl-bochum-daniel-hanslik",
+   "nombre": "Daniel Hanslik",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-10-06",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Daniel_Hanslik"
+  },
+  {
+   "id": "wiki-vfl-bochum-koji-miyoshi",
+   "nombre": "Kōji Miyoshi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Japan",
+   "nacCodigo": "JP",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-03-26",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/K%C5%8Dji_Miyoshi"
+  },
+  {
+   "id": "wiki-vfl-bochum-mats-pannewig",
+   "nombre": "Mats Pannewig",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-10-28",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Mats_Pannewig"
+  },
+  {
+   "id": "wiki-vfl-bochum-babis-drakas",
+   "nombre": "Babis Drakas",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-vfl-bochum-charlie-patino",
+   "nombre": "Charlie Patino",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "England",
+   "nacCodigo": "GB-ENG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-10-17",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Charlie_Patino"
+  },
+  {
+   "id": "wiki-vfl-bochum-mansour-ouro-tagba",
+   "nombre": "Mansour Ouro-Tagba",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Togo",
+   "nacCodigo": "TG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 29,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-12-17",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Mansour_Ouro-Tagba"
+  },
+  {
+   "id": "wiki-vfl-bochum-leon-sawas",
+   "nombre": "Leon Sawas",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 31,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-vfl-bochum-maximilian-wittek",
+   "nombre": "Maximilian Wittek",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-08-21",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Maximilian_Wittek"
+  },
+  {
+   "id": "wiki-vfl-bochum-philipp-hofmann",
+   "nombre": "Philipp Hofmann",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-03-30",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Philipp_Hofmann"
+  },
+  {
+   "id": "wiki-vfl-bochum-tom-meyer",
+   "nombre": "Tom Meyer",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 34,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-vfl-bochum-luis-pick",
+   "nombre": "Luis Pick",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 36,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-vfl-bochum-alessandro-crimaldi",
+   "nombre": "Alessandro Crimaldi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 37,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-vfl-bochum-hugo-rolleke",
+   "nombre": "Hugo Rölleke",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 38,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-vfl-bochum-lasse-isbruch",
+   "nombre": "Lasse Isbruch",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 39,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  }
+ ]
+}

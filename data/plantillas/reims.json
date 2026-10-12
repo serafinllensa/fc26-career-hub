@@ -1,0 +1,589 @@
+{
+ "clubId": "reims",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Stade_de_Reims",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-reims-tom-ritzy-hulsmann",
+   "nombre": "Tom Ritzy Hülsmann",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2004-04-11",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Tom_Ritzy_H%C3%BClsmann"
+  },
+  {
+   "id": "wiki-reims-joseph-okumu",
+   "nombre": "Joseph Okumu",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Kenya",
+   "nacCodigo": "KE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-05-26",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Joseph_Okumu"
+  },
+  {
+   "id": "wiki-reims-john-otomewo",
+   "nombre": "John Otomewo",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Nigeria",
+   "nacCodigo": "NG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-reims-theo-leoni",
+   "nombre": "Théo Leoni",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Belgium",
+   "nacCodigo": "BE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-04-21",
+   "posWiki": "MF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Th%C3%A9o_Leoni"
+  },
+  {
+   "id": "wiki-reims-tidiane-diarrassouba",
+   "nombre": "Tidiane Diarrassouba",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-reims-yaya-fofana",
+   "nombre": "Yaya Fofana",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Ivory Coast",
+   "nacCodigo": "CI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-06-12",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Yaya_Fofana"
+  },
+  {
+   "id": "wiki-reims-mohamed-daramy",
+   "nombre": "Mohamed Daramy",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Denmark",
+   "nacCodigo": "DK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-01-07",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Mohamed_Daramy"
+  },
+  {
+   "id": "wiki-reims-youssef-el-kachati",
+   "nombre": "Youssef El Kachati",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Morocco",
+   "nacCodigo": "MA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-11-30",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Youssef_El_Kachati"
+  },
+  {
+   "id": "wiki-reims-amine-salama",
+   "nombre": "Amine Salama",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-07-18",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Amine_Salama"
+  },
+  {
+   "id": "wiki-reims-edin-omeragic",
+   "nombre": "Edin Omeragić",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Switzerland",
+   "nacCodigo": "CH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2002-03-20",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Edin_Omeragi%C4%87"
+  },
+  {
+   "id": "wiki-reims-alexis-sauvage",
+   "nombre": "Alexis Sauvage",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 34,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1991-10-30",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Alexis_Sauvage"
+  },
+  {
+   "id": "wiki-reims-sergio-akieme",
+   "nombre": "Sergio Akieme",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Spain",
+   "nacCodigo": "ES",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-12-16",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Sergio_Akieme"
+  },
+  {
+   "id": "wiki-reims-jean-tryfose-mambuku",
+   "nombre": "Jean-Tryfose Mambuku",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 18,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2008-07-08",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Jean_Mambuku"
+  },
+  {
+   "id": "wiki-reims-samuel-kotto",
+   "nombre": "Samuel Kotto",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Cameroon",
+   "nacCodigo": "CM",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-09-03",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Samuel_Kotto"
+  },
+  {
+   "id": "wiki-reims-mory-gbane",
+   "nombre": "Mory Gbane",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Ivory Coast",
+   "nacCodigo": "CI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-12-25",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Mory_Gbane"
+  },
+  {
+   "id": "wiki-reims-lenny-sylla",
+   "nombre": "Lenny Sylla",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-reims-mael-debondt",
+   "nombre": "Maël Debondt",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Belgium",
+   "nacCodigo": "BE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-reims-daouda-guindo",
+   "nombre": "Daouda Guindo",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Mali",
+   "nacCodigo": "ML",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-10-14",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Daouda_Guindo"
+  },
+  {
+   "id": "wiki-reims-elie-ntamon",
+   "nombre": "Elie N'Tamon",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Ivory Coast",
+   "nacCodigo": "CI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-04-22",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Elie_N%27Tamon"
+  },
+  {
+   "id": "wiki-reims-john-patrick",
+   "nombre": "John Patrick",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Ireland",
+   "nacCodigo": "IE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-09-24",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/John_Patrick_(footballer%2C_born_2003)"
+  },
+  {
+   "id": "wiki-reims-arone-gadou",
+   "nombre": "Arone Gadou",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 48,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-reims-armel-zohouri",
+   "nombre": "Armel Zohouri",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Ivory Coast",
+   "nacCodigo": "CI",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 63,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-04-05",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Armel_Zohouri"
+  },
+  {
+   "id": "wiki-reims-ike-orazi",
+   "nombre": "Ike Orazi",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Ireland",
+   "nacCodigo": "IE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 73,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-06-11",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Ike_Orazi"
+  },
+  {
+   "id": "wiki-reims-hafiz-umar-ibrahim",
+   "nombre": "Hafiz Umar Ibrahim",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Nigeria",
+   "nacCodigo": "NG",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 85,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-12-20",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Hafiz_Umar_Ibrahim"
+  },
+  {
+   "id": "wiki-reims-ange-martial-tia",
+   "nombre": "Ange Martial Tia",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Mali",
+   "nacCodigo": "ML",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 87,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-11-20",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Ange_Martial_Tia"
+  },
+  {
+   "id": "wiki-reims-soumaila-sylla",
+   "nombre": "Soumaïla Sylla",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Guinea",
+   "nacCodigo": "GN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 94,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2004-03-15",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Souma%C3%AFla_Sylla"
+  },
+  {
+   "id": "wiki-reims-sambou-soumano",
+   "nombre": "Sambou Soumano",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Senegal",
+   "nacCodigo": "SN",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 99,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Sambou_Soumano"
+  },
+  {
+   "id": "wiki-reims-aleksandr-guboglo",
+   "nombre": "Aleksandr Guboglo",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 19,
+   "nac": "Canada",
+   "nacCodigo": "CA",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": null,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2007-03-20",
+   "posWiki": "DF",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Aleksandr_Guboglo"
+  }
+ ]
+}

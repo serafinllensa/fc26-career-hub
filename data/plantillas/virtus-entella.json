@@ -1,0 +1,562 @@
+{
+ "clubId": "virtus-entella",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Virtus_Entella",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-virtus-entella-nicolas-previtali",
+   "nombre": "Nicolas Previtali",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-virtus-entella-niccolo-squizzato",
+   "nombre": "Niccolò Squizzato",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Niccol%C3%B2_Squizzato"
+  },
+  {
+   "id": "wiki-virtus-entella-andrea-tiritiello",
+   "nombre": "Andrea Tiritiello",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-03-28",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Andrea_Tiritiello"
+  },
+  {
+   "id": "wiki-virtus-entella-davide-bariti",
+   "nombre": "Davide Bariti",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 35,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1991-07-07",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Davide_Bariti"
+  },
+  {
+   "id": "wiki-virtus-entella-luca-vignali",
+   "nombre": "Luca Vignali",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-01-11",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Vignali"
+  },
+  {
+   "id": "wiki-virtus-entella-giacomo-corona",
+   "nombre": "Giacomo Corona",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-02-24",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Giacomo_Corona"
+  },
+  {
+   "id": "wiki-virtus-entella-luigi-cuppone",
+   "nombre": "Luigi Cuppone",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-08-06",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Luigi_Cuppone"
+  },
+  {
+   "id": "wiki-virtus-entella-bernat-guiu",
+   "nombre": "Bernat Guiu",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Spain",
+   "nacCodigo": "ES",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-09-20",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Bernat_Guiu"
+  },
+  {
+   "id": "wiki-virtus-entella-edoardo-torrielli",
+   "nombre": "Edoardo Torrielli",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 12,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-virtus-entella-ivan-marconi",
+   "nombre": "Ivan Marconi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 36,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1989-10-25",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Ivan_Marconi"
+  },
+  {
+   "id": "wiki-virtus-entella-riccardo-turicchia",
+   "nombre": "Riccardo Turicchia",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Riccardo_Turicchia"
+  },
+  {
+   "id": "wiki-virtus-entella-mattia-tirelli",
+   "nombre": "Mattia Tirelli",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-06-30",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Mattia_Tirelli"
+  },
+  {
+   "id": "wiki-virtus-entella-tommaso-annoni",
+   "nombre": "Tommaso Annoni",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-virtus-entella-federico-del-frate",
+   "nombre": "Federico Del Frate",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-virtus-entella-luca-parodi",
+   "nombre": "Luca Parodi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-04-06",
+   "posWiki": "DF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Parodi"
+  },
+  {
+   "id": "wiki-virtus-entella-andrea-franzoni",
+   "nombre": "Andrea Franzoni",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-virtus-entella-stefano-di-mario",
+   "nombre": "Stefano Di Mario",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-virtus-entella-mattia-alborghetti",
+   "nombre": "Mattia Alborghetti",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-virtus-entella-mattia-valori",
+   "nombre": "Mattia Valori",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-virtus-entella-francesco-forte",
+   "nombre": "Francesco Forte",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-05-01",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Francesco_Forte_(footballer%2C_born_1993)"
+  },
+  {
+   "id": "wiki-virtus-entella-mattia-motolese",
+   "nombre": "Mattia Motolese",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 39,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-virtus-entella-gabriele-costa",
+   "nombre": "Gabriele Costa",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 40,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-virtus-entella-lucas-felippe",
+   "nombre": "Lucas Felippe",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Brazil",
+   "nacCodigo": "BR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 55,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-05-03",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Lucas_Felippe"
+  },
+  {
+   "id": "wiki-virtus-entella-marwane-kritta",
+   "nombre": "Marwane Kritta",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 70,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-virtus-entella-leonardo-benedetti",
+   "nombre": "Leonardo Benedetti",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 80,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-06-06",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Leonardo_Benedetti"
+  },
+  {
+   "id": "wiki-virtus-entella-simone-colombi",
+   "nombre": "Simone Colombi",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 35,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 91,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1991-07-01",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Simone_Colombi"
+  },
+  {
+   "id": "wiki-virtus-entella-francesco-mezzoni",
+   "nombre": "Francesco Mezzoni",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 94,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-07-24",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Francesco_Mezzoni"
+  }
+ ]
+}

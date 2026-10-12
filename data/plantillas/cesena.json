@@ -1,0 +1,601 @@
+{
+ "clubId": "cesena",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/Cesena_FC",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-cesena-alessandro-siano",
+   "nombre": "Alessandro Siano",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2001-04-28",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Alessandro_Siano"
+  },
+  {
+   "id": "wiki-cesena-mark-natta",
+   "nombre": "Mark Natta",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Australia",
+   "nacCodigo": "AU",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-11-28",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Mark_Natta"
+  },
+  {
+   "id": "wiki-cesena-antonio-david",
+   "nombre": "Antonio David",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Romania",
+   "nacCodigo": "RO",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 3,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-01-08",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Antonio_David_(footballer%2C_born_2004)"
+  },
+  {
+   "id": "wiki-cesena-jacopo-gelli",
+   "nombre": "Jacopo Gelli",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-05-11",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Jacopo_Gelli"
+  },
+  {
+   "id": "wiki-cesena-luca-schirone",
+   "nombre": "Luca Schirone",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-cesena-mihajlo-ilic",
+   "nombre": "Mihajlo Ilić",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Serbia",
+   "nacCodigo": "RS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-06-04",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Mihajlo_Ili%C4%87"
+  },
+  {
+   "id": "wiki-cesena-gianluca-frabotta",
+   "nombre": "Gianluca Frabotta",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-06-24",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Gianluca_Frabotta"
+  },
+  {
+   "id": "wiki-cesena-matteo-francesconi",
+   "nombre": "Matteo Francesconi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-cesena-cristian-shpendi",
+   "nombre": "Cristian Shpendi",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Albania",
+   "nacCodigo": "AL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-05-19",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Cristian_Shpendi"
+  },
+  {
+   "id": "wiki-cesena-riccardo-pagano",
+   "nombre": "Riccardo Pagano",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Riccardo_Pagano"
+  },
+  {
+   "id": "wiki-cesena-maat-daniel-caprini",
+   "nombre": "Maat Daniel Caprini",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-02-11",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Maat_Daniel_Caprini"
+  },
+  {
+   "id": "wiki-cesena-luca-ferretti",
+   "nombre": "Luca Ferretti",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 13,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-cesena-xavello-druiventak",
+   "nombre": "Xavello Druiventak",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Netherlands",
+   "nacCodigo": "NL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 14,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Xavello_Druiventak"
+  },
+  {
+   "id": "wiki-cesena-andrea-ciofi",
+   "nombre": "Andrea Ciofi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-06-28",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Andrea_Ciofi"
+  },
+  {
+   "id": "wiki-cesena-luca-dandrea",
+   "nombre": "Luca D'Andrea",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-09-06",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Luca_D%27Andrea"
+  },
+  {
+   "id": "wiki-cesena-matteo-guidi",
+   "nombre": "Matteo Guidi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-cesena-matteo-casadei",
+   "nombre": "Matteo Casadei",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-cesena-vittorio-magni",
+   "nombre": "Vittorio Magni",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-06-01",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Vittorio_Magni_(footballer)"
+  },
+  {
+   "id": "wiki-cesena-massimiliano-mangraviti",
+   "nombre": "Massimiliano Mangraviti",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-01-24",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Massimiliano_Mangraviti"
+  },
+  {
+   "id": "wiki-cesena-dimitri-bisoli",
+   "nombre": "Dimitri Bisoli",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-03-25",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Dimitri_Bisoli"
+  },
+  {
+   "id": "wiki-cesena-matteo-piacentini",
+   "nombre": "Matteo Piacentini",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-04-20",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Matteo_Piacentini"
+  },
+  {
+   "id": "wiki-cesena-marco-dalla-vecchia",
+   "nombre": "Marco Dalla Vecchia",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-cesena-emil-bohinen",
+   "nombre": "Emil Bohinen",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Norway",
+   "nacCodigo": "NO",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-03-12",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Emil_Bohinen"
+  },
+  {
+   "id": "wiki-cesena-jonathan-klinsmann",
+   "nombre": "Jonathan Klinsmann",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 29,
+   "nac": "United States",
+   "nacCodigo": "US",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "1997-04-08",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Jonathan_Klinsmann"
+  },
+  {
+   "id": "wiki-cesena-niccolo-fontana",
+   "nombre": "Niccolò Fontana",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 39,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-cesena-filippo-bertaccini",
+   "nombre": "Filippo Bertaccini",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 43,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-cesena-antonio-fiori",
+   "nombre": "Antonio Fiori",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 80,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-cesena-tommaso-mazzi",
+   "nombre": "Tommaso Mazzi",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 90,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-cesena-alessandro-debenedetti",
+   "nombre": "Alessandro Debenedetti",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 91,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  }
+ ]
+}

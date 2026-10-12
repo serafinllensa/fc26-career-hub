@@ -1,0 +1,549 @@
+{
+ "clubId": "vfl-osnabruck",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/VfL_Osnabr%C3%BCck",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-vfl-osnabruck-niklas-sauter",
+   "nombre": "Niklas Sauter",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 23,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2003-04-06",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Niklas_Sauter"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-joel-abu-hanna",
+   "nombre": "Joel Abu Hanna",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Israel",
+   "nacCodigo": "IL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-01-22",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Joel_Abu_Hanna"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-jonathan-wensing",
+   "nombre": "Jonathan Wensing",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-bryan-henning",
+   "nombre": "Bryan Henning",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 31,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1995-03-16",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Bryan_Henning"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-daniel-kofi-kyereh",
+   "nombre": "Daniel-Kofi Kyereh",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Ghana",
+   "nacCodigo": "GH",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-03-08",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Daniel-Kofi_Kyereh"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-leonhard-munst",
+   "nombre": "Leonhard Münst",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2002-01-22",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Leonhard_M%C3%BCnst"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-ismail-badjie",
+   "nombre": "Ismail Badjie",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-robin-mei-ner",
+   "nombre": "Robin Meißner",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-10-08",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Robin_Mei%C3%9Fner"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-bjarke-jacobsen",
+   "nombre": "Bjarke Jacobsen",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 33,
+   "nac": "Denmark",
+   "nacCodigo": "DK",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 15,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1993-08-21",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Bjarke_Jacobsen"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-luca-raimund",
+   "nombre": "Luca Raimund",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-04-09",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Luca_Raimund"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-leon-flach",
+   "nombre": "Leon Flach",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "United States",
+   "nacCodigo": "US",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-02-28",
+   "posWiki": "MF",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Leon_Flach"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-leon-opitz",
+   "nombre": "Leon Opitz",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 21,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2005-04-11",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Leon_Opitz"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-theo-janotta",
+   "nombre": "Theo Janotta",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-adrian-beck",
+   "nombre": "Adrian Beck",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 21,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-06-09",
+   "posWiki": "MF",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Adrian_Beck"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-bernd-riesselmann",
+   "nombre": "Bernd Riesselmann",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 22,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-tony-lesueur",
+   "nombre": "Tony Lesueur",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "France",
+   "nacCodigo": "FR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-08-19",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Tony_Lesueur"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-jannik-muller",
+   "nombre": "Jannik Müller",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 32,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1994-01-18",
+   "posWiki": "DF",
+   "capitan": true,
+   "wiki": "https://en.wikipedia.org/wiki/Jannik_M%C3%BCller"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-niklas-wiemann",
+   "nombre": "Niklas Wiemann",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-fridolin-wagner",
+   "nombre": "Fridolin Wagner",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 26,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-09-23",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Fridolin_Wagner"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-robin-fabinski",
+   "nombre": "Robin Fabinski",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-konrad-faber",
+   "nombre": "Konrad Faber",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 28,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-11-14",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Konrad_Faber"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-patrick-kammerbauer",
+   "nombre": "Patrick Kammerbauer",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 31,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-02-11",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Patrick_Kammerbauer"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-jonas-krumrey",
+   "nombre": "Jonas Krumrey",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 32,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2003-11-25",
+   "posWiki": "GK",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Jonas_Krumrey"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-luca-boggemann",
+   "nombre": "Luca Böggemann",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Germany",
+   "nacCodigo": "DE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 36,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-elias-bakatukanda",
+   "nombre": "Elias Bakatukanda",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "DR Congo",
+   "nacCodigo": "CD",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 38,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-04-13",
+   "posWiki": "DF",
+   "cedido": true,
+   "wiki": "https://en.wikipedia.org/wiki/Elias_Bakatukanda"
+  },
+  {
+   "id": "wiki-vfl-osnabruck-jonathan-gomez",
+   "nombre": "Jonathan Gómez",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 23,
+   "nac": "United States",
+   "nacCodigo": "US",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 42,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2003-09-01",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Jonathan_G%C3%B3mez_(soccer%2C_born_2003)"
+  }
+ ]
+}

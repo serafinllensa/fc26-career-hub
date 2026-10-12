@@ -1,0 +1,639 @@
+{
+ "clubId": "juve-stabia",
+ "fecha": "2026-10-12",
+ "fuente": "https://en.wikipedia.org/wiki/SS_Juve_Stabia",
+ "nota": "Plantel de la Wikipedia inglesa (plantilla fs player), foto del 2026-10-12. El puesto es el grueso de esa ficha: GK queda POR; DF se guardó como DFC, MF como MC y FW como DC, y no es el puesto fino. Valor de mercado y fin de contrato no figuran: quedan vacíos. La edad sale de Wikidata (P569) cuando la ficha tiene día de nacimiento.",
+ "jugadores": [
+  {
+   "id": "wiki-juve-stabia-ante-vukovic",
+   "nombre": "Ante Vuković",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Croatia",
+   "nacCodigo": "HR",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 1,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-juve-stabia-manuel-ricciardi",
+   "nombre": "Manuel Ricciardi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 2,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-04-17",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Manuel_Ricciardi"
+  },
+  {
+   "id": "wiki-juve-stabia-matteo-baldi",
+   "nombre": "Matteo Baldi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 4,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-juve-stabia-thomas-battistella",
+   "nombre": "Thomas Battistella",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 5,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-07-29",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Thomas_Battistella"
+  },
+  {
+   "id": "wiki-juve-stabia-marco-bellich",
+   "nombre": "Marco Bellich",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 6,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-05-05",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Marco_Bellich"
+  },
+  {
+   "id": "wiki-juve-stabia-nicola-patane",
+   "nombre": "Nicola Patanè",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 7,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-juve-stabia-davide-buglio",
+   "nombre": "Davide Buglio",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 8,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-02-26",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Davide_Buglio"
+  },
+  {
+   "id": "wiki-juve-stabia-antonio-di-nardo",
+   "nombre": "Antonio Di Nardo",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 9,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-09-30",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Antonio_Di_Nardo_(footballer%2C_born_1998)"
+  },
+  {
+   "id": "wiki-juve-stabia-christian-pierobon",
+   "nombre": "Christian Pierobon",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 10,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-juve-stabia-kevin-piscopo",
+   "nombre": "Kevin Piscopo",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 11,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-02-06",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Kevin_Piscopo"
+  },
+  {
+   "id": "wiki-juve-stabia-alessandro-signorini",
+   "nombre": "Alessandro Signorini",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 16,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-juve-stabia-nermin-karic",
+   "nombre": "Nermin Karić",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 27,
+   "nac": "Sweden",
+   "nacCodigo": "SE",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 17,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1999-06-23",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Nermin_Kari%C4%87"
+  },
+  {
+   "id": "wiki-juve-stabia-daniel-perin",
+   "nombre": "Daniel Perin",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 18,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-juve-stabia-nicola-pietrangeli",
+   "nombre": "Nicola Pietrangeli",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 19,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-juve-stabia-luigi-caccavo",
+   "nombre": "Luigi Caccavo",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 20,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-juve-stabia-pietro-boer",
+   "nombre": "Pietro Boer",
+   "pos": "POR",
+   "posSec": [],
+   "edad": 24,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 23,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta"
+   ],
+   "fechaNac": "2002-05-16",
+   "posWiki": "GK",
+   "wiki": "https://en.wikipedia.org/wiki/Pietro_Boer"
+  },
+  {
+   "id": "wiki-juve-stabia-justin-kumi",
+   "nombre": "Justin Kumi",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 22,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 24,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2004-07-16",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Justin_Kumi"
+  },
+  {
+   "id": "wiki-juve-stabia-terrence-douglas",
+   "nombre": "Terrence Douglas",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 25,
+   "nac": "Netherlands",
+   "nacCodigo": "NL",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 25,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2001-09-14",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Terrence_Douglas"
+  },
+  {
+   "id": "wiki-juve-stabia-leonardo-candellone",
+   "nombre": "Leonardo Candellone",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 29,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 27,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1997-09-15",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/Leonardo_Candellone"
+  },
+  {
+   "id": "wiki-juve-stabia-romeo-sandrucci",
+   "nombre": "Romeo Sandrucci",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 30,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-juve-stabia-giuseppe-sibilli",
+   "nombre": "Giuseppe Sibilli",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 30,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 33,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1996-08-07",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Giuseppe_Sibilli"
+  },
+  {
+   "id": "wiki-juve-stabia-fabio-maistro",
+   "nombre": "Fabio Maistro",
+   "pos": "MC",
+   "posSec": [],
+   "edad": 28,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 37,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "1998-04-05",
+   "posWiki": "MF",
+   "wiki": "https://en.wikipedia.org/wiki/Fabio_Maistro"
+  },
+  {
+   "id": "wiki-juve-stabia-giulio-scuderi",
+   "nombre": "Giulio Scuderi",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 73,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-juve-stabia-sana-fernandes",
+   "nombre": "Saná Fernandes",
+   "pos": "DC",
+   "posSec": [],
+   "edad": 20,
+   "nac": "GBS",
+   "nacCodigo": "GBS",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 77,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2006-03-10",
+   "posWiki": "FW",
+   "wiki": "https://en.wikipedia.org/wiki/San%C3%A1_Fernandes"
+  },
+  {
+   "id": "wiki-juve-stabia-federico-artioli",
+   "nombre": "Federico Artioli",
+   "pos": "MC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 80,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "MF"
+  },
+  {
+   "id": "wiki-juve-stabia-edoardo-lonardo",
+   "nombre": "Edoardo Lonardo",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 82,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  },
+  {
+   "id": "wiki-juve-stabia-davide-bettella",
+   "nombre": "Davide Bettella",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": 26,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 87,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos"
+   ],
+   "fechaNac": "2000-04-07",
+   "posWiki": "DF",
+   "wiki": "https://en.wikipedia.org/wiki/Davide_Bettella"
+  },
+  {
+   "id": "wiki-juve-stabia-francesco-gallea",
+   "nombre": "Francesco Gallea",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Mali",
+   "nacCodigo": "ML",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 92,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-juve-stabia-paolo-vismara",
+   "nombre": "Paolo Vismara",
+   "pos": "POR",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 95,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "edad"
+   ],
+   "posWiki": "GK"
+  },
+  {
+   "id": "wiki-juve-stabia-tommaso-maggioni",
+   "nombre": "Tommaso Maggioni",
+   "pos": "DFC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": 96,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "DF"
+  },
+  {
+   "id": "wiki-juve-stabia-alessio-sorace",
+   "nombre": "Alessio Sorace",
+   "pos": "DC",
+   "posSec": [],
+   "edad": null,
+   "nac": "Italy",
+   "nacCodigo": "IT",
+   "valorM": null,
+   "contratoHasta": null,
+   "dorsal": null,
+   "verificado": false,
+   "sinVerificar": [
+    "valorM",
+    "contratoHasta",
+    "pos",
+    "edad"
+   ],
+   "posWiki": "FW"
+  }
+ ]
+}
