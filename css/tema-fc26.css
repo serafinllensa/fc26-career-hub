@@ -377,21 +377,21 @@ button.cal-dia .punto{width:5px;height:5px;border-radius:50%;background:var(--me
 .lista-alta button{display:flex;justify-content:space-between;gap:8px;width:100%;text-align:left;padding:8px 10px;border-radius:10px;border:1px solid var(--linea);background:transparent;color:inherit;cursor:pointer}
 .merc section,.tac section{min-width:0}
 
-/* ---------- Transición de menú (la pantalla se desliza, no se apaga a negro) ---------- */
-#vista{position:relative}
+/* ---------- Transición de menú: la pantalla viaja, no parpadea ---------- */
+#vista{position:relative;overflow-x:clip}
 .pantalla:not(.entra):not(.sale){opacity:0}
 .pantalla.sale{position:absolute;left:0;right:0;top:0;z-index:2;pointer-events:none}
-.pantalla.sale.adelante{animation:saleAdelante .42s cubic-bezier(.4,0,.7,.2) forwards}
-.pantalla.sale.atras{animation:saleAtras .42s cubic-bezier(.4,0,.7,.2) forwards}
-.pantalla.entra.adelante{animation:entraAdelante .64s cubic-bezier(.16,1,.3,1) both}
-.pantalla.entra.atras{animation:entraAtras .64s cubic-bezier(.16,1,.3,1) both}
-.pantalla.entra.inicio{animation:entraInicio .48s cubic-bezier(.16,1,.3,1) both}
-@keyframes saleAdelante{to{opacity:0;transform:translate3d(-56px,0,0) scale(.985);filter:blur(8px)}}
-@keyframes saleAtras{to{opacity:0;transform:translate3d(56px,0,0) scale(.985);filter:blur(8px)}}
-@keyframes entraAdelante{from{opacity:0;transform:translate3d(64px,0,0) scale(.985);filter:blur(10px)}55%{filter:blur(0)}to{opacity:1;transform:none;filter:none}}
-@keyframes entraAtras{from{opacity:0;transform:translate3d(-64px,0,0) scale(.985);filter:blur(10px)}55%{filter:blur(0)}to{opacity:1;transform:none;filter:none}}
-@keyframes entraInicio{from{opacity:0;transform:translate3d(0,16px,0)}to{opacity:1;transform:none}}
-.barrido{position:fixed;inset:0;z-index:70;pointer-events:none;background:linear-gradient(105deg,transparent 38%,rgba(255,255,255,.22) 48%,rgba(170,255,226,.18) 52%,transparent 62%);transform:translate3d(-120%,0,0);animation:barrido .72s cubic-bezier(.4,0,.2,1) forwards}
+.pantalla.sale.adelante{animation:saleAdelante 1.05s cubic-bezier(.45,0,.2,1) forwards}
+.pantalla.sale.atras{animation:saleAtras 1.05s cubic-bezier(.45,0,.2,1) forwards}
+.pantalla.entra.adelante{animation:entraAdelante 1.15s cubic-bezier(.16,1,.3,1) both}
+.pantalla.entra.atras{animation:entraAtras 1.15s cubic-bezier(.16,1,.3,1) both}
+.pantalla.entra.inicio{animation:entraInicio .7s cubic-bezier(.16,1,.3,1) both}
+@keyframes saleAdelante{to{opacity:0;transform:translate3d(-22vw,0,0)}}
+@keyframes saleAtras{to{opacity:0;transform:translate3d(22vw,0,0)}}
+@keyframes entraAdelante{from{opacity:0;transform:translate3d(28vw,0,0)}to{opacity:1;transform:none}}
+@keyframes entraAtras{from{opacity:0;transform:translate3d(-28vw,0,0)}to{opacity:1;transform:none}}
+@keyframes entraInicio{from{opacity:0;transform:translate3d(0,22px,0)}to{opacity:1;transform:none}}
+.barrido{position:fixed;inset:0;z-index:70;pointer-events:none;background:linear-gradient(105deg,transparent 40%,rgba(255,255,255,.16) 50%,transparent 60%);transform:translate3d(-120%,0,0);animation:barrido 1.35s cubic-bezier(.4,0,.2,1) forwards}
 @keyframes barrido{to{transform:translate3d(120%,0,0)}}
 
 /* ---------- Cartel del presidente / DT ---------- */

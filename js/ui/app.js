@@ -60,7 +60,7 @@ onCambio(async (nombre, def, params, viejo) => {
     document.body.append(barrido);
     const limpiar = () => barrido.remove();
     barrido.addEventListener('animationend', limpiar, {once: true});
-    setTimeout(limpiar, 900);
+    setTimeout(limpiar, 1600);
   }
   if (anterior) {
     if (!reducido && dir !== 'inicio') {
@@ -83,7 +83,7 @@ onCambio(async (nombre, def, params, viejo) => {
   }
   if (viejo()) { el.remove(); return; }
   if (!reducido && dir !== 'inicio') {
-    const falta = 180 - (performance.now() - t0);
+    const falta = 560 - (performance.now() - t0);
     if (falta > 0) await esperar(falta);
     if (viejo()) { el.remove(); return; }
   }
@@ -91,7 +91,7 @@ onCambio(async (nombre, def, params, viejo) => {
   if (anterior?.isConnected) {
     const quitar = () => anterior.remove();
     anterior.addEventListener('animationend', quitar, {once: true});
-    setTimeout(quitar, 700);
+    setTimeout(quitar, 1300);
   }
   vista.focus({preventScroll: true});
 });
