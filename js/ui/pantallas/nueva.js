@@ -67,7 +67,7 @@ export default {
           ${c ? `<a class="btn primario" href="${href('nueva/dt', {club: c.id})}">Elegir ${esc(c.corto || c.nombre)}</a>` : ''}
           <button type="button" class="btn secundario" data-sortear ${iDiv === 1 && lista.length ? '' : 'disabled'}>Sortear</button>
         </div>
-        <p class="picker-volver"><a class="btn fantasma" href="#/inicio">← Volver</a></p>
+        <p class="picker-volver"><a class="btn fantasma" href="${href('inicio', {quedate: 1})}">← Volver</a></p>
       </div>`;
       history.replaceState(null, '', href('nueva', {liga: pais.liga}));
       el.querySelector('.picker-pais.on')?.scrollIntoView({inline: 'center', block: 'nearest', behavior: 'smooth'});

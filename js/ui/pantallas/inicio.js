@@ -8,7 +8,8 @@ import {NOMBRE_DIFICULTAD, resumen} from '../../motor/index.js';
 
 export default {
   titulo: 'Mis carreras', sinNav: true,
-  async render(el){
+  async render(el, params){
+    if (!listar().length && params.quedate !== '1') { ir('nueva'); return; }
     let clubs = []; try { clubs = await datos.clubes(); } catch {}
     const clubDe = c => clubs.find(x => x.id === c.club?.id) || c.club || {};
     const tarjeta = c => { const r = resumen(c.partidos || [], 'liga'), act = activa();
